@@ -1,0 +1,46 @@
+[2025-04-21 07:11:18] Attempting delete for item ID: 1
+[2025-04-21 07:11:18] Found item 'Bronze Time Booster (1hr)'. Image URL: 'https://via.placeholder.com/100/CD7F32/FFFFFF?text=1hr'
+[2025-04-21 07:11:18] Successfully deleted item ID: 1 from DB. Rows affected: 1
+[2025-04-21 07:11:18] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/CD7F32/FFFFFF?text=1hr 
+[2025-04-21 07:11:18] Attempting delete for item ID: 4
+[2025-04-21 07:11:18] Found item 'Experience Potion (Small)'. Image URL: 'https://via.placeholder.com/100/90EE90/000000?text=XP+S'
+[2025-04-21 07:11:18] Successfully deleted item ID: 4 from DB. Rows affected: 1
+[2025-04-21 07:11:18] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/90EE90/000000?text=XP+S 
+[2025-04-21 07:11:19] Attempting delete for item ID: 2
+[2025-04-21 07:11:19] Found item 'Silver Time Booster (5hr)'. Image URL: 'https://via.placeholder.com/100/C0C0C0/FFFFFF?text=5hr'
+[2025-04-21 07:11:19] Successfully deleted item ID: 2 from DB. Rows affected: 1
+[2025-04-21 07:11:19] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/C0C0C0/FFFFFF?text=5hr 
+[2025-04-21 07:11:24] Attempting delete for item ID: 3
+[2025-04-21 07:11:24] Found item 'Cosmetic: Blue Timer Skin'. Image URL: 'https://via.placeholder.com/100/61dafb/FFFFFF?text=Skin'
+[2025-04-21 07:11:24] Successfully deleted item ID: 3 from DB. Rows affected: 1
+[2025-04-21 07:11:24] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/61dafb/FFFFFF?text=Skin 
+[2025-04-21 07:18:07] Attempting delete for item ID: 5
+[2025-04-21 07:18:07] Found item 'Black Tea'. Image URL: 'uploads/market_images/item_6805efa992d784.56647268.png'
+[2025-04-21 07:18:07] Successfully deleted item ID: 5 from DB. Rows affected: 1
+[2025-04-21 07:18:07] Successfully deleted image file: C:\laragon\www\timer8\uploads\market_images\item_6805efa992d784.56647268.png
+[2025-04-21 07:49:41] Attempting delete for item ID: 3
+[2025-04-21 07:49:41] Found item 'Cosmetic: Blue Timer Skin'. Image URL: 'https://via.placeholder.com/100/61dafb/FFFFFF?text=Skin'
+[2025-04-21 07:49:41] Successfully deleted item ID: 3 from DB. Rows affected: 1
+[2025-04-21 07:49:41] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/61dafb/FFFFFF?text=Skin 
+[2025-04-21 07:49:43] Attempting delete for item ID: 2
+[2025-04-21 07:49:43] Found item 'Silver Time Booster (5hr)'. Image URL: 'https://via.placeholder.com/100/C0C0C0/FFFFFF?text=5hr'
+[2025-04-21 07:49:43] Successfully deleted item ID: 2 from DB. Rows affected: 1
+[2025-04-21 07:49:43] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/C0C0C0/FFFFFF?text=5hr 
+[2025-04-21 07:49:45] Attempting delete for item ID: 4
+[2025-04-21 07:49:45] Found item 'Experience Potion (Small)'. Image URL: 'https://via.placeholder.com/100/90EE90/000000?text=XP+S'
+[2025-04-21 07:49:45] Successfully deleted item ID: 4 from DB. Rows affected: 1
+[2025-04-21 07:49:45] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/90EE90/000000?text=XP+S 
+[2025-04-21 07:49:51] Attempting delete for item ID: 1
+[2025-04-21 07:49:51] Found item 'Bronze Time Booster (1hr)'. Image URL: 'https://via.placeholder.com/100/CD7F32/FFFFFF?text=1hr'
+[2025-04-21 07:49:51] Successfully deleted item ID: 1 from DB. Rows affected: 1
+[2025-04-21 07:49:51] Image file not found or outside allowed directory:  (resolved) from https://via.placeholder.com/100/CD7F32/FFFFFF?text=1hr 
+[2025-04-21 15:18:10] Attempting delete for item ID: 6
+[2025-04-21 15:18:10] Found item '1 Ciggarette'. Image URL: 'uploads/market_images/item_68063482d0b393.08443117.png'
+[2025-04-21 15:18:10] PDOException during delete: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`mcgkxyz_timer_app`.`purchase_logs`, CONSTRAINT `purchase_logs_ibfk_1` FOREIGN KEY (`item_id`) REFERENCES `marketplace_items` (`id`)) | SQL State: 23000
+[2025-04-21 15:18:14] Attempting delete for item ID: 6
+[2025-04-21 15:18:14] Found item '1 Ciggarette'. Image URL: 'uploads/market_images/item_68063482d0b393.08443117.png'
+[2025-04-21 15:18:14] PDOException during delete: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`mcgkxyz_timer_app`.`purchase_logs`, CONSTRAINT `purchase_logs_ibfk_1` FOREIGN KEY (`item_id`) REFERENCES `marketplace_items` (`id`)) | SQL State: 23000
+[2025-04-21 15:34:38] Attempting delete for item ID: 7
+[2025-04-21 15:34:38] Found item 'games'. Image URL: 'uploads/market_images/item_6806648f3da2f9.39658473.png'
+[2025-04-21 15:34:38] Successfully deleted item ID: 7 from DB. Rows affected: 1
+[2025-04-21 15:34:38] Successfully deleted image file: /home/mcgkxyz/davidmondazz.online/timer8/uploads/market_images/item_6806648f3da2f9.39658473.png

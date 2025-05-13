@@ -1,0 +1,312 @@
+Return-path: <bounces+42524694-157a-masterpop=davidmondazz.online@em175.cursor.sh>
+Envelope-to: masterpop@davidmondazz.online
+Delivery-date: Tue, 06 May 2025 12:36:02 -0500
+Received: from [159.183.79.215] (port=3716 helo=o1.ptr7413.workos.com)
+	by webusa1.extravm.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <bounces+42524694-157a-masterpop=davidmondazz.online@em175.cursor.sh>)
+	id 1uCMD3-0000000Br7a-3SKH
+	for masterpop@davidmondazz.online;
+	Tue, 06 May 2025 12:36:02 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cursor.sh;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=wos; bh=/tu5cTpiMpftU8VY0IN635A295qomARdWxXEKsBZbH4=;
+	b=uG1d/ew0VPFZmJuTD0eyn42AsYvqAsrNiaytdaEDiEY6iYYLeUV2yj0NNkVM7188wH9S
+	KRPqRhnxmLr8B1vwFO1TJ6LYZPzhfjsJwlvUbTNiIVLI2I1DM0kJ7DNSvDMsT3WPO4B4uT
+	1zNc7F41Nd3lfD1wOU/8n4IFj0p5maSenkbp8HTaWMaWyzDALghRHnhY85cCI7Mej/29YX
+	ZX41tXatGVnmWrU5qfz2p/XEIJXfH03/SbWTA97pvyliGWIeya5xmGH0rCTe4jrrxX87hS
+	2jua2DJSmOnhDJG6+UEciYadPyRoPzdwddKcQUGaoxKryEMOJ4WVhJDhCOfjB/1A==
+Received: by recvd-7f67fd44bd-gx7g4 with SMTP id recvd-7f67fd44bd-gx7g4-1-681A4880-D4
+	2025-05-06 17:36:00.662779178 +0000 UTC m=+2402868.586940575
+Received: from NDI1MjQ2OTQ (unknown)
+	by geopod-ismtpd-24 (SG) with HTTP
+	id ngSTlRyESv2NUxLfQ9qstQ
+	Tue, 06 May 2025 17:36:00.656 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=3a9f78d9ba726f5a32596fcbb83c14ffe5ad669f2214a5442fa97e3465fa
+Date: Tue, 06 May 2025 17:36:00 +0000 (UTC)
+From: Cursor <no-reply@cursor.sh>
+Mime-Version: 1.0
+Message-ID: <ngSTlRyESv2NUxLfQ9qstQ@geopod-ismtpd-24>
+Subject: Complete code challenge
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ELu=2FEgerHg4vEzgZWzB8J+vEHunWF29xoDvbPt8=2F47OVJDt=2Fe1i3UjKcNG?=
+ =?us-ascii?Q?fLbDGYcHBD5mWjPQE=2FsZps4mqvy3RnPVhfrcET3?=
+ =?us-ascii?Q?zyA+4n9s7EsRv7FBGez7+AeWLw9yYHpIGDuAcGg?=
+ =?us-ascii?Q?KX2JdRNxfua0m90iWLaDytgJYbXlKeyqckem9vc?=
+ =?us-ascii?Q?iBuEv+0okoXSxjCIxn9pG+toH=2Flc7WeDKFpgnLU?=
+ =?us-ascii?Q?cWV51BW7LMt4LL7ED0O33P0sg5xSTUnVU3QmWrv?= =?us-ascii?Q?KyY1?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBzwWyt+jLu5gVt3?=
+ =?us-ascii?Q?RJttDLollXjCeLnyLiLquntzvEQkM+CGBo=2FOH3E?=
+ =?us-ascii?Q?Gi8yBF7=2FVW5ukMDx011gYDiVGT9=2FrzBzsKFIGHH?=
+ =?us-ascii?Q?XU0mtWmVVDVfvEfSxaxZLTg98YnDmH+SZCH0sid?=
+ =?us-ascii?Q?Wp+6LSZlaGAhPsA2b8BHrg7qmVvAMHST0FeVIob?=
+ =?us-ascii?Q?1O2sbFL+E9BPngrSuh=2F6d3Fy=2FiI4nCON+9n1DcN?=
+ =?us-ascii?Q?nlLj?=
+To: masterpop@davidmondazz.online
+X-Entity-ID: u001.Zx6FngFgyASsqD/KIFQw9A==
+
+--3a9f78d9ba726f5a32596fcbb83c14ffe5ad669f2214a5442fa97e3465fa
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+Complete code challenge
+
+We've issued a one-time code challenge as an additional security check. Ple=
+ase enter the code below in your open browser window to complete the challe=
+nge and continue authentication.
+
+121314
+
+This code expires in 10 minutes.
+
+
+---
+
+If you didn't attempt to sign in to Cursor, please reach out to Cursor supp=
+ort.
+--3a9f78d9ba726f5a32596fcbb83c14ffe5ad669f2214a5442fa97e3465fa
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" content=
+=3D"width=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outlo=
+ok a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }</style><!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><style type=3D"text/css">@media only screen and (min-width:=
+480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }</style><style media=3D"screen and (min-width:480px)">.moz-text-html=
+ .mj-column-per-100 { width:100% !important; max-width: 100%; }</style><sty=
+le type=3D"text/css"></style><style type=3D"text/css">@media all and (max-w=
+idth: 768px) {
+        body {
+          background-color: #FFFFFF !important;
+        }
+      }
+      @media all and (max-width: 768px) {
+        .base-layout-root {
+          background-color: #FFFFFF !important;
+        }
+      }.button-gray table:hover td {
+        border: 1px solid #bbb !important;
+      }
+      .button-gray table:active td, .button-gray table:active a {
+        background-color: #f0f0f0 !important;
+      }
+      .button-accent table:hover td, .button-accent table:hover a {
+        background-color: #2e2e2e !important;
+      }
+      .button-accent table:active td, .button-accent table:active a {
+        background-color: #414141 !important;
+      }.card > table > tbody > tr > td {
+          border-radius: 12px !important;
+          padding: 36px 40px !important;
+        }
+        @media all and (max-width: 1024px) {
+          .card > table > tbody > tr > td {
+            padding: 28px 32px !important;
+          }
+        }
+        @media all and (max-width: 768px) {
+          .card > table > tbody > tr > td {
+            border-radius: 9px !important;
+            padding: 20px 24px !important;
+          }
+        }
+        @media all and (max-width: 520px) {
+          .card > table > tbody > tr > td {
+            padding: 14px 16px !important;
+          }
+        }
+
+        .card-body-with-logo-top > table > tbody > tr > td {
+          border-radius: 12px 12px 0px 0px !important;
+          padding: 32px 32px 0px !important;
+        }
+        @media all and (max-width: 1024px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            padding: 24px 24px 0px !important;
+          }
+        }
+        @media all and (max-width: 768px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            border-radius: 9px 9px 0px 0px !important;
+            padding: 16px 16px 0px !important;
+          }
+        }
+        @media all and (max-width: 520px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            padding: 8px 8px 0px !important;
+          }
+        }
+
+        .card-body-with-logo-bottom > table > tbody > tr > td {
+          border-radius: 0px 0px 12px 12px !important;
+          padding-top: 0px !important;
+        }
+        @media all and (max-width: 768px) {
+          .card-body-with-logo-bottom > table > tbody > tr > td {
+            border-radius: 0px 0px 9px 9px !important;
+          }
+        }.image td {
+        width: 100% !important;
+      }.link:hover {
+        text-decoration-line: underline !important;
+        text-decoration-style: solid !important;
+      }
+      .link-accent:hover {
+        text-decoration-color: #5753c666 !important;
+      }
+      .link-accent.high-contrast {
+        text-decoration-color: #d9d9d9 !important;
+      }
+      .link-gray:hover {
+        text-decoration-color: #d9d9d9 !important;
+      }
+      .link-gray.high-contrast {
+        text-decoration-color: #cecece !important;
+      }
+      .link-green:hover {
+        text-decoration-color: #acdec8 !important;
+      }
+      .link-green.high-contrast {
+        text-decoration-color: #8bceb6 !important;
+      }
+      .link-red:hover {
+        text-decoration-color: #f8bfc8 !important;
+      }
+      .link-red.high-contrast {
+        text-decoration-color: #efacb8 !important;
+      }
+      .link-yellow:hover {
+        text-decoration-color: #f3d768 !important;
+      }
+      .link-yellow.high-contrast {
+        text-decoration-color: #e4c767 !important;
+      }</style><meta name=3D"x-apple-disable-message-reformatting"><meta co=
+ntent=3D"light" name=3D"color-scheme"><meta content=3D"light" name=3D"suppo=
+rted-color-schemes"></head><body style=3D"word-spacing:normal;background-co=
+lor:#FCFCFC;"><div style=3D"display:none;font-size:1px;color:#ffffff;line-h=
+eight:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Your one=
+-time code is 121314. This code expires in 10 minutes. If you didn=E2=80=99=
+t attempt to sign in to Cursor, you can safely ignore this email.</div><div=
+ class=3D"base-layout-root" style=3D"background-color:#FCFCFC;"><table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"width:100%;"><tbody><tr><td><!--[if mso | IE]><table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" ro=
+le=3D"presentation" style=3D"width:674px;" width=3D"674" ><tr><td style=3D"=
+line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><d=
+iv style=3D"margin:0px auto;max-width:674px;"><table align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"=
+width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0;=
+padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;"><=
+!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0"><tr><td class=3D"card-outlook card-body-with-logo-top-o=
+utlook" style=3D"vertical-align:top;width:642px;" ><![endif]--><div class=
+=3D"mj-column-per-100 mj-outlook-group-fix card card-body-with-logo-top" st=
+yle=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;ver=
+tical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" width=3D"100%" style=3D"border-collapse: se=
+parate;"><tbody><tr><td style=3D"background-color:#FFFFFF;border:1px solid =
+#e0e0e0;border-bottom:none;border-radius:12px 12px 0px 0px;vertical-align:t=
+op;padding:28px 32px 0px;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%"><tbody><img alt height=3D"80" =
+src=3D"https://og-images.workos.com/api/logo-icon?t=3DeyJhbGciOiJIUzI1NiIsI=
+nR5cCI6IkpXVCJ9.eyJyYWRpdXMiOiJTbWFsbCIsImxvZ29JY29uRml0IjoiQ29udGFpbiIsImx=
+vZ29TcmMiOiJodHRwczovL3dvcmtvcy5pbWdpeC5uZXQvYXBwLWJyYW5kaW5nL2Vudmlyb25tZW=
+50XzAxR1M2VzNDOTAxTjUwSjRaR0ZCNlYxWjZDLzAxSFozQzY4UzMyREVGS1REQVlLWDg2NERFI=
+iwiaWF0IjoxNzQ2NTUyOTYwfQ.TBM7AzvFxu0Eh_dMiKxs4esADcPR4ZGsEBaNVCFCgCU" widt=
+h=3D"80" style=3D"border:0;display:block;outline:none;text-decoration:none"=
+><tr><td style=3D"font-size:0px;padding:0;word-break:break-word;"><div styl=
+e=3D"height:16px;line-height:16px;">&#8202;</div></td></tr></tbody></table>=
+</td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endi=
+f]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><!=
+[endif]--></td></tr></tbody></table><table align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%=
+;"><tbody><tr><td><!--[if mso | IE]><table align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D=
+"width:674px;" width=3D"674" ><tr><td style=3D"line-height:0px;font-size:0p=
+x;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;=
+max-width:674px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td =
+style=3D"direction:ltr;font-size:0px;padding:0;padding-bottom:24px;padding-=
+left:16px;padding-right:16px;text-align:center;"><!--[if mso | IE]><table r=
+ole=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><=
+td class=3D"card-outlook card-body-with-logo-bottom-outlook" style=3D"verti=
+cal-align:top;width:642px;" ><![endif]--><div class=3D"mj-column-per-100 mj=
+-outlook-group-fix card card-body-with-logo-bottom" style=3D"font-size:0px;=
+text-align:left;direction:ltr;display:inline-block;vertical-align:top;width=
+:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" width=3D"100%" style=3D"border-collapse: separate;"><tbody><tr><=
+td style=3D"background-color:#FFFFFF;border:1px solid #e0e0e0;border-radius=
+:0px 0px 12px 12px;border-top:none;vertical-align:top;padding:0px 40px 36px=
+;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"font-size:0px;p=
+adding:0;word-break:break-word;"><div style=3D"font-family:-apple-system, B=
+linkMacSystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-=
+size:24px;font-weight:600;line-height:30px;text-align:left;color:#202020;">=
+Complete code challenge</div></td></tr><tr><td style=3D"font-size:0px;paddi=
+ng:0;word-break:break-word;"><div style=3D"height:16px;line-height:16px;">&=
+#8202;</div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding=
+:0;word-break:break-word;"><div style=3D"font-family:-apple-system, BlinkMa=
+cSystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:1=
+6px;line-height:24px;text-align:left;color:#202020;">We&#x27;ve issued a on=
+e-time code challenge as an additional security check. Please enter the cod=
+e below in your open browser window to complete the challenge and continue =
+authentication.</div></td></tr><tr><td style=3D"font-size:0px;padding:0;wor=
+d-break:break-word;"><div style=3D"height:24px;line-height:24px;">&#8202;</=
+div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-=
+break:break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemF=
+ont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:28px;font=
+-weight:400;letter-spacing:2px;line-height:30px;text-align:left;color:#2020=
+20;">121314</div></td></tr><tr><td style=3D"font-size:0px;padding:0;word-br=
+eak:break-word;"><div style=3D"height:32px;line-height:32px;">&#8202;</div>=
+</td></tr><tr><td align=3D"center" style=3D"font-size:0px;padding:0;word-br=
+eak:break-word;"><p style=3D"border-top:solid 1px #d9d9d9;font-size:1px;mar=
+gin:0px auto;width:100%;"></p><!--[if mso | IE]><table align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-top:solid 1px=
+ #d9d9d9;font-size:1px;margin:0px auto;width:560px;" role=3D"presentation" =
+width=3D"560px" ><tr><td style=3D"height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style=3D"font-size:0px;padd=
+ing:0;word-break:break-word;"><div style=3D"height:32px;line-height:32px;">=
+&#8202;</div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;paddin=
+g:0;word-break:break-word;"><div style=3D"font-family:-apple-system, BlinkM=
+acSystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:=
+12px;line-height:18px;text-align:left;color:#646464;">This code expires in =
+10 minutes.</div></td></tr><tr><td style=3D"font-size:0px;padding:0;word-br=
+eak:break-word;"><div style=3D"height:12px;line-height:12px;">&#8202;</div>=
+</td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemFont,=
+ &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:12px;line-hei=
+ght:18px;text-align:left;color:#646464;">If you didn&#x27;t attempt to sign=
+ in to Cursor, please reach out to Cursor support.</div></td></tr></tbody><=
+/table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table>=
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></t=
+able><![endif]--></td></tr></tbody></table></div></body></html>
+--3a9f78d9ba726f5a32596fcbb83c14ffe5ad669f2214a5442fa97e3465fa--

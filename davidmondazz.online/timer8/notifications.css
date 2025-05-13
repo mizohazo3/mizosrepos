@@ -1,0 +1,148 @@
+/* --- notifications.css --- */
+
+/* Container for all notifications */
+#notification-container {
+    position: fixed; /* Position relative to the viewport */
+    top: 20px;       /* Distance from the top */
+    right: 20px;      /* Distance from the right */
+    z-index: 1050;    /* Ensure it's above most other content */
+    width: 300px;     /* Max width of notifications */
+    max-width: 90%;   /* Prevent overflow on small screens */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;        /* Spacing between notifications */
+}
+
+/* Base style for individual notification */
+.notification {
+    background-color: var(--bg-dark, #333); /* Use theme variable or default */
+    color: var(--text-primary, #eee);      /* Use theme variable or default */
+    border-radius: var(--border-radius, 6px); /* Use theme variable or default */
+    padding: 12px 15px;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid var(--border-color, #555); /* Default border */
+    position: relative; /* Needed for close button and timeout bar positioning */
+    overflow: hidden;   /* Hide overflowing timeout bar */
+    opacity: 0;         /* Start hidden for animation */
+    transform: translateX(100%); /* Start off-screen for slide-in */
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    word-wrap: break-word; /* Prevent long words from overflowing */
+}
+
+/* Animation state */
+.notification.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Icon styling */
+.notification-icon {
+    font-size: 1.4em;
+    line-height: 1.2; /* Adjust for vertical alignment */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    margin-top: 2px; /* Fine-tune vertical alignment */
+}
+
+/* Content area (message) */
+.notification-content {
+    flex-grow: 1; /* Allow message to take available space */
+}
+
+.notification-message {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 0.95em;
+}
+
+/* Close button styling */
+.notification-close {
+    background: none;
+    border: none;
+    color: var(--text-secondary, #aaa);
+    font-size: 1.5em;
+    line-height: 0.8; /* Adjust vertical position */
+    padding: 0 5px;
+    margin-left: 10px; /* Space from message */
+    cursor: pointer;
+    transition: color 0.2s ease;
+    align-self: flex-start; /* Keep it top-aligned */
+}
+
+.notification-close:hover {
+    color: var(--text-primary, #eee);
+}
+
+/* Timeout progress bar */
+.notification-timeout-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%; /* Start full */
+    background-color: var(--accent-primary-transparent, rgba(0, 123, 255, 0.5)); /* Use theme variable or default */
+    transform-origin: left;
+    transform: scaleX(1); /* Start scaled to full width */
+    /* Transition is set dynamically by JS */
+}
+
+
+/* --- Type-specific styles --- */
+
+.notification-success {
+    background-color: var(--bg-success-light, #2a4a3a); /* Slightly lighter success background */
+    border-left-color: var(--accent-success, #28a745);
+}
+.notification-success .notification-icon {
+    color: var(--accent-success, #28a745);
+}
+.notification-success .notification-timeout-bar {
+    background-color: var(--accent-success-transparent, rgba(40, 167, 69, 0.6));
+}
+
+.notification-error {
+    background-color: var(--bg-error-light, #5a2a2a);
+    border-left-color: var(--accent-error, #dc3545);
+}
+.notification-error .notification-icon {
+    color: var(--accent-error, #dc3545);
+}
+.notification-error .notification-timeout-bar {
+    background-color: var(--accent-error-transparent, rgba(220, 53, 69, 0.6));
+}
+
+.notification-warning {
+    background-color: var(--bg-warning-light, #5a4a2a);
+    border-left-color: var(--accent-warning, #ffc107);
+}
+.notification-warning .notification-icon {
+    color: var(--accent-warning, #ffc107);
+}
+.notification-warning .notification-timeout-bar {
+    background-color: var(--accent-warning-transparent, rgba(255, 193, 7, 0.6));
+}
+
+.notification-info {
+    background-color: var(--bg-info-light, #2a3a4a);
+    border-left-color: var(--accent-info, #17a2b8);
+}
+.notification-info .notification-icon {
+    color: var(--accent-info, #17a2b8);
+}
+.notification-info .notification-timeout-bar {
+    background-color: var(--accent-info-transparent, rgba(23, 162, 184, 0.6));
+}
+
+.notification-level-up {
+    background-color: var(--bg-levelup-light, #4a2a4a); /* Example purple */
+    border-left-color: var(--accent-levelup, #8a4af3);
+}
+.notification-level-up .notification-icon {
+    color: var(--accent-levelup, #8a4af3);
+}
+.notification-level-up .notification-timeout-bar {
+    background-color: var(--accent-levelup-transparent, rgba(138, 74, 243, 0.6));
+}

@@ -1,0 +1,987 @@
+/* 
+* Modern Button Styles for MedTracker
+* A sleek, consistent button design system with gradients and effects
+*/
+
+/* Base button styles */
+.btn {
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 12px 24px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    color: white !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.05) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    margin: 5px !important;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+
+.btn:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.08) !important;
+}
+
+.btn:active {
+    transform: translateY(1px) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
+}
+
+/* Button variants */
+.btn-primary {
+    background: linear-gradient(135deg, #4776E6 0%, #8E54E9 100%) !important;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #606c88 0%, #3f4c6b 100%) !important;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%) !important;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%) !important;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #f46b45 0%, #eea849 100%) !important;
+    color: #fff !important;
+}
+
+.btn-info {
+    background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%) !important;
+}
+
+.btn-light {
+    background: linear-gradient(135deg, #E0EAFC 0%, #CFDEF3 100%) !important;
+    color: #333 !important;
+}
+
+.btn-dark {
+    background: linear-gradient(135deg, #2C3E50 0%, #4CA1AF 100%) !important;
+}
+
+/* Button sizes */
+.btn-sm {
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+    border-radius: 8px !important;
+}
+
+.btn-lg {
+    padding: 16px 32px !important;
+    font-size: 16px !important;
+}
+
+/* Special buttons styling */
+a[href="index.php?show_delete_buttons"].btn-danger {
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%) !important;
+    font-weight: 700 !important;
+}
+
+a[href="index.php?show_delete_buttons"].btn-secondary {
+    background: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%) !important;
+}
+
+.btn-danger[href="index.php?stop"] {
+    background: linear-gradient(135deg, #ff0844 0%, #ffb199 100%) !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 8, 68, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 8, 68, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 8, 68, 0);
+    }
+}
+
+/* Med button style for medication buttons */
+.modern-med-button {
+    display: inline-block !important;
+    padding: 10px 22px !important;
+    margin: 5px !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    cursor: pointer !important;
+    position: relative !important;
+    overflow: hidden !important;
+    min-width: 150px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+}
+
+.modern-med-button:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.modern-med-button:active {
+    transform: translateY(1px) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.modern-med-button:disabled {
+    background: linear-gradient(135deg, #bdc3c7, #95a5a6) !important;
+    cursor: not-allowed !important;
+}
+
+/* Icon buttons styling */
+.button3 {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    border: none !important;
+    border-radius: 50% !important; /* Perfect circle */
+    background: linear-gradient(135deg, #4776E6 0%, #8E54E9 100%) !important;
+    color: white !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    cursor: pointer !important;
+    padding: 0 !important;
+    margin: 0 5px !important;
+    overflow: hidden !important;
+}
+
+.button3:hover {
+    transform: translateY(-2px) scale(1.05) !important;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.18) !important;
+}
+
+.button3:active {
+    transform: translateY(1px) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.button3 img {
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain !important;
+    filter: brightness(0) invert(1) !important; /* Make icon white */
+}
+
+/* Specific styles for action buttons */
+#stopButton {
+    background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%) !important;
+}
+
+#lockButton {
+    background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%) !important;
+}
+
+#unlockButton {
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%) !important;
+}
+
+#startButton {
+    background: linear-gradient(135deg, #1D976C 0%, #93F9B9 100%) !important;
+}
+
+#nomoreButton {
+    background: linear-gradient(135deg, #f46b45 0%, #eea849 100%) !important;
+}
+
+/* Lock and unlock icon styles */
+.lock-icon, .unlock-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    margin: 0 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.lock-icon {
+    color: white;
+    background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%);
+}
+
+.unlock-icon {
+    color: white;
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+}
+
+.lock-icon:hover, .unlock-icon:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.18);
+}
+
+/* Modern form inputs to match buttons */
+input[type="text"], select {
+    border-radius: 8px !important;
+    border: 1px solid #e2e8f0 !important;
+    padding: 10px 16px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+    transition: all 0.3s ease !important;
+    font-size: 14px !important;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #4776E6 !important;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3) !important;
+    outline: none !important;
+}
+
+/* Delete button within medication rows */
+.deleteRecord.btn-danger {
+    background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%) !important;
+    padding: 5px 10px !important;
+    font-size: 10px !important;
+    border-radius: 6px !important;
+    margin-left: 8px !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+}
+
+/* Medication button container */
+.med-container {
+    display: inline-block !important;
+    text-align: center !important;
+    margin: 8px !important;
+    padding: 8px !important;
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08) !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+}
+
+.med-container:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.12) !important;
+}
+
+/* Main container styling */
+.take-container {
+    text-align: center !important;
+    background: white !important;
+    padding: 15px 20px !important;
+    display: inline-block !important;
+    border-radius: 16px !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1) !important;
+    margin: 15px 0 !important;
+    border: none !important;
+}
+
+.take-label {
+    font-weight: 600 !important;
+    color: #4776E6 !important;
+    margin-right: 15px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    font-size: 16px !important;
+}
+
+/* Override for inline styles on medication buttons */
+[style*="border: 2px solid #909090"] {
+    border: none !important;
+    background: white !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08) !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+    margin: 8px !important;
+    padding: 8px !important;
+}
+
+[style*="border: 2px solid #909090"]:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.12) !important;
+}
+
+/* Override for the main container */
+[style*="text-align:center;border: 2px solid #909090"],
+[style*="text-align:center;border: 2px solid black"] {
+    border: none !important;
+    background: white !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1) !important;
+    border-radius: 16px !important;
+    padding: 15px 20px !important;
+    margin: 15px 0 !important;
+}
+
+/* Ensure the Take: text looks good */
+[style*="text-align:center;background: white;padding:10px 15px"] {
+    padding: 15px 20px !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1) !important;
+}
+
+/* New responsive form layout styles */
+.med-add-form {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    min-width: 100px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4776E6;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+    outline: none;
+}
+
+.starting-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.starting-group input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.user-session {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-links {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.logo-img {
+    max-width: 40px;
+    height: auto;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    /* Form layout for mobile */
+    .form-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .form-group {
+        width: 100%;
+    }
+    
+    /* Action buttons for mobile */
+    .action-buttons {
+        justify-content: center;
+    }
+    
+    /* User info for mobile */
+    .user-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .user-session {
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* Adjust main button styles for mobile */
+    .btn {
+        padding: 10px 18px !important;
+        font-size: 13px !important;
+        border-radius: 10px !important;
+        width: auto !important; /* Allow buttons to size properly */
+        margin: 4px !important; /* Reduce margin on mobile */
+    }
+    
+    .btn-sm {
+        padding: 6px 12px !important;
+        font-size: 11px !important;
+    }
+    
+    /* Adjust medication buttons for mobile */
+    .modern-med-button {
+        padding: 8px 16px !important;
+        min-width: 120px !important; /* Smaller min-width on mobile */
+        margin: 4px !important;
+        font-size: 13px !important;
+    }
+    
+    /* Make containers more compact */
+    .take-container, 
+    [style*="text-align:center;background: white;padding:10px 15px"],
+    [style*="text-align:center;border: 2px solid #909090"],
+    [style*="text-align:center;border: 2px solid black"] {
+        padding: 10px 15px !important;
+        margin: 10px 0 !important;
+        width: 95% !important; /* Nearly full width on mobile */
+        max-width: 100% !important;
+    }
+    
+    /* Adjust medication containers */
+    .med-container,
+    [style*="border: 2px solid #909090"] {
+        margin: 5px !important;
+        padding: 6px !important;
+        width: auto !important;
+        display: inline-block !important;
+    }
+    
+    /* Adjust icon buttons to be slightly smaller on mobile */
+    .button3 {
+        width: 36px !important;
+        height: 36px !important;
+        margin: 0 3px !important;
+    }
+    
+    .button3 img {
+        width: 18px !important;
+        height: 18px !important;
+    }
+    
+    /* Make lock/unlock icons more compact */
+    .lock-icon, .unlock-icon {
+        padding: 10px !important;
+        margin: 0 5px !important;
+    }
+    
+    /* Form inputs adjustments */
+    input[type="text"], select {
+        width: 100% !important;
+        max-width: 250px !important;
+        padding: 8px 14px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    /* Delete button adjustments */
+    .deleteRecord.btn-danger {
+        padding: 4px 8px !important;
+        font-size: 9px !important;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .btn {
+        display: block !important; /* Stack buttons on very small screens */
+        width: 100% !important;
+        margin: 5px 0 !important;
+        font-size: 12px !important;
+        padding: 8px 15px !important;
+    }
+    
+    /* Only make full-width for non-small buttons */
+    .btn:not(.btn-sm):not(.deleteRecord) {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+    
+    /* Preserve inline layout for small buttons */
+    .btn-sm, .deleteRecord {
+        display: inline-block !important;
+        width: auto !important;
+    }
+    
+    /* Adjust medication buttons for very small screens */
+    .modern-med-button {
+        min-width: 100px !important;
+        font-size: 12px !important;
+        padding: 7px 14px !important;
+    }
+    
+    /* Make icon buttons even smaller */
+    .button3 {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    
+    .button3 img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+    
+    /* Adjust container spacing further */
+    .take-container, 
+    [style*="text-align:center;background: white;padding:10px 15px"] {
+        padding: 8px 12px !important;
+        margin: 8px 0 !important;
+    }
+    
+    /* Ensure medication price display is properly sized */
+    .med-price-display {
+        font-size: 10px !important;
+        padding: 1px 4px !important;
+        border-radius: 6px !important;
+    }
+}
+
+/* Bank balance styling */
+.bank-balance {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.bank-balance i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.bank-balance-value {
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+/* Live container styling */
+.live-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Toast notification styling */
+#toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast {
+    background: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    animation: slideIn 0.3s ease forwards;
+}
+
+.toast-success {
+    border-left: 5px solid #43cea2;
+}
+
+.toast-error {
+    border-left: 5px solid #FF416C;
+}
+
+.toast-icon {
+    margin-right: 12px;
+    font-size: 1.2em;
+}
+
+.toast-success .toast-icon {
+    color: #43cea2;
+}
+
+.toast-error .toast-icon {
+    color: #FF416C;
+}
+
+.toast-message {
+    flex: 1;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Center content on mobile */
+@media (max-width: 768px) {
+    center {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    /* Bank balance styling for mobile */
+    .bank-balance {
+        width: 100%;
+        justify-content: center;
+        margin: 10px auto;
+        max-width: 300px;
+    }
+    
+    /* Better spacing for medication lists */
+    #med-details {
+        padding: 10px 5px;
+    }
+    
+    /* Make sure toast notifications don't cover too much screen */
+    #toast-container {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+    }
+    
+    .toast {
+        max-width: 100%;
+    }
+}
+
+/* Medication details styling */
+#med-details {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin: 15px auto;
+}
+
+.medTitle {
+    font-weight: 600;
+    color: #4776E6;
+}
+
+.medTitle a:hover {
+    text-decoration: underline !important;
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    /* Ensure medication details are readable on small screens */
+    #med-details {
+        font-size: 14px;
+        padding: 10px;
+        line-height: 1.5;
+    }
+    
+    /* Make sure the delete button doesn't break the layout */
+    #med-details .deleteRecord {
+        display: inline-block;
+        margin-top: 3px;
+    }
+    
+    /* Further adjustments for very small screens */
+    .btn {
+        display: block !important; /* Stack buttons on very small screens */
+        width: 100% !important;
+        margin: 5px 0 !important;
+        font-size: 12px !important;
+        padding: 8px 15px !important;
+    }
+    
+    /* Only make full-width for non-small buttons */
+    .btn:not(.btn-sm):not(.deleteRecord) {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+    
+    /* Preserve inline layout for small buttons */
+    .btn-sm, .deleteRecord {
+        display: inline-block !important;
+        width: auto !important;
+    }
+    
+    /* Adjust medication buttons for very small screens */
+    .modern-med-button {
+        min-width: 100px !important;
+        font-size: 12px !important;
+        padding: 7px 14px !important;
+    }
+    
+    /* Make icon buttons even smaller */
+    .button3 {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    
+    .button3 img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+    
+    /* Adjust container spacing further */
+    .take-container, 
+    [style*="text-align:center;background: white;padding:10px 15px"] {
+        padding: 8px 12px !important;
+        margin: 8px 0 !important;
+    }
+    
+    /* Ensure medication price display is properly sized */
+    .med-price-display {
+        font-size: 10px !important;
+        padding: 1px 4px !important;
+        border-radius: 6px !important;
+    }
+}
+
+/* Responsive container */
+.responsive-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .responsive-container {
+        padding: 10px;
+    }
+}
+
+/* Mood Recording Form Styling */
+.mood-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin: 10px 0;
+    position: relative;
+    width: fit-content;
+}
+
+.mood-date {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.mood-date-amount {
+    color: #e74c3c;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.mood-input-wrapper {
+    flex: 0 1 200px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.mood-input {
+    flex: 1;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.mood-input:focus {
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+.mood-options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mood-radio-group {
+    display: flex;
+}
+
+.mood-radio-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.mood-radio-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.mood-radio-label.positive {
+    background: rgba(46, 204, 113, 0.1);
+    color: #27ae60;
+}
+
+.mood-radio-label.neutral {
+    background: rgba(52, 152, 219, 0.1);
+    color: #3498db;
+}
+
+.mood-radio-label.negative {
+    background: rgba(231, 76, 60, 0.1);
+    color: #e74c3c;
+}
+
+.mood-radio-input:checked + .mood-radio-label.positive {
+    background: rgba(46, 204, 113, 0.2);
+    border-color: #27ae60;
+}
+
+.mood-radio-input:checked + .mood-radio-label.neutral {
+    background: rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+}
+
+.mood-radio-input:checked + .mood-radio-label.negative {
+    background: rgba(231, 76, 60, 0.2);
+    border-color: #e74c3c;
+}
+
+.mood-radio-label:hover {
+    transform: translateY(-2px);
+}
+
+.mood-submit {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mood-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.mood-submit:active {
+    transform: translateY(1px);
+}
+
+.mood-sus-wrapper {
+    flex: 0 1 150px;
+    min-width: 120px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mood-form {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .mood-date {
+        margin-bottom: 0;
+        margin-right: auto;
+    }
+    
+    .mood-input-wrapper {
+        flex: 1 1 100%;
+        order: 3;
+    }
+    
+    .mood-options {
+        flex-wrap: wrap;
+        margin: 5px 0;
+        justify-content: space-between;
+        width: 100%;
+        order: 2;
+    }
+    
+    .mood-submit {
+        order: 4;
+    }
+    
+    .mood-sus-wrapper {
+        flex: 1 1 auto;
+    }
+} 

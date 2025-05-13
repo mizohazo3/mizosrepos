@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="#4C84FF" opacity="0.1"/>
+  
+  <!-- Floppy Disk Base Shape -->
+  <rect x="28" y="28" width="72" height="72" rx="8" fill="#4C84FF"/>
+  
+  <!-- Floppy Disk Inner Details -->
+  <rect x="40" y="28" width="48" height="20" rx="2" fill="white" opacity="0.9"/>
+  <rect x="42" y="58" width="44" height="34" rx="4" fill="white" opacity="0.9"/>
+  
+  <!-- Auto-save Circular Arrows -->
+  <path d="M64 16C36.4 16 14 38.4 14 66C14 93.6 36.4 116 64 116C91.6 116 114 93.6 114 66C114 38.4 91.6 16 64 16ZM64 108C40.8 108 22 89.2 22 66C22 42.8 40.8 24 64 24C87.2 24 106 42.8 106 66C106 89.2 87.2 108 64 108Z" fill="#4C84FF" opacity="0.3"/>
+  
+  <!-- Circular Arrow Animation -->
+  <path d="M98 66C98 70.5 97.1 74.9 95.4 79C93.7 83.2 91.2 87 88.1 90.1C85 93.2 81.2 95.7 77 97.4C72.9 99.1 68.5 100 64 100C59.5 100 55.1 99.1 51 97.4C46.8 95.7 43 93.2 39.9 90.1C36.8 87 34.3 83.2 32.6 79C30.9 74.9 30 70.5 30 66" stroke="#30D158" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Arrow Tip -->
+  <path d="M42 58L30 66L18 58" stroke="#30D158" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Automatic Text -->
+  <text x="64" y="76" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">AUTO</text>
+</svg>

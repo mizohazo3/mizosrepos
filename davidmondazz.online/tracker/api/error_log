@@ -1,0 +1,105 @@
+[18-Apr-2025 01:52:16 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 941
+)
+
+[18-Apr-2025 02:05:17 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 02:05:34 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1628
+)
+
+[18-Apr-2025 02:05:42 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1628
+)
+
+[18-Apr-2025 03:03:26 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 03:04:22 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1639
+)
+
+[18-Apr-2025 03:11:54 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1639
+)
+
+[18-Apr-2025 06:29:57 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1639
+)
+
+[18-Apr-2025 06:37:13 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1639
+)
+
+[18-Apr-2025 06:37:15 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1628
+)
+
+[18-Apr-2025 11:54:21 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1640
+)
+
+[18-Apr-2025 11:54:24 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1640
+)
+
+[18-Apr-2025 11:54:33 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 11:54:36 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1640
+)
+
+[18-Apr-2025 13:00:55 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 13:00:59 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 13:11:01 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1640
+)
+
+[18-Apr-2025 13:11:04 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1628
+)
+
+[18-Apr-2025 13:11:07 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 13:28:08 Africa/Cairo] stop_timer.php was called with POST data: Array
+(
+    [timer_id] => 1638
+)
+
+[18-Apr-2025 13:28:18 Africa/Cairo] start_timer.php was called with POST data: Array
+(
+    [timer_id] => 1628
+)
+

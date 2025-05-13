@@ -1,0 +1,13 @@
+.aider*
+@"
+# Ignore all secret files
+**/secret/*
+**/*.json
+**/*.key
+**/*.pem
+**/*.cer
+**/*.pfx
+
+# Specific paths
+davidmondazz.online/meds2/secret/
+"@ | Out-File -FilePath .gitignore -Encoding utf8

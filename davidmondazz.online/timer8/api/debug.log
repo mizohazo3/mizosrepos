@@ -1,0 +1,882 @@
+[24-Apr-2025 18:09:04 Africa/Cairo] 2025-04-24 18:09:04 - Starting image fetch process
+[24-Apr-2025 18:09:04 Africa/Cairo] 2025-04-24 18:09:04 - Processing query - Data: "Black Tea"
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Original dimensions: 512x512
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: imagepng successful. Output length: 12455
+[24-Apr-2025 18:09:06 Africa/Cairo] processImage: Processing successful. Base64 length: 16630
+[24-Apr-2025 18:09:08 Africa/Cairo] 2025-04-24 18:09:08 - Starting image fetch process
+[24-Apr-2025 18:09:08 Africa/Cairo] 2025-04-24 18:09:08 - Processing query - Data: "Black Tea"
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Original dimensions: 512x512
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: imagepng successful. Output length: 24026
+[24-Apr-2025 18:09:10 Africa/Cairo] processImage: Processing successful. Base64 length: 32058
+[24-Apr-2025 18:09:11 Africa/Cairo] 2025-04-24 18:09:11 - Starting image fetch process
+[24-Apr-2025 18:09:11 Africa/Cairo] 2025-04-24 18:09:11 - Processing query - Data: "Black Tea"
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Original dimensions: 512x512
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: imagepng successful. Output length: 35962
+[24-Apr-2025 18:09:12 Africa/Cairo] processImage: Processing successful. Base64 length: 47974
+[24-Apr-2025 18:09:13 Africa/Cairo] 2025-04-24 18:09:13 - Starting image fetch process
+[24-Apr-2025 18:09:13 Africa/Cairo] 2025-04-24 18:09:13 - Processing query - Data: "Black Tea"
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Original dimensions: 512x512
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: imagepng successful. Output length: 34379
+[24-Apr-2025 18:09:14 Africa/Cairo] processImage: Processing successful. Base64 length: 45862
+[24-Apr-2025 18:09:22 Africa/Cairo] 2025-04-24 18:09:22 - Starting image fetch process
+[24-Apr-2025 18:09:22 Africa/Cairo] 2025-04-24 18:09:22 - Processing query - Data: "indomie"
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Original dimensions: 360x360
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: imagepng successful. Output length: 84784
+[24-Apr-2025 18:09:23 Africa/Cairo] processImage: Processing successful. Base64 length: 113070
+[24-Apr-2025 18:09:24 Africa/Cairo] 2025-04-24 18:09:24 - Starting image fetch process
+[24-Apr-2025 18:09:24 Africa/Cairo] 2025-04-24 18:09:24 - Processing query - Data: "indomie"
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Original dimensions: 360x360
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: imagepng successful. Output length: 166415
+[24-Apr-2025 18:09:26 Africa/Cairo] processImage: Processing successful. Base64 length: 221910
+[24-Apr-2025 18:09:27 Africa/Cairo] 2025-04-24 18:09:27 - Starting image fetch process
+[24-Apr-2025 18:09:27 Africa/Cairo] 2025-04-24 18:09:27 - Processing query - Data: "indomie"
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Original dimensions: 512x512
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: imagepng successful. Output length: 27396
+[24-Apr-2025 18:09:28 Africa/Cairo] processImage: Processing successful. Base64 length: 36550
+[24-Apr-2025 18:09:30 Africa/Cairo] 2025-04-24 18:09:30 - Starting image fetch process
+[24-Apr-2025 18:09:30 Africa/Cairo] 2025-04-24 18:09:30 - Processing query - Data: "indomie"
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Original dimensions: 400x400
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Cropping to 400x400 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: imagepng successful. Output length: 50804
+[24-Apr-2025 18:09:32 Africa/Cairo] processImage: Processing successful. Base64 length: 67762
+[24-Apr-2025 18:11:47 Africa/Cairo] 2025-04-24 18:11:47 - Starting image fetch process
+[24-Apr-2025 18:11:47 Africa/Cairo] 2025-04-24 18:11:47 - Processing query - Data: "Noodles with Chicken"
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Starting processing.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: imagecreatefromstring successful.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Original dimensions: 360x360
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Creating true color image 500x500.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Setting transparency.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: imagecopyresampled successful.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: imagepng successful. Output length: 185267
+[24-Apr-2025 18:11:48 Africa/Cairo] processImage: Processing successful. Base64 length: 247046
+[25-Apr-2025 02:24:49 Africa/Cairo] 2025-04-25 02:24:49 - Starting image fetch process
+[25-Apr-2025 02:24:49 Africa/Cairo] 2025-04-25 02:24:49 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Original dimensions: 360x360
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: imagepng successful. Output length: 116921
+[25-Apr-2025 02:24:50 Africa/Cairo] processImage: Processing successful. Base64 length: 155918
+[25-Apr-2025 02:24:52 Africa/Cairo] 2025-04-25 02:24:52 - Starting image fetch process
+[25-Apr-2025 02:24:52 Africa/Cairo] 2025-04-25 02:24:52 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Original dimensions: 512x512
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: imagepng successful. Output length: 43068
+[25-Apr-2025 02:24:53 Africa/Cairo] processImage: Processing successful. Base64 length: 57446
+[25-Apr-2025 02:24:54 Africa/Cairo] 2025-04-25 02:24:54 - Starting image fetch process
+[25-Apr-2025 02:24:54 Africa/Cairo] 2025-04-25 02:24:54 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Original dimensions: 360x360
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: imagepng successful. Output length: 98542
+[25-Apr-2025 02:24:55 Africa/Cairo] processImage: Processing successful. Base64 length: 131414
+[25-Apr-2025 02:24:59 Africa/Cairo] 2025-04-25 02:24:59 - Starting image fetch process
+[25-Apr-2025 02:24:59 Africa/Cairo] 2025-04-25 02:24:59 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Original dimensions: 512x512
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: imagepng successful. Output length: 43068
+[25-Apr-2025 02:24:59 Africa/Cairo] processImage: Processing successful. Base64 length: 57446
+[25-Apr-2025 02:25:00 Africa/Cairo] 2025-04-25 02:25:00 - Starting image fetch process
+[25-Apr-2025 02:25:00 Africa/Cairo] 2025-04-25 02:25:00 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Original dimensions: 360x360
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: imagepng successful. Output length: 98542
+[25-Apr-2025 02:25:00 Africa/Cairo] processImage: Processing successful. Base64 length: 131414
+[25-Apr-2025 02:25:01 Africa/Cairo] 2025-04-25 02:25:01 - Starting image fetch process
+[25-Apr-2025 02:25:01 Africa/Cairo] 2025-04-25 02:25:01 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Original dimensions: 512x512
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: imagepng successful. Output length: 75408
+[25-Apr-2025 02:25:02 Africa/Cairo] processImage: Processing successful. Base64 length: 100566
+[25-Apr-2025 02:25:03 Africa/Cairo] 2025-04-25 02:25:03 - Starting image fetch process
+[25-Apr-2025 02:25:03 Africa/Cairo] 2025-04-25 02:25:03 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Original dimensions: 512x512
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: imagepng successful. Output length: 43068
+[25-Apr-2025 02:25:04 Africa/Cairo] processImage: Processing successful. Base64 length: 57446
+[25-Apr-2025 02:25:05 Africa/Cairo] 2025-04-25 02:25:05 - Starting image fetch process
+[25-Apr-2025 02:25:05 Africa/Cairo] 2025-04-25 02:25:05 - Processing query - Data: "Liver sandwitch"
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Starting processing.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: imagecreatefromstring successful.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Original dimensions: 600x397
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Cropping to 397x397 at (101.5, 0). Resizing to 500x500.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Creating true color image 500x500.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Setting transparency.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: imagecopyresampled successful.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: imagepng successful. Output length: 113091
+[25-Apr-2025 02:25:05 Africa/Cairo] processImage: Processing successful. Base64 length: 150810
+[27-Apr-2025 14:15:53 Africa/Cairo] 2025-04-27 14:15:53 - Starting image fetch process
+[27-Apr-2025 14:15:53 Africa/Cairo] 2025-04-27 14:15:53 - Processing query - Data: "Fish Food"
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Starting processing.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: imagecreatefromstring successful.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Original dimensions: 512x512
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Creating true color image 500x500.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Setting transparency.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: imagecopyresampled successful.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: imagepng successful. Output length: 20970
+[27-Apr-2025 14:15:54 Africa/Cairo] processImage: Processing successful. Base64 length: 27982
+[27-Apr-2025 14:15:56 Africa/Cairo] 2025-04-27 14:15:56 - Starting image fetch process
+[27-Apr-2025 14:15:56 Africa/Cairo] 2025-04-27 14:15:56 - Processing query - Data: "Fish Food"
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Starting processing.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: imagecreatefromstring successful.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Original dimensions: 512x512
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Creating true color image 500x500.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Setting transparency.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: imagecopyresampled successful.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: imagepng successful. Output length: 58894
+[27-Apr-2025 14:15:57 Africa/Cairo] processImage: Processing successful. Base64 length: 78550
+[27-Apr-2025 14:15:58 Africa/Cairo] 2025-04-27 14:15:58 - Starting image fetch process
+[27-Apr-2025 14:15:58 Africa/Cairo] 2025-04-27 14:15:58 - Processing query - Data: "Fish Food"
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Starting processing.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: imagecreatefromstring successful.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Original dimensions: 512x512
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Creating true color image 500x500.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Setting transparency.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: imagecopyresampled successful.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: imagepng successful. Output length: 81179
+[27-Apr-2025 14:15:58 Africa/Cairo] processImage: Processing successful. Base64 length: 108262
+[27-Apr-2025 14:15:59 Africa/Cairo] 2025-04-27 14:15:59 - Starting image fetch process
+[27-Apr-2025 14:15:59 Africa/Cairo] 2025-04-27 14:15:59 - Processing query - Data: "Fish Food"
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Starting processing.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: imagecreatefromstring successful.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Original dimensions: 512x512
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Creating true color image 500x500.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Setting transparency.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: imagecopyresampled successful.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: imagepng successful. Output length: 23441
+[27-Apr-2025 14:16:00 Africa/Cairo] processImage: Processing successful. Base64 length: 31278
+[28-Apr-2025 10:18:53 Africa/Cairo] 2025-04-28 10:18:53 - Starting image fetch process
+[28-Apr-2025 10:18:53 Africa/Cairo] 2025-04-28 10:18:53 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: imagepng successful. Output length: 55757
+[28-Apr-2025 10:18:55 Africa/Cairo] processImage: Processing successful. Base64 length: 74366
+[28-Apr-2025 10:18:58 Africa/Cairo] 2025-04-28 10:18:58 - Starting image fetch process
+[28-Apr-2025 10:18:58 Africa/Cairo] 2025-04-28 10:18:58 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Original dimensions: 360x360
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: imagepng successful. Output length: 93740
+[28-Apr-2025 10:18:59 Africa/Cairo] processImage: Processing successful. Base64 length: 125010
+[28-Apr-2025 10:19:00 Africa/Cairo] 2025-04-28 10:19:00 - Starting image fetch process
+[28-Apr-2025 10:19:00 Africa/Cairo] 2025-04-28 10:19:00 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: imagepng successful. Output length: 61469
+[28-Apr-2025 10:19:01 Africa/Cairo] processImage: Processing successful. Base64 length: 81982
+[28-Apr-2025 10:19:02 Africa/Cairo] 2025-04-28 10:19:02 - Starting image fetch process
+[28-Apr-2025 10:19:02 Africa/Cairo] 2025-04-28 10:19:02 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: imagepng successful. Output length: 71972
+[28-Apr-2025 10:19:03 Africa/Cairo] processImage: Processing successful. Base64 length: 95986
+[28-Apr-2025 10:19:05 Africa/Cairo] 2025-04-28 10:19:05 - Starting image fetch process
+[28-Apr-2025 10:19:05 Africa/Cairo] 2025-04-28 10:19:05 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Original dimensions: 360x360
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: imagepng successful. Output length: 109270
+[28-Apr-2025 10:19:05 Africa/Cairo] processImage: Processing successful. Base64 length: 145718
+[28-Apr-2025 10:19:08 Africa/Cairo] 2025-04-28 10:19:08 - Starting image fetch process
+[28-Apr-2025 10:19:08 Africa/Cairo] 2025-04-28 10:19:08 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: imagepng successful. Output length: 234268
+[28-Apr-2025 10:19:09 Africa/Cairo] processImage: Processing successful. Base64 length: 312382
+[28-Apr-2025 10:19:10 Africa/Cairo] 2025-04-28 10:19:10 - Starting image fetch process
+[28-Apr-2025 10:19:10 Africa/Cairo] 2025-04-28 10:19:10 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: imagepng successful. Output length: 69063
+[28-Apr-2025 10:19:11 Africa/Cairo] processImage: Processing successful. Base64 length: 92106
+[28-Apr-2025 10:19:11 Africa/Cairo] 2025-04-28 10:19:11 - Starting image fetch process
+[28-Apr-2025 10:19:11 Africa/Cairo] 2025-04-28 10:19:11 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Original dimensions: 360x360
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: imagepng successful. Output length: 109447
+[28-Apr-2025 10:19:12 Africa/Cairo] processImage: Processing successful. Base64 length: 145954
+[28-Apr-2025 10:19:13 Africa/Cairo] 2025-04-28 10:19:13 - Starting image fetch process
+[28-Apr-2025 10:19:13 Africa/Cairo] 2025-04-28 10:19:13 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: imagepng successful. Output length: 69063
+[28-Apr-2025 10:19:14 Africa/Cairo] processImage: Processing successful. Base64 length: 92106
+[28-Apr-2025 10:19:14 Africa/Cairo] 2025-04-28 10:19:14 - Starting image fetch process
+[28-Apr-2025 10:19:14 Africa/Cairo] 2025-04-28 10:19:14 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Original dimensions: 431x400
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Cropping to 400x400 at (15.5, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: imagepng successful. Output length: 172371
+[28-Apr-2025 10:19:15 Africa/Cairo] processImage: Processing successful. Base64 length: 229850
+[28-Apr-2025 10:19:17 Africa/Cairo] 2025-04-28 10:19:17 - Starting image fetch process
+[28-Apr-2025 10:19:17 Africa/Cairo] 2025-04-28 10:19:17 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: imagepng successful. Output length: 58431
+[28-Apr-2025 10:19:18 Africa/Cairo] processImage: Processing successful. Base64 length: 77930
+[28-Apr-2025 10:19:18 Africa/Cairo] 2025-04-28 10:19:18 - Starting image fetch process
+[28-Apr-2025 10:19:18 Africa/Cairo] 2025-04-28 10:19:18 - Processing query - Data: "Egg Sandwitch"
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Original dimensions: 360x360
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: imagepng successful. Output length: 109270
+[28-Apr-2025 10:19:19 Africa/Cairo] processImage: Processing successful. Base64 length: 145718
+[28-Apr-2025 17:19:01 Africa/Cairo] 2025-04-28 17:19:01 - Starting image fetch process
+[28-Apr-2025 17:19:01 Africa/Cairo] 2025-04-28 17:19:01 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: imagepng successful. Output length: 36940
+[28-Apr-2025 17:19:02 Africa/Cairo] processImage: Processing successful. Base64 length: 49278
+[28-Apr-2025 17:19:04 Africa/Cairo] 2025-04-28 17:19:04 - Starting image fetch process
+[28-Apr-2025 17:19:04 Africa/Cairo] 2025-04-28 17:19:04 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: imagepng successful. Output length: 36940
+[28-Apr-2025 17:19:04 Africa/Cairo] processImage: Processing successful. Base64 length: 49278
+[28-Apr-2025 17:19:08 Africa/Cairo] 2025-04-28 17:19:08 - Starting image fetch process
+[28-Apr-2025 17:19:08 Africa/Cairo] 2025-04-28 17:19:08 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: imagepng successful. Output length: 17295
+[28-Apr-2025 17:19:09 Africa/Cairo] processImage: Processing successful. Base64 length: 23082
+[28-Apr-2025 17:19:10 Africa/Cairo] 2025-04-28 17:19:10 - Starting image fetch process
+[28-Apr-2025 17:19:10 Africa/Cairo] 2025-04-28 17:19:10 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: imagepng successful. Output length: 31850
+[28-Apr-2025 17:19:11 Africa/Cairo] processImage: Processing successful. Base64 length: 42490
+[28-Apr-2025 17:19:15 Africa/Cairo] 2025-04-28 17:19:15 - Starting image fetch process
+[28-Apr-2025 17:19:15 Africa/Cairo] 2025-04-28 17:19:15 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: imagepng successful. Output length: 65301
+[28-Apr-2025 17:19:16 Africa/Cairo] processImage: Processing successful. Base64 length: 87090
+[28-Apr-2025 17:19:17 Africa/Cairo] 2025-04-28 17:19:17 - Starting image fetch process
+[28-Apr-2025 17:19:17 Africa/Cairo] 2025-04-28 17:19:17 - Processing query - Data: "Kofta"
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Starting processing.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: imagecreatefromstring successful.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Original dimensions: 512x512
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Creating true color image 500x500.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Setting transparency.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: imagecopyresampled successful.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: imagepng successful. Output length: 63595
+[28-Apr-2025 17:19:18 Africa/Cairo] processImage: Processing successful. Base64 length: 84818
+[30-Apr-2025 01:55:09 Africa/Cairo] 2025-04-30 01:55:09 - Starting image fetch process
+[30-Apr-2025 01:55:09 Africa/Cairo] 2025-04-30 01:55:09 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: imagepng successful. Output length: 69978
+[30-Apr-2025 01:55:10 Africa/Cairo] processImage: Processing successful. Base64 length: 93326
+[30-Apr-2025 01:55:12 Africa/Cairo] 2025-04-30 01:55:12 - Starting image fetch process
+[30-Apr-2025 01:55:12 Africa/Cairo] 2025-04-30 01:55:12 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: imagepng successful. Output length: 19604
+[30-Apr-2025 01:55:14 Africa/Cairo] processImage: Processing successful. Base64 length: 26162
+[30-Apr-2025 01:55:15 Africa/Cairo] 2025-04-30 01:55:15 - Starting image fetch process
+[30-Apr-2025 01:55:15 Africa/Cairo] 2025-04-30 01:55:15 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: imagepng successful. Output length: 25140
+[30-Apr-2025 01:55:17 Africa/Cairo] processImage: Processing successful. Base64 length: 33542
+[30-Apr-2025 01:55:17 Africa/Cairo] 2025-04-30 01:55:17 - Starting image fetch process
+[30-Apr-2025 01:55:17 Africa/Cairo] 2025-04-30 01:55:17 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: imagepng successful. Output length: 35656
+[30-Apr-2025 01:55:19 Africa/Cairo] processImage: Processing successful. Base64 length: 47566
+[30-Apr-2025 01:55:20 Africa/Cairo] 2025-04-30 01:55:20 - Starting image fetch process
+[30-Apr-2025 01:55:20 Africa/Cairo] 2025-04-30 01:55:20 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: imagepng successful. Output length: 72823
+[30-Apr-2025 01:55:21 Africa/Cairo] processImage: Processing successful. Base64 length: 97122
+[30-Apr-2025 01:55:22 Africa/Cairo] 2025-04-30 01:55:22 - Starting image fetch process
+[30-Apr-2025 01:55:22 Africa/Cairo] 2025-04-30 01:55:22 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: imagepng successful. Output length: 42885
+[30-Apr-2025 01:55:24 Africa/Cairo] processImage: Processing successful. Base64 length: 57202
+[30-Apr-2025 01:55:25 Africa/Cairo] 2025-04-30 01:55:25 - Starting image fetch process
+[30-Apr-2025 01:55:25 Africa/Cairo] 2025-04-30 01:55:25 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: imagepng successful. Output length: 39210
+[30-Apr-2025 01:55:27 Africa/Cairo] processImage: Processing successful. Base64 length: 52302
+[30-Apr-2025 01:55:29 Africa/Cairo] 2025-04-30 01:55:29 - Starting image fetch process
+[30-Apr-2025 01:55:29 Africa/Cairo] 2025-04-30 01:55:29 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: imagepng successful. Output length: 35656
+[30-Apr-2025 01:55:30 Africa/Cairo] processImage: Processing successful. Base64 length: 47566
+[30-Apr-2025 01:55:31 Africa/Cairo] 2025-04-30 01:55:31 - Starting image fetch process
+[30-Apr-2025 01:55:31 Africa/Cairo] 2025-04-30 01:55:31 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:32 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:33 Africa/Cairo] processImage: imagepng successful. Output length: 74806
+[30-Apr-2025 01:55:33 Africa/Cairo] processImage: Processing successful. Base64 length: 99766
+[30-Apr-2025 01:55:37 Africa/Cairo] 2025-04-30 01:55:37 - Starting image fetch process
+[30-Apr-2025 01:55:37 Africa/Cairo] 2025-04-30 01:55:37 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Original dimensions: 400x400
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Cropping to 400x400 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: imagepng successful. Output length: 30709
+[30-Apr-2025 01:55:38 Africa/Cairo] processImage: Processing successful. Base64 length: 40970
+[30-Apr-2025 01:55:40 Africa/Cairo] 2025-04-30 01:55:40 - Starting image fetch process
+[30-Apr-2025 01:55:40 Africa/Cairo] 2025-04-30 01:55:40 - Processing query - Data: "Fruits"
+[30-Apr-2025 01:55:40 Africa/Cairo] processImage: Starting processing.
+[30-Apr-2025 01:55:40 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: imagecreatefromstring successful.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Original dimensions: 512x512
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Creating true color image 500x500.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Setting transparency.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: imagecopyresampled successful.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: imagepng successful. Output length: 60055
+[30-Apr-2025 01:55:41 Africa/Cairo] processImage: Processing successful. Base64 length: 80098
+[01-May-2025 00:19:13 Africa/Cairo] 2025-05-01 00:19:13 - Starting image fetch process
+[01-May-2025 00:19:13 Africa/Cairo] 2025-05-01 00:19:13 - Processing query - Data: "FOOD"
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 00:19:15 Africa/Cairo] processImage: imagepng successful. Output length: 56993
+[01-May-2025 00:19:15 Africa/Cairo] processImage: Processing successful. Base64 length: 76014
+[01-May-2025 03:05:56 Africa/Cairo] 2025-05-01 03:05:56 - Starting image fetch process
+[01-May-2025 03:05:56 Africa/Cairo] 2025-05-01 03:05:56 - Processing query - Data: "beans"
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:05:58 Africa/Cairo] processImage: imagepng successful. Output length: 44293
+[01-May-2025 03:05:58 Africa/Cairo] processImage: Processing successful. Base64 length: 59082
+[01-May-2025 03:06:00 Africa/Cairo] 2025-05-01 03:06:00 - Starting image fetch process
+[01-May-2025 03:06:00 Africa/Cairo] 2025-05-01 03:06:00 - Processing query - Data: "beans"
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:01 Africa/Cairo] processImage: imagepng successful. Output length: 59057
+[01-May-2025 03:06:01 Africa/Cairo] processImage: Processing successful. Base64 length: 78766
+[01-May-2025 03:06:02 Africa/Cairo] 2025-05-01 03:06:02 - Starting image fetch process
+[01-May-2025 03:06:02 Africa/Cairo] 2025-05-01 03:06:02 - Processing query - Data: "beans"
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Original dimensions: 360x360
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Cropping to 360x360 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:03 Africa/Cairo] processImage: imagepng successful. Output length: 37365
+[01-May-2025 03:06:03 Africa/Cairo] processImage: Processing successful. Base64 length: 49842
+[01-May-2025 03:06:04 Africa/Cairo] 2025-05-01 03:06:04 - Starting image fetch process
+[01-May-2025 03:06:04 Africa/Cairo] 2025-05-01 03:06:04 - Processing query - Data: "beans"
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:05 Africa/Cairo] processImage: imagepng successful. Output length: 29906
+[01-May-2025 03:06:05 Africa/Cairo] processImage: Processing successful. Base64 length: 39898
+[01-May-2025 03:06:06 Africa/Cairo] 2025-05-01 03:06:06 - Starting image fetch process
+[01-May-2025 03:06:06 Africa/Cairo] 2025-05-01 03:06:06 - Processing query - Data: "beans"
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:07 Africa/Cairo] processImage: imagepng successful. Output length: 62815
+[01-May-2025 03:06:07 Africa/Cairo] processImage: Processing successful. Base64 length: 83778
+[01-May-2025 03:06:09 Africa/Cairo] 2025-05-01 03:06:09 - Starting image fetch process
+[01-May-2025 03:06:09 Africa/Cairo] 2025-05-01 03:06:09 - Processing query - Data: "beans"
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:10 Africa/Cairo] processImage: imagepng successful. Output length: 59057
+[01-May-2025 03:06:10 Africa/Cairo] processImage: Processing successful. Base64 length: 78766
+[01-May-2025 03:06:11 Africa/Cairo] 2025-05-01 03:06:11 - Starting image fetch process
+[01-May-2025 03:06:11 Africa/Cairo] 2025-05-01 03:06:11 - Processing query - Data: "beans"
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:12 Africa/Cairo] processImage: imagepng successful. Output length: 27667
+[01-May-2025 03:06:12 Africa/Cairo] processImage: Processing successful. Base64 length: 36914
+[01-May-2025 03:06:13 Africa/Cairo] 2025-05-01 03:06:13 - Starting image fetch process
+[01-May-2025 03:06:13 Africa/Cairo] 2025-05-01 03:06:13 - Processing query - Data: "beans"
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Starting processing.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: imagecreatefromstring successful.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Original dimensions: 512x512
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Creating true color image 500x500.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Setting transparency.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: imagecopyresampled successful.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[01-May-2025 03:06:13 Africa/Cairo] processImage: imagepng successful. Output length: 33160
+[01-May-2025 03:06:13 Africa/Cairo] processImage: Processing successful. Base64 length: 44238
+[03-May-2025 11:42:23 Africa/Cairo] 2025-05-03 11:42:23 - Starting image fetch process
+[03-May-2025 11:42:23 Africa/Cairo] 2025-05-03 11:42:23 - Processing query - Data: "Ice Cream"
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Starting processing.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: imagecreatefromstring successful.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Original dimensions: 591x980
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Cropping to 591x591 at (0, 194.5). Resizing to 500x500.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Creating true color image 500x500.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Setting transparency.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: imagecopyresampled successful.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[03-May-2025 11:42:25 Africa/Cairo] processImage: imagepng successful. Output length: 97970
+[03-May-2025 11:42:25 Africa/Cairo] processImage: Processing successful. Base64 length: 130650
+[03-May-2025 11:42:26 Africa/Cairo] 2025-05-03 11:42:26 - Starting image fetch process
+[03-May-2025 11:42:26 Africa/Cairo] 2025-05-03 11:42:26 - Processing query - Data: "Ice Cream"
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Starting processing.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: imagecreatefromstring successful.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Original dimensions: 591x980
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Cropping to 591x591 at (0, 194.5). Resizing to 500x500.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Creating true color image 500x500.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Setting transparency.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: imagecopyresampled successful.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[03-May-2025 11:42:27 Africa/Cairo] processImage: imagepng successful. Output length: 97970
+[03-May-2025 11:42:27 Africa/Cairo] processImage: Processing successful. Base64 length: 130650
+[03-May-2025 11:42:29 Africa/Cairo] 2025-05-03 11:42:29 - Starting image fetch process
+[03-May-2025 11:42:29 Africa/Cairo] 2025-05-03 11:42:29 - Processing query - Data: "Ice Cream"
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Starting processing.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: imagecreatefromstring successful.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Original dimensions: 591x980
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Cropping to 591x591 at (0, 194.5). Resizing to 500x500.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Creating true color image 500x500.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Setting transparency.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: imagecopyresampled successful.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[03-May-2025 11:42:29 Africa/Cairo] processImage: imagepng successful. Output length: 97970
+[03-May-2025 11:42:29 Africa/Cairo] processImage: Processing successful. Base64 length: 130650
+[03-May-2025 11:42:31 Africa/Cairo] 2025-05-03 11:42:31 - Starting image fetch process
+[03-May-2025 11:42:31 Africa/Cairo] 2025-05-03 11:42:31 - Processing query - Data: "Ice Cream"
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Starting processing.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Attempting imagecreatefromstring.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: imagecreatefromstring successful.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Original dimensions: 512x512
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Cropping to 512x512 at (0, 0). Resizing to 500x500.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Creating true color image 500x500.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Setting transparency.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Attempting imagecopyresampled.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: imagecopyresampled successful.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Capturing PNG output with ob_start.
+[03-May-2025 11:42:32 Africa/Cairo] processImage: imagepng successful. Output length: 25866
+[03-May-2025 11:42:32 Africa/Cairo] processImage: Processing successful. Base64 length: 34510

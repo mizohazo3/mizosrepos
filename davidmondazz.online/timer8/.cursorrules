@@ -1,0 +1,70 @@
+# Timer8 Online Project Rules
+
+## Coding Standards
+
+### PHP Standards
+- Use PDO for all database interactions with prepared statements
+- Set content type to JSON for all API responses
+- Include CORS headers for all API endpoints
+- Always validate input data before processing
+- Use snake_case for PHP variables and function names
+- Include error reporting for development environments
+
+### JavaScript Standards
+- Use camelCase for JavaScript variables and function names
+- Comment complex logic and calculations
+- Delegate events where possible for efficiency
+- Prefix private helper functions with underscore (_)
+- Prefer async/await over Promise chains
+- Add error handling for all fetch operations
+
+### HTML/CSS Standards
+- Use semantic HTML elements
+- Design for mobile-first with responsive layouts
+- Use CSS variables for theme colors and sizes
+- Maintain consistent class naming pattern
+- Keep styling in CSS files, not inline styles
+
+## Project Patterns
+
+### Database Patterns
+- Timer data stored in `timers` table
+- Level configuration in `levels` table
+- Bank balance in `user_progress` table
+- Timer earnings in `timer_logs` table
+- Use InnoDB for all tables
+
+### API Endpoints
+- `/api/get_data.php` - Retrieve timer and system data
+- `/api/timer_action.php` - Perform timer operations
+- `/save_timer.php` - Create new timers
+- `/delete_timer.php` - Remove timers
+- Use HTTP status codes to indicate errors
+
+### UI Design
+- Digital-style clock display using DSEG7 font
+- Progress bars use gradient colors
+- Timer cards have distinct states (running, stopped)
+- Primary actions prominent, secondary actions subdued
+- Notifications appear at bottom of screen
+
+## Development Workflow
+- Test locally using Laragon environment
+- Upload changes via SFTP to production
+- Debug using browser developer tools
+- No formal build or deployment process
+- Manual database changes via setup_db.php script
+
+## Project Organization
+- Root: Main application files (index.php, script.js)
+- /api: Backend API endpoints
+- /includes: PHP helper functions
+- /style: Additional CSS files
+- /uploads: User-uploaded content
+
+## Critical Paths
+- Timer start/stop operations most frequently used
+- Time calculation logic is performance-sensitive
+- Level progression calculations impact user experience
+- Bank balance updates must remain accurate
+- Error handling during network interruptions 

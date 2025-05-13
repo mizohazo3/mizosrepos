@@ -1,0 +1,237 @@
+.space{
+    padding:20px;
+    display: inline-block;
+}
+form{
+    padding:15px;
+    display: inline-block;
+}
+body{
+    padding: 20px;
+}
+input#image-button{
+background: #ccc url('img/lock.png') no-repeat top left;
+padding-left: 30px;
+height: 30px;
+}
+
+/* Date styles */
+.table-wrapper {
+    border-collapse: separate;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.highlight {
+    background-color: #EAE9E9; /* Color for missing data */
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #ccc;
+}
+
+.normal-date {
+    background-color: #ffffff; /* Changed from #d3d3d3 to white */
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.dayTitle{
+    font-size: 21px;
+}
+.medTitle{
+    font-size: 17px;
+}
+
+/* Larger font size for phone screens */
+@media screen and (max-width: 768px) {
+    .dayTitle{
+        font-size: 25px;
+    }
+    .medTitle{
+        font-size: 17px;
+    }
+}
+
+.button3 {
+background-color: #c2fbd7;
+border-radius: 100px;
+box-shadow: rgb(17, 153, 181) 0 -25px 18px -14px inset,rgb(17, 153, 181) 0 1px 2px,rgb(17, 153, 181) 0 2px 4px,rgb(17, 153, 181) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+color: black;
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+font-weight: bold;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button3:hover {
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+.button3:disabled,
+.button3[disabled]{
+border: 1px solid #999999;
+background-color: #cccccc;
+color: #666666;
+cursor: not-allowed;
+pointer-events: none;
+box-shadow: none;
+}
+
+/* Modern Button Styles */
+.modern-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.modern-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+.modern-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transform: translateY(1px);
+}
+
+.modern-button:disabled {
+    background-color: #cccccc;
+    color: #888888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Modern Med Button Style */
+.modern-med-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    min-width: 120px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.modern-med-button:hover {
+    background: linear-gradient(135deg, #45a049, #255d24);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.modern-med-button:active {
+    background: linear-gradient(135deg, #3e8e41, #1e4620);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
+}
+
+.modern-med-button:disabled {
+    background: linear-gradient(135deg, #cccccc, #aaaaaa);
+    color: #888888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Lock/Unlock Button Styles */
+.lock-button, .unlock-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.lock-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.lock-button:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.unlock-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.unlock-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Toast Notification Style */
+.toast-notification {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: opacity 0.5s, visibility 0.5s, transform 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.toast-notification.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast-notification.success {
+    background-color: #4CAF50;
+}
+
+.toast-notification.info {
+    background-color: #2196F3;
+}
+
+.toast-notification.warning {
+    background-color: #ff9800;
+}
+
+.toast-notification.error {
+    background-color: #f44336;
+}
+

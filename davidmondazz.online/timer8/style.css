@@ -1,0 +1,2440 @@
+/* --- Reset & Base --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide browser warnings */
+[role="alert"],
+.warning-popup,
+.browser-warning,
+div[class*="warning"],
+div[class*="error"],
+div:has(> .close-icon),
+div:has(> svg[class*="warning"]),
+div:has(> svg[class*="error"]),
+div:has(> span.warning-icon),
+div:has(> span.error-icon),
+div.popup-notification,
+div[aria-live="polite"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+    z-index: -1 !important;
+}
+
+/* Target specific error message text */
+div:has(> *:contains("Timer already running")),
+div:has(> *:contains("Timer not found")),
+div:has(> *:contains("not running")) {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+:root {
+    /* Color Palette - Modern Professional */
+    --bg-dark: #1a1d21;        /* Very dark background */
+    --bg-medium: #282c34;      /* Container/Item background */
+    --bg-light: #3c414b;       /* Slightly lighter elements (inputs, progress track) */
+    --text-primary: #e0e6f0;   /* Main text color */
+    --text-secondary: #a0a8b4; /* Dimmer text */
+    --accent-primary: #61dafb; /* Primary accent (e.g., React blue/teal) */
+    --accent-secondary: #5eecb3; /* Secondary accent (e.g., running green) */
+    --accent-warning: #ffcc66; /* Warning/Bank yellow */
+    --accent-error: #ff6b6b;   /* Error/Stop red */
+    --border-color: #4a505c;   /* Borders */
+    --secondary-color: #8884d8; /* Chart secondary color */
+
+    /* Fonts */
+    --font-primary: 'Inter', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+    --font-money: Helvetica, Arial, sans-serif;
+    --font-timer: 'Orbitron', sans-serif;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    padding: 15px;
+    padding-top: 15px; /* Revert padding */
+    font-size: 15px; /* Base font size */
+}
+
+.container {
+    max-width: 1000px; /* Increased width */
+    margin: 30px auto;
+    background-color: var(--bg-medium);
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+}
+
+/* --- Header --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px; /* Revert padding */
+    margin-bottom: 30px; /* Revert margin */
+    flex-wrap: wrap;
+    gap: 15px;
+    position: static; /* Make header static */
+    top: auto;
+    left: auto;
+    right: auto;
+    z-index: auto;
+    background-color: transparent; /* Revert background */
+    box-shadow: none; /* Remove shadow */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+    flex-shrink: 0; /* Don't shrink title */
+}
+
+.header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%; /* Ensure it takes full width */
+    margin-left: 0; /* Reset margin */
+}
+
+/* New styles for layout control */
+.balance-display {
+    margin-right: auto; /* Push other elements to the right */
+    order: 1; /* Ensure it comes first */
+}
+
+.page-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px; /* Reduced from 5px to 2px */
+    justify-content: center; /* Changed from flex-end to center */
+    order: 2; /* Come after balance */
+}
+
+.fixed-controls {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-left: auto; /* Changed from -5px to auto to push to the right */
+    order: 3; /* Maintain order */
+}
+
+/* Navigation button styles */
+.button-link-nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.button-link-nav:hover {
+    background-color: var(--bg-hover);
+}
+
+/* Active page highlight */
+.button-link-nav.active {
+    background-color: transparent; /* Remove background color */
+    color: var(--accent-primary); /* Set text color to accent primary */
+    border-color: transparent; /* Remove border color */
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent-primary); /* Add bottom border */
+    padding-bottom: 6px; /* Adjust padding to make space for border */
+    border-radius: 0; /* Remove border radius */
+}
+
+/* Additional style to pull the search button closer to stopall */
+.button-link-nav[href="search.php"] {
+    margin-right: -2px; /* Additional negative margin on the search button specifically */
+}
+
+.fixed-controls {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Reduced from 5px to 0px */
+    margin-left: -5px; /* Added negative margin to pull closer to navigation */
+}
+
+/* Navigation buttons (stop all and difficulty) */
+.nav-button {
+    display: inline-flex !important; /* Use !important to ensure display */
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    position: relative; /* Ensure position for counter positioning */
+}
+
+#stop-all-btn {
+    display: inline-flex !important; /* Use !important to ensure display */
+}
+
+.nav-button:hover {
+    background-color: var(--bg-hover);
+}
+
+.nav-button.active {
+    background-color: var(--accent-primary);
+    color: var(--bg-dark);
+    border-color: var(--accent-primary);
+    font-weight: 700;
+}
+
+#stop-all-btn.has-running-timers {
+    color: #CC9900;
+}
+
+/* Standardized Counter Styling */
+#running-timers-count {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 20px;
+    height: 20px;
+    background-color: var(--accent-warning);
+    color: var(--bg-dark);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 0 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#running-timers-count:empty {
+    display: none !important;
+}
+
+#stop-all-btn {
+    position: relative; /* Ensure position for counter positioning */
+}
+
+.has-running-timers {
+    position: relative;
+    animation: subtle-glow 2s infinite alternate;
+}
+
+@keyframes subtle-glow {
+    from {
+        box-shadow: 0 0 5px rgba(255, 87, 34, 0.4);
+    }
+    to {
+        box-shadow: 0 0 10px rgba(255, 87, 34, 0.7);
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .header-controls {
+        flex-direction: row; /* Changed from column to row */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .balance-display {
+        margin-right: 0;
+        align-self: center;
+        margin-bottom: 10px; /* Reduced from 15px */
+        order: 1; 
+        width: 100%; /* Take full width */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .page-navigation {
+        width: auto; /* Changed from 100% to auto */
+        flex: 1; /* Allow to flex grow */
+        justify-content: flex-start; /* Align buttons to left */
+        margin-bottom: 5px;
+        order: 2;
+        margin-right: 5px; /* Add space between nav and controls */
+    }
+    
+    .fixed-controls {
+        width: auto; /* Changed from 100% to auto */
+        justify-content: flex-end; /* Align to right */
+        order: 3;
+        margin-left: 0;
+    }
+    
+    .button-link-nav {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    .nav-button {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    
+    #running-timers-count {
+        min-width: 18px;
+        height: 18px;
+        font-size: 11px;
+        top: -6px;
+        right: -6px;
+    }
+    
+    #stop-all-btn {
+        min-width: 80px; /* Set minimum width for stopall button on tablets */
+    }
+    
+    .timer-id {
+        font-size: 0.7em;
+        min-width: 30px;
+        margin-right: 5px;
+    }
+    
+    .timer-name-header .timer-name {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-controls {
+        gap: 3px; /* Further reduce gap in header controls */
+    }
+    
+    .page-navigation {
+        flex-wrap: wrap;
+        gap: 3px; /* Reduced from 5px to 3px */
+        margin-bottom: 3px; /* Add minimal margin bottom */
+    }
+    
+    .button-link-nav {
+        flex: 0 0 auto; /* Changed from flex: 1 to prevent stretching */
+        min-width: auto; /* Changed from 40px to auto */
+        max-width: none; /* Remove max-width constraint */
+        padding: 6px 4px; /* Further reduce padding */
+        font-size: 10px; /* Smaller font size */
+        justify-content: center;
+        margin-right: 1px; /* Minimal margin */
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .fixed-controls {
+        justify-content: flex-end; /* Changed from space-between to flex-end */
+        margin-left: 0; /* Remove negative margin */
+        gap: 2px; /* Add small gap */
+    }
+    
+    .nav-button {
+        flex: 0 0 auto; /* Don't stretch */
+        padding: 6px 4px; /* Reduced padding */
+        font-size: 10px; /* Smaller font */
+        max-width: none; /* Remove max-width constraint */
+    }
+    
+    #stop-all-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        min-width: 80px; /* Increased from 70px to 80px */
+        padding: 6px 10px; /* Increased horizontal padding for more space */
+        font-weight: 500; /* Slightly bolder text */
+        border-width: 1px; /* Ensure visible border */
+    }
+    
+    /* Make the stopall button more noticeable when there are running timers */
+    #stop-all-btn.has-running-timers {
+        background-color: rgba(204, 153, 0, 0.15); /* Subtle background highlight */
+    }
+    
+    #running-timers-count {
+        min-width: 18px;
+        height: 18px;
+        font-size: 11px;
+        top: -6px;
+        right: -6px;
+        border: 1.5px solid white;
+        font-weight: 700;
+        padding: 0 3px;
+    }
+    
+    .timer-id {
+        font-size: 0.65em;
+        min-width: 25px;
+        margin-right: 4px;
+        padding: 1px 3px;
+    }
+    
+    .timer-name-header .timer-name {
+        font-size: 0.9em;
+    }
+}
+
+/* --- Hub Section --- */
+.hub {
+    /* No explicit H2 title needed */
+}
+
+#search-timers {
+    display: block;
+    width: 100%;
+    padding: 12px 18px;
+    margin: 0 auto 25px auto;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+#search-timers::placeholder {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+#search-timers:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.2); /* Subtle focus ring */
+}
+
+.global-bank {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #1a1d24, #2c3037);
+    padding: 20px;
+    border-radius: 12px;
+    color: var(--text-secondary);
+    font-size: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.global-bank::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(97, 218, 251, 0.05), rgba(94, 236, 179, 0.05));
+    z-index: 0;
+}
+
+#global-bank-balance {
+    color: #ffd700;
+    font-weight: 700;
+    font-family: var(--font-money);
+    font-size: 1.5em;
+    margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 6px 15px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.02em;
+}
+
+
+/* --- Timer List --- */
+#timer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row; /* Display items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between timer items */
+    padding-top: 20px; /* Add padding above the list */
+}
+
+/* New row class for timer cards */
+.timer-row {
+    display: flex; /* Make each row a flex container */
+    flex-direction: row; /* Ensure items are horizontal */
+    flex-wrap: nowrap; /* Don't wrap by default */
+    gap: 20px; /* Space between timer items */
+    width: 100%; /* Full width */
+    justify-content: flex-start; /* Start from left side */
+}
+
+.timer-item {
+    background: linear-gradient(135deg, #1e222a, #282c34);
+    border-radius: 12px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center; /* Align items to the center */
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    position: relative;
+    overflow: hidden;
+    max-width: 300px; /* Removed width limit */
+    width: auto; /* Let flexbox determine width */
+    flex: 1 1 auto; /* Allow flexible sizing */
+}
+
+@media (max-width: 1024px) {
+    .timer-row {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .timer-row {
+        flex-direction: column; /* Stack cards vertically on mobile */
+        align-items: center; /* Center cards */
+    }
+    
+    .timer-item {
+        width: 100%; /* Full width on mobile */
+        max-width: 100%; /* Remove max width restriction */
+    }
+}
+
+/* Header styling */
+.timer-name-header {
+    display: flex; /* Make header a flex container */
+    justify-content: space-between; /* Space out name and icon */
+    align-items: center; /* Vertically align items */
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, var(--bg-light), var(--bg-medium));
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center; /* Keep text-align for centering if no icon */
+    margin-bottom: 0;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the container */
+    z-index: 10; /* Ensure it stays above other content */
+}
+
+.timer-id {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    font-weight: 500;
+    min-width: 35px;
+    margin-right: 8px;
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.timer-name-header .timer-name {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.3;
+    word-break: break-word;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-grow: 1; /* Allow name to take up remaining space */
+}
+
+.timer-item.running .timer-name-header .timer-name {
+    color: var(--accent-secondary); /* Bright green for running timers */
+}
+
+/* Content sections padding */
+.timer-display-wrapper,
+.timer-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.timer-display-wrapper {
+    padding-top: 15px;
+}
+
+.timer-info {
+    padding-bottom: 20px;
+}
+
+/* Remove old padding rules */
+.timer-item > *:not(.timer-name-header) {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.timer-item.pinned {
+    border-color: #161111;
+    border-width: 2px;
+    position: relative;
+}
+
+.timer-item:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.timer-item.running {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px rgba(97, 218, 251, 0.15);
+}
+
+.timer-item.running.pinned {
+    border-color: red; /* Red border for running and pinned */
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.15); /* Red glow for running and pinned */
+}
+
+/* Timer Display (Left) */
+.timer-display-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+    gap: 8px; /* Add space between elements */
+    max-width: 300px; /* Reduce width */
+    margin: 0 auto; /* Center block */
+}
+
+.timer-display {
+    font-family: var(--font-timer);
+    font-size: 2.6em;
+    font-weight: 700;
+    color: #666; /* Explicit grey color for non-running timers */
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-shadow: none; /* Remove text shadow for non-running timers */
+    white-space: nowrap; /* Prevent milliseconds from wrapping */
+}
+
+.timer-display .milliseconds {
+    font-family: var(--font-timer);
+    font-size: 0.5em; /* Smaller milliseconds */
+    color: #666; /* Explicit grey color for non-running timers */
+    opacity: 0.7;
+    vertical-align: baseline;
+    font-weight: 700;
+    /* New styles for fixed width */
+    display: inline-block; /* Allow width */
+    width: 1.2em;         /* Fixed width (relative to its own font-size) to fit two digits */
+    text-align: left;    /* Align digits to the left within the fixed width */
+    /* margin-left removed */
+}
+
+.timer-item.running .timer-display {
+    color: var(--accent-primary); /* Only running timers get the blue color */
+    text-shadow: 0 0 15px rgba(97, 218, 251, 0.6); /* Changed to accent-primary (blue) glow */
+    border-color: rgba(97, 218, 251, 0.3); /* Changed to accent-primary (blue) border */
+}
+.timer-item.running .timer-display .milliseconds {
+    color: var(--accent-primary); /* Only running timers get the blue color */
+    text-shadow: 0 0 10px rgba(97, 218, 251, 0.6); /* Changed to accent-primary (blue) glow */
+}
+
+
+/* Timer Info (Middle) */
+.timer-info {
+    flex-grow: 1; /* Takes remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between info elements */
+}
+
+/* Progress Bar - Now at top */
+.timer-progress-container {
+    max-width: 300px; /* Reduce width */
+    width: 90%; /* Ensure it uses max-width */
+    height: 24px; /* Slightly taller since it's the main element now */
+    position: relative;
+    margin-bottom: 4px; /* Add some space below progress bar */
+    margin: 0 auto 4px auto; /* Center block and maintain bottom margin */
+}
+
+.timer-progress-bar {
+    height: 100%;
+    background-color: var(--bg-light);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timer-progress-fill {
+    height: 100%;
+    transition: width 0.5s ease-out;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    border-radius: 12px;
+    transition: width 0.5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timer-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family: var(--font-mono);
+    line-height: 1;
+    z-index: 1;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    white-space: nowrap;
+}
+
+/* Timer Details (Level and Rate) */
+.timer-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 18px;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    padding: 4px 0;
+    margin-right: 15px;
+    max-width: 300px; /* Reduce width */
+    margin: 0 auto; /* Center block */
+}
+
+.timer-level-rank .timer-level { font-weight: 700; color: var(--accent-primary); }
+.timer-level-rank .timer-rank { font-style: italic; }
+.timer-reward-rate {
+    color: var(--accent-secondary);
+    font-weight: 500;
+    font-family: var(--font-money);
+    letter-spacing: 0.02em;
+}
+
+/* Timer Header (Name + Actions) - Now at bottom */
+.timer-header {
+    display: flex;
+    flex-direction: column; /* Stack name and actions vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center content vertically */
+    gap: 15px;
+    margin-top: auto; /* Push to bottom */
+    padding-top: 8px; /* Add some space above */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
+}
+
+.timer-item:not(.pinned) .timer-header {
+    border-top: none;
+}
+
+.timer-name {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-right: 15px;
+    overflow: visible; /* Allow timer name to be fully visible */
+    white-space: normal; /* Allow wrapping */
+    word-break: break-word; /* Prevent overflow by breaking long words */
+    line-height: 1.3;
+    max-width: 100%; /* Use full width available */
+}
+
+/* Timer Actions */
+.timer-actions {
+    display: flex;
+    justify-content: center; /* Center items */
+    align-items: center; /* Vertically align items */
+    gap: 12px; /* Increase gap between pin button and start/stop group */
+    flex-shrink: 0;
+}
+
+.timer-actions button {
+    background-color: var(--accent-secondary);
+    color: var(--bg-dark);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 40px; /* Reduced minimum width */
+    width: 50px; /* Reduced fixed width */
+    min-height: 45px;
+    padding: 8px; /* Adjust padding for smaller button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.timer-actions button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.timer-actions button:not(:disabled):active {
+    transform: scale(0.95);
+}
+
+.timer-actions .stop-button {
+    background-color: #b71c1c;
+    border-color: #b71c1c;
+}
+
+.timer-actions .start-button,
+.timer-actions .stop-button {
+    width: 100px; /* Increased width for start/stop buttons */
+}
+
+.timer-start-stop {
+    display: flex;
+    gap: 8px; /* Gap between start and stop buttons */
+}
+
+.timer-actions .start-button:not(:disabled):hover { background-color: #4caf50; }
+.timer-actions .stop-button:not(:disabled):hover { background-color: #e53935; }
+
+/* Pin button styles */
+.timer-actions .pin-button {
+    background-color: var(--bg-light);
+    border-color: var(--border-color);
+}
+
+.timer-actions .pin-button:not(:disabled):hover {
+    background-color: var(--accent-primary);
+}
+
+.timer-item.pinned .timer-actions .pin-button {
+    background-color: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    header {
+        gap: 10px; /* Reduce gap in header */
+    }
+
+    .header-controls {
+        gap: 10px; /* Reduce gap in header controls */
+    }
+
+    .controls-top {
+        flex-wrap: wrap; /* Allow buttons to wrap */
+        gap: 5px; /* Reduce gap between buttons */
+        justify-content: center; /* Center buttons when wrapped */
+    }
+
+    .controls-top button,
+    .controls-top .button-link {
+        padding: 6px 10px; /* Reduce padding */
+        font-size: 0.9em; /* Slightly reduce font size */
+        flex: 1 1 auto; /* Allow buttons to grow and shrink */
+        min-width: 80px; /* Ensure a minimum width */
+    }
+
+    #timer-list {
+        gap: 15px; /* Smaller gap on mobile */
+    }
+    
+    .timer-row {
+        flex-direction: column; /* Stack cards vertically on mobile */
+        align-items: center; /* Center cards */
+    }
+    
+    .timer-item {
+        width: 100%; /* Full width on mobile */
+        max-width: 100%; /* Remove max width restriction */
+    }
+
+    /* Make name header smaller */
+    .timer-name-header {
+        padding: 8px; /* Adjust padding */
+    }
+    
+    .timer-name-header .timer-name {
+        font-size: 1em; /* Adjust font size */
+        line-height: 1.2;
+        word-break: break-word; /* Ensure word breaking is active */
+    }
+
+    /* Make timer display more compact */
+    .timer-display-wrapper {
+        padding: 4px 8px; /* Adjust padding */
+    }
+    
+    .timer-display {
+        font-size: 1.5em; /* Adjust font size */
+        padding: 4px 8px; /* Adjust padding */
+        letter-spacing: 0px;
+        line-height: 1.1;
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .timer-display .milliseconds {
+        font-size: 0.4em; /* Adjust font size */
+        margin-left: 0;
+    }
+    
+    /* Compact timer info */
+    .timer-info {
+        padding: 8px; /* Adjust padding */
+        gap: 8px; /* Adjust gap */
+    }
+    
+    .timer-progress-container {
+        height: 15px; /* Adjust height */
+        margin: 0 auto 8px auto; /* Center and adjust margin */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .timer-progress-text {
+        font-size: 0.7em; /* Adjust font size */
+    }
+    
+    .timer-details {
+        font-size: 0.8em; /* Adjust font size */
+        gap: 5px 10px; /* Adjust gap */
+        padding: 0;
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    /* Compact timer actions */
+    .timer-actions {
+        padding: 8px; /* Adjust padding */
+        gap: 8px; /* Adjust gap */
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center items */
+    }
+    
+    .timer-actions button {
+        padding: 6px 12px; /* Adjust padding */
+        min-height: 30px; /* Adjust minimum height */
+        font-size: 0.9em; /* Adjust font size */
+        min-width: 80px; /* Adjust minimum width */
+        width: auto; /* Allow width to be determined by content/flex */
+        flex: 1 1 auto; /* Allow buttons to grow and shrink */
+    }
+    
+    .timer-actions .pin-button {
+         min-width: auto; /* Remove min-width */
+         width: 30px; /* Adjust width */
+         flex: 0 0 auto; /* Don't grow or shrink */
+         padding: 4px; /* Adjust padding */
+    }
+
+    .timer-actions .start-button,
+    .timer-actions .stop-button {
+        min-width: 80px; /* Ensure consistent size */
+    }
+    
+    /* Reduce Current Session font size */
+    .total-earned {
+        font-size: 0.7em; /* Adjust font size */
+        padding: 2px 6px; /* Adjust padding */
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .timer-total-earned {
+        font-size: 1em; /* Adjust font size */
+    }
+    
+    /* Also reduce Current Session text */
+    .accumulated-time {
+        font-size: 0.7em; /* Adjust font size */
+        padding: 2px 6px; /* Adjust padding */
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 80%; /* Ensure it fits */
+    }
+
+    /* Add padding to running timer items */
+    .timer-item.running {
+        padding: 8px; /* Add padding */
+    }
+}
+
+/* Further scale down for smaller screens */
+@media (max-width: 480px) {
+    .header-controls {
+        gap: 5px; /* Further reduce gap in header controls */
+    }
+
+    .controls-top {
+        flex-wrap: wrap; /* Allow buttons to wrap */
+        gap: 5px; /* Reduce gap between buttons */
+        justify-content: center; /* Center buttons when wrapped */
+    }
+
+    .controls-top button,
+    .controls-top .button-link {
+        padding: 3px 6px; /* Further reduce padding */
+        font-size: 0.75em; /* Further reduce font size */
+        flex: 1 1 auto; /* Allow buttons to grow and shrink */
+        min-width: 60px; /* Adjust minimum width */
+    }
+
+    #timer-list {
+        gap: 10px; /* Even smaller gap on smaller screens */
+    }
+    
+    .timer-row {
+        flex-direction: column; /* Stack cards vertically on mobile */
+        align-items: center; /* Center cards */
+    }
+    
+    .timer-item {
+        width: 100%; /* Full width on mobile */
+        max-width: 100%; /* Remove max width restriction */
+    }
+    
+    .timer-display {
+        font-size: 1.2em; /* Adjust font size */
+        padding: 2px 4px; /* Adjust padding */
+        letter-spacing: -1px; /* Further reduce letter spacing */
+        line-height: 1.1;
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .timer-display .milliseconds {
+        font-size: 0.4em; /* Adjust font size */
+        margin-left: 0;
+    }
+    
+    /* Compact timer info */
+    .timer-info {
+        padding: 6px; /* Adjust padding */
+        gap: 4px; /* Adjust gap */
+    }
+    
+    .timer-progress-container {
+        height: 12px; /* Adjust height */
+        margin: 0 0 6px 0; /* Adjust margin - let grid handle horizontal centering */
+        max-width: 80%; /* Ensure it fits */
+    }
+    
+    .timer-progress-text {
+        font-size: 0.6em; /* Adjust font size */
+    }
+
+    /* Add padding to running timer items */
+    .timer-item.running {
+        padding: 6px; /* Add padding for running items */
+    }
+
+    /* Add padding to running timer items */
+    .timer-item.running {
+        padding: 6px; /* Add padding for running items */
+    }
+    
+    .timer-details {
+        font-size: 0.7em; /* Adjust font size */
+        gap: 3px 8px; /* Adjust gap */
+        padding: 0;
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    /* Compact timer actions */
+    .timer-actions {
+        padding: 6px; /* Adjust padding */
+        gap: 6px; /* Adjust gap */
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center items */
+    }
+    
+    .timer-actions button {
+        padding: 4px 10px; /* Adjust padding */
+        min-height: 25px; /* Adjust minimum height */
+        font-size: 0.8em; /* Adjust font size */
+        min-width: 60px; /* Adjust minimum width */
+        width: auto; /* Allow width to be determined by content/flex */
+        flex: 1 1 auto; /* Allow buttons to grow and shrink */
+    }
+    
+    .timer-actions .pin-button {
+         min-width: auto; /* Remove min-width */
+         width: 25px; /* Adjust width */
+         flex: 0 0 auto; /* Don't grow or shrink */
+         padding: 3px; /* Adjust padding */
+    }
+
+    .timer-actions .start-button,
+    .timer-actions .stop-button {
+        min-width: 60px; /* Ensure consistent size */
+    }
+    
+    /* Reduce Current Session font size */
+    .total-earned {
+        font-size: 0.6em; /* Adjust font size */
+        padding: 1px 4px; /* Adjust padding */
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .timer-total-earned {
+        font-size: 0.9em; /* Adjust font size */
+    }
+    
+    /* Also reduce Current Session text */
+    .accumulated-time {
+        font-size: 0.6em; /* Adjust font size */
+        padding: 1px 4px; /* Adjust padding */
+        margin: 0; /* Remove margin auto - let grid handle spacing */
+        max-width: 80%; /* Ensure it fits */
+    }
+}
+
+
+/* Add specific styles for very small screens like Samsung A35 */
+@media (max-width: 360px) {
+    .item-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Keep 2 per row but make them smaller */
+        gap: 8px;
+    }
+    
+    .item-card {
+        font-size: 0.8em;
+    }
+    
+    .item-image-container {
+        height: 70px; /* Even smaller image container */
+    }
+    
+    .item-info {
+        padding: 6px;
+    }
+    
+    .item-description {
+        max-height: 2.6em; /* Limit description height */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .item-purchase-section {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-between; /* Ensure price and button are spaced apart */
+    }
+    
+    .item-price {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .item-header {
+        padding: 6px 8px;
+    }
+    
+    .item-header .item-name {
+        font-size: 0.9em;
+        max-width: 75%;
+    }
+    
+    .item-header .edit-button {
+        padding: 2px;
+        font-size: 0.7em;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .button.edit-button {
+        flex: 0 1 auto;
+        min-width: 0;
+        padding: 2px;
+    }
+    
+    .button.buy-button {
+        min-width: 80px; /* Smaller width */
+        padding: 6px 8px;
+        flex: 0 1 auto; /* Don't force full width */
+    }
+}
+
+/* --- Notification Styles (Keep Existing or Refine) --- */
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px; /* Reduced gap */
+    pointer-events: none;
+    max-width: 350px; /* Slightly narrower */
+}
+
+.notification {
+    background-color: rgba(40, 44, 52, 0.97); /* Use bg-medium with alpha */
+    color: var(--text-primary);
+    padding: 12px 18px; /* Adjust padding */
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: flex-start;
+    gap: 12px; /* Adjust gap */
+    min-width: 280px;
+    max-width: 100%;
+    opacity: 0;
+    transform: translateX(20px); /* Slide from right */
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    pointer-events: auto;
+    cursor: default;
+    overflow: hidden;
+    border-left: 4px solid transparent; /* For status color indication */
+}
+
+.notification.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Add border color based on type */
+.notification-success { border-left-color: var(--accent-secondary); }
+.notification-error { border-left-color: var(--accent-error); }
+.notification-warning { border-left-color: var(--accent-warning); }
+.notification-info { border-left-color: var(--accent-primary); }
+.notification-level-up { border-left-color: #ab47bc; } /* Purple for level up */
+
+
+.notification-icon {
+    flex-shrink: 0;
+    font-size: 1.5em; /* Adjust icon size */
+    margin-top: 1px;
+    width: 25px;
+    text-align: center;
+    line-height: 1.2;
+}
+/* Specific icon colors */
+.notification-success .notification-icon { color: var(--accent-secondary); }
+.notification-error .notification-icon { color: var(--accent-error); }
+.notification-warning .notification-icon { color: var(--accent-warning); }
+.notification-info .notification-icon { color: var(--accent-primary); }
+.notification-level-up .notification-icon { color: #ab47bc; }
+
+
+.notification-content {
+    flex-grow: 1;
+}
+
+.notification-message {
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: var(--text-primary); /* Use primary text for readability */
+}
+
+.notification-close {
+    position: absolute;
+    top: 5px; /* Adjust position */
+    right: 8px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 2px 5px;
+    transition: color 0.2s ease;
+}
+.notification-close:hover {
+    color: var(--text-primary);
+}
+
+.notification-timeout-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px; /* Slimmer bar */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Dimmer bar */
+    transform-origin: left;
+}
+.notification-timeout-bar.animate {
+     /* Animation set via JS now */
+ }
+
+/* Accumulated Time and Total Earned */
+.accumulated-time,
+.total-earned { /* Style both */
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: 80%;
+    white-space: nowrap;
+}
+
+.timer-total-earned { /* Style the amount specifically */
+    color: #ffd700;
+    font-weight: 600;
+    font-family: var(--font-money);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+    letter-spacing: 0.02em;
+}
+
+.timer-total-earned.earning {
+    color: var(--accent-success);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        text-shadow: 0 1px 2px rgba(94, 236, 179, 0.2);
+    }
+    50% {
+        text-shadow: 0 1px 15px rgba(94, 236, 179, 0.6);
+    }
+    100% {
+        text-shadow: 0 1px 2px rgba(94, 236, 179, 0.2);
+    }
+}
+
+/* MAX LEVEL Styling */
+.timer-progress-bar.max-level .timer-progress-fill {
+    /* Gold/Orange/Distinct color for max level */
+    background: linear-gradient(90deg, #ffcc66, #ffb347);
+}
+
+/* Filter Hiding */
+.timer-item.hidden { /* Add this if using class-based hiding */
+    display: none;
+}
+
+/* --- Bank Page Specific Styles --- */
+
+/* Header */
+.bank-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px; /* Increased space */
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bank-header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Slightly larger */
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+}
+
+/* Shared button style - already exists but ensure it works for text */
+.button-link-text {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease, border-color 0.2s ease;
+    text-decoration: none;
+    line-height: 1;
+    white-space: nowrap;
+}
+.button-link-text:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-dark);
+    border-color: var(--accent-primary);
+}
+.button-link-text:active {
+    transform: scale(0.97);
+}
+
+
+/* Summary Section */
+.bank-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.summary-card {
+    background: linear-gradient(140deg, var(--bg-medium), #313640); /* Subtle gradient */
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.summary-card h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.summary-card p {
+    font-size: 2.2em;
+    font-weight: 700;
+    font-family: var(--font-mono); /* Mono font for numbers */
+    margin: 0;
+    line-height: 1.2;
+     transition: color 0.3s ease; /* Transition for loaded state */
+     color: var(--text-secondary); /* Default loading color */
+}
+
+.summary-card p.loaded { /* Style when data is loaded */
+    color: #ffd700; /* Gold color for balance */
+}
+
+.summary-card.total-earned-card p.loaded {
+    color: var(--accent-secondary); /* Green color for total earned */
+     font-size: 1.9em; /* Slightly smaller than balance */
+}
+
+/* Transaction History Section */
+.transaction-history {
+    margin-top: 20px;
+    background-color: rgba(0,0,0, 0.1); /* Subtle background for section */
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.transaction-history h2 {
+    font-size: 1.4em;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+.transaction-history h2 span {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: var(--text-secondary);
+}
+
+
+.loading-message, .empty-message {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 20px;
+    font-style: italic;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--bg-medium);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s ease;
+    flex-wrap: wrap; /* Allow wrap on smaller screens */
+    gap: 10px 15px; /* Row and column gap */
+}
+.transaction-item:hover {
+     background-color: var(--bg-light);
+}
+
+.transaction-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 150px; /* Prevent timer name from being too squished */
+    gap: 4px;
+}
+
+.transaction-timer-name {
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 1.05em;
+}
+
+.transaction-time {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+}
+
+.transaction-values {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0; /* Prevent shrinking */
+    text-align: right;
+}
+
+.transaction-duration {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    min-width: 60px; /* Give duration some space */
+}
+
+.transaction-earned {
+    font-weight: 600;
+    font-size: 1.1em;
+    font-family: var(--font-money);
+    color: var(--text-secondary); /* Default if not positive */
+    min-width: 100px; /* Give amount space */
+    letter-spacing: 0.02em;
+}
+
+.transaction-earned.positive {
+    color: var(--accent-secondary); /* Green for positive earnings */
+}
+
+.transaction-limit-note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Responsive Adjustments for Bank Page */
+@media (max-width: 600px) {
+    .bank-header h1 {
+        font-size: 1.5em;
+    }
+    .summary-card p {
+        font-size: 1.8em;
+    }
+    .summary-card.total-earned-card p.loaded {
+        font-size: 1.6em;
+    }
+    .transaction-item {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items left */
+    }
+     .transaction-values {
+         width: 100%; /* Take full width */
+         justify-content: space-between; /* Space out duration and amount */
+         margin-top: 8px;
+         text-align: left; /* Align left */
+     }
+    .transaction-earned {
+        text-align: right; /* Keep amount aligned right */
+    }
+}
+
+/* --- Marketplace Page Styles --- */
+
+.marketplace-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.marketplace-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+}
+
+.marketplace-header .header-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between balance and buttons */
+    flex-wrap: wrap;
+}
+
+.current-balance-display {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background-color: rgba(0,0,0, 0.15);
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+.current-balance-display #market-current-balance {
+    color: var(--accent-warning); /* Yellow for balance */
+    font-family: var(--font-mono);
+    font-weight: 700;
+}
+
+
+.item-listing {
+    margin-top: 20px;
+}
+
+.item-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 per row */
+    gap: 20px;
+}
+
+.item-card {
+    background: var(--bg-medium);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent content spill */
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.item-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.item-image-container {
+    width: 100%;
+    height: 130px; /* Fixed height for images */
+    background-color: var(--bg-light); /* Placeholder bg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.item-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Or 'cover' depending on desired look */
+}
+
+.item-info {
+    padding: 15px;
+    flex-grow: 1; /* Allows description to take space */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item-name {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1; /* Take available space within info */
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: var(--bg-light);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.item-header .item-name {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+    max-width: 80%; /* Ensure there's room for the edit button */
+}
+
+.item-header .edit-button {
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: none;
+    padding: 3px;
+    font-size: 0.85em;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-header .edit-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--accent-primary);
+}
+
+.item-purchase-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: rgba(0,0,0, 0.1); /* Slightly different bg */
+    border-top: 1px solid var(--border-color);
+}
+
+.item-price {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--accent-warning); /* Yellow price */
+    font-family: var(--font-mono);
+}
+
+.button.buy-button {
+    background-color: var(--accent-secondary);
+    color: var(--bg-dark);
+    border: none;
+    padding: 8px 18px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    min-width: 120px; /* Increased width */
+    text-align: center;
+}
+.button.buy-button:hover:not(:disabled) {
+    background-color: #4caf50; /* Darker green on hover */
+}
+.button.buy-button:disabled {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+/* --- Bank Page Transaction Type Styles --- */
+
+.transaction-item { /* Base style already exists */
+    /* Optional: Add transition for color changes */
+    transition: border-left-color 0.3s ease;
+    border-left: 3px solid transparent; /* Prepare for color indication */
+}
+
+.transaction-item.transaction-earn {
+     border-left-color: var(--accent-secondary); /* Green border for earnings */
+}
+.transaction-item.transaction-purchase {
+     border-left-color: var(--accent-error); /* Red border for purchases */
+}
+
+/* Style the amount text color */
+.transaction-earned.positive {
+     color: var(--accent-secondary); /* Green text for positive earnings */
+}
+.transaction-earned.negative {
+     color: var(--accent-error); /* Red text for negative amounts (purchases) */
+}
+
+/* --- Modal Styles --- */
+#modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1100; /* Above notifications */
+    display: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.modal-content {
+    background-color: var(--bg-medium);
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: slideIn 0.2s ease-out;
+}
+
+.modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 1.25em;
+    color: var(--text-primary);
+}
+
+.modal-body {
+    padding: 20px;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.modal-footer {
+    padding: 16px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.modal-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.modal-button.cancel-button {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+.modal-button.cancel-button:hover {
+    background-color: var(--bg-darker);
+}
+
+.modal-button.confirm-button {
+    background-color: var(--accent-primary);
+    color: white;
+}
+
+.modal-button.confirm-button:hover {
+    background-color: var(--accent-primary-darker);
+}
+
+.modal-button.confirm-button.warning {
+    background-color: var(--accent-error);
+}
+
+.modal-button.confirm-button.warning:hover {
+    background-color: var(--accent-error-darker);
+}
+
+.modal-button.ok-button {
+    background-color: var(--accent-secondary);
+    color: white;
+}
+
+.modal-button.ok-button:hover {
+    background-color: var(--accent-secondary-darker);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 480px) {
+    .modal-content {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .modal-header,
+    .modal-body,
+    .modal-footer {
+        padding: 12px 16px;
+    }
+    
+    .modal-title {
+        font-size: 1.1em;
+    }
+    
+    .modal-button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
+
+/* Modal input styles */
+.modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    transition: border-color 0.2s ease;
+}
+
+.modal-input:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+}
+
+.modal-input.error {
+    border-color: var(--accent-error);
+    animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* Mobile adjustments for marketplace */
+@media (max-width: 767px) {
+    .item-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row on mid-size screens */
+        gap: 15px;
+    }
+    
+    .item-card {
+        font-size: 0.9em;
+    }
+    
+    .item-image-container {
+        height: 100px; /* Smaller image container */
+    }
+    
+    .item-info {
+        padding: 10px;
+    }
+    
+    .item-purchase-section {
+        padding: 8px 10px;
+    }
+    
+    .item-header {
+        padding: 10px 12px;
+    }
+    
+    .item-header .item-name {
+        font-size: 1em;
+    }
+    
+    .item-header .edit-button {
+        font-size: 0.8em;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .item-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row on smaller screens */
+        gap: 10px;
+    }
+    
+    .marketplace-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .marketplace-header .header-info {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .marketplace-header h1 {
+        font-size: 1.5em;
+    }
+    
+    .current-balance-display {
+        font-size: 1em;
+    }
+    
+    .current-balance-display #market-current-balance {
+        font-size: 0.9em;
+    }
+    
+    .item-card {
+        font-size: 0.85em;
+    }
+    
+    .item-image-container {
+        height: 80px; /* Even smaller image container */
+    }
+    
+    .item-info {
+        padding: 8px;
+    }
+    
+    .item-description {
+        font-size: 0.85em;
+        line-height: 1.3;
+    }
+    
+    .item-name {
+        font-size: 1em;
+    }
+    
+    .item-purchase-section {
+        padding: 6px 8px;
+    }
+    
+    .item-price {
+        font-size: 1em;
+    }
+    
+    .button.buy-button, 
+    .button.edit-button {
+        padding: 4px 8px;
+        font-size: 0.85em;
+    }
+    
+    .item-header {
+        padding: 8px 10px;
+    }
+    
+    .item-header .item-name {
+        font-size: 0.95em;
+    }
+    
+    .button.buy-button {
+        min-width: 90px; /* Reduced from 100px */
+        padding: 6px 10px;
+    }
+    
+    .item-header .edit-button {
+        font-size: 0.75em;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Checkout modal specific styles */
+.checkout-modal-content {
+    width: 100%;
+    max-width: 500px;
+}
+
+.checkout-modal-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--accent-primary);
+}
+
+.checkout-items {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 0;
+}
+
+.checkout-summary {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+}
+
+.checkout-total, 
+.checkout-balance, 
+.checkout-remaining {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.checkout-total {
+    font-weight: bold;
+    color: var(--accent-warning);
+}
+
+.checkout-balance {
+    color: var(--text-secondary);
+}
+
+.checkout-remaining {
+    font-weight: bold;
+    color: var(--accent-secondary);
+}
+
+.checkout-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.checkout-actions button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.checkout-actions button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.checkout-actions button:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.checkout-actions .confirm-purchase {
+    background-color: var(--accent-secondary);
+    color: #1a1d21;
+}
+
+.checkout-actions .confirm-purchase:hover:not(:disabled) {
+    background-color: #4cda9a;
+}
+
+.checkout-actions .cancel-purchase {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+}
+
+.chart {
+    display: flex;
+    height: 300px;
+    min-width: 100%;
+    gap: 2px;
+}
+
+/* Make day view scrollable */
+.day-view .chart {
+    min-width: 150%;
+}
+
+.bar-container {
+    flex: 1;             /* Allow container to grow/shrink */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Push content (bar) to the bottom */
+    align-items: center;      /* Center bar horizontally */
+    min-width: 20px;          /* Keep minimum width */
+    height: 100%;             /* CRITICAL: Make container use full chart height */
+    position: relative;       /* May help with label positioning if needed */
+}
+
+.day-view .bar-container {
+    min-width: 40px;
+}
+
+.bar {
+    width: 85%; /* Slightly less than 100% to use the gap */
+    background: var(--primary-color); /* Will be overridden by JS for color */
+    border-radius: 4px 4px 0 0;
+    min-height: 4px;
+    transition: height 0.5s ease;
+    /* The inline style="height: XX%;" set by JS will now work correctly */
+    /* relative to the .bar-container's 100% height */
+}
+
+/* --- Keep Label Styling --- */
+.bar-container .label {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    white-space: nowrap;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    margin-left: 8px; /* Adjust as needed */
+    /* position: absolute; /* Alternative positioning if needed */
+    /* bottom: -25px;   /* Adjust if using absolute */
+}
+
+.day-view .bar-container .label {
+    transform: rotate(-60deg);
+}
+
+/* Mobile styles for pin icon */
+@media (max-width: 600px) {
+    .timer-name-header .pin-icon {
+        font-size: 0.9em; /* Smaller size on mobile */
+    }
+}
+
+#chart-tooltip {
+    position: absolute;
+    display: none;
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    z-index: 1000;
+    pointer-events: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transform: translateX(-50%);
+}
+
+#chart-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(40, 40, 40, 0.9) transparent transparent transparent;
+}
+
+.pin-icon {
+    cursor: pointer;
+    user-select: none;  /* Prevent text selection when clicking */
+    display: inline-block; /* Ensure it takes up space */
+    min-width: 1.2em; /* Give it some width */
+    text-align: center; /* Center the icon */
+    line-height: 1; /* Prevent extra vertical space */
+}
+.accumulated-time {
+    width: 80%;
+    margin: 0 auto; /* Center the block element */
+}
+.total-earned {
+    width: 80%;
+    margin: 0 auto; /* Center the block element */
+}
+@media (max-width: 768px) {
+    .timer-progress-container {
+        margin: 0 auto 4px auto; /* Ensure centering on mobile */
+    }
+}
+
+/* Add hand cursor for clickable timer display - Added to END to ensure it has priority */
+.timer-display,
+.timer-display *,
+.current-time,
+.milliseconds,
+.time-display,
+.time-display *,
+.clickable-time,
+.clickable-time-container,
+.timer-display-wrapper {
+    cursor: pointer !important;
+}
+
+/* Hover effect for clickable timer */
+.timer-display:hover,
+.current-time:hover,
+.milliseconds:hover {
+    color: var(--accent-primary) !important;
+    text-shadow: 0 0 8px rgba(97, 218, 251, 0.6) !important;
+}
+
+.timer-item.running .timer-display:hover,
+.timer-item.running .current-time:hover,
+.timer-item.running .milliseconds:hover {
+    color: var(--accent-warning) !important;
+    text-shadow: 0 0 8px rgba(255, 204, 102, 0.6) !important;
+}
+
+.session-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 2px 5px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.timer-session-total {
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.timer-item.running .timer-session-total {
+    color: #3db380; /* Darker green color */
+}
+/* Consistent color for reward rate (matches Lvl number) */
+.timer-item .timer-reward-rate {
+    color: var(--accent-primary); /* Set to Primary Accent (Blue/Teal) */
+    transition: none; /* Remove transition */
+}
+
+/* Ensure session total span uses primary text color and is bold */
+.timer-item .session-total span.timer-session-total {
+     color: var(--text-primary); /* Always Primary Text Color */
+     font-weight: bold;
+     transition: none; /* Remove transition */
+}
+
+/* Clean up potentially conflicting rules */
+.timer-item.running .timer-reward-rate,
+.timer-item:not(.running) .timer-reward-rate {
+    color: var(--accent-primary); /* Ensure always Primary Accent */
+}
+
+.timer-item.running .timer-session-total,
+.timer-item.running .session-total span.timer-session-total {
+    color: #3db380; /* Darker green color */
+}
+
+.timer-item:not(.running) .session-total span.timer-session-total {
+     color: var(--text-primary); /* Ensure non-running timers use primary text color */
+}
+
+/* Explicitly set .timer-level color if needed (should inherit from .timer-details -> .timer-level-rank) */
+/* Add this if .timer-level isn't already --accent-primary */
+/*
+.timer-item .timer-level {
+    color: var(--accent-primary);
+}
+*/
+
+/* Styles for Marketplace specific controls (Basket and Note buttons) */
+.marketplace-specific-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust gap between buttons as needed */
+}
+
+.basket-icon-container {
+    /* Remove any default styling that might interfere */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ensure it behaves like a flex item */
+    align-items: center;
+    justify-content: center;
+}
+
+.basket-button,
+.notes-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px; /* Adjust padding to match visual */
+    background-color: var(--bg-dark); /* Match background */
+    color: var(--text-primary); /* Match text color */
+    border: 1px solid var(--border-color); /* Match border */
+    border-radius: 4px; /* Match border radius */
+    font-size: 14px; /* Match font size */
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    position: relative; /* Needed for counter positioning */
+    cursor: pointer;
+}
+
+.basket-button:hover,
+.notes-button:hover {
+    background-color: var(--bg-hover); /* Match hover effect */
+}
+
+#basket-count,
+#notes-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px; /* Adjust position to match visual */
+    right: -8px; /* Adjust position to match visual */
+    min-width: 20px; /* Ensure circular shape */
+    height: 20px; /* Ensure circular shape */
+    background-color: var(--accent-warning); /* Match note counter background (Yellow/Orange) */
+    color: var(--bg-dark); /* Match note counter text color (Dark) */
+    border-radius: 50%; /* Circular shape */
+    font-size: 12px; /* Match font size */
+    padding: 0 4px; /* Adjust padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid white; /* Match note counter border (White) */
+    font-weight: bold;
+    z-index: 2;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+}

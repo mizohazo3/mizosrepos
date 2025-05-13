@@ -1,0 +1,199 @@
+[2025-04-21 07:43:43] Received action: 'reset_all', ID: ''
+[2025-04-21 07:43:43] Fetched difficulty: 1
+[2025-04-21 07:43:43] Fetched 100 level definitions.
+[2025-04-21 07:43:43] Attempting RESET ALL
+[2025-04-21 07:43:43] RESET ALL - Transaction started.
+[2025-04-21 07:43:43] RESET ALL - Counting total timers...
+[2025-04-21 07:43:43] RESET ALL - Found 0 timers to reset.
+[2025-04-21 07:43:43] RESET ALL - Executing timer reset update...
+[2025-04-21 07:43:43] RESET ALL - Timer reset execute() result: TRUE
+[2025-04-21 07:43:43] RESET ALL - Timers reset query executed. Rows affected: 0
+[2025-04-21 07:43:43] RESET ALL - Resetting bank balance...
+[2025-04-21 07:43:43] RESET ALL - Bank reset execute() result: TRUE
+[2025-04-21 07:43:43] RESET ALL - Clearing timer logs...
+[2025-04-21 07:43:43] RESET ALL - Clear logs execute() result: TRUE
+[2025-04-21 07:43:43] RESET ALL - Attempting commit...
+[2025-04-21 07:43:43] RESET ALL finished and committed successfully.
+[2025-04-21 07:43:43] Sending final response: {"status":"success","reset_timers":[],"bank_balance":0}
+[2025-04-21 07:49:12] Received action: 'start', ID: '1'
+[2025-04-21 07:49:12] Attempting START for ID: 1
+[2025-04-21 07:49:12] START query executed for ID: 1. Rows affected: 1
+[2025-04-21 07:49:12] Sending final response: {"status":"success","startTime":"2025-04-21 07:49:12"}
+[2025-04-21 07:50:43] Received action: 'stop', ID: '1'
+[2025-04-21 07:50:43] Fetched difficulty: 1
+[2025-04-21 07:50:43] Fetched 100 level definitions.
+[2025-04-21 07:50:43] Attempting STOP for ID: 1
+[2025-04-21 07:50:43] STOP ID: 1 - Transaction started.
+[2025-04-21 07:50:43] STOP - T(1): Elapsed: 91.00s, NewAccum: 91.00s, Lvl 1->1, Reward: 0.002528
+[2025-04-21 07:50:43] STOP - T(1): Executing timer update with params: {":accumulated":91,":id":1}
+[2025-04-21 07:50:43] STOP - T(1): Executing log insert. Params: {":timer_id":1,":start_time":"2025-04-21 07:49:12",":end_time":"2025-04-21 07:50:43",":duration":91,":earned":0.002527777777777778}
+[2025-04-21 07:50:43] STOP finished successfully for timer 1
+[2025-04-21 07:50:43] Sending final response: {"status":"success","accumulated_seconds":91,"bank_balance":0.002527777777777778}
+[2025-04-21 07:56:20] Received action: 'start', ID: '2'
+[2025-04-21 07:56:20] Attempting START for ID: 2
+[2025-04-21 07:56:20] START query executed for ID: 2. Rows affected: 1
+[2025-04-21 07:56:20] Sending final response: {"status":"success","startTime":"2025-04-21 07:56:20"}
+[2025-04-21 07:56:23] Received action: 'stop', ID: '2'
+[2025-04-21 07:56:23] Fetched difficulty: 1
+[2025-04-21 07:56:23] Fetched 100 level definitions.
+[2025-04-21 07:56:23] Attempting STOP for ID: 2
+[2025-04-21 07:56:23] STOP ID: 2 - Transaction started.
+[2025-04-21 07:56:23] STOP - T(2): Elapsed: 3.00s, NewAccum: 504123.00s, Lvl 1->17, Reward: 0.000083
+[2025-04-21 07:56:23] STOP - T(2): Executing timer update with params: {":accumulated":504123,":new_level":17,":notified_level":17,":id":2}
+[2025-04-21 07:56:23] STOP - T(2): Executing log insert. Params: {":timer_id":2,":start_time":"2025-04-21 07:56:20",":end_time":"2025-04-21 07:56:23",":duration":3,":earned":8.333333333333334e-5}
+[2025-04-21 07:56:23] STOP finished successfully for timer 2
+[2025-04-21 07:56:23] Sending final response: {"status":"success","accumulated_seconds":504123,"bank_balance":0.0025833333333333333,"level_up":true,"new_level":17,"new_rank":"Apprentice"}
+[2025-04-21 07:56:25] Received action: 'start', ID: '2'
+[2025-04-21 07:56:25] Attempting START for ID: 2
+[2025-04-21 07:56:25] START query executed for ID: 2. Rows affected: 1
+[2025-04-21 07:56:25] Sending final response: {"status":"success","startTime":"2025-04-21 07:56:25"}
+[2025-04-21 07:56:26] Received action: 'stop', ID: '2'
+[2025-04-21 07:56:26] Fetched difficulty: 1
+[2025-04-21 07:56:26] Fetched 100 level definitions.
+[2025-04-21 07:56:26] Attempting STOP for ID: 2
+[2025-04-21 07:56:26] STOP ID: 2 - Transaction started.
+[2025-04-21 07:56:26] STOP - T(2): Elapsed: 1.00s, NewAccum: 504124.00s, Lvl 17->17, Reward: 0.000103
+[2025-04-21 07:56:26] STOP - T(2): Executing timer update with params: {":accumulated":504124,":id":2}
+[2025-04-21 07:56:26] STOP - T(2): Executing log insert. Params: {":timer_id":2,":start_time":"2025-04-21 07:56:25",":end_time":"2025-04-21 07:56:26",":duration":1,":earned":0.00010277777777777778}
+[2025-04-21 07:56:26] STOP finished successfully for timer 2
+[2025-04-21 07:56:26] Sending final response: {"status":"success","accumulated_seconds":504124,"bank_balance":0.0027027777777777775}
+[2025-04-21 07:56:37] Received action: 'start', ID: '9'
+[2025-04-21 07:56:37] Attempting START for ID: 9
+[2025-04-21 07:56:37] START query executed for ID: 9. Rows affected: 1
+[2025-04-21 07:56:37] Sending final response: {"status":"success","startTime":"2025-04-21 07:56:37"}
+[2025-04-21 07:57:53] Received action: 'stop', ID: '9'
+[2025-04-21 07:57:53] Fetched difficulty: 1
+[2025-04-21 07:57:53] Fetched 100 level definitions.
+[2025-04-21 07:57:53] Attempting STOP for ID: 9
+[2025-04-21 07:57:53] STOP ID: 9 - Transaction started.
+[2025-04-21 07:57:53] STOP - T(9): Elapsed: 76.00s, NewAccum: 3601643.00s, Lvl 1->50, Reward: 0.002111
+[2025-04-21 07:57:53] STOP - T(9): Executing timer update with params: {":accumulated":3601643,":new_level":50,":notified_level":50,":id":9}
+[2025-04-21 07:57:53] STOP - T(9): Executing log insert. Params: {":timer_id":9,":start_time":"2025-04-21 07:56:37",":end_time":"2025-04-21 07:57:53",":duration":76,":earned":0.0021111111111111113}
+[2025-04-21 07:57:53] STOP finished successfully for timer 9
+[2025-04-21 07:57:53] Sending final response: {"status":"success","accumulated_seconds":3601643,"bank_balance":0.0048111111111111115,"level_up":true,"new_level":50,"new_rank":"Specialist"}
+[2025-04-21 10:15:54] Received action: 'start', ID: '542'
+[2025-04-21 10:15:54] Attempting START for ID: 542
+[2025-04-21 10:15:54] START query executed for ID: 542. Rows affected: 1
+[2025-04-21 10:15:54] Sending final response: {"status":"success","startTime":"2025-04-21 10:15:54"}
+[2025-04-21 10:40:27] Received action: 'stop', ID: '542'
+[2025-04-21 10:40:27] Fetched difficulty: 1
+[2025-04-21 10:40:27] Fetched 100 level definitions.
+[2025-04-21 10:40:27] Attempting STOP for ID: 542
+[2025-04-21 10:40:27] STOP ID: 542 - Transaction started.
+[2025-04-21 10:40:27] STOP - T(542): Elapsed: 1473.00s, NewAccum: 1473.00s, Lvl 1->1, Reward: 0.040917
+[2025-04-21 10:40:27] STOP - T(542): Executing timer update with params: {":accumulated":1473,":id":542}
+[2025-04-21 10:40:27] STOP - T(542): Executing log insert. Params: {":timer_id":542,":start_time":"2025-04-21 10:15:54",":end_time":"2025-04-21 10:40:27",":duration":1473,":earned":0.04091666666666667}
+[2025-04-21 10:40:27] STOP finished successfully for timer 542
+[2025-04-21 10:40:27] Sending final response: {"status":"success","accumulated_seconds":1473,"bank_balance":0.04571666666666667}
+[2025-04-21 10:43:06] Received action: 'start', ID: '542'
+[2025-04-21 10:43:06] Attempting START for ID: 542
+[2025-04-21 10:43:06] START query executed for ID: 542. Rows affected: 1
+[2025-04-21 10:43:06] Sending final response: {"status":"success","startTime":"2025-04-21 10:43:06"}
+[2025-04-21 11:07:48] Received action: 'stop', ID: '542'
+[2025-04-21 11:07:48] Fetched difficulty: 1
+[2025-04-21 11:07:48] Fetched 100 level definitions.
+[2025-04-21 11:07:48] Attempting STOP for ID: 542
+[2025-04-21 11:07:48] STOP ID: 542 - Transaction started.
+[2025-04-21 11:07:48] STOP - T(542): Elapsed: 1482.00s, NewAccum: 2955.00s, Lvl 1->1, Reward: 0.041167
+[2025-04-21 11:07:48] STOP - T(542): Executing timer update with params: {":accumulated":2955,":id":542}
+[2025-04-21 11:07:48] STOP - T(542): Executing log insert. Params: {":timer_id":542,":start_time":"2025-04-21 10:43:06",":end_time":"2025-04-21 11:07:48",":duration":1482,":earned":0.04116666666666667}
+[2025-04-21 11:07:48] STOP finished successfully for timer 542
+[2025-04-21 11:07:48] Sending final response: {"status":"success","accumulated_seconds":2955,"bank_balance":0.08686666666666668}
+[2025-04-21 11:57:39] Received action: 'start', ID: '394'
+[2025-04-21 11:57:39] Attempting START for ID: 394
+[2025-04-21 11:57:39] START query executed for ID: 394. Rows affected: 1
+[2025-04-21 11:57:39] Sending final response: {"status":"success","startTime":"2025-04-21 11:57:39"}
+[2025-04-21 11:57:40] Received action: 'stop', ID: '394'
+[2025-04-21 11:57:40] Fetched difficulty: 1
+[2025-04-21 11:57:40] Fetched 100 level definitions.
+[2025-04-21 11:57:40] Attempting STOP for ID: 394
+[2025-04-21 11:57:40] STOP ID: 394 - Transaction started.
+[2025-04-21 11:57:40] STOP - T(394): Elapsed: 1.00s, NewAccum: 7898011.00s, Lvl 1->89, Reward: 0.000028
+[2025-04-21 11:57:40] STOP - T(394): Executing timer update with params: {":accumulated":7898011,":new_level":89,":notified_level":89,":id":394}
+[2025-04-21 11:57:40] STOP - T(394): Executing log insert. Params: {":timer_id":394,":start_time":"2025-04-21 11:57:39",":end_time":"2025-04-21 11:57:40",":duration":1,":earned":2.777777777777778e-5}
+[2025-04-21 11:57:40] STOP finished successfully for timer 394
+[2025-04-21 11:57:40] Sending final response: {"status":"success","accumulated_seconds":7898011,"bank_balance":0.05062777777777778,"level_up":true,"new_level":89,"new_rank":"Grandmaster"}
+[2025-04-21 11:58:54] Received action: 'stop', ID: '532'
+[2025-04-21 11:58:54] Fetched difficulty: 1
+[2025-04-21 11:58:54] Fetched 100 level definitions.
+[2025-04-21 11:58:54] Attempting STOP for ID: 532
+[2025-04-21 11:58:54] STOP ID: 532 - Transaction started.
+[2025-04-21 11:58:54] STOP - T(532): Elapsed: 433.00s, NewAccum: 515087.00s, Lvl 17->17, Reward: 0.044503
+[2025-04-21 11:58:54] STOP - T(532): Executing timer update with params: {":accumulated":515087,":id":532}
+[2025-04-21 11:58:54] STOP - T(532): Executing log insert. Params: {":timer_id":532,":start_time":"2025-04-21 11:51:41",":end_time":"2025-04-21 11:58:54",":duration":433,":earned":0.04450277777777777}
+[2025-04-21 11:58:54] STOP finished successfully for timer 532
+[2025-04-21 11:58:54] Sending final response: {"status":"success","accumulated_seconds":515087,"bank_balance":0.09510277777777777}
+[2025-04-21 11:58:58] Received action: 'start', ID: '532'
+[2025-04-21 11:58:58] Attempting START for ID: 532
+[2025-04-21 11:58:58] START query executed for ID: 532. Rows affected: 1
+[2025-04-21 11:58:58] Sending final response: {"status":"success","startTime":"2025-04-21 11:58:58"}
+[2025-04-21 12:01:18] Received action: 'stop', ID: '532'
+[2025-04-21 12:01:18] Fetched difficulty: 1
+[2025-04-21 12:01:18] Fetched 100 level definitions.
+[2025-04-21 12:01:18] Attempting STOP for ID: 532
+[2025-04-21 12:01:18] STOP ID: 532 - Transaction started.
+[2025-04-21 12:01:18] STOP - T(532): Elapsed: 140.00s, NewAccum: 515227.00s, Lvl 17->17, Reward: 0.014389
+[2025-04-21 12:01:18] STOP - T(532): Executing timer update with params: {":accumulated":515227,":id":532}
+[2025-04-21 12:01:18] STOP - T(532): Executing log insert. Params: {":timer_id":532,":start_time":"2025-04-21 11:58:58",":end_time":"2025-04-21 12:01:18",":duration":140,":earned":0.014388888888888889}
+[2025-04-21 12:01:18] STOP finished successfully for timer 532
+[2025-04-21 12:01:18] Sending final response: {"status":"success","accumulated_seconds":515227,"bank_balance":0.10948888888888889}
+[2025-04-21 12:01:20] Received action: 'start', ID: '394'
+[2025-04-21 12:01:20] Attempting START for ID: 394
+[2025-04-21 12:01:20] START query executed for ID: 394. Rows affected: 1
+[2025-04-21 12:01:20] Sending final response: {"status":"success","startTime":"2025-04-21 12:01:20"}
+[2025-04-21 12:01:23] Received action: 'stop', ID: '394'
+[2025-04-21 12:01:23] Fetched difficulty: 1
+[2025-04-21 12:01:23] Fetched 100 level definitions.
+[2025-04-21 12:01:23] Attempting STOP for ID: 394
+[2025-04-21 12:01:23] STOP ID: 394 - Transaction started.
+[2025-04-21 12:01:23] STOP - T(394): Elapsed: 3.00s, NewAccum: 7898014.00s, Lvl 89->89, Reward: 0.004750
+[2025-04-21 12:01:23] STOP - T(394): Executing timer update with params: {":accumulated":7898014,":id":394}
+[2025-04-21 12:01:23] STOP - T(394): Executing log insert. Params: {":timer_id":394,":start_time":"2025-04-21 12:01:20",":end_time":"2025-04-21 12:01:23",":duration":3,":earned":0.004750000000000001}
+[2025-04-21 12:01:23] STOP finished successfully for timer 394
+[2025-04-21 12:01:23] Sending final response: {"status":"success","accumulated_seconds":7898014,"bank_balance":0.11425}
+[2025-04-21 12:01:57] Received action: 'start', ID: '532'
+[2025-04-21 12:01:57] Attempting START for ID: 532
+[2025-04-21 12:01:57] START query executed for ID: 532. Rows affected: 1
+[2025-04-21 12:01:57] Sending final response: {"status":"success","startTime":"2025-04-21 12:01:57"}
+[2025-04-21 12:06:30] Received action: 'start', ID: '9'
+[2025-04-21 12:06:30] Attempting START for ID: 9
+[2025-04-21 12:06:30] START query executed for ID: 9. Rows affected: 1
+[2025-04-21 12:06:30] Sending final response: {"status":"success","startTime":"2025-04-21 12:06:30"}
+[2025-04-21 12:07:02] Received action: 'stop', ID: '9'
+[2025-04-21 12:07:02] Fetched difficulty: 1
+[2025-04-21 12:07:02] Fetched 100 level definitions.
+[2025-04-21 12:07:02] Attempting STOP for ID: 9
+[2025-04-21 12:07:02] STOP ID: 9 - Transaction started.
+[2025-04-21 12:07:02] STOP - T(9): Elapsed: 32.00s, NewAccum: 3601599.00s, Lvl 1->50, Reward: 0.000889
+[2025-04-21 12:07:02] STOP - T(9): Executing timer update with params: {":accumulated":3601599,":new_level":50,":notified_level":50,":id":9}
+[2025-04-21 12:07:02] STOP - T(9): Executing log insert. Params: {":timer_id":9,":start_time":"2025-04-21 12:06:30",":end_time":"2025-04-21 12:07:02",":duration":32,":earned":0.0008888888888888889}
+[2025-04-21 12:07:02] STOP finished successfully for timer 9
+[2025-04-21 12:07:02] Sending final response: {"status":"success","accumulated_seconds":3601599,"bank_balance":0.11518888888888888,"level_up":true,"new_level":50,"new_rank":"Specialist"}
+[2025-04-21 12:25:38] Received action: 'stop', ID: '532'
+[2025-04-21 12:25:38] Fetched difficulty: 1
+[2025-04-21 12:25:38] Fetched 100 level definitions.
+[2025-04-21 12:25:38] Attempting STOP for ID: 532
+[2025-04-21 12:25:38] STOP ID: 532 - Transaction started.
+[2025-04-21 12:25:38] STOP - T(532): Elapsed: 1421.00s, NewAccum: 516648.00s, Lvl 17->17, Reward: 0.146047
+[2025-04-21 12:25:38] STOP - T(532): Executing timer update with params: {":accumulated":516648,":id":532}
+[2025-04-21 12:25:38] STOP - T(532): Executing log insert. Params: {":timer_id":532,":start_time":"2025-04-21 12:01:57",":end_time":"2025-04-21 12:25:38",":duration":1421,":earned":0.14604722222222222}
+[2025-04-21 12:25:38] STOP finished successfully for timer 532
+[2025-04-21 12:25:38] Sending final response: {"status":"success","accumulated_seconds":516648,"bank_balance":0.2612472222222222}
+[2025-04-21 12:25:40] Received action: 'start', ID: '532'
+[2025-04-21 12:25:40] Attempting START for ID: 532
+[2025-04-21 12:25:40] START query executed for ID: 532. Rows affected: 1
+[2025-04-21 12:25:40] Sending final response: {"status":"success","startTime":"2025-04-21 12:25:40"}
+[2025-04-21 12:32:35] Received action: 'stop', ID: '532'
+[2025-04-21 12:32:35] Fetched difficulty: 1
+[2025-04-21 12:32:35] Fetched 100 level definitions.
+[2025-04-21 12:32:35] Attempting STOP for ID: 532
+[2025-04-21 12:32:35] STOP ID: 532 - Transaction started.
+[2025-04-21 12:32:35] STOP - T(532): Elapsed: 415.00s, NewAccum: 698815.00s, Lvl 17->19, Reward: 0.042653
+[2025-04-21 12:32:35] STOP - T(532): Executing timer update with params: {":accumulated":698815,":new_level":19,":notified_level":19,":id":532}
+[2025-04-21 12:32:35] STOP - T(532): Executing log insert. Params: {":timer_id":532,":start_time":"2025-04-21 12:25:40",":end_time":"2025-04-21 12:32:35",":duration":415,":earned":0.04265277777777778}
+[2025-04-21 12:32:35] STOP finished successfully for timer 532
+[2025-04-21 12:32:35] Sending final response: {"status":"success","accumulated_seconds":698815,"bank_balance":0.30385277777777775,"level_up":true,"new_level":19,"new_rank":"Apprentice"}
+[2025-04-21 12:32:47] Received action: 'start', ID: '532'
+[2025-04-21 12:32:47] Attempting START for ID: 532
+[2025-04-21 12:32:47] START query executed for ID: 532. Rows affected: 1
+[2025-04-21 12:32:47] Sending final response: {"status":"success","startTime":"2025-04-21 12:32:47"}

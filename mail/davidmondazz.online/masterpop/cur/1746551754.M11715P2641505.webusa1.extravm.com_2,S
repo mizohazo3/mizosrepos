@@ -1,0 +1,90 @@
+Return-path: <pm_bounces@pm-bounces.cursor.so>
+Envelope-to: masterpop@davidmondazz.online
+Delivery-date: Tue, 06 May 2025 12:15:54 -0500
+Received: from [50.31.205.205] (port=59853 helo=mta205-ab1.mtasv.net)
+	by webusa1.extravm.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <pm_bounces@pm-bounces.cursor.so>)
+	id 1uCLtZ-0000000B5Ao-41nY
+	for masterpop@davidmondazz.online;
+	Tue, 06 May 2025 12:15:54 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=ab20250324; d=ab.mtasv.net;
+ h=From:Date:Subject:Message-Id:To:List-Unsubscribe:List-Unsubscribe-Post:
+ MIME-Version:Content-Type:Content-Transfer-Encoding:Date:From:Message-ID:
+ Reply-To:Sender:Subject:To:CC; t=1746551753; x=1746638153;
+ bh=l4V93Om8i09gqX5RK/7RjQcZUsPD5ctI+blvm+xKPh8=;
+ b=Nx4OAkAXklMSxL4o0pOTqxDVWvmr+1lINe9Tv6VUQAokEl/jAM6UyiqW82zJ1YMj3KBvfa+21bVt
+   5NooSbl5HjCe4VGRE0DRthtlRUWZFu4aOhrh2xegx4JWvYKF9Wp15cPup3fuXkqYku4UXbf4i8w0
+   ue4M91OuuvEenLJqCDd7889/UcmiPYbhiQ8DmNKUwSRSRGrcYooWz705DP4toS1VWKIK/hWAaRdv
+   AUnoApCBvrMGiRugZalmzmUleT5gnyKfc/+XHBKLSuA0EMk2YdJ+dFEXLs0yW26JuQ9P91hfmf+a
+   3QvA1DqHkXPfjFMp1qEmTPmStq/wsiLRcxK2mg==
+Received: by mta205-ab1.mtasv.net id h391si3864o5 for <masterpop@davidmondazz.online>; Tue, 6 May 2025 13:15:53 -0400 (envelope-from <pm_bounces@pm-bounces.cursor.so>)
+X-PM-IP: 50.31.205.205
+X-IADB-IP: 50.31.205.205
+X-IADB-IP-REVERSE: 205.205.31.50
+DKIM-Signature: v=1; a=rsa-sha256; d=cursor.so; s=20230425013521pm;
+	c=relaxed/relaxed; i=michaelt@cursor.so; t=1746551753; x=1746724553;
+	h=date:date:from:from:message-id:reply-to:sender:subject:subject:to:to:cc:
+	list-unsubscribe:list-unsubscribe-post:feedback-id:mime-version:content-type:
+	content-transfer-encoding;
+	bh=l4V93Om8i09gqX5RK/7RjQcZUsPD5ctI+blvm+xKPh8=;
+	b=Dj7nC6U3LwVy6r4hp5jMM1gf6wj94xlWQocD2Im0q+LrkrnINmP7rSyl6z6dfH+wloGTws70Rs1
+	H5o2Au3Z1e2EQtGvPPvaKLj1iT4wZQvn5y1kCX76WdF6Vuh4FT3BqEIco1xwpMLG1PvUXloqFVRkd
+	a6p1xtLQWs/xgVYd9ag=
+From: Michael Truell <michaelt@cursor.so>
+Date: Tue, 06 May 2025 17:15:52 +0000
+Subject: Making the most of Cursor
+Message-Id: <3b873ba9-75c0-41b8-8e7e-9c3c8e714131@mtasv.net>
+To: masterpop@davidmondazz.online
+List-Unsubscribe:
+ <https://subscriptions.pstmrk.it/unsubscribe?m=1.ZZw5Bv_ZFV8FzHVANLgTXQ.I89-4tTbc6k0bFChaw0nM4p8WAk3-_1osbcLJthXA1GH7g_IoIhMzRcxaT_-ORP1bZcppmgTo-PlvbZl0QwkwHGrQiCBtsCoKxqvCyFJg6P0b3gEgWAW7Y-syAj1lpK_M38dm0b2iFWdlrFPxgPRzgiD6MoHG4vpInL5DjyYJsGHJBNPgRwadN1dXzDTN2GubJQA0NRm3wZ1gr6RjAo-Yz8NTSkhYSAr5D17CEkBh7r1ZRNm_cx6xBKokEbetOy5sP4Se5oOuUeAXmhqAZXQj-vwHvJ9D99uyLPzZ3bXzMSvA8I0JPxVkuOmCzwVfAQruriY_Ds61_ElIkLVcgRpmnL-hEexmHo1RcJDoD1RR-TEwmgdYY3Tkchn7Gb6MKDvHFy4UTB83VVN8ArW7NEGn7UdHnaRNDQz4xFZZXnfEEYIxezouRqBczQT71dwKibXteyT6kBdl1uxuvuXiEXIIEX0JaC5L57ipJ8XVM8-kzlXRvKsb-PrxWCD60Z6Kq0s5MhLqdVVw_dGnYWZdTvtiwEN7ervIi0jzzJ3cDJ1sSJcNL2JGXz8gVGm3stEQUHjZ78_4DbG2KVywbuw-VLNdFxbEz-ZbAq4I6zPzw_q6mM>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: s10731043-_:s10731043:a209573:postmark
+X-Complaints-To: abuse@postmarkapp.com
+X-PM-Message-Id: 3b873ba9-75c0-41b8-8e7e-9c3c8e714131
+X-PM-RCPT: |bTB8MjA5NTczfDEwNzMxMDQzfG1hc3RlcnBvcEBkYXZpZG1vbmRhenoub25saW5l|
+X-PM-Message-Options: v1;1.arrk9DJnwoyG_htAS51eIg.3m2KVOkEAs4AYFdwiea1ikbIw4ihGzZQ5zpK2--BNaYMJxPBxlm6xzqz4E4EwJhuSIfr5qaMdxK_fda6qDG7IYPpFD2FH1gRQ8d-ZM0BLnlllNKcajDzWvGBK9y4btChwXHxFOpPtrracDYZVClQlZrl7Kpehx4L7ETQ-YsibXnXQHb7HVodjos9VLuu9J3I
+MIME-Version: 1.0
+X-PM-MTA-Pool: transactional-3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hi asfas,</div><div><br /></div><div>Your free plan f=
+or <a href=3D"https://track.pstmrk.it/3s/cursor.com/I76j/7Ci9AQ/AQ/3b873ba9=
+-75c0-41b8-8e7e-9c3c8e714131/1/_sqi6hY7FT">Cursor</a> is now active. Thank =
+you for trying out the editor.</div><div><br /></div><div>Here are a few th=
+ings you can try in Cursor:</div><div>- Type and press <a href=3D"https://t=
+rack.pstmrk.it/3s/docs.cursor.com%2Ftab%2Foverview/I76j/7Ci9AQ/AQ/3b873ba9-=
+75c0-41b8-8e7e-9c3c8e714131/2/rdZPQ2MFG3">Tab</a> to accept an autocomplete=
+ or a suggested diff from Cursor Tab</div><div>- Open <a href=3D"https://tr=
+ack.pstmrk.it/3s/docs.cursor.com%2Fchat%2Foverview/I76j/7Ci9AQ/AQ/3b873ba9-=
+75c0-41b8-8e7e-9c3c8e714131/3/vPT8Vvlea1">Agent</a> in Chat to make multi-f=
+ile edits and hand off simpler tasks</div><div>- Select 20 lines of code an=
+d press <a href=3D"https://track.pstmrk.it/3s/docs.cursor.com%2Fcmdk%2Fover=
+view/I76j/7Ci9AQ/AQ/3b873ba9-75c0-41b8-8e7e-9c3c8e714131/4/ohLr5jU9CM">Cmd+=
+K</a> to make an inline edit</div><div><br /></div><div>You can find more t=
+ips in the <a href=3D"https://track.pstmrk.it/3s/docs.cursor.com%2F/I76j/7C=
+i9AQ/AQ/3b873ba9-75c0-41b8-8e7e-9c3c8e714131/5/kBoe8WoPVd">docs</a>.</div><=
+div><br /></div><div>Feel free to shoot any questions or thoughts to <a hre=
+f=3D"https://track.pstmrk.it/3s/forum.cursor.com/I76j/7Ci9AQ/AQ/3b873ba9-75=
+c0-41b8-8e7e-9c3c8e714131/6/4yZ617Twx8">our forum</a>.</div><div><br /></di=
+v><div>Best,</div><div>The Cursor Devs</div><div><br/></div><div><br/></div=
+><div>If you don't want to hear from me again, please <a href=3D"https://su=
+bscriptions.pstmrk.it/unsubscribe?m=3D1.ZZw5Bv_ZFV8FzHVANLgTXQ.I89-4tTbc6k0=
+bFChaw0nM4p8WAk3-_1osbcLJthXA1GH7g_IoIhMzRcxaT_-ORP1bZcppmgTo-PlvbZl0QwkwHG=
+rQiCBtsCoKxqvCyFJg6P0b3gEgWAW7Y-syAj1lpK_M38dm0b2iFWdlrFPxgPRzgiD6MoHG4vpIn=
+L5DjyYJsGHJBNPgRwadN1dXzDTN2GubJQA0NRm3wZ1gr6RjAo-Yz8NTSkhYSAr5D17CEkBh7r1Z=
+RNm_cx6xBKokEbetOy5sP4Se5oOuUeAXmhqAZXQj-vwHvJ9D99uyLPzZ3bXzMSvA8I0JPxVkuOm=
+CzwVfAQruriY_Ds61_ElIkLVcgRpmnL-hEexmHo1RcJDoD1RR-TEwmgdYY3Tkchn7Gb6MKDvHFy=
+4UTB83VVN8ArW7NEGn7UdHnaRNDQz4xFZZXnfEEYIxezouRqBczQT71dwKibXteyT6kBdl1uxuv=
+uXiEXIIEX0JaC5L57ipJ8XVM8-kzlXRvKsb-PrxWCD60Z6Kq0s5MhLqdVVw_dGnYWZdTvtiwEN7=
+ervIi0jzzJ3cDJ1sSJcNL2JGXz8gVGm3stEQUHjZ78_4DbG2KVywbuw-VLNdFxbEz-ZbAq4I6zP=
+zw_q6mM">let me know</a>.</div></div><img src=3D"https://ea.pstmrk.it/open?=
+m=3Dv3_1.4b3OEoBKHWjveXUbO2IK0A.teX5p3sbriChPEgfXJ94boHGBOryxfT3SBEgIxDOY4F=
+ILUlpJNBK1OyszzMYeJzb5wGTJeDBCo9ctuc792-IeR4XLEy8fXV4D7cwzDfHm5rmkuDrZxBLr6=
+9fYa6KdGwGZzIawUZpEoXdYwNKDzztQjlG0LuIuHaolvkd0Ugut4tXwm9VGX411noW8cvhoXHcp=
+pOfY1RTxnXGsxr5ZfnGHwd0WkA9XD6O4eh1XOrfyK8sUFs9sbqnddp6TE8g2ziti8bwJwtW85wF=
+_QZ1Qa_S_7TU2gjeWZbYjm7joHtNLcL0umQXZ-qeCxULS11PhlYUA3veeZvcYqHwN-KLefR9YN3=
+YEkk55yyREWxvkAwa-PAmFtAeHj80Q5IOtzvnyIl5gsQrFnJMBTE22i7-4DvfYkyuXDKf6fhwFI=
+bSa7-RRCcRx4sqCUBCgSxxYMhUmleii-t_dw1zMIN5WyOHE-sJKeLnr2sJDx9HYiC0_onNpxJPR=
+Gb3ihSqARftfe_i03Bg" width=3D"1" height=3D"1" border=3D"0" alt=3D"" />

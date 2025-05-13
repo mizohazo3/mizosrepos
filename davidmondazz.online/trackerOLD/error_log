@@ -1,0 +1,124 @@
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 25 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 25 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 24 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 24 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 23 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 23 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 22 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 22 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 21 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 21 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 10 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 10 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 09 Apr 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 09 Apr 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 31 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 31 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 30 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 30 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 29 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 29 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 28 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 28 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 27 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 27 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 26 Mar 2025; ?> - Calculated Total Seconds: <?php echo 0; ?>
+[25-Apr-2025 16:58:50 Africa/Cairo] DEBUG - Day: <?php echo 26 Mar 2025; ?> - Generated TimeConv HTML: <?php echo ; ?>
+[25-Apr-2025 17:24:28 Africa/Cairo] Database Error in start.php: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'end_date' cannot be null
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Script execution started.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Including db.php.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: db.php included.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Checking for func.php at /home/mcgkxyz/davidmondazz.online/func.php
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: func.php found. Including...
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: func.php included.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: GET parameters 'id' and 'name' are set.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: id=532, name=New Tracker By AI
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Preparing SELECT query for activity id: 532
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: SELECT query executed.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Activity found. cat_name: Developing
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Checking if function 'rand_color' exists.
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Function 'rand_color' exists. Calling it...
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: rand_color() returned: #5ff52a
+[25-Apr-2025 17:25:45 Africa/Cairo] start.php: Preparing INSERT into details.
+[25-Apr-2025 17:25:45 Africa/Cairo] Database Error in start.php: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'end_date' cannot be null
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Script execution started.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Including db.php.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: db.php included.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Checking for func.php at /home/mcgkxyz/davidmondazz.online/func.php
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: func.php found. Including...
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: func.php included.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: GET parameters 'id' and 'name' are set.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: id=532, name=New Tracker By AI
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Preparing SELECT query for activity id: 532
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: SELECT query executed.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Activity found. cat_name: Developing
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Checking if function 'rand_color' exists.
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Function 'rand_color' exists. Calling it...
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: rand_color() returned: #4397d9
+[25-Apr-2025 17:28:07 Africa/Cairo] start.php: Preparing INSERT into details.
+[25-Apr-2025 17:28:07 Africa/Cairo] Database Error in start.php: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'end_date' cannot be null
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Script execution started.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Including db.php.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: db.php included.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Checking for func.php at /home/mcgkxyz/davidmondazz.online/func.php
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: func.php found. Including...
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: func.php included.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: GET parameters 'id' and 'name' are set.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: id=532, name=New Tracker By AI
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Preparing SELECT query for activity id: 532
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: SELECT query executed.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Activity found. cat_name: Developing
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Checking if function 'rand_color' exists.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Function 'rand_color' exists. Calling it...
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: rand_color() returned: #922998
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Preparing INSERT into details.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: INSERT into details executed.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Preparing UPDATE activity.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: UPDATE activity executed.
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Activity started successfully for id: 532
+[25-Apr-2025 17:30:02 Africa/Cairo] start.php: Script execution finished normally.
+[25-Apr-2025 17:49:14 Africa/Cairo] Import SQL Warning: start_date value did not match expected format for STR_TO_DATE: '29 May, 2022 01:40 am'
+[25-Apr-2025 17:49:14 Africa/Cairo] Import SQL Warning: end_date value did not match expected format for STR_TO_DATE: '29 May, 2022 03:40 am'
+[25-Apr-2025 18:22:26 Africa/Cairo] Database Connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[25-Apr-2025 18:22:43 Africa/Cairo] Database Connection failed: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+[25-Apr-2025 18:24:59 Africa/Cairo] MySQLi Connection failed: Access denied for user 'root'@'localhost'
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Script execution started.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Including db.php.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: db.php included.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Checking for func.php at /home/mcgkxyz/davidmondazz.online/func.php
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: func.php found. Including...
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: func.php included.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: GET parameters 'id' and 'name' are set.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: id=8, name=Pubg Mobile
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Preparing SELECT query for activity id: 8
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: SELECT query executed.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Activity found. cat_name: Games
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Checking if function 'rand_color' exists.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Function 'rand_color' exists. Calling it...
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: rand_color() returned: #f00d37
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Preparing INSERT into details.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: INSERT into details executed.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Preparing UPDATE activity.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: UPDATE activity executed.
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Activity started successfully for id: 8
+[25-Apr-2025 19:20:09 Africa/Cairo] start.php: Script execution finished normally.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Script execution started.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Including db.php.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: db.php included.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Checking for func.php at /home/mcgkxyz/davidmondazz.online/func.php
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: func.php found. Including...
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: func.php included.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: GET parameters 'id' and 'name' are set.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: id=8, name=Pubg Mobile
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Preparing SELECT query for activity id: 8
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: SELECT query executed.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Activity found. cat_name: Games
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Checking if function 'rand_color' exists.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Function 'rand_color' exists. Calling it...
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: rand_color() returned: #e8b3b8
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Preparing INSERT into details.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: INSERT into details executed.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Preparing UPDATE activity.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: UPDATE activity executed.
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Activity started successfully for id: 8
+[25-Apr-2025 19:20:54 Africa/Cairo] start.php: Script execution finished normally.

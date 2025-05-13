@@ -1,0 +1,577 @@
+[2025-04-21 07:08:53] [INFO] === New Request ===
+[2025-04-21 07:08:53] [INFO] Request Method: GET
+[2025-04-21 07:08:53] [INFO] Remote IP: ::1
+[2025-04-21 07:08:53] [INFO] Processing GET difficulty request
+[2025-04-21 07:08:53] [INFO] Retrieved difficulty value: 1.0
+[2025-04-21 07:08:53] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-21 07:08:55] [INFO] === New Request ===
+[2025-04-21 07:08:55] [INFO] Request Method: POST
+[2025-04-21 07:08:55] [INFO] Remote IP: ::1
+[2025-04-21 07:08:55] [INFO] Received POST data: {"action":"set_difficulty","multiplier":"0.00012"}
+[2025-04-21 07:08:55] [INFO] Validating multiplier: 0.00012
+[2025-04-21 07:08:55] [INFO] Setting exists check: Yes
+[2025-04-21 07:08:55] [INFO] Response: {"status":"success"}
+[2025-04-21 07:49:23] [INFO] === New Request ===
+[2025-04-21 07:49:23] [INFO] Request Method: GET
+[2025-04-21 07:49:23] [INFO] Remote IP: 41.237.178.232
+[2025-04-21 07:49:23] [INFO] Processing GET difficulty request
+[2025-04-21 07:49:23] [INFO] Retrieved difficulty value: 1.0
+[2025-04-21 07:49:23] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-21 17:40:11] [INFO] === New Request ===
+[2025-04-21 17:40:11] [INFO] Request Method: GET
+[2025-04-21 17:40:11] [INFO] Remote IP: 198.244.165.183
+[2025-04-21 17:40:11] [INFO] Processing GET difficulty request
+[2025-04-21 17:40:11] [INFO] Retrieved difficulty value: 1.0
+[2025-04-21 17:40:11] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 05:29:07] [INFO] === New Request ===
+[2025-04-22 05:29:07] [INFO] Request Method: GET
+[2025-04-22 05:29:07] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 05:29:07] [INFO] Processing GET difficulty request
+[2025-04-22 05:29:07] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 05:29:07] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 06:19:32] [INFO] === New Request ===
+[2025-04-22 06:19:32] [INFO] Request Method: GET
+[2025-04-22 06:19:32] [INFO] Remote IP: 41.237.165.211
+[2025-04-22 06:19:32] [INFO] Processing GET difficulty request
+[2025-04-22 06:19:32] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 06:19:32] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 06:42:17] [INFO] === New Request ===
+[2025-04-22 06:42:17] [INFO] Request Method: GET
+[2025-04-22 06:42:17] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 06:42:17] [INFO] Processing GET difficulty request
+[2025-04-22 06:42:17] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 06:42:17] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 06:42:46] [INFO] === New Request ===
+[2025-04-22 06:42:46] [INFO] Request Method: GET
+[2025-04-22 06:42:46] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 06:42:46] [INFO] Processing GET difficulty request
+[2025-04-22 06:42:46] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 06:42:46] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 06:43:36] [INFO] === New Request ===
+[2025-04-22 06:43:36] [INFO] Request Method: GET
+[2025-04-22 06:43:36] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 06:43:36] [INFO] Processing GET difficulty request
+[2025-04-22 06:43:36] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 06:43:36] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 06:43:47] [INFO] === New Request ===
+[2025-04-22 06:43:47] [INFO] Request Method: GET
+[2025-04-22 06:43:47] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 06:43:47] [INFO] Processing GET difficulty request
+[2025-04-22 06:43:47] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 06:43:47] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 08:45:17] [INFO] === New Request ===
+[2025-04-22 08:45:17] [INFO] Request Method: GET
+[2025-04-22 08:45:17] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 08:45:17] [INFO] Processing GET difficulty request
+[2025-04-22 08:45:17] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 08:45:17] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 08:45:23] [INFO] === New Request ===
+[2025-04-22 08:45:23] [INFO] Request Method: GET
+[2025-04-22 08:45:23] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 08:45:23] [INFO] Processing GET difficulty request
+[2025-04-22 08:45:23] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 08:45:23] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 09:35:24] [INFO] === New Request ===
+[2025-04-22 09:35:24] [INFO] Request Method: GET
+[2025-04-22 09:35:24] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 09:35:24] [INFO] Processing GET difficulty request
+[2025-04-22 09:35:24] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 09:35:24] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 12:25:03] [INFO] === New Request ===
+[2025-04-22 12:25:03] [INFO] Request Method: GET
+[2025-04-22 12:25:03] [INFO] Remote IP: 198.244.165.183
+[2025-04-22 12:25:03] [INFO] Processing GET difficulty request
+[2025-04-22 12:25:03] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 12:25:03] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 15:26:21] [INFO] === New Request ===
+[2025-04-22 15:26:21] [INFO] Request Method: GET
+[2025-04-22 15:26:21] [INFO] Remote IP: 41.237.165.211
+[2025-04-22 15:26:21] [INFO] Processing GET difficulty request
+[2025-04-22 15:26:21] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 15:26:21] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 15:59:42] [INFO] === New Request ===
+[2025-04-22 15:59:42] [INFO] Request Method: GET
+[2025-04-22 15:59:42] [INFO] Remote IP: 41.237.165.211
+[2025-04-22 15:59:42] [INFO] Processing GET difficulty request
+[2025-04-22 15:59:42] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 15:59:42] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-22 19:02:20] [INFO] === New Request ===
+[2025-04-22 19:02:20] [INFO] Request Method: GET
+[2025-04-22 19:02:20] [INFO] Remote IP: 41.237.165.211
+[2025-04-22 19:02:20] [INFO] Processing GET difficulty request
+[2025-04-22 19:02:20] [INFO] Retrieved difficulty value: 1.0
+[2025-04-22 19:02:20] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 07:58:35] [INFO] === New Request ===
+[2025-04-23 07:58:35] [INFO] Request Method: GET
+[2025-04-23 07:58:35] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 07:58:35] [INFO] Processing GET difficulty request
+[2025-04-23 07:58:35] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 07:58:35] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 07:59:26] [INFO] === New Request ===
+[2025-04-23 07:59:26] [INFO] Request Method: GET
+[2025-04-23 07:59:26] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 07:59:26] [INFO] Processing GET difficulty request
+[2025-04-23 07:59:26] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 07:59:26] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 08:16:35] [INFO] === New Request ===
+[2025-04-23 08:16:35] [INFO] Request Method: GET
+[2025-04-23 08:16:35] [INFO] Remote IP: 102.61.241.86
+[2025-04-23 08:16:35] [INFO] Processing GET difficulty request
+[2025-04-23 08:16:35] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 08:16:35] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:34:05] [INFO] === New Request ===
+[2025-04-23 14:34:05] [INFO] Request Method: GET
+[2025-04-23 14:34:05] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:34:05] [INFO] Processing GET difficulty request
+[2025-04-23 14:34:05] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:34:05] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:38:39] [INFO] === New Request ===
+[2025-04-23 14:38:39] [INFO] Request Method: GET
+[2025-04-23 14:38:39] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:38:39] [INFO] Processing GET difficulty request
+[2025-04-23 14:38:39] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:38:39] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:39:03] [INFO] === New Request ===
+[2025-04-23 14:39:03] [INFO] Request Method: GET
+[2025-04-23 14:39:03] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:39:03] [INFO] Processing GET difficulty request
+[2025-04-23 14:39:03] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:39:03] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:39:28] [INFO] === New Request ===
+[2025-04-23 14:39:28] [INFO] Request Method: GET
+[2025-04-23 14:39:28] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:39:28] [INFO] Processing GET difficulty request
+[2025-04-23 14:39:28] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:39:28] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:39:53] [INFO] === New Request ===
+[2025-04-23 14:39:53] [INFO] Request Method: GET
+[2025-04-23 14:39:53] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:39:53] [INFO] Processing GET difficulty request
+[2025-04-23 14:39:53] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:39:53] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:40:16] [INFO] === New Request ===
+[2025-04-23 14:40:16] [INFO] Request Method: GET
+[2025-04-23 14:40:16] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:40:16] [INFO] Processing GET difficulty request
+[2025-04-23 14:40:16] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:40:16] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:22] [INFO] === New Request ===
+[2025-04-23 14:42:22] [INFO] Request Method: GET
+[2025-04-23 14:42:22] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:22] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:22] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:22] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:23] [INFO] === New Request ===
+[2025-04-23 14:42:23] [INFO] Request Method: GET
+[2025-04-23 14:42:23] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:23] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:23] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:23] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:25] [INFO] === New Request ===
+[2025-04-23 14:42:25] [INFO] Request Method: GET
+[2025-04-23 14:42:25] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:25] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:25] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:25] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:26] [INFO] === New Request ===
+[2025-04-23 14:42:26] [INFO] Request Method: GET
+[2025-04-23 14:42:26] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:26] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:26] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:26] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:28] [INFO] === New Request ===
+[2025-04-23 14:42:28] [INFO] Request Method: GET
+[2025-04-23 14:42:28] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:28] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:28] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:28] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:42:28] [INFO] === New Request ===
+[2025-04-23 14:42:28] [INFO] Request Method: GET
+[2025-04-23 14:42:28] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:42:28] [INFO] Processing GET difficulty request
+[2025-04-23 14:42:28] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:42:28] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 14:43:20] [INFO] === New Request ===
+[2025-04-23 14:43:20] [INFO] Request Method: GET
+[2025-04-23 14:43:20] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 14:43:20] [INFO] Processing GET difficulty request
+[2025-04-23 14:43:20] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 14:43:20] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:06:49] [INFO] === New Request ===
+[2025-04-23 15:06:49] [INFO] Request Method: GET
+[2025-04-23 15:06:49] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:06:49] [INFO] Processing GET difficulty request
+[2025-04-23 15:06:49] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:06:49] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:06:56] [INFO] === New Request ===
+[2025-04-23 15:06:56] [INFO] Request Method: GET
+[2025-04-23 15:06:56] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:06:56] [INFO] Processing GET difficulty request
+[2025-04-23 15:06:56] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:06:56] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:13:08] [INFO] === New Request ===
+[2025-04-23 15:13:08] [INFO] Request Method: GET
+[2025-04-23 15:13:08] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:13:08] [INFO] Processing GET difficulty request
+[2025-04-23 15:13:08] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:13:08] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:15:30] [INFO] === New Request ===
+[2025-04-23 15:15:30] [INFO] Request Method: GET
+[2025-04-23 15:15:30] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:15:30] [INFO] Processing GET difficulty request
+[2025-04-23 15:15:30] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:15:30] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:15:47] [INFO] === New Request ===
+[2025-04-23 15:15:47] [INFO] Request Method: GET
+[2025-04-23 15:15:47] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:15:47] [INFO] Processing GET difficulty request
+[2025-04-23 15:15:47] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:15:47] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:18:12] [INFO] === New Request ===
+[2025-04-23 15:18:12] [INFO] Request Method: GET
+[2025-04-23 15:18:12] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:18:12] [INFO] Processing GET difficulty request
+[2025-04-23 15:18:12] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:18:12] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:18:14] [INFO] === New Request ===
+[2025-04-23 15:18:14] [INFO] Request Method: GET
+[2025-04-23 15:18:14] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:18:14] [INFO] Processing GET difficulty request
+[2025-04-23 15:18:14] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:18:14] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:19:31] [INFO] === New Request ===
+[2025-04-23 15:19:31] [INFO] Request Method: GET
+[2025-04-23 15:19:31] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:19:31] [INFO] Processing GET difficulty request
+[2025-04-23 15:19:31] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:19:31] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:21:22] [INFO] === New Request ===
+[2025-04-23 15:21:22] [INFO] Request Method: GET
+[2025-04-23 15:21:22] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:21:22] [INFO] Processing GET difficulty request
+[2025-04-23 15:21:22] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:21:22] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:27:17] [INFO] === New Request ===
+[2025-04-23 15:27:17] [INFO] Request Method: GET
+[2025-04-23 15:27:17] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:27:17] [INFO] Processing GET difficulty request
+[2025-04-23 15:27:17] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:27:17] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:31:43] [INFO] === New Request ===
+[2025-04-23 15:31:43] [INFO] Request Method: GET
+[2025-04-23 15:31:43] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:31:43] [INFO] Processing GET difficulty request
+[2025-04-23 15:31:43] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:31:43] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:42:06] [INFO] === New Request ===
+[2025-04-23 15:42:06] [INFO] Request Method: GET
+[2025-04-23 15:42:06] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:42:06] [INFO] Processing GET difficulty request
+[2025-04-23 15:42:06] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:42:06] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 15:42:12] [INFO] === New Request ===
+[2025-04-23 15:42:12] [INFO] Request Method: GET
+[2025-04-23 15:42:12] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 15:42:12] [INFO] Processing GET difficulty request
+[2025-04-23 15:42:12] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 15:42:12] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 16:02:00] [INFO] === New Request ===
+[2025-04-23 16:02:00] [INFO] Request Method: GET
+[2025-04-23 16:02:00] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 16:02:00] [INFO] Processing GET difficulty request
+[2025-04-23 16:02:00] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 16:02:00] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 16:15:33] [INFO] === New Request ===
+[2025-04-23 16:15:33] [INFO] Request Method: GET
+[2025-04-23 16:15:33] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 16:15:33] [INFO] Processing GET difficulty request
+[2025-04-23 16:15:33] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 16:15:33] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 16:15:37] [INFO] === New Request ===
+[2025-04-23 16:15:37] [INFO] Request Method: GET
+[2025-04-23 16:15:37] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 16:15:37] [INFO] Processing GET difficulty request
+[2025-04-23 16:15:37] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 16:15:37] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 16:26:33] [INFO] === New Request ===
+[2025-04-23 16:26:33] [INFO] Request Method: GET
+[2025-04-23 16:26:33] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 16:26:33] [INFO] Processing GET difficulty request
+[2025-04-23 16:26:33] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 16:26:33] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 17:44:48] [INFO] === New Request ===
+[2025-04-23 17:44:48] [INFO] Request Method: GET
+[2025-04-23 17:44:48] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 17:44:48] [INFO] Processing GET difficulty request
+[2025-04-23 17:44:48] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 17:44:48] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-23 19:03:19] [INFO] === New Request ===
+[2025-04-23 19:03:19] [INFO] Request Method: GET
+[2025-04-23 19:03:19] [INFO] Remote IP: 41.237.165.211
+[2025-04-23 19:03:19] [INFO] Processing GET difficulty request
+[2025-04-23 19:03:19] [INFO] Retrieved difficulty value: 1.0
+[2025-04-23 19:03:19] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 09:46:35] [INFO] === New Request ===
+[2025-04-24 09:46:35] [INFO] Request Method: GET
+[2025-04-24 09:46:35] [INFO] Remote IP: 41.237.165.211
+[2025-04-24 09:46:35] [INFO] Processing GET difficulty request
+[2025-04-24 09:46:35] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 09:46:35] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 10:06:08] [INFO] === New Request ===
+[2025-04-24 10:06:08] [INFO] Request Method: GET
+[2025-04-24 10:06:08] [INFO] Remote IP: 41.237.165.211
+[2025-04-24 10:06:08] [INFO] Processing GET difficulty request
+[2025-04-24 10:06:08] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 10:06:08] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 17:44:22] [INFO] === New Request ===
+[2025-04-24 17:44:22] [INFO] Request Method: GET
+[2025-04-24 17:44:22] [INFO] Remote IP: 41.237.176.65
+[2025-04-24 17:44:22] [INFO] Processing GET difficulty request
+[2025-04-24 17:44:22] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 17:44:22] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 17:59:37] [INFO] === New Request ===
+[2025-04-24 17:59:37] [INFO] Request Method: GET
+[2025-04-24 17:59:37] [INFO] Remote IP: 41.237.176.65
+[2025-04-24 17:59:37] [INFO] Processing GET difficulty request
+[2025-04-24 17:59:37] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 17:59:37] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 18:46:33] [INFO] === New Request ===
+[2025-04-24 18:46:33] [INFO] Request Method: GET
+[2025-04-24 18:46:33] [INFO] Remote IP: 41.237.176.65
+[2025-04-24 18:46:33] [INFO] Processing GET difficulty request
+[2025-04-24 18:46:33] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 18:46:33] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 18:49:29] [INFO] === New Request ===
+[2025-04-24 18:49:29] [INFO] Request Method: GET
+[2025-04-24 18:49:29] [INFO] Remote IP: 41.237.176.65
+[2025-04-24 18:49:29] [INFO] Processing GET difficulty request
+[2025-04-24 18:49:29] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 18:49:29] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 18:49:32] [INFO] === New Request ===
+[2025-04-24 18:49:32] [INFO] Request Method: GET
+[2025-04-24 18:49:32] [INFO] Remote IP: 41.237.176.65
+[2025-04-24 18:49:32] [INFO] Processing GET difficulty request
+[2025-04-24 18:49:32] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 18:49:32] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:33:32] [INFO] === New Request ===
+[2025-04-24 21:33:32] [INFO] Request Method: GET
+[2025-04-24 21:33:32] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:33:32] [INFO] Processing GET difficulty request
+[2025-04-24 21:33:32] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:33:32] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:48:54] [INFO] === New Request ===
+[2025-04-24 21:48:54] [INFO] Request Method: GET
+[2025-04-24 21:48:54] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:48:54] [INFO] Processing GET difficulty request
+[2025-04-24 21:48:54] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:48:54] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:51:07] [INFO] === New Request ===
+[2025-04-24 21:51:07] [INFO] Request Method: GET
+[2025-04-24 21:51:07] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:51:07] [INFO] Processing GET difficulty request
+[2025-04-24 21:51:07] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:51:07] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:52:16] [INFO] === New Request ===
+[2025-04-24 21:52:16] [INFO] Request Method: GET
+[2025-04-24 21:52:16] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:52:16] [INFO] Processing GET difficulty request
+[2025-04-24 21:52:16] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:52:16] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:53:21] [INFO] === New Request ===
+[2025-04-24 21:53:21] [INFO] Request Method: GET
+[2025-04-24 21:53:21] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:53:21] [INFO] Processing GET difficulty request
+[2025-04-24 21:53:21] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:53:21] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 21:53:22] [INFO] === New Request ===
+[2025-04-24 21:53:22] [INFO] Request Method: GET
+[2025-04-24 21:53:22] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 21:53:22] [INFO] Processing GET difficulty request
+[2025-04-24 21:53:22] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 21:53:22] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:18:20] [INFO] === New Request ===
+[2025-04-24 22:18:20] [INFO] Request Method: GET
+[2025-04-24 22:18:20] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:18:20] [INFO] Processing GET difficulty request
+[2025-04-24 22:18:20] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:18:20] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:22:42] [INFO] === New Request ===
+[2025-04-24 22:22:42] [INFO] Request Method: GET
+[2025-04-24 22:22:42] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:22:42] [INFO] Processing GET difficulty request
+[2025-04-24 22:22:42] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:22:42] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:24:16] [INFO] === New Request ===
+[2025-04-24 22:24:16] [INFO] Request Method: GET
+[2025-04-24 22:24:16] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:24:16] [INFO] Processing GET difficulty request
+[2025-04-24 22:24:16] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:24:16] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:29:52] [INFO] === New Request ===
+[2025-04-24 22:29:52] [INFO] Request Method: GET
+[2025-04-24 22:29:52] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:29:52] [INFO] Processing GET difficulty request
+[2025-04-24 22:29:52] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:29:52] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:36:50] [INFO] === New Request ===
+[2025-04-24 22:36:50] [INFO] Request Method: GET
+[2025-04-24 22:36:50] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:36:50] [INFO] Processing GET difficulty request
+[2025-04-24 22:36:50] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:36:50] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:41:42] [INFO] === New Request ===
+[2025-04-24 22:41:42] [INFO] Request Method: GET
+[2025-04-24 22:41:42] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:41:42] [INFO] Processing GET difficulty request
+[2025-04-24 22:41:42] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:41:42] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 22:59:17] [INFO] === New Request ===
+[2025-04-24 22:59:17] [INFO] Request Method: GET
+[2025-04-24 22:59:17] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 22:59:17] [INFO] Processing GET difficulty request
+[2025-04-24 22:59:17] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 22:59:17] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-24 23:49:02] [INFO] === New Request ===
+[2025-04-24 23:49:02] [INFO] Request Method: GET
+[2025-04-24 23:49:02] [INFO] Remote IP: 88.208.197.210
+[2025-04-24 23:49:02] [INFO] Processing GET difficulty request
+[2025-04-24 23:49:02] [INFO] Retrieved difficulty value: 1.0
+[2025-04-24 23:49:02] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 01:06:22] [INFO] === New Request ===
+[2025-04-25 01:06:22] [INFO] Request Method: GET
+[2025-04-25 01:06:22] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 01:06:22] [INFO] Processing GET difficulty request
+[2025-04-25 01:06:22] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 01:06:22] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 11:47:52] [INFO] === New Request ===
+[2025-04-25 11:47:52] [INFO] Request Method: GET
+[2025-04-25 11:47:52] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 11:47:52] [INFO] Processing GET difficulty request
+[2025-04-25 11:47:52] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 11:47:52] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 11:52:34] [INFO] === New Request ===
+[2025-04-25 11:52:34] [INFO] Request Method: GET
+[2025-04-25 11:52:34] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 11:52:34] [INFO] Processing GET difficulty request
+[2025-04-25 11:52:34] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 11:52:34] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 12:09:43] [INFO] === New Request ===
+[2025-04-25 12:09:43] [INFO] Request Method: GET
+[2025-04-25 12:09:43] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 12:09:43] [INFO] Processing GET difficulty request
+[2025-04-25 12:09:43] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 12:09:43] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 12:22:44] [INFO] === New Request ===
+[2025-04-25 12:22:44] [INFO] Request Method: GET
+[2025-04-25 12:22:44] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 12:22:44] [INFO] Processing GET difficulty request
+[2025-04-25 12:22:44] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 12:22:44] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 12:23:04] [INFO] === New Request ===
+[2025-04-25 12:23:04] [INFO] Request Method: GET
+[2025-04-25 12:23:04] [INFO] Remote IP: 88.208.197.210
+[2025-04-25 12:23:04] [INFO] Processing GET difficulty request
+[2025-04-25 12:23:04] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 12:23:04] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 14:44:10] [INFO] === New Request ===
+[2025-04-25 14:44:10] [INFO] Request Method: GET
+[2025-04-25 14:44:10] [INFO] Remote IP: 41.237.176.65
+[2025-04-25 14:44:10] [INFO] Processing GET difficulty request
+[2025-04-25 14:44:10] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 14:44:10] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 14:44:24] [INFO] === New Request ===
+[2025-04-25 14:44:24] [INFO] Request Method: GET
+[2025-04-25 14:44:24] [INFO] Remote IP: 41.237.176.65
+[2025-04-25 14:44:24] [INFO] Processing GET difficulty request
+[2025-04-25 14:44:24] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 14:44:24] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 15:32:10] [INFO] === New Request ===
+[2025-04-25 15:32:10] [INFO] Request Method: GET
+[2025-04-25 15:32:10] [INFO] Remote IP: 41.237.176.65
+[2025-04-25 15:32:10] [INFO] Processing GET difficulty request
+[2025-04-25 15:32:10] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 15:32:10] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 15:39:06] [INFO] === New Request ===
+[2025-04-25 15:39:06] [INFO] Request Method: GET
+[2025-04-25 15:39:06] [INFO] Remote IP: 41.237.176.65
+[2025-04-25 15:39:06] [INFO] Processing GET difficulty request
+[2025-04-25 15:39:06] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 15:39:06] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-25 19:23:43] [INFO] === New Request ===
+[2025-04-25 19:23:43] [INFO] Request Method: GET
+[2025-04-25 19:23:43] [INFO] Remote IP: 41.237.176.65
+[2025-04-25 19:23:43] [INFO] Processing GET difficulty request
+[2025-04-25 19:23:43] [INFO] Retrieved difficulty value: 1.0
+[2025-04-25 19:23:43] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-26 00:58:41] [INFO] === New Request ===
+[2025-04-26 00:58:41] [INFO] Request Method: GET
+[2025-04-26 00:58:41] [INFO] Remote IP: 41.237.176.65
+[2025-04-26 00:58:41] [INFO] Processing GET difficulty request
+[2025-04-26 00:58:41] [INFO] Retrieved difficulty value: 1.0
+[2025-04-26 00:58:41] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-26 22:21:05] [INFO] === New Request ===
+[2025-04-26 22:21:05] [INFO] Request Method: GET
+[2025-04-26 22:21:05] [INFO] Remote IP: 41.237.164.101
+[2025-04-26 22:21:05] [INFO] Processing GET difficulty request
+[2025-04-26 22:21:05] [INFO] Retrieved difficulty value: 1.0
+[2025-04-26 22:21:05] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-28 12:42:13] [INFO] === New Request ===
+[2025-04-28 12:42:13] [INFO] Request Method: GET
+[2025-04-28 12:42:13] [INFO] Remote IP: 154.178.22.50
+[2025-04-28 12:42:13] [INFO] Processing GET difficulty request
+[2025-04-28 12:42:13] [INFO] Retrieved difficulty value: 1.0
+[2025-04-28 12:42:13] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-04-28 15:44:40] [INFO] === New Request ===
+[2025-04-28 15:44:40] [INFO] Request Method: GET
+[2025-04-28 15:44:40] [INFO] Remote IP: 104.28.203.128
+[2025-04-28 15:44:40] [INFO] Processing GET difficulty request
+[2025-04-28 15:44:40] [INFO] Retrieved difficulty value: 1.0
+[2025-04-28 15:44:40] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-01 03:33:29] [INFO] === New Request ===
+[2025-05-01 03:33:29] [INFO] Request Method: GET
+[2025-05-01 03:33:29] [INFO] Remote IP: 41.237.168.98
+[2025-05-01 03:33:29] [INFO] Processing GET difficulty request
+[2025-05-01 03:33:29] [INFO] Retrieved difficulty value: 1.0
+[2025-05-01 03:33:29] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-01 03:33:40] [INFO] === New Request ===
+[2025-05-01 03:33:40] [INFO] Request Method: GET
+[2025-05-01 03:33:40] [INFO] Remote IP: 41.237.168.98
+[2025-05-01 03:33:40] [INFO] Processing GET difficulty request
+[2025-05-01 03:33:40] [INFO] Retrieved difficulty value: 1.0
+[2025-05-01 03:33:40] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-03 11:41:14] [INFO] === New Request ===
+[2025-05-03 11:41:14] [INFO] Request Method: GET
+[2025-05-03 11:41:14] [INFO] Remote IP: 41.237.168.98
+[2025-05-03 11:41:14] [INFO] Processing GET difficulty request
+[2025-05-03 11:41:14] [INFO] Retrieved difficulty value: 1.0
+[2025-05-03 11:41:14] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-05 20:29:08] [INFO] === New Request ===
+[2025-05-05 20:29:08] [INFO] Request Method: GET
+[2025-05-05 20:29:08] [INFO] Remote IP: 41.237.168.98
+[2025-05-05 20:29:08] [INFO] Processing GET difficulty request
+[2025-05-05 20:29:08] [INFO] Retrieved difficulty value: 1.0
+[2025-05-05 20:29:08] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-05 21:04:04] [INFO] === New Request ===
+[2025-05-05 21:04:04] [INFO] Request Method: GET
+[2025-05-05 21:04:04] [INFO] Remote IP: 41.237.168.98
+[2025-05-05 21:04:04] [INFO] Processing GET difficulty request
+[2025-05-05 21:04:04] [INFO] Retrieved difficulty value: 1.0
+[2025-05-05 21:04:04] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-07 02:57:17] [INFO] === New Request ===
+[2025-05-07 02:57:17] [INFO] Request Method: GET
+[2025-05-07 02:57:17] [INFO] Remote IP: 41.237.166.184
+[2025-05-07 02:57:17] [INFO] Processing GET difficulty request
+[2025-05-07 02:57:17] [INFO] Retrieved difficulty value: 1.0
+[2025-05-07 02:57:17] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-08 17:27:44] [INFO] === New Request ===
+[2025-05-08 17:27:44] [INFO] Request Method: GET
+[2025-05-08 17:27:44] [INFO] Remote IP: 154.178.90.177
+[2025-05-08 17:27:44] [INFO] Processing GET difficulty request
+[2025-05-08 17:27:44] [INFO] Retrieved difficulty value: 1.0
+[2025-05-08 17:27:44] [INFO] Response: {"status":"success","multiplier":"1.0"}
+[2025-05-09 20:43:26] [INFO] === New Request ===
+[2025-05-09 20:43:26] [INFO] Request Method: GET
+[2025-05-09 20:43:26] [INFO] Remote IP: 154.178.90.177
+[2025-05-09 20:43:26] [INFO] Processing GET difficulty request
+[2025-05-09 20:43:26] [INFO] Retrieved difficulty value: 1.0
+[2025-05-09 20:43:26] [INFO] Response: {"status":"success","multiplier":"1.0"}

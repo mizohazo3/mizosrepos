@@ -1,0 +1,12 @@
+[2025-04-25 11:43:59] Received refund request for purchase_id: 96
+[2025-04-25 11:43:59] Raw input: {"purchase_id":"96"}
+[2025-04-25 11:43:59] Started database transaction
+[2025-04-25 11:43:59] Purchase data: {"id":96,"item_id":5,"item_name_snapshot":"Black Tea","price_paid":"0.1000","purchase_time":"2025-04-25 11:43:41"}
+[2025-04-25 11:43:59] Purchase time: 2025-04-25 11:43:41, Hours left for refund: 23.995
+[2025-04-25 11:43:59] Attempting to delete purchase log with ID: 96, refund amount: 0.1000
+[2025-04-25 11:43:59] Delete operation completed. Rows affected: 1
+[2025-04-25 11:43:59] Calculating new balance after refund
+[2025-04-25 11:43:59] New balance calculated: 1.997227
+[2025-04-25 11:43:59] Committing transaction
+[2025-04-25 11:43:59] Transaction committed successfully
+[2025-04-25 11:43:59] Refund successful. Response: {"status":"success","message":"Refund processed successfully","refunded_amount":"0.1000","item_name":"Black Tea","new_balance":1.9972269999999988,"purchase_id":96}

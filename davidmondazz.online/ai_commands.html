@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Command Words for AI Agents - Enhanced</title>
+    <style>
+        /* --- Global Styles & Typography --- */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            background-color: #f4f7f9; /* Light background */
+            color: #333;             /* Dark grey text */
+            margin: 0;               /* Remove default body margin */
+            padding: 0;              /* Remove default body padding */
+        }
+
+        /* --- Layout Container --- */
+        .container {
+            max-width: 900px;        /* Limit content width */
+            margin: 40px auto;       /* Center container with space */
+            padding: 30px 40px;      /* Padding inside container */
+            background-color: #ffffff; /* White background for content */
+            border-radius: 10px;     /* Rounded corners */
+            box-shadow: 0 6px 18px rgba(0, 86, 179, 0.1); /* Subtle shadow */
+        }
+
+        /* --- Headings --- */
+        h1 {
+            color: #0056b3;           /* Darker blue */
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #dee2e6; /* Light underline */
+            font-size: 2.2em;         /* Larger H1 */
+            font-weight: 600;
+        }
+        h2 {
+            color: #007bff;           /* Primary blue */
+            margin-top: 45px;         /* Space above category titles */
+            margin-bottom: 15px;      /* Reduced bottom margin */
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e9ecef; /* Very light underline */
+            font-size: 1.6em;         /* Larger H2 */
+            font-weight: 500;
+        }
+
+        /* --- Lists & List Items --- */
+        ul {
+            list-style: none;        /* Remove default bullets */
+            padding-left: 0;
+            margin-top: 15px; /* Add space above list if button precedes it */
+        }
+        li {
+            position: relative; /* Needed for absolute positioning of copy button */
+            background-color: #f8f9fa;  /* Slightly off-white item background */
+            border: 1px solid #e9ecef;  /* Light border */
+            border-left: 5px solid #2a9fd6; /* Accent color left border (lighter blue) */
+            padding: 15px 60px 15px 20px; /* Increased right padding for button */
+            margin-bottom: 12px;        /* Space between items */
+            border-radius: 6px;         /* Rounded corners for items */
+            transition: transform 0.2s ease-out, box-shadow 0.2s ease-out; /* Smooth hover transition */
+        }
+        li:hover {
+            transform: translateY(-3px) scale(1.01); /* Lift effect */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Slight shadow on hover */
+        }
+
+        /* --- Emphasis & Inline Elements --- */
+        strong {
+            color: #0056b3;           /* Darker blue for the command word */
+            font-weight: 600;         /* Slightly bolder */
+            margin-right: 5px;
+        }
+        .category-intro {
+            font-style: italic;
+            color: #5a6a7d;           /* Muted grey-blue */
+            margin-bottom: 15px;
+            padding-left: 5px;       /* Align slightly with list item text */
+            font-size: 0.95em;
+        }
+        code {
+            background-color: #e0e5eb;  /* Grey background for code */
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            font-size: 0.9em;          /* Slightly smaller code font */
+            color: #333;
+        }
+
+        /* --- Usage Tip Box --- */
+        .usage-tip {
+            margin-top: 40px;
+            padding: 20px 25px;
+            background-color: #e7f5ff;  /* Light blue background */
+            border: 1px solid #b8dffc;  /* Light blue border */
+            border-left: 6px solid #007bff; /* Thicker primary blue left border */
+            border-radius: 6px;
+            color: #004085;            /* Dark blue text for contrast */
+            font-size: 0.98em;
+        }
+        .usage-tip strong {
+            color: #004085;            /* Match tip text color */
+            font-weight: 600;
+        }
+
+        /* --- Individual Copy Buttons --- */
+        .copy-btn {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #6c757d; /* Grey */
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            font-size: 0.8em;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, opacity 0.3s ease;
+            opacity: 0; /* Hidden by default */
+        }
+        li:hover .copy-btn {
+            opacity: 1; /* Show on list item hover */
+        }
+        .copy-btn:hover {
+            background-color: #5a6268; /* Darker Grey */
+        }
+        .copy-btn.copied {
+            background-color: #28a745; /* Green */
+            cursor: default;
+        }
+
+        /* --- Section Copy Button --- */
+        .copy-section-btn {
+            display: inline-block; /* Allow text flow */
+            margin-top: 5px;      /* Space below intro/h2 */
+            margin-bottom: 5px;   /* Space above list */
+            padding: 5px 10px;
+            font-size: 0.85em;
+            background-color: #007bff; /* Primary blue */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+        .copy-section-btn:hover {
+            background-color: #0056b3; /* Darker blue */
+        }
+         .copy-section-btn:active {
+            transform: scale(0.98); /* Click effect */
+        }
+        .copy-section-btn.copied {
+            background-color: #28a745; /* Green */
+            cursor: default;
+        }
+
+
+        /* --- Copy All Button --- */
+        #copy-all-btn {
+            display: block; /* Take full width */
+            width: fit-content; /* Shrink to content size */
+            margin: 35px auto 20px; /* Center horizontally, adjusted space */
+            padding: 10px 20px;
+            background-color: #17a2b8; /* Teal color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+        #copy-all-btn:hover {
+            background-color: #117a8b; /* Darker teal */
+        }
+        #copy-all-btn:active {
+            transform: scale(0.98); /* Click effect */
+        }
+         #copy-all-btn.copied {
+            background-color: #28a745; /* Green */
+            cursor: default;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Creative Command Words for AI Agents</h1>
+        <p style="text-align: center; margin-top: -20px; margin-bottom: 30px; color: #555;">A collection of verbs to instruct AI agents for implementation, improvement, and transformation.</p>
+
+        <button id="copy-all-btn">Copy All Commands (Comma Separated)</button>
+
+        <h2>Minor Adjustments & Polishing</h2>
+        <p class="category-intro">For small improvements, clarity, and finishing touches.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Refine:</strong> Make small improvements to clarity, precision, or elegance. <button class="copy-btn" title="Copy 'Refine'">Copy</button></li>
+            <li><strong>Polish:</strong> Add finishing touches, smooth rough edges. <button class="copy-btn" title="Copy 'Polish'">Copy</button></li>
+            <li><strong>Tweak:</strong> Make small, subtle adjustments. <button class="copy-btn" title="Copy 'Tweak'">Copy</button></li>
+            <li><strong>Hone:</strong> Sharpen or perfect something (like an argument or code snippet). <button class="copy-btn" title="Copy 'Hone'">Copy</button></li>
+            <li><strong>Fine-tune:</strong> Adjust carefully for optimal performance or effect. <button class="copy-btn" title="Copy 'Fine-tune'">Copy</button></li>
+            <li><strong>Calibrate:</strong> Adjust for accuracy or standard. <button class="copy-btn" title="Copy 'Calibrate'">Copy</button></li>
+            <li><strong>Smooth:</strong> Remove abruptness or difficulties. <button class="copy-btn" title="Copy 'Smooth'">Copy</button></li>
+        </ul>
+
+        <h2>Improving & Strengthening</h2>
+        <p class="category-intro">For enhancing quality, value, robustness, or effectiveness.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Enhance:</strong> Improve the quality, value, or extent of something. <button class="copy-btn" title="Copy 'Enhance'">Copy</button></li>
+            <li><strong>Augment:</strong> Make something greater by adding to it. <button class="copy-btn" title="Copy 'Augment'">Copy</button></li>
+            <li><strong>Strengthen:</strong> Make more robust, secure, or compelling. <button class="copy-btn" title="Copy 'Strengthen'">Copy</button></li>
+            <li><strong>Bolster:</strong> Support or strengthen; prop up. <button class="copy-btn" title="Copy 'Bolster'">Copy</button></li>
+            <li><strong>Optimize:</strong> Make as effective, perfect, or useful as possible (often for code/performance). <button class="copy-btn" title="Copy 'Optimize'">Copy</button></li>
+            <li><strong>Elevate:</strong> Raise to a more important or impressive level. <button class="copy-btn" title="Copy 'Elevate'">Copy</button></li>
+            <li><strong>Amplify:</strong> Increase the volume, intensity, or significance of. <button class="copy-btn" title="Copy 'Amplify'">Copy</button></li>
+        </ul>
+
+        <h2>Clarifying & Simplifying</h2>
+        <p class="category-intro">For making things clearer, less complex, or more focused.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Clarify:</strong> Make clearer and easier to understand. <button class="copy-btn" title="Copy 'Clarify'">Copy</button></li>
+            <li><strong>Simplify:</strong> Make less complex or complicated. <button class="copy-btn" title="Copy 'Simplify'">Copy</button></li>
+            <li><strong>Streamline:</strong> Make more efficient or effective by simplifying procedures. <button class="copy-btn" title="Copy 'Streamline'">Copy</button></li>
+            <li><strong>Distill:</strong> Extract the most important aspects or meaning. <button class="copy-btn" title="Copy 'Distill'">Copy</button></li>
+            <li><strong>Unpack:</strong> Explain or analyze in detail. <button class="copy-btn" title="Copy 'Unpack'">Copy</button></li>
+            <li><strong>Elucidate:</strong> Make something clear; explain. <button class="copy-btn" title="Copy 'Elucidate'">Copy</button></li>
+        </ul>
+
+        <h2>Adding Creativity & Style</h2>
+        <p class="category-intro">For infusing personality, flair, or specific qualities.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Embellish:</strong> Make more attractive or interesting (use cautiously!). <button class="copy-btn" title="Copy 'Embellish'">Copy</button></li>
+            <li><strong>Enrich:</strong> Improve or enhance the quality or supply of; make more meaningful. <button class="copy-btn" title="Copy 'Enrich'">Copy</button></li>
+            <li><strong>Invigorate:</strong> Give strength or energy to; revitalize. <button class="copy-btn" title="Copy 'Invigorate'">Copy</button></li>
+            <li><strong>Inject [X]:</strong> Add a specific quality (e.g., <code>Inject more personality</code>). <button class="copy-btn" title="Copy 'Inject'">Copy</button></li>
+            <li><strong>Infuse with [Y]:</strong> Fill with a quality (e.g., <code>Infuse with warmth</code>). <button class="copy-btn" title="Copy 'Infuse'">Copy</button></li>
+            <li><strong>Stylize:</strong> Give a particular style to. <button class="copy-btn" title="Copy 'Stylize'">Copy</button></li>
+        </ul>
+
+        <h2>Significant Changes & Restructuring</h2>
+        <p class="category-intro">For noticeable revisions, reorganization, or updates.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Improve:</strong> (The classic) Make better. <button class="copy-btn" title="Copy 'Improve'">Copy</button></li>
+            <li><strong>Rework:</strong> Revise or reorganize. <button class="copy-btn" title="Copy 'Rework'">Copy</button></li>
+            <li><strong>Restructure:</strong> Change the fundamental structure of. <button class="copy-btn" title="Copy 'Restructure'">Copy</button></li>
+            <li><strong>Reorganize:</strong> Arrange into a new structure or order. <button class="copy-btn" title="Copy 'Reorganize'">Copy</button></li>
+            <li><strong>Refactor:</strong> (Code specific) Restructure existing code without changing external behavior. <button class="copy-btn" title="Copy 'Refactor'">Copy</button></li>
+            <li><strong>Adapt:</strong> Modify for a new use or purpose. <button class="copy-btn" title="Copy 'Adapt'">Copy</button></li>
+            <li><strong>Modernize:</strong> Bring up to date with current styles, methods, or technology. <button class="copy-btn" title="Copy 'Modernize'">Copy</button></li>
+        </ul>
+
+        <h2>Radical Transformation & Overhaul</h2>
+        <p class="category-intro">For fundamental, dramatic changes or complete renovations.</p>
+        <button class="copy-section-btn" title="Copy commands in this section">Copy Section Commands</button>
+        <ul>
+            <li><strong>Overhaul:</strong> Take apart to examine and repair; renovate thoroughly. <button class="copy-btn" title="Copy 'Overhaul'">Copy</button></li>
+            <li><strong>Revamp:</strong> Give new and improved form, structure, or appearance to. <button class="copy-btn" title="Copy 'Revamp'">Copy</button></li>
+            <li><strong>Reimagine:</strong> Reinterpret creatively; imagine again or differently. <button class="copy-btn" title="Copy 'Reimagine'">Copy</button></li>
+            <li><strong>Transform:</strong> Make a thorough or dramatic change in the form, appearance, or character. <button class="copy-btn" title="Copy 'Transform'">Copy</button></li>
+            <li><strong>Rebuild:</strong> Build again after destruction; fundamentally change. <button class="copy-btn" title="Copy 'Rebuild'">Copy</button></li>
+            <li><strong>Revolutionize:</strong> Change (something) radically or fundamentally. <button class="copy-btn" title="Copy 'Revolutionize'">Copy</button></li>
+        </ul>
+
+        <div class="usage-tip">
+            <strong>Usage Tip:</strong> Combine these powerful verbs with specific details about *what* needs changing and *how*. For example: "<strong>Optimize</strong> the <code>getUserData()</code> function for faster database queries," or "<strong>Reimagine</strong> the onboarding process to be more interactive." Choose the word that best reflects the scale and nature of the change you need!
+        </div>
+
+    </div> <!-- End of container -->
+
+    <script>
+        // --- Helper Function for Copy Feedback ---
+        function showCopyFeedback(button, originalText, copiedText = "Copied!", timeout = 1500) {
+            const originalTitle = button.title;
+            button.textContent = copiedText;
+            button.title = copiedText; // Update title as well
+            button.classList.add('copied');
+            button.disabled = true;
+
+            setTimeout(() => {
+                button.textContent = originalText;
+                button.title = originalTitle; // Restore original title
+                button.classList.remove('copied');
+                button.disabled = false;
+            }, timeout);
+        }
+
+        // --- Helper Function to Get Clean Command Text ---
+        function getCleanCommandText(strongElement) {
+             if (!strongElement || strongElement.tagName !== 'STRONG') return null;
+             return strongElement.textContent.replace(/:$/, '').trim();
+        }
+
+        // --- Copy Individual Command ---
+        const copyButtons = document.querySelectorAll('.copy-btn');
+        copyButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const strongElement = button.previousElementSibling;
+                const commandText = getCleanCommandText(strongElement);
+
+                if (commandText) {
+                    navigator.clipboard.writeText(commandText).then(() => {
+                        showCopyFeedback(button, 'Copy');
+                    }).catch(err => {
+                        console.error('Failed to copy command: ', err);
+                        button.title = 'Copy failed!';
+                        setTimeout(() => { button.title = `Copy '${commandText}'` }, 1500);
+                    });
+                } else {
+                     console.error('Could not find command text element for button:', button);
+                }
+            });
+        });
+
+        // --- Copy Section Commands ---
+        const copySectionButtons = document.querySelectorAll('.copy-section-btn');
+        copySectionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const targetUl = button.nextElementSibling; // Assumes button is immediately before UL
+
+                if (!targetUl || targetUl.tagName !== 'UL') {
+                    console.error('Could not find target UL for section button:', button);
+                    return; // Stop if UL not found right after button
+                }
+
+                const sectionCommands = [];
+                const strongElements = targetUl.querySelectorAll('li strong');
+
+                strongElements.forEach(strong => {
+                    const commandText = getCleanCommandText(strong);
+                    // Exclude bracketed placeholders like [X] or [Y] from section copy
+                    if (commandText && !commandText.includes('[')) {
+                        sectionCommands.push(commandText);
+                    }
+                });
+
+                if (sectionCommands.length === 0) {
+                    showCopyFeedback(button, button.textContent, 'No commands found!', 2000);
+                    return; // Nothing to copy
+                }
+
+                const commandsString = sectionCommands.join(', ');
+
+                navigator.clipboard.writeText(commandsString).then(() => {
+                    showCopyFeedback(button, 'Copy Section Commands', 'Section Copied!', 1500);
+                }).catch(err => {
+                    console.error('Failed to copy section commands: ', err);
+                    showCopyFeedback(button, button.textContent, 'Copy Failed!', 2000);
+                });
+            });
+        });
+
+
+        // --- Copy All Commands ---
+        const copyAllButton = document.getElementById('copy-all-btn');
+        if (copyAllButton) {
+            copyAllButton.addEventListener('click', () => {
+                const allCommands = [];
+                // Select all <strong> elements within list items across all sections
+                document.querySelectorAll('ul li strong').forEach(strong => {
+                     const commandText = getCleanCommandText(strong);
+                     // Exclude bracketed placeholders like [X] or [Y] from global copy
+                     if (commandText && !commandText.includes('[')) {
+                        allCommands.push(commandText);
+                     }
+                });
+
+                 if (allCommands.length === 0) {
+                    showCopyFeedback(copyAllButton, copyAllButton.textContent, 'No commands found!', 2000);
+                    return; // Nothing to copy
+                }
+
+                const commandsString = allCommands.join(', ');
+
+                navigator.clipboard.writeText(commandsString).then(() => {
+                    showCopyFeedback(copyAllButton, 'Copy All Commands (Comma Separated)', 'All Commands Copied!', 2000);
+                }).catch(err => {
+                    console.error('Failed to copy all commands: ', err);
+                     showCopyFeedback(copyAllButton, copyAllButton.textContent, 'Copy Failed!', 2000);
+                });
+            });
+        }
+
+    </script>
+
+</body>
+</html>

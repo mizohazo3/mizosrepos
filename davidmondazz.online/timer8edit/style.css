@@ -1,0 +1,1267 @@
+/* --- Reset & Base --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Color Palette - Modern Professional */
+    --bg-dark: #1a1d21;        /* Very dark background */
+    --bg-darker: #141619;      /* Even darker for hover states */
+    --bg-medium: #282c34;      /* Container/Item background */
+    --bg-light: #3c414b;       /* Slightly lighter elements (inputs, progress track) */
+    --text-primary: #e0e6f0;   /* Main text color */
+    --text-secondary: #a0a8b4; /* Dimmer text */
+    --accent-primary: #61dafb; /* Primary accent (e.g., React blue/teal) */
+    --accent-primary-darker: #4fa8c9; /* Darker variant for hover */
+    --accent-secondary: #5eecb3; /* Secondary accent (e.g., running green) */
+    --accent-secondary-darker: #4bc994; /* Darker variant for hover */
+    --accent-warning: #ffcc66; /* Warning/Bank yellow */
+    --accent-warning-darker: #e6b85c; /* Darker variant for hover */
+    --accent-error: #ff6b6b;   /* Error/Stop red */
+    --accent-error-darker: #e65c5c; /* Darker variant for hover */
+    --border-color: #4a505c;   /* Borders */
+
+    /* Fonts */
+    --font-primary: 'Inter', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+    --font-money: Helvetica, Arial, sans-serif;
+    --font-timer: 'DSEG7 Classic', 'Courier New', monospace;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+    /* Focus outline */
+    --focus-ring: 0 0 0 3px rgba(97, 218, 251, 0.5); /* Based on accent-primary */
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    padding: 15px;
+    font-size: 15px; /* Base font size */
+}
+
+.container {
+    max-width: 800px; /* Slightly wider */
+    margin: 30px auto;
+    background-color: var(--bg-medium);
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+}
+
+/* --- Header --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+    flex-shrink: 0; /* Don't shrink title */
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between status and buttons */
+    flex-wrap: wrap;
+}
+
+#connection-status {
+    font-size: 0.85em;
+    font-weight: 500;
+    color: var(--accent-warning); /* Start as warning/connecting */
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.controls-top {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.controls-top button,
+.controls-top .button-link {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em; /* Slightly larger for icons */
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease, border-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* For link */
+    line-height: 1; /* Ensure icon fits vertically */
+}
+.controls-top button:hover,
+.controls-top .button-link:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-dark);
+    border-color: var(--accent-primary);
+}
+.controls-top button:active,
+.controls-top .button-link:active {
+    transform: scale(0.95);
+}
+
+/* Specific button colors on hover */
+#stop-all-btn:hover { background-color: var(--accent-error); border-color: var(--accent-error); }
+#reset-all-btn:hover { background-color: var(--accent-warning); border-color: var(--accent-warning); }
+#add-timer-btn:hover { background-color: var(--accent-secondary); border-color: var(--accent-secondary);}
+#difficulty-btn:hover { background-color: #a0a8b4; border-color: #a0a8b4; } /* Neutral */
+
+
+/* --- Hub Section --- */
+.hub {
+    /* No explicit H2 title needed */
+}
+
+#search-timers {
+    display: block;
+    width: 100%;
+    padding: 12px 18px;
+    margin: 0 auto 25px auto;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+#search-timers::placeholder {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+#search-timers:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(97, 218, 251, 0.2); /* Subtle focus ring */
+}
+
+.global-bank {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #1a1d24, #2c3037);
+    padding: 20px;
+    border-radius: 12px;
+    color: var(--text-secondary);
+    font-size: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.global-bank::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(97, 218, 251, 0.05), rgba(94, 236, 179, 0.05));
+    z-index: 0;
+}
+
+#global-bank-balance {
+    color: #ffd700;
+    font-weight: 700;
+    font-family: var(--font-money);
+    font-size: 1.5em;
+    margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 6px 15px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.02em;
+}
+
+
+/* --- Timer List --- */
+#timer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Space between timer items */
+}
+
+.timer-item {
+    background: linear-gradient(135deg, #1e222a, #282c34);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    gap: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.timer-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timer-item.running {
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 15px rgba(94, 236, 179, 0.15);
+}
+
+/* Timer Display (Left) */
+.timer-display-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+    gap: 8px; /* Add space between elements */
+}
+
+.timer-display {
+    font-family: var(--font-timer);
+    font-size: 2.6em;
+    font-weight: 700;
+    color: var(--accent-primary);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timer-display .milliseconds {
+    font-family: var(--font-timer);
+    font-size: 0.5em; /* Smaller milliseconds */
+    color: var(--accent-primary);
+    opacity: 0.7;
+    vertical-align: baseline;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+.timer-item.running .timer-display {
+    color: var(--accent-secondary);
+    text-shadow: 0 0 15px rgba(94, 236, 179, 0.6);
+    border-color: rgba(94, 236, 179, 0.3);
+}
+.timer-item.running .timer-display .milliseconds {
+    color: var(--accent-secondary);
+    text-shadow: 0 0 10px rgba(94, 236, 179, 0.6);
+}
+
+
+/* Timer Info (Middle) */
+.timer-info {
+    flex-grow: 1; /* Takes remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between info elements */
+}
+
+/* Progress Bar - Now at top */
+.timer-progress-container {
+    width: 100%;
+    height: 24px; /* Slightly taller since it's the main element now */
+    position: relative;
+    margin-bottom: 4px; /* Add some space below progress bar */
+}
+
+.timer-progress-bar {
+    height: 100%;
+    background-color: var(--bg-light);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timer-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    border-radius: 12px;
+    transition: width 0.2s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timer-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family: var(--font-mono);
+    line-height: 1;
+    z-index: 1;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    white-space: nowrap;
+}
+
+/* Timer Details (Level and Rate) */
+.timer-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 18px;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    padding: 4px 0;
+}
+
+.timer-level-rank .timer-level { font-weight: 700; color: var(--accent-primary); }
+.timer-level-rank .timer-rank { font-style: italic; }
+.timer-reward-rate {
+    color: var(--accent-secondary);
+    font-weight: 500;
+    font-family: var(--font-money);
+    letter-spacing: 0.02em;
+}
+
+/* Timer Header (Name + Actions) - Now at bottom */
+.timer-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.timer-name-icon {
+    font-size: 1.4em;
+    line-height: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.timer-name {
+    font-weight: 500;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-primary);
+}
+
+.timer-actions {
+    margin-left: auto;
+    flex-shrink: 0;
+    display: flex;
+    gap: 5px;
+}
+
+/* Timer Actions */
+.timer-actions button {
+    background-color: var(--accent-secondary);
+    color: var(--bg-dark);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 80px; /* Significantly increased minimum width */
+    width: 100px; /* Set fixed width */
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.timer-actions button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.timer-actions button:not(:disabled):active {
+    transform: scale(0.95);
+}
+
+.timer-actions .stop-button {
+    background-color: var(--accent-error);
+}
+
+.timer-actions .start-button:not(:disabled):hover { background-color: #4caf50; }
+.timer-actions .stop-button:not(:disabled):hover { background-color: #e53935; }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .timer-item {
+        /* Keep horizontal layout but allow wrapping */
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .timer-display-wrapper {
+        /* Take less width but maintain position */
+        width: auto;
+        flex-shrink: 1;
+        gap: 6px;
+    }
+    
+    .timer-info {
+        /* Allow growing but maintain minimum width */
+        flex: 1;
+        min-width: 200px;
+        text-align: left;
+    }
+    
+    .timer-header {
+        /* Keep horizontal layout */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .timer-name {
+        /* Keep left alignment */
+        text-align: left;
+        width: auto;
+    }
+    
+    .timer-details {
+        /* Keep left alignment */
+        justify-content: flex-start;
+        gap: 10px 20px;
+    }
+    
+    .timer-actions {
+        /* Keep right alignment */
+        justify-content: flex-end;
+    }
+    
+    .timer-progress-container {
+        width: 100%;
+    }
+    
+    .accumulated-time,
+    .total-earned {
+        /* Keep alignment with timer display */
+        text-align: center;
+        font-size: 0.8em;
+        padding: 3px 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    body { font-size: 14px; }
+    .container { padding: 15px; }
+    header { gap: 10px; }
+    header h1 { font-size: 1.3em; }
+    .header-controls { gap: 10px; }
+    #connection-status { padding: 3px 8px; font-size: 0.8em; }
+    .controls-top button, .controls-top .button-link { padding: 6px 10px; font-size: 1em; }
+    
+    #search-timers { padding: 10px 15px; font-size: 0.95em; }
+    .global-bank { padding: 10px; font-size: 1em; }
+    
+    .timer-item { padding: 12px; gap: 12px; }
+    .timer-display { font-size: 1.8em; padding: 6px 12px; }
+    .timer-name { font-size: 1.1em; }
+    .timer-details { font-size: 0.85em; gap: 5px 15px; }
+    .timer-actions button { padding: 6px 14px; min-height: 36px; min-width: 60px; width: 80px; font-size: 1em; }
+    .accumulated-time,
+    .total-earned { font-size: 0.75em; }
+    .timer-progress-text { font-size: 0.75em; }
+    .timer-name-icon {
+        font-size: 1.2em;
+    }
+}
+
+/* --- Notification Styles (Keep Existing or Refine) --- */
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px; /* Reduced gap */
+    pointer-events: none;
+    max-width: 350px; /* Slightly narrower */
+}
+
+.notification {
+    background-color: rgba(40, 44, 52, 0.97); /* Use bg-medium with alpha */
+    color: var(--text-primary);
+    padding: 12px 18px; /* Adjust padding */
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: flex-start;
+    gap: 12px; /* Adjust gap */
+    min-width: 280px;
+    max-width: 100%;
+    opacity: 0;
+    transform: translateX(20px); /* Slide from right */
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    pointer-events: auto;
+    cursor: default;
+    overflow: hidden;
+    border-left: 4px solid transparent; /* For status color indication */
+}
+
+.notification.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Add border color based on type */
+.notification-success { border-left-color: var(--accent-secondary); }
+.notification-error { border-left-color: var(--accent-error); }
+.notification-warning { border-left-color: var(--accent-warning); }
+.notification-info { border-left-color: var(--accent-primary); }
+.notification-level-up { border-left-color: #ab47bc; } /* Purple for level up */
+
+
+.notification-icon {
+    flex-shrink: 0;
+    font-size: 1.5em; /* Adjust icon size */
+    margin-top: 1px;
+    width: 25px;
+    text-align: center;
+    line-height: 1.2;
+}
+/* Specific icon colors */
+.notification-success .notification-icon { color: var(--accent-secondary); }
+.notification-error .notification-icon { color: var(--accent-error); }
+.notification-warning .notification-icon { color: var(--accent-warning); }
+.notification-info .notification-icon { color: var(--accent-primary); }
+.notification-level-up .notification-icon { color: #ab47bc; }
+
+
+.notification-content {
+    flex-grow: 1;
+}
+
+.notification-message {
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: var(--text-primary); /* Use primary text for readability */
+}
+
+.notification-close {
+    position: absolute;
+    top: 5px; /* Adjust position */
+    right: 8px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 2px 5px;
+    transition: color 0.2s ease;
+}
+.notification-close:hover {
+    color: var(--text-primary);
+}
+
+.notification-timeout-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px; /* Slimmer bar */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Dimmer bar */
+    transform-origin: left;
+}
+.notification-timeout-bar.animate {
+     /* Animation set via JS now */
+ }
+
+/* Accumulated Time and Total Earned */
+.accumulated-time,
+.total-earned { /* Style both */
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.timer-total-earned { /* Style the amount specifically */
+    color: #ffd700;
+    font-weight: 600;
+    font-family: var(--font-money);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease;
+    letter-spacing: 0.02em;
+}
+
+.timer-total-earned.earning {
+    color: #5eecb3;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        text-shadow: 0 1px 2px rgba(94, 236, 179, 0.2);
+    }
+    50% {
+        text-shadow: 0 1px 15px rgba(94, 236, 179, 0.6);
+    }
+    100% {
+        text-shadow: 0 1px 2px rgba(94, 236, 179, 0.2);
+    }
+}
+
+/* MAX LEVEL Styling */
+.timer-progress-bar.max-level .timer-progress-fill {
+    /* Gold/Orange/Distinct color for max level */
+    background: linear-gradient(90deg, #ffcc66, #ffb347);
+}
+
+/* Filter Hiding */
+.timer-item.hidden { /* Add this if using class-based hiding */
+    display: none;
+}
+
+/* --- Bank Page Specific Styles --- */
+
+/* Header */
+.bank-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px; /* Increased space */
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bank-header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Slightly larger */
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+}
+
+/* Shared button style - already exists but ensure it works for text */
+.button-link-text {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease, border-color 0.2s ease;
+    text-decoration: none;
+    line-height: 1;
+    white-space: nowrap;
+}
+.button-link-text:hover {
+    background-color: var(--accent-primary);
+    color: var(--bg-dark);
+    border-color: var(--accent-primary);
+}
+.button-link-text:active {
+    transform: scale(0.97);
+}
+
+
+/* Summary Section */
+.bank-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.summary-card {
+    background: linear-gradient(140deg, var(--bg-medium), #313640); /* Subtle gradient */
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.summary-card h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.summary-card p {
+    font-size: 2.2em;
+    font-weight: 700;
+    font-family: var(--font-mono); /* Mono font for numbers */
+    margin: 0;
+    line-height: 1.2;
+     transition: color 0.3s ease; /* Transition for loaded state */
+     color: var(--text-secondary); /* Default loading color */
+}
+
+.summary-card p.loaded { /* Style when data is loaded */
+    color: #ffd700; /* Gold color for balance */
+}
+
+.summary-card.total-earned-card p.loaded {
+    color: var(--accent-secondary); /* Green color for total earned */
+     font-size: 1.9em; /* Slightly smaller than balance */
+}
+
+/* Transaction History Section */
+.transaction-history {
+    margin-top: 20px;
+    background-color: rgba(0,0,0, 0.1); /* Subtle background for section */
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.transaction-history h2 {
+    font-size: 1.4em;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+.transaction-history h2 span {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: var(--text-secondary);
+}
+
+
+.loading-message, .empty-message {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 20px;
+    font-style: italic;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--bg-medium);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s ease;
+    flex-wrap: wrap; /* Allow wrap on smaller screens */
+    gap: 10px 15px; /* Row and column gap */
+}
+.transaction-item:hover {
+     background-color: var(--bg-light);
+}
+
+.transaction-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 150px; /* Prevent timer name from being too squished */
+    gap: 4px;
+}
+
+.transaction-timer-name {
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 1.05em;
+}
+
+.transaction-time {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+}
+
+.transaction-values {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0; /* Prevent shrinking */
+    text-align: right;
+}
+
+.transaction-duration {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    min-width: 60px; /* Give duration some space */
+}
+
+.transaction-earned {
+    font-weight: 600;
+    font-size: 1.1em;
+    font-family: var(--font-money);
+    color: var(--text-secondary); /* Default if not positive */
+    min-width: 100px; /* Give amount space */
+    letter-spacing: 0.02em;
+}
+
+.transaction-earned.positive {
+    color: var(--accent-secondary); /* Green for positive earnings */
+}
+
+.transaction-limit-note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Responsive Adjustments for Bank Page */
+@media (max-width: 600px) {
+    .bank-header h1 {
+        font-size: 1.5em;
+    }
+    .summary-card p {
+        font-size: 1.8em;
+    }
+    .summary-card.total-earned-card p.loaded {
+        font-size: 1.6em;
+    }
+    .transaction-item {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items left */
+    }
+     .transaction-values {
+         width: 100%; /* Take full width */
+         justify-content: space-between; /* Space out duration and amount */
+         margin-top: 8px;
+         text-align: left; /* Align left */
+     }
+    .transaction-earned {
+        text-align: right; /* Keep amount aligned right */
+    }
+}
+
+/* --- Marketplace Page Styles --- */
+
+.marketplace-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.marketplace-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--accent-primary);
+    letter-spacing: 0.5px;
+}
+
+.marketplace-header .header-info {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between balance and buttons */
+    flex-wrap: wrap;
+}
+
+.current-balance-display {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background-color: rgba(0,0,0, 0.15);
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+.current-balance-display #market-current-balance {
+    color: var(--accent-warning); /* Yellow for balance */
+    font-family: var(--font-mono);
+    font-weight: 700;
+}
+
+
+.item-listing {
+    margin-top: 20px;
+}
+
+.item-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 25px;
+}
+
+.item-card {
+    background: var(--bg-medium);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent content spill */
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.item-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.item-image-container {
+    width: 100%;
+    height: 130px; /* Fixed height for images */
+    background-color: var(--bg-light); /* Placeholder bg */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.item-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Or 'cover' depending on desired look */
+}
+
+.item-info {
+    padding: 15px;
+    flex-grow: 1; /* Allows description to take space */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item-name {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1; /* Take available space within info */
+}
+
+.item-purchase-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: rgba(0,0,0, 0.1); /* Slightly different bg */
+    border-top: 1px solid var(--border-color);
+}
+
+.item-price {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--accent-warning); /* Yellow price */
+    font-family: var(--font-mono);
+}
+
+.button.buy-button {
+    background-color: var(--accent-secondary);
+    color: var(--bg-dark);
+    border: none;
+    padding: 8px 18px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+.button.buy-button:hover:not(:disabled) {
+    background-color: #4caf50; /* Darker green on hover */
+}
+.button.buy-button:disabled {
+    background-color: var(--bg-light);
+    color: var(--text-secondary);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+/* --- Bank Page Transaction Type Styles --- */
+
+.transaction-item { /* Base style already exists */
+    /* Optional: Add transition for color changes */
+    transition: border-left-color 0.3s ease;
+    border-left: 3px solid transparent; /* Prepare for color indication */
+}
+
+.transaction-item.transaction-earn {
+     border-left-color: var(--accent-secondary); /* Green border for earnings */
+}
+.transaction-item.transaction-purchase {
+     border-left-color: var(--accent-error); /* Red border for purchases */
+}
+
+/* Style the amount text color */
+.transaction-earned.positive {
+     color: var(--accent-secondary); /* Green text for positive earnings */
+}
+.transaction-earned.negative {
+     color: var(--accent-error); /* Red text for negative amounts (purchases) */
+}
+
+/* --- Modal Styles --- */
+#modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1100; /* Above notifications */
+    display: none;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.modal-content {
+    background-color: var(--bg-medium);
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: slideIn 0.2s ease-out;
+    position: relative; /* For focus trap */
+}
+
+.modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 1.25em;
+    color: var(--text-primary);
+}
+
+.modal-body {
+    padding: 20px;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.modal-footer {
+    padding: 16px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.modal-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.modal-button:focus {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+.modal-button.cancel-button {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+}
+
+.modal-button.cancel-button:hover {
+    background-color: var(--bg-darker);
+}
+
+.modal-button.confirm-button {
+    background-color: var(--accent-primary);
+    color: white;
+}
+
+.modal-button.confirm-button:hover {
+    background-color: var(--accent-primary-darker);
+}
+
+.modal-button.confirm-button.warning {
+    background-color: var(--accent-error);
+}
+
+.modal-button.confirm-button.warning:hover {
+    background-color: var(--accent-error-darker);
+}
+
+.modal-button.ok-button {
+    background-color: var(--accent-secondary);
+    color: white;
+}
+
+.modal-button.ok-button:hover {
+    background-color: var(--accent-secondary-darker);
+}
+
+/* Modal input styles */
+.modal-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    transition: all 0.2s ease;
+}
+
+.modal-input:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: var(--focus-ring);
+}
+
+.modal-input.error {
+    border-color: var(--accent-error);
+    animation: shake 0.4s ease-in-out;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 480px) {
+    .modal-content {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .modal-header,
+    .modal-body,
+    .modal-footer {
+        padding: 12px 16px;
+    }
+    
+    .modal-title {
+        font-size: 1.1em;
+    }
+    
+    .modal-button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* No search results message */
+.no-search-results {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    color: var(--text-secondary);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin: 20px 0;
+    font-style: italic;
+    border: 1px dashed var(--border-color);
+}

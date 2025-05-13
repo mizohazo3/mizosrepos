@@ -1,0 +1,4 @@
+const socket = new WebSocket('wss://davidmondazz.online'); // Use 'ws://' for HTTP
+
+socket.onopen = () => console.log("WebSocket connected!");
+socket.onerror = (e) => console.error("WebSocket blocked:", e);

@@ -1,0 +1,316 @@
+Return-path: <bounces+42524694-157a-masterpop=davidmondazz.online@em175.cursor.sh>
+Envelope-to: masterpop@davidmondazz.online
+Delivery-date: Tue, 06 May 2025 12:15:38 -0500
+Received: from [159.183.79.215] (port=13238 helo=o1.ptr7413.workos.com)
+	by webusa1.extravm.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <bounces+42524694-157a-masterpop=davidmondazz.online@em175.cursor.sh>)
+	id 1uCLtK-0000000B4ar-1uM5
+	for masterpop@davidmondazz.online;
+	Tue, 06 May 2025 12:15:38 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cursor.sh;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=wos; bh=d7tQt2LGqd3vGx3jnL+0dyChF+qbxHTSBYhmcvyLuI4=;
+	b=P09Huz1rJKM2U9lcCFANXmcIJV1PZ1LN7v06ECOnuKBofQsP8eJSOA0UpcQnUDLQ6Tf5
+	5KY5oek9X252hs1d1XNEtcUvorR/q5/K9kEv38GB7wtMzPEQB27/od7lSsf7/4uHw9VQb0
+	dvp0CtgS/NqPHNZE3+wTQKCguAFex3ejclQd5t8KBqbg6AKDCIRGAtDJrNccaFukwhFWZr
+	rP93uFXNc/9M5TgVNeJbd1D1dtweVkQM3ThDflBA9JIUB69ZcY72SZYPFmPlhQc5N4VT6I
+	TnTxU49mWqZiWOe3x+1ztwZsXBiplYHZOcfX24HdmQiTF3S3LR4IovI0uMH43f3A==
+Received: by recvd-7cbdf8f48b-g5td7 with SMTP id recvd-7cbdf8f48b-g5td7-1-681A43B8-83
+	2025-05-06 17:15:36.435692795 +0000 UTC m=+2401632.898007921
+Received: from NDI1MjQ2OTQ (unknown)
+	by geopod-ismtpd-0 (SG) with HTTP
+	id TftvARbGQRuQQk0TZhiKOw
+	Tue, 06 May 2025 17:15:36.429 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=552785c228c67d85822f3b486a090ca962422020ec32d91623b6c8c817b1
+Date: Tue, 06 May 2025 17:15:36 +0000 (UTC)
+From: Cursor <no-reply@cursor.sh>
+Mime-Version: 1.0
+Message-ID: <TftvARbGQRuQQk0TZhiKOw@geopod-ismtpd-0>
+Subject: Verify your email address
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ELu=2FEgerHg4vEzgZWzB8J+vEHunWF29xoDvbPt8=2F47OVJDt=2Fe1i3UjKcNG?=
+ =?us-ascii?Q?fLbDGYc2DBkTSGdtKdJ8Ra8KNLx8cyWRyOpj4+6?=
+ =?us-ascii?Q?Gd3jI2pmslQORNiSTs95S=2FQVOeOF2b8EIdcs3n2?=
+ =?us-ascii?Q?ls9p=2FMIFjdGx3S8rvSX5RzcVoWUtJ99FCkZYy=2FY?=
+ =?us-ascii?Q?YgUQL5TsDhlMN0y4zGeNqudQRHY7BMmGBawRmz5?=
+ =?us-ascii?Q?sR+6geLUtN5OQv00I=2FsEcRubkybNyxp+zrwJeTk?= =?us-ascii?Q?vcz+?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BnTV4GFWYEFjLfnOqgJFlLGMYbcPz6NYeH4zm?=
+ =?us-ascii?Q?GtyYrKU7CeLiMorNYKRT6x5dvqyXLDVR6qiNOlD?=
+ =?us-ascii?Q?aucazjnuAo7dckhgLA6JuTsqkwRj4bg9jiuOyS6?=
+ =?us-ascii?Q?TQnZsL1i5IXlX=2FtKyOV1=2FnunTUaNGUJsxPjUigC?=
+ =?us-ascii?Q?wJFHXm7uPIKcRSNlkE0CJ=2F8f7KdWT2qT5Oh=2FMay?=
+ =?us-ascii?Q?9gPwhphUIk8fPm3SbZ2t9uhbkZSAc9Tx4WdXh4N?=
+ =?us-ascii?Q?xatq264ucp9B0lvkXGcmL9=2FWAbdMgdiT=2FaWiM0S?=
+ =?us-ascii?Q?obI3R1hU=3D?=
+To: masterpop@davidmondazz.online
+X-Entity-ID: u001.Zx6FngFgyASsqD/KIFQw9A==
+
+--552785c228c67d85822f3b486a090ca962422020ec32d91623b6c8c817b1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Verify your email
+
+You need to verify your email address masterpop@davidmondazz.online before =
+you can access
+your account. Enter the code below in your open browser window.
+
+991566
+
+This code expires in 10 minutes.
+
+
+---
+
+If you didn=E2=80=99t request this code, you can safely ignore this email.
+Someone else might have typed your email address by mistake.
+--552785c228c67d85822f3b486a090ca962422020ec32d91623b6c8c817b1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:=
+schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:offi=
+ce"><head><title></title><!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" content=
+=3D"width=3Ddevice-width,initial-scale=3D1"><style type=3D"text/css">#outlo=
+ok a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }</style><!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><style type=3D"text/css">@media only screen and (min-width:=
+480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }</style><style media=3D"screen and (min-width:480px)">.moz-text-html=
+ .mj-column-per-100 { width:100% !important; max-width: 100%; }</style><sty=
+le type=3D"text/css"></style><style type=3D"text/css">@media all and (max-w=
+idth: 768px) {
+        body {
+          background-color: #FFFFFF !important;
+        }
+      }
+      @media all and (max-width: 768px) {
+        .base-layout-root {
+          background-color: #FFFFFF !important;
+        }
+      }.button-gray table:hover td {
+        border: 1px solid #bbb !important;
+      }
+      .button-gray table:active td, .button-gray table:active a {
+        background-color: #f0f0f0 !important;
+      }
+      .button-accent table:hover td, .button-accent table:hover a {
+        background-color: #2e2e2e !important;
+      }
+      .button-accent table:active td, .button-accent table:active a {
+        background-color: #414141 !important;
+      }.card > table > tbody > tr > td {
+          border-radius: 12px !important;
+          padding: 36px 40px !important;
+        }
+        @media all and (max-width: 1024px) {
+          .card > table > tbody > tr > td {
+            padding: 28px 32px !important;
+          }
+        }
+        @media all and (max-width: 768px) {
+          .card > table > tbody > tr > td {
+            border-radius: 9px !important;
+            padding: 20px 24px !important;
+          }
+        }
+        @media all and (max-width: 520px) {
+          .card > table > tbody > tr > td {
+            padding: 14px 16px !important;
+          }
+        }
+
+        .card-body-with-logo-top > table > tbody > tr > td {
+          border-radius: 12px 12px 0px 0px !important;
+          padding: 32px 32px 0px !important;
+        }
+        @media all and (max-width: 1024px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            padding: 24px 24px 0px !important;
+          }
+        }
+        @media all and (max-width: 768px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            border-radius: 9px 9px 0px 0px !important;
+            padding: 16px 16px 0px !important;
+          }
+        }
+        @media all and (max-width: 520px) {
+          .card-body-with-logo-top > table > tbody > tr > td {
+            padding: 8px 8px 0px !important;
+          }
+        }
+
+        .card-body-with-logo-bottom > table > tbody > tr > td {
+          border-radius: 0px 0px 12px 12px !important;
+          padding-top: 0px !important;
+        }
+        @media all and (max-width: 768px) {
+          .card-body-with-logo-bottom > table > tbody > tr > td {
+            border-radius: 0px 0px 9px 9px !important;
+          }
+        }.image td {
+        width: 100% !important;
+      }.link:hover {
+        text-decoration-line: underline !important;
+        text-decoration-style: solid !important;
+      }
+      .link-accent:hover {
+        text-decoration-color: #5753c666 !important;
+      }
+      .link-accent.high-contrast {
+        text-decoration-color: #d9d9d9 !important;
+      }
+      .link-gray:hover {
+        text-decoration-color: #d9d9d9 !important;
+      }
+      .link-gray.high-contrast {
+        text-decoration-color: #cecece !important;
+      }
+      .link-green:hover {
+        text-decoration-color: #acdec8 !important;
+      }
+      .link-green.high-contrast {
+        text-decoration-color: #8bceb6 !important;
+      }
+      .link-red:hover {
+        text-decoration-color: #f8bfc8 !important;
+      }
+      .link-red.high-contrast {
+        text-decoration-color: #efacb8 !important;
+      }
+      .link-yellow:hover {
+        text-decoration-color: #f3d768 !important;
+      }
+      .link-yellow.high-contrast {
+        text-decoration-color: #e4c767 !important;
+      }</style><meta name=3D"x-apple-disable-message-reformatting"><meta co=
+ntent=3D"light" name=3D"color-scheme"><meta content=3D"light" name=3D"suppo=
+rted-color-schemes"></head><body style=3D"word-spacing:normal;background-co=
+lor:#FCFCFC;"><div style=3D"display:none;font-size:1px;color:#ffffff;line-h=
+eight:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Your ver=
+ification code is 991566. This code expires in 10 minutes. If you didn=E2=
+=80=99t sign up for Cursor, you can safely ignore this email.</div><div cla=
+ss=3D"base-layout-root" style=3D"background-color:#FCFCFC;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td><!--[if mso | IE]><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=
+=3D"presentation" style=3D"width:674px;" width=3D"674" ><tr><td style=3D"li=
+ne-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div=
+ style=3D"margin:0px auto;max-width:674px;"><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"w=
+idth:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0;p=
+adding-left:16px;padding-right:16px;padding-top:32px;text-align:center;"><!=
+--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tr><td class=3D"card-outlook card-body-with-logo-top-ou=
+tlook" style=3D"vertical-align:top;width:642px;" ><![endif]--><div class=3D=
+"mj-column-per-100 mj-outlook-group-fix card card-body-with-logo-top" style=
+=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertic=
+al-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%" style=3D"border-collapse: separ=
+ate;"><tbody><tr><td style=3D"background-color:#FFFFFF;border:1px solid #e0=
+e0e0;border-bottom:none;border-radius:12px 12px 0px 0px;vertical-align:top;=
+padding:28px 32px 0px;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%"><tbody><img alt height=3D"80" s=
+rc=3D"https://og-images.workos.com/api/logo-icon?t=3DeyJhbGciOiJIUzI1NiIsIn=
+R5cCI6IkpXVCJ9.eyJyYWRpdXMiOiJTbWFsbCIsImxvZ29JY29uRml0IjoiQ29udGFpbiIsImxv=
+Z29TcmMiOiJodHRwczovL3dvcmtvcy5pbWdpeC5uZXQvYXBwLWJyYW5kaW5nL2Vudmlyb25tZW5=
+0XzAxR1M2VzNDOTAxTjUwSjRaR0ZCNlYxWjZDLzAxSFozQzY4UzMyREVGS1REQVlLWDg2NERFIi=
+wiaWF0IjoxNzQ2NTUxNzM2fQ.GSTIay2tswixoO3YeurxREx2Hv2UjtAhoVcoWShRsVg" width=
+=3D"80" style=3D"border:0;display:block;outline:none;text-decoration:none">=
+<tr><td style=3D"font-size:0px;padding:0;word-break:break-word;"><div style=
+=3D"height:16px;line-height:16px;">&#8202;</div></td></tr></tbody></table><=
+/td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif=
+]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![=
+endif]--></td></tr></tbody></table><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;=
+"><tbody><tr><td><!--[if mso | IE]><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"=
+width:674px;" width=3D"674" ><tr><td style=3D"line-height:0px;font-size:0px=
+;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;m=
+ax-width:674px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;padding:0;padding-bottom:24px;padding-l=
+eft:16px;padding-right:16px;text-align:center;"><!--[if mso | IE]><table ro=
+le=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><t=
+d class=3D"card-outlook card-body-with-logo-bottom-outlook" style=3D"vertic=
+al-align:top;width:642px;" ><![endif]--><div class=3D"mj-column-per-100 mj-=
+outlook-group-fix card card-body-with-logo-bottom" style=3D"font-size:0px;t=
+ext-align:left;direction:ltr;display:inline-block;vertical-align:top;width:=
+100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" width=3D"100%" style=3D"border-collapse: separate;"><tbody><tr><t=
+d style=3D"background-color:#FFFFFF;border:1px solid #e0e0e0;border-radius:=
+0px 0px 12px 12px;border-top:none;vertical-align:top;padding:0px 40px 36px;=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"font-size:0px;pa=
+dding:0;word-break:break-word;"><div style=3D"font-family:-apple-system, Bl=
+inkMacSystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-s=
+ize:24px;font-weight:600;line-height:30px;text-align:left;color:#202020;">V=
+erify your email</div></td></tr><tr><td style=3D"font-size:0px;padding:0;wo=
+rd-break:break-word;"><div style=3D"height:16px;line-height:16px;">&#8202;<=
+/div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0;word=
+-break:break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystem=
+Font, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:16px;lin=
+e-height:24px;text-align:left;color:#202020;">We need to verify your email =
+address <a target=3D"_blank" class=3D"link link-accent" style=3D"color:#575=
+3C6;text-decoration:none;text-decoration-thickness:1px;text-underline-offse=
+t:2px" href=3D"mailto:masterpop@davidmondazz.online">masterpop@davidmondazz=
+.online</a> before you can access your account. Enter the code below in you=
+r open browser window.</div></td></tr><tr><td style=3D"font-size:0px;paddin=
+g:0;word-break:break-word;"><div style=3D"height:24px;line-height:24px;">&#=
+8202;</div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:=
+0;word-break:break-word;"><div style=3D"font-family:-apple-system, BlinkMac=
+SystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:28=
+px;font-weight:400;letter-spacing:2px;line-height:30px;text-align:left;colo=
+r:#202020;">991566</div></td></tr><tr><td style=3D"font-size:0px;padding:0;=
+word-break:break-word;"><div style=3D"height:32px;line-height:32px;">&#8202=
+;</div></td></tr><tr><td align=3D"center" style=3D"font-size:0px;padding:0;=
+word-break:break-word;"><p style=3D"border-top:solid 1px #d9d9d9;font-size:=
+1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-top:so=
+lid 1px #d9d9d9;font-size:1px;margin:0px auto;width:560px;" role=3D"present=
+ation" width=3D"560px" ><tr><td style=3D"height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td></tr><tr><td style=3D"font-size:0px;padd=
+ing:0;word-break:break-word;"><div style=3D"height:32px;line-height:32px;">=
+&#8202;</div></td></tr><tr><td align=3D"left" style=3D"font-size:0px;paddin=
+g:0;word-break:break-word;"><div style=3D"font-family:-apple-system, BlinkM=
+acSystemFont, &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:=
+12px;line-height:18px;text-align:left;color:#646464;">This code expires in =
+10 minutes.</div></td></tr><tr><td style=3D"font-size:0px;padding:0;word-br=
+eak:break-word;"><div style=3D"height:12px;line-height:12px;">&#8202;</div>=
+</td></tr><tr><td align=3D"left" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;"><div style=3D"font-family:-apple-system, BlinkMacSystemFont,=
+ &#x27;Segoe UI&#x27;, Helvetica, Arial, sans-serif;font-size:12px;line-hei=
+ght:18px;text-align:left;color:#646464;">If you didn=E2=80=99t sign up for =
+Cursor, you can safely ignore this email. Someone else might have typed you=
+r email address by mistake.</div></td></tr></tbody></table></td></tr></tbod=
+y></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr><=
+/tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td><=
+/tr></tbody></table></div></body></html>
+--552785c228c67d85822f3b486a090ca962422020ec32d91623b6c8c817b1--

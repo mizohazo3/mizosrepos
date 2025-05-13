@@ -1,0 +1,482 @@
+/* Adding styles for locked timer status */
+.timer-status.status-locked {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Adjust timer card styles for locked timers */
+.timer-card.locked {
+    border: 1px solid #dc3545;
+}
+
+/* Style for locked notes */
+.note-button.disabled-button {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Stop All Button */
+#stop-all-btn {
+    transition: color 0.3s ease;
+}
+
+#stop-all-btn:hover {
+    color: #ff6b6b !important;
+}
+
+#stop-all-btn.active {
+    color: #ffc107 !important;
+}
+
+/* Add Timer Form */
+
+/* Timer Count Badge */
+#timer-count-badge,
+#timer-count-badge-mobile {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4136;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    font-weight: bold;
+}
+
+#stop-all-btn,
+#stop-all-btn-mobile {
+    position: relative;
+}
+
+#timer-count-badge-mobile {
+    top: -5px;
+    right: -5px;
+    height: 16px;
+    width: 16px;
+    font-size: 10px;
+}
+
+/* Stop All button active state */
+#stop-all-btn.active,
+#stop-all-btn-mobile.active {
+    display: inline-flex;
+}
+
+/* Level and Experience Styles */
+.timer-level-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.level-badge {
+    display: inline-block;
+    background-color: #6f42c1;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.rank-badge {
+    display: inline-block;
+    background-color: #17a2b8;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.exp-bar-container {
+    width: 100%;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.exp-bar {
+    height: 100%;
+    background: linear-gradient(to right, #28a745, #17a2b8);
+    border-radius: 3px;
+    width: 0; /* Start at 0 for smooth animation */
+    position: relative;
+    will-change: width; /* Optimize animation performance */
+    transition: width 0.1s linear; /* Match the example's smooth transition */
+}
+
+/* Rainbow animation for experience bar */
+@keyframes rainbowAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Class that can be added via JS for special effects */
+.exp-bar.rainbow-effect {
+    background: linear-gradient(90deg, 
+        #ff0000, #ff7f00, #ffff00, #00ff00, 
+        #0000ff, #4b0082, #8b00ff, #ff0000);
+    background-size: 800% 100%;
+    animation: rainbowAnimation 2s linear infinite;
+}
+
+/* Add a subtle glow effect to the progress bar when it's animating */
+.exp-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    opacity: 0;
+    animation: progressGlow 2s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes progressGlow {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.exp-text {
+    font-size: 0.75rem;
+    color: #666;
+    text-align: right;
+}
+
+/* For smaller screens, make the badges inline */
+@media (max-width: 768px) {
+    .level-badge, .rank-badge {
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 0.7rem;
+        padding: 1px 6px;
+    }
+    
+    .exp-bar-container {
+        height: 4px;
+    }
+    
+    .exp-text {
+        font-size: 0.7rem;
+    }
+}
+
+/* XP and Leveling Styles */
+.timer-xp-container {
+    padding: 10px;
+    border-top: 1px solid var(--card-border);
+    margin-top: 10px;
+}
+
+.timer-level {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.timer-rank {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, var(--accent-color), var(--primary-color));
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 2px 4px var(--boxshadow-color);
+}
+
+.timer-xp-bar {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 8px 0;
+    position: relative;
+}
+
+.timer-xp-progress {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    border-radius: 3px;
+    transition: width 0.3s ease-out;
+}
+
+.timer-xp-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--text-color);
+}
+
+.timer-total-exp {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: block;
+    text-align: left;
+}
+
+.timer-xp {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.xp-gain {
+    color: var(--success-color);
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.xp-gain.pulse-animation {
+    opacity: 1;
+    animation: xpPulse 1.5s ease-out;
+}
+
+@keyframes xpPulse {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.timer-total-xp {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
+
+/* Level Up Animation */
+.level-up-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.level-up-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.level-up-content {
+    text-align: center;
+    transform: translateY(20px);
+    transition: transform 0.3s ease-out;
+}
+
+.level-up-overlay.show .level-up-content {
+    transform: translateY(0);
+}
+
+.level-up-content h3 {
+    color: var(--warning-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+}
+
+.level-up-content p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.level-up-content .rank-text {
+    color: var(--info-color);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .timer-xp-container {
+        padding: 8px;
+    }
+    
+    .timer-level {
+        font-size: 0.9rem;
+    }
+    
+    .timer-rank {
+        font-size: 0.7rem;
+        padding: 1px 6px;
+    }
+    
+    .timer-xp-bar {
+        height: 4px;
+    }
+    
+    .timer-xp-info {
+        font-size: 0.8rem;
+    }
+    
+    .level-up-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .level-up-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Continuous progress animation - a more subtle, continuous movement */
+@keyframes continuousProgress {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Add this class to exp-bar in JS for continuous progress animation */
+.exp-bar.continuous-progress {
+    background: linear-gradient(90deg, 
+        #28a745, #17a2b8, #28a745, #17a2b8);
+    background-size: 300% 100%;
+    animation: continuousProgress 2s linear infinite;
+    transition: width 0.1s linear;
+}
+
+/* Timer Level Progress Bar Styles */
+.timer-level-container {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.timer-level-progress {
+    height: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .timer-level-progress {
+    background-color: #2a2a2a;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.timer-level-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4d7cfe, #9776e0);
+    border-radius: 4px;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+    position: relative;
+}
+
+.timer-level-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: var(--secondary-color);
+    margin-top: 3px;
+}
+
+.timer-level-text {
+    font-weight: 600;
+}
+
+.timer-level-percent {
+    font-style: italic;
+}
+
+.timer-level-badge {
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Level up animation */
+@keyframes levelPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.level-up {
+    animation: levelPulse 0.5s ease-in-out;
+}
+
+/* Update horizontal timer card to include level progress */
+.horizontal-timer-card .timer-level-container {
+    width: 90%;
+    margin: 5px auto;
+}
+
+@media (max-width: 768px) {
+    .timer-level-container {
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    
+    .timer-level-progress {
+        height: 6px;
+    }
+    
+    .timer-level-info {
+        font-size: 0.65rem;
+    }
+    
+    .timer-level-badge {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+    }
+} 

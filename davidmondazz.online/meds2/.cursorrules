@@ -1,0 +1,39 @@
+# Cursor Rules for Meds Online
+
+## Project Patterns
+
+### File Organization
+- PHP files at root level handle specific functionality
+- CSS, JS, and images are in their respective directories
+- Cron jobs are stored in the crons/ directory
+
+### Naming Conventions
+- PHP files are named descriptively according to their function
+- Files that perform similar functions have consistent naming patterns (e.g., search_*.php)
+
+### Code Patterns
+- Database connection likely handled through db.php
+- Core medication functions are centralized in med_functions.php
+- Form submissions typically processed by dedicated PHP files
+
+## User Preferences
+
+### Not Yet Identified
+As we continue working on the project, user preferences will be documented here.
+
+## Known Challenges
+
+### To Be Discovered
+Specific challenges will be documented here as they are identified during the project exploration.
+
+## Project Evolution
+
+### Current Phase
+Initial project exploration and documentation.
+
+## Tool Usage Patterns
+
+### To Be Determined
+Tool usage patterns will be documented as we learn more about the development workflow.
+
+*Note: This file will be updated as we learn more about the project and identify specific patterns, preferences, and challenges.* 

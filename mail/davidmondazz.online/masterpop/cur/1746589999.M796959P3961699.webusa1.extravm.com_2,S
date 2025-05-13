@@ -1,0 +1,323 @@
+Return-path: <noreply@github.com>
+Envelope-to: masterpop@davidmondazz.online
+Delivery-date: Tue, 06 May 2025 22:53:19 -0500
+Received: from [192.30.252.202] (port=56827 helo=out-19.smtp.github.com)
+	by webusa1.extravm.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <noreply@github.com>)
+	id 1uCVqR-0000000GccI-2xJD
+	for masterpop@davidmondazz.online;
+	Tue, 06 May 2025 22:53:19 -0500
+Received: from github.com (hubbernetes-node-028f8bd.va3-iad.github.net [10.48.141.43])
+	by smtp.github.com (Postfix) with ESMTPA id 244EDE08B0
+	for <masterpop@davidmondazz.online>; Tue,  6 May 2025 20:53:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2023; t=1746589999;
+	bh=jzbCVxSoU0RCk2ftp7wyMLpL7QVMTNiEYjV3R7ipIZ8=;
+	h=Date:From:To:Subject:From;
+	b=JDO6+NgtWleAJ1qj7eJmhWE7C0micmR24YeDu3xihjan2LHpJKxUCmlF2ZtxPD+lm
+	 p/LFmomWDnOQJsClBFDrjmsJTbr5NrrgI4OPNHzLo5UI75TS2rQRwSIv198dgD+t20
+	 SeuwkV/AbykHyIR7BWzriIOJ+DVhkyEcUYxOfjwU=
+Date: Tue, 06 May 2025 20:53:19 -0700
+From: GitHub <noreply@github.com>
+To: masterpop2020 <masterpop@davidmondazz.online>
+Message-ID: <subscribe/210581713_6a335305212b82795ea1e0d239685142@github.com>
+Subject: =?UTF-8?Q?GitHub_Copilot:_What=E2=80=99s_in_your_free_plan?=
+ =?UTF-8?Q?_=F0=9F=A4=96?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_681ad92e99a7b_d510186834f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+
+
+----==_mimepart_681ad92e99a7b_d510186834f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome to GitHub Copilot.
+Here=E2=80=99s how to get started.
+
+You now have access to GitHub Copilot in VS Code and github.com for free =
+as part of your GitHub user account=E2=80=94and
+that includes support for models from OpenAI and Anthropic.
+
+Ask Copilot how to get started >: https://github.com/copilot
+
+What=E2=80=99s included
+
+  - 2,000 intelligent code completions a month. Get context-aware code su=
+ggestions that draw context from your GitHub projects and VS Code workspa=
+ce.
+  - 50 Copilot Chat messages a month. Ask Copilot for help understanding =
+code, refactoring something, or debugging an issue.
+  - Choose your AI model. Pick between Claude 3.5 Sonnet or OpenAI GPT-4o=
+.
+  - Make changes to multiple files with Copilot Edits. Tackle changes acr=
+oss multiple files with Copilot Edits.
+  - Support for the Copilot Extensions ecosystem. Access third-party agen=
+ts designed for tasks such as querying Stack Overflow or searching the we=
+b with Perplexity.
+  - Choose where you build. Enjoy support in VS Code and across GitHub.
+
+So, what will you build?
+
+P.S. - Not sure where to start? Try these Copilot Chat prompts >: https:/=
+/docs.github.com/en/copilot/example-prompts-for-github-copilot-chat
+
+Copilot Settings
+
+GitHub Copilot will show code suggestions that match public code includin=
+g code references in the VS Code and github.com experience: https://docs.=
+github.com/en/copilot/using-github-copilot/finding-public-code-that-match=
+es-github-copilot-suggestions
+GitHub and affiliates may use your data for product improvement. You can =
+adjust both data use and public matching code suggestion settings in your=
+ Copilot Settings: https://github.com/settings/copilot.
+
+Privacy policy: https://docs.github.com/articles/github-privacy-statement=
+
+Terms of use: https://github.com/customer-terms/github-copilot-product-sp=
+ecific-terms
+Contact us: https://github.com/contact
+
+----==_mimepart_681ad92e99a7b_d510186834f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box;" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+  </head>
+  <body style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;; font-size: 14px; line-height: 1.5; color: #24292e; background-color: #fff; margin: 0;" bgcolor="#fff">
+    <table align="center" class="container-sm width-full" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; max-width: 544px; margin-right: auto; margin-left: auto; width: 100% !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+        <td class="center p-3" align="center" valign="top" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 16px;">
+          <center style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+            <table border="0" cellspacing="0" cellpadding="0" align="center" class="width-full container-md" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; max-width: 768px; margin-right: auto; margin-left: auto; width: 100% !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+              <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td height="16" style="font-size: 16px; line-height: 16px; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">&#160;</td>
+    </tr>
+  </tbody>
+</table>
+
+              <table border="0" cellspacing="0" cellpadding="0" align="left" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                  <td class="text-center" style="box-sizing: border-box; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;" align="center">
+                    <img src="https://github.githubassets.com/assets/octocat-logo-805b5c3e249f.png" alt="GitHub" width="32" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; border-style: none;" />
+                    <h2 class="lh-condensed mt-2 text-normal" style="box-sizing: border-box; margin-top: 8px !important; margin-bottom: 0; font-size: 24px; font-weight: 400 !important; line-height: 1.25 !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                        How to get started with GitHub Copilot.
+
+                    </h2>
+                  </td>
+                </tr>
+              </table>
+              <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td height="16" style="font-size: 16px; line-height: 16px; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">&#160;</td>
+    </tr>
+  </tbody>
+</table>
+
+</td>
+  </tr>
+</table>
+            <table width="100%" class="width-full" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+              <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                <td class="border rounded-2 d-block" style="box-sizing: border-box; border-radius: 6px !important; display: block !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0; border: 1px solid #e1e4e8;">
+                  <table align="center" class="width-full text-center" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                      <td class="p-3 p-sm-4" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 16px;">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" class="width-full" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+                            
+
+  <div class="mb-3" style="box-sizing: border-box; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <img src="https://github.githubassets.com/assets/free-banner-3e29cb53cf72.png" alt="GitHub Copilot" width="514" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; border-style: none;" />
+  </div>
+
+  <table class="width-full" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      
+    <td style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+  <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td class="text-left" style="box-sizing: border-box; text-align: left !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;" align="left">
+      <h3 class="text-center mb-4 text-normal" style="box-sizing: border-box; margin-top: 0; margin-bottom: 24px !important; font-size: 20px; font-weight: 400 !important; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;" align="center">
+  Welcome to GitHub Copilot.
+  <br style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;" />
+  Here&#8217;s how to get started.
+</h3>
+
+<p class="mb-3" style="box-sizing: border-box; margin-top: 0; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  You now have access to GitHub Copilot in VS Code and github.com for free as part of your GitHub user account&#8212;and
+  that includes support for models from OpenAI and Anthropic.
+</p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+        <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+          <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+              <a href="https://github.com/copilot" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large mb-3" style="background-color: #1f883d !important; box-sizing: border-box; color: #fff; text-decoration: none; position: relative; display: inline-block; font-size: inherit; font-weight: 500; line-height: 1.5; white-space: nowrap; vertical-align: middle; cursor: pointer; -webkit-user-select: none; user-select: none; border-radius: .5em; appearance: none; box-shadow: 0 1px 0 rgba(27,31,35,.1),inset 0 1px 0 rgba(255,255,255,.03); transition: background-color .2s cubic-bezier(0.3, 0, 0.5, 1); margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: .75em 1.5em; border: 1px solid #1f883d;">Ask Copilot how to get started</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<p class="mb-3" style="box-sizing: border-box; margin-top: 0; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">What&#8217;s included:</b>
+</p>
+
+<ul style="box-sizing: border-box; padding-left: 1.5em; margin-top: 0; margin-bottom: 0; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">2,000 intelligent code completions a month:</b>
+    Get context-aware code suggestions that draw context from your GitHub projects and VS Code workspace.
+  </li>
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">50 Copilot Chat messages a month:</b>
+    Ask Copilot for help understanding code, refactoring something, or debugging an issue.
+  </li>
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Choose your AI model:</b>
+    Pick between Claude 3.5 Sonnet or OpenAI GPT-4o.
+  </li>
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Make changes to multiple files with Copilot Edits:</b>
+    Tackle changes across multiple files with Copilot Edits.
+  </li>
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Support for the Copilot Extensions ecosystem:</b>
+    Access third-party agents designed for tasks such as querying Stack Overflow or searching the web with Perplexity.
+  </li>
+  <li style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding-left: 0.5em; margin: 1em 0;">
+    <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Choose where you build:</b>
+    Enjoy support in VS Code and across GitHub.
+  </li>
+</ul>
+
+<p class="mb-3" style="box-sizing: border-box; margin-top: 0; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+ So, what will you build?
+</p>
+
+<p class="mb-3" style="box-sizing: border-box; margin-top: 0; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  P.S. - Not sure where to start?
+</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+        <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+          <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+              <a href="https://docs.github.com/en/copilot/example-prompts-for-github-copilot-chat" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large mb-3" style="background-color: #1f883d !important; box-sizing: border-box; color: #fff; text-decoration: none; position: relative; display: inline-block; font-size: inherit; font-weight: 500; line-height: 1.5; white-space: nowrap; vertical-align: middle; cursor: pointer; -webkit-user-select: none; user-select: none; border-radius: .5em; appearance: none; box-shadow: 0 1px 0 rgba(27,31,35,.1),inset 0 1px 0 rgba(255,255,255,.03); transition: background-color .2s cubic-bezier(0.3, 0, 0.5, 1); margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: .75em 1.5em; border: 1px solid #1f883d;">Try these Copilot Chat prompts</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<p class="mb-3" style="box-sizing: border-box; margin-top: 0; margin-bottom: 16px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <b style="font-weight: 600; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Copilot Settings</b>
+  <br style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;" />
+  <i style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    GitHub Copilot will <a href="https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration: none; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">show code suggestions that match public code</a>,
+    including code references in the VS Code and github.com experience. GitHub and affiliates may use your data for product improvement. You can adjust both data
+    use and public matching code suggestion settings in your <a href="https://github.com/settings/copilot" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration: none; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Copilot Settings</a>.
+  </i>
+</p>
+
+</td>
+      <td style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;"></td>
+    </tr>
+  </table>
+</td>
+
+    </tr>
+  </tbody>
+</table>
+
+</td>
+  </tr>
+</table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+
+            <table border="0" cellspacing="0" cellpadding="0" align="center" class="width-full text-center" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+              <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td height="16" style="font-size: 16px; line-height: 16px; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">&#160;</td>
+    </tr>
+  </tbody>
+</table>
+
+                  <p class="f6" style="box-sizing: border-box; margin-top: 0; margin-bottom: 10px; font-size: 12px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+                      <a href="https://docs.github.com/articles/github-privacy-statement" class="d-inline-block" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration: none; display: inline-block !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Privacy policy</a> &#12539;
+                      <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features" class="d-inline-block" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration: none; display: inline-block !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Terms of use</a> &#12539;
+                      <a href="https://github.com/contact" class="d-inline-block" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration: none; display: inline-block !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">Contact us</a> 
+                  </p>
+              <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td height="16" style="font-size: 16px; line-height: 16px; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">&#160;</td>
+    </tr>
+  </tbody>
+</table>
+
+              <p class="f5 text-gray-light" style="box-sizing: border-box; margin-top: 0; margin-bottom: 10px; color: #6a737d !important; font-size: 14px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;"></p>
+</td>
+  </tr>
+</table>
+            <table border="0" cellspacing="0" cellpadding="0" align="center" class="width-full text-center" width="100%" style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; width: 100% !important; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <td align="center" style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">
+  <table style="box-sizing: border-box; border-spacing: 0; border-collapse: collapse; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+  <tbody style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+    <tr style="box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">
+      <td height="16" style="font-size: 16px; line-height: 16px; box-sizing: border-box; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important; padding: 0;">&#160;</td>
+    </tr>
+  </tbody>
+</table>
+
+  <p class="f6 text-gray-light" style="box-sizing: border-box; margin-top: 0; margin-bottom: 10px; color: #6a737d !important; font-size: 12px !important; font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot; !important;">GitHub, Inc. &#12539;88 Colin P Kelly Jr Street &#12539;San Francisco, CA 94107</p>
+</td>
+  </tr>
+</table>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display: none; white-space: nowrap; box-sizing: border-box; font: 15px/0 apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </div>
+  </body>
+</html>
+
+----==_mimepart_681ad92e99a7b_d510186834f--

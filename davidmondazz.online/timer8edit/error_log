@@ -1,0 +1,4 @@
+[21-Apr-2025 07:53:25 UTC] Import script failed: Destination Connection Failed: Access denied for user 'root'@'localhost'
+#0 {main}
+[21-Apr-2025 07:54:05 UTC] Import script failed: Error preparing insert statement: Unknown column 'categories' in 'INSERT INTO'
+#0 {main}

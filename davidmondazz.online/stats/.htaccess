@@ -1,0 +1,7 @@
+AuthName "mcgk.xyz statistics"
+AuthType Basic
+AuthUserFile /home/masterpop/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

@@ -1,0 +1,2343 @@
+[2025-04-21 07:18:31] Attempting purchase for item ID: 6
+[2025-04-21 07:18:31] Item 'Black Tea' found. Price: 0.01
+[2025-04-21 07:18:31] Current balance fetched: 0.0286
+[2025-04-21 07:18:31] Balance updated to: 0.0186
+[2025-04-21 07:18:31] Purchase logged successfully. Log Params: {":item_id":6,":name":"Black Tea",":price":0.01,":time":"2025-04-21 07:18:31"}
+[2025-04-21 07:18:31] Purchase successful. Transaction committed.
+[2025-04-21 07:18:32] Attempting purchase for item ID: 6
+[2025-04-21 07:18:32] Item 'Black Tea' found. Price: 0.01
+[2025-04-21 07:18:32] Current balance fetched: 0.0186
+[2025-04-21 07:18:32] Balance updated to: 0.0086
+[2025-04-21 07:18:32] Purchase logged successfully. Log Params: {":item_id":6,":name":"Black Tea",":price":0.01,":time":"2025-04-21 07:18:32"}
+[2025-04-21 07:18:32] Purchase successful. Transaction committed.
+[2025-04-21 07:19:46] Attempting purchase for item ID: 6
+[2025-04-21 07:19:46] Item 'Black Tea' found. Price: 0.01
+[2025-04-21 07:19:46] Current balance fetched: 0.0156
+[2025-04-21 07:19:46] Balance updated to: 0.0056
+[2025-04-21 07:19:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"Black Tea",":price":0.01,":time":"2025-04-21 07:19:46"}
+[2025-04-21 07:19:46] Purchase successful. Transaction committed.
+[2025-04-21 07:26:39] Attempting purchase for item ID: 6
+[2025-04-21 07:26:39] Item 'Black Tea' found. Price: 0.01
+[2025-04-21 07:26:39] Current balance fetched: 0.0164
+[2025-04-21 07:26:39] Balance updated to: 0.0064
+[2025-04-21 07:26:39] Purchase logged successfully. Log Params: {":item_id":6,":name":"Black Tea",":price":0.01,":time":"2025-04-21 07:26:39"}
+[2025-04-21 07:26:39] Purchase successful. Transaction committed.
+[2025-04-21 14:36:27] Attempting purchase for item ID: 6
+[2025-04-21 14:36:27] Item '1 Ciggarette' found. Price: 0.09
+[2025-04-21 14:36:27] Current balance fetched: 1.1463
+[2025-04-21 14:36:27] Balance updated to: 1.0563
+[2025-04-21 14:36:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.09,":time":"2025-04-21 14:36:27"}
+[2025-04-21 14:36:27] Purchase successful. Transaction committed.
+[2025-04-21 14:36:38] Attempting purchase for item ID: 5
+[2025-04-21 14:36:38] Item 'Black Tea' found. Price: 0.1
+[2025-04-21 14:36:38] Current balance fetched: 1.0563
+[2025-04-21 14:36:38] Balance updated to: 0.9563
+[2025-04-21 14:36:38] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-21 14:36:38"}
+[2025-04-21 14:36:38] Purchase successful. Transaction committed.
+[2025-04-21 17:16:19] Attempting purchase for item ID: 8
+[2025-04-21 17:16:19] Item 'Medications' found. Price: 0.69
+[2025-04-21 17:16:19] Current balance fetched: 1.5179
+[2025-04-21 17:16:19] Balance updated to: 0.8279
+[2025-04-21 17:16:19] Purchase logged successfully. Log Params: {":item_id":8,":name":"Medications",":price":0.69,":time":"2025-04-21 17:16:19"}
+[2025-04-21 17:16:19] Purchase successful. Transaction committed.
+[2025-04-21 17:43:41] Attempting purchase for item ID: 6
+[2025-04-21 17:43:41] Item '1 Ciggarette' found. Price: 0.09
+[2025-04-21 17:43:41] Current balance fetched: 1.0859
+[2025-04-21 17:43:41] Balance updated to: 0.9959
+[2025-04-21 17:43:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.09,":time":"2025-04-21 17:43:41"}
+[2025-04-21 17:43:41] Purchase successful. Transaction committed.
+[2025-04-21 17:44:14] Attempting purchase for item ID: 5
+[2025-04-21 17:44:14] Item 'Black Tea' found. Price: 0.1
+[2025-04-21 17:44:14] Current balance fetched: 0.9959
+[2025-04-21 17:44:14] Balance updated to: 0.8959
+[2025-04-21 17:44:14] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-21 17:44:14"}
+[2025-04-21 17:44:14] Purchase successful. Transaction committed.
+[2025-04-21 18:07:24] Attempting purchase for item ID: 6
+[2025-04-21 18:07:24] Item '1 Ciggarette' found. Price: 0.09
+[2025-04-21 18:07:24] Current balance fetched: 0.9114
+[2025-04-21 18:07:24] Balance updated to: 0.8214
+[2025-04-21 18:07:24] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.09,":time":"2025-04-21 18:07:24"}
+[2025-04-21 18:07:24] Purchase successful. Transaction committed.
+[2025-04-22 00:47:46] Attempting purchase for item ID: 6
+[2025-04-22 00:47:46] Item '1 Ciggarette' found. Price: 0.09
+[2025-04-22 00:47:46] Current balance fetched: 0.8214
+[2025-04-22 00:47:46] Balance updated to: 0.7314
+[2025-04-22 00:47:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.09,":time":"2025-04-22 00:47:46"}
+[2025-04-22 00:47:46] Purchase successful. Transaction committed.
+[2025-04-22 02:48:49] Attempting purchase for item ID: 6
+[2025-04-22 02:48:49] Item '1 Ciggarette' found. Price: 0.09
+[2025-04-22 02:48:49] Current balance fetched: 1.3414
+[2025-04-22 02:48:49] Balance updated to: 1.2514
+[2025-04-22 02:48:49] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.09,":time":"2025-04-22 02:48:49"}
+[2025-04-22 02:48:49] Purchase successful. Transaction committed.
+[2025-04-22 02:53:52] Attempting purchase for item ID: 5
+[2025-04-22 02:53:52] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 02:53:52] Current balance fetched: 1.2514
+[2025-04-22 02:53:52] Balance updated to: 1.1514
+[2025-04-22 02:53:52] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 02:53:52"}
+[2025-04-22 02:53:52] Purchase successful. Transaction committed.
+[2025-04-22 03:16:15] Attempting purchase for item ID: 9
+[2025-04-22 03:16:15] Item 'Mastur' found. Price: 0.25
+[2025-04-22 03:16:15] Current balance fetched: 1.1514
+[2025-04-22 03:16:15] Balance updated to: 0.9014
+[2025-04-22 03:16:15] Purchase logged successfully. Log Params: {":item_id":9,":name":"Mastur",":price":0.25,":time":"2025-04-22 03:16:15"}
+[2025-04-22 03:16:15] Purchase successful. Transaction committed.
+[2025-04-22 04:53:15] Attempting purchase for item ID: 6
+[2025-04-22 04:53:15] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 04:53:15] Current balance fetched: 1.2529
+[2025-04-22 04:53:15] Balance updated to: 1.0629
+[2025-04-22 04:53:15] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 04:53:15"}
+[2025-04-22 04:53:15] Purchase successful. Transaction committed.
+[2025-04-22 05:13:47] Attempting purchase for item ID: 6
+[2025-04-22 05:13:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 05:13:47] Current balance fetched: 1.0629
+[2025-04-22 05:13:47] Balance updated to: 0.8729
+[2025-04-22 05:13:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 05:13:47"}
+[2025-04-22 05:13:47] Purchase successful. Transaction committed.
+[2025-04-22 05:40:05] Attempting purchase for item ID: 6
+[2025-04-22 05:40:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 05:40:05] Current balance fetched: 1.2727
+[2025-04-22 05:40:05] Balance updated to: 1.0827
+[2025-04-22 05:40:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 05:40:05"}
+[2025-04-22 05:40:05] Purchase successful. Transaction committed.
+[2025-04-22 06:27:43] Attempting purchase for item ID: 10
+[2025-04-22 06:27:43] Item 'Cheese with Tomatoes' found. Price: 0.44
+[2025-04-22 06:27:43] Current balance fetched: 1.3771
+[2025-04-22 06:27:43] Balance updated to: 0.9371
+[2025-04-22 06:27:43] Purchase logged successfully. Log Params: {":item_id":10,":name":"Cheese with Tomatoes",":price":0.44,":time":"2025-04-22 06:27:43"}
+[2025-04-22 06:27:43] Purchase successful. Transaction committed.
+[2025-04-22 06:40:47] Attempting purchase for item ID: 6
+[2025-04-22 06:40:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 06:40:47] Current balance fetched: 1.1486
+[2025-04-22 06:40:47] Balance updated to: 0.9586
+[2025-04-22 06:40:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 06:40:47"}
+[2025-04-22 06:40:47] Purchase successful. Transaction committed.
+[2025-04-22 08:04:19] Attempting purchase for item ID: 5
+[2025-04-22 08:04:19] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 08:04:19] Current balance fetched: 1.5426
+[2025-04-22 08:04:19] Balance updated to: 1.4426
+[2025-04-22 08:04:19] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 08:04:19"}
+[2025-04-22 08:04:19] Purchase successful. Transaction committed.
+[2025-04-22 10:31:15] Attempting purchase for item ID: 11
+[2025-04-22 10:31:15] Item 'Falafel' found. Price: 0.18
+[2025-04-22 10:31:15] Current balance fetched: 1.9297
+[2025-04-22 10:31:15] Balance updated to: 1.7497
+[2025-04-22 10:31:15] Purchase logged successfully. Log Params: {":item_id":11,":name":"Falafel",":price":0.18,":time":"2025-04-22 10:31:15"}
+[2025-04-22 10:31:15] Purchase successful. Transaction committed.
+[2025-04-22 10:59:54] Attempting purchase for item ID: 6
+[2025-04-22 10:59:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 10:59:54] Current balance fetched: 2.0033
+[2025-04-22 10:59:54] Balance updated to: 1.8133
+[2025-04-22 10:59:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 10:59:54"}
+[2025-04-22 10:59:54] Purchase successful. Transaction committed.
+[2025-04-22 11:29:51] Attempting purchase for item ID: 13
+[2025-04-22 11:29:51] Item 'Pumpkin Seeds' found. Price: 0.85
+[2025-04-22 11:29:51] Current balance fetched: 1.8133
+[2025-04-22 11:29:51] Balance updated to: 0.9633
+[2025-04-22 11:29:51] Purchase logged successfully. Log Params: {":item_id":13,":name":"Pumpkin Seeds",":price":0.85,":time":"2025-04-22 11:29:51"}
+[2025-04-22 11:29:51] Purchase successful. Transaction committed.
+[2025-04-22 11:34:35] Attempting purchase for item ID: 6
+[2025-04-22 11:34:35] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 11:34:35] Current balance fetched: 0.9633
+[2025-04-22 11:34:35] Balance updated to: 0.7733
+[2025-04-22 11:34:35] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 11:34:35"}
+[2025-04-22 11:34:35] Purchase successful. Transaction committed.
+[2025-04-22 12:25:49] Attempting purchase for item ID: 6
+[2025-04-22 12:25:49] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 12:25:49] Current balance fetched: 0.7743
+[2025-04-22 12:25:49] Balance updated to: 0.5843
+[2025-04-22 12:25:49] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 12:25:49"}
+[2025-04-22 12:25:49] Purchase successful. Transaction committed.
+[2025-04-22 12:56:43] Attempting purchase for item ID: 6
+[2025-04-22 12:56:43] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 12:56:43] Current balance fetched: 1.0811
+[2025-04-22 12:56:43] Balance updated to: 0.8911
+[2025-04-22 12:56:43] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 12:56:43"}
+[2025-04-22 12:56:43] Purchase successful. Transaction committed.
+[2025-04-22 13:39:35] Attempting purchase for item ID: 6
+[2025-04-22 13:39:35] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 13:39:35] Current balance fetched: 1.0948
+[2025-04-22 13:39:35] Balance updated to: 0.9048
+[2025-04-22 13:39:35] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 13:39:35"}
+[2025-04-22 13:39:35] Purchase successful. Transaction committed.
+[2025-04-22 14:28:47] Attempting purchase for item ID: 5
+[2025-04-22 14:28:47] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 14:28:47] Current balance fetched: 0.9048
+[2025-04-22 14:28:47] Balance updated to: 0.8048
+[2025-04-22 14:28:47] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 14:28:47"}
+[2025-04-22 14:28:47] Purchase successful. Transaction committed.
+[2025-04-22 14:31:57] Attempting purchase for item ID: 5
+[2025-04-22 14:31:57] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 14:31:57] Current balance fetched: 0.8048
+[2025-04-22 14:31:57] Balance updated to: 0.7048
+[2025-04-22 14:31:57] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 14:31:57"}
+[2025-04-22 14:31:57] Purchase successful. Transaction committed.
+[2025-04-22 14:39:26] Attempting batch purchase for items: 5, 11
+[2025-04-22 14:39:26] Total price for batch purchase: 0.28
+[2025-04-22 14:39:26] Current balance fetched: 0.9048
+[2025-04-22 14:39:26] Balance updated to: 0.6248
+[2025-04-22 14:39:26] Batch purchase successful. Transaction committed.
+[2025-04-22 14:39:42] Attempting purchase for item ID: 5
+[2025-04-22 14:39:42] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 14:39:42] Current balance fetched: 0.9048
+[2025-04-22 14:39:42] Balance updated to: 0.8048
+[2025-04-22 14:39:42] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 14:39:42"}
+[2025-04-22 14:39:42] Purchase successful. Transaction committed.
+[2025-04-22 14:41:22] Attempting batch purchase for items: 5, 11
+[2025-04-22 14:41:22] Total price for batch purchase: 0.28
+[2025-04-22 14:41:22] Current balance fetched: 0.9048
+[2025-04-22 14:41:22] Balance updated to: 0.6248
+[2025-04-22 14:41:22] Batch purchase successful. Transaction committed.
+[2025-04-22 14:42:38] Attempting purchase for item ID: 5
+[2025-04-22 14:42:38] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 14:42:38] Current balance fetched: 0.9048
+[2025-04-22 14:42:38] Balance updated to: 0.8048
+[2025-04-22 14:42:38] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 14:42:38"}
+[2025-04-22 14:42:38] Purchase successful. Transaction committed.
+[2025-04-22 15:13:55] Attempting batch purchase for items: 5, 6, 15
+[2025-04-22 15:13:55] Total price for batch purchase: 0.98
+[2025-04-22 15:13:55] Current balance fetched: 1.4391
+[2025-04-22 15:13:55] Balance updated to: 0.4591
+[2025-04-22 15:13:55] Batch purchase successful. Transaction committed.
+[2025-04-22 15:36:52] Attempting purchase for item ID: 6
+[2025-04-22 15:36:52] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 15:36:52] Current balance fetched: 0.4591
+[2025-04-22 15:36:52] Balance updated to: 0.2691
+[2025-04-22 15:36:52] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 15:36:52"}
+[2025-04-22 15:36:52] Purchase successful. Transaction committed.
+[2025-04-22 16:45:22] Attempting purchase for item ID: 6
+[2025-04-22 16:45:22] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 16:45:22] Current balance fetched: 0.2691
+[2025-04-22 16:45:22] Balance updated to: 0.0791
+[2025-04-22 16:45:22] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 16:45:22"}
+[2025-04-22 16:45:22] Purchase successful. Transaction committed.
+[2025-04-22 16:47:23] Attempting purchase for item ID: 16
+[2025-04-22 16:47:23] Item 'Pepsi' found. Price: 0.1
+[2025-04-22 16:47:23] Current balance fetched: 0.1407
+[2025-04-22 16:47:23] Balance updated to: 0.0407
+[2025-04-22 16:47:23] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-22 16:47:23"}
+[2025-04-22 16:47:23] Purchase successful. Transaction committed.
+[2025-04-22 19:09:33] Attempting purchase for item ID: 6
+[2025-04-22 19:09:33] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-22 19:09:33] Current balance fetched: 0.2513
+[2025-04-22 19:09:33] Balance updated to: 0.0613
+[2025-04-22 19:09:33] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-22 19:09:33"}
+[2025-04-22 19:09:33] Purchase successful. Transaction committed.
+[2025-04-22 19:56:40] Attempting purchase for item ID: 5
+[2025-04-22 19:56:40] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 19:56:40] Current balance fetched: 0.1162
+[2025-04-22 19:56:40] Balance updated to: 0.0162
+[2025-04-22 19:56:40] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 19:56:40"}
+[2025-04-22 19:56:40] Purchase successful. Transaction committed.
+[2025-04-22 22:38:27] Attempting purchase for item ID: 5
+[2025-04-22 22:38:27] Item 'Black Tea' found. Price: 0.1
+[2025-04-22 22:38:27] Current balance fetched: 0.2852
+[2025-04-22 22:38:27] Balance updated to: 0.1852
+[2025-04-22 22:38:27] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-22 22:38:27"}
+[2025-04-22 22:38:27] Purchase successful. Transaction committed.
+[2025-04-22 22:45:17] Attempting batch purchase for items: 16, 6
+[2025-04-22 22:45:17] Total price for batch purchase: 0.29
+[2025-04-22 22:45:17] Current balance fetched: 0.4409
+[2025-04-22 22:45:17] Balance updated to: 0.1509
+[2025-04-22 22:45:17] Batch purchase successful. Transaction committed.
+[2025-04-23 07:49:28] Attempting batch purchase for items: 6, 6, 6, 10, 16, 5
+[2025-04-23 07:49:28] Total price for batch purchase: 1.21
+[2025-04-23 07:49:28] Current balance fetched: 1.5552
+[2025-04-23 07:49:28] Balance updated to: 0.3452
+[2025-04-23 07:49:28] Batch purchase successful. Transaction committed.
+[2025-04-23 08:19:50] Attempting batch purchase for items: 17
+[2025-04-23 08:19:50] Total price for batch purchase: 0.21
+[2025-04-23 08:19:50] Current balance fetched: 0.3452
+[2025-04-23 08:19:50] Balance updated to: 0.1352
+[2025-04-23 08:19:50] Batch purchase successful. Transaction committed.
+[2025-04-23 11:14:28] Attempting batch purchase for items: 6, 6, 6, 6, 12
+[2025-04-23 11:14:28] Total price for batch purchase: 1.03
+[2025-04-23 11:14:28] Current balance fetched: 1.3481
+[2025-04-23 11:14:28] Balance updated to: 0.3181
+[2025-04-23 11:14:28] Batch purchase successful. Transaction committed.
+[2025-04-23 11:22:08] Attempting batch purchase for items: 5, 6
+[2025-04-23 11:22:08] Total price for batch purchase: 0.29
+[2025-04-23 11:22:08] Current balance fetched: 0.3181
+[2025-04-23 11:22:08] Balance updated to: 0.0281
+[2025-04-23 11:22:09] Batch purchase successful. Transaction committed.
+[2025-04-24 00:59:20] Attempting purchase for item ID: 11
+[2025-04-24 00:59:20] Item 'Falafel' found. Price: 0.18
+[2025-04-24 00:59:20] Current dynamic balance calculated: 2.373454
+[2025-04-24 00:59:20] Purchase logged successfully. Log Params: {":item_id":11,":name":"Falafel",":price":0.18,":time":"2025-04-24 00:59:20"}
+[2025-04-24 00:59:20] Purchase successful. Transaction committed.
+[2025-04-24 00:59:20] Final dynamic balance after purchase: 2.193454
+[2025-04-24 00:59:24] Attempting purchase for item ID: 11
+[2025-04-24 00:59:24] Item 'Falafel' found. Price: 0.18
+[2025-04-24 00:59:24] Current dynamic balance calculated: 2.193454
+[2025-04-24 00:59:24] Purchase logged successfully. Log Params: {":item_id":11,":name":"Falafel",":price":0.18,":time":"2025-04-24 00:59:24"}
+[2025-04-24 00:59:24] Purchase successful. Transaction committed.
+[2025-04-24 00:59:24] Final dynamic balance after purchase: 2.013454
+[2025-04-24 01:08:43] Attempting batch purchase for items: 6
+[2025-04-24 01:08:43] Total price for batch purchase: 0.19
+[2025-04-24 01:08:43] Current dynamic balance calculated: 3.903954
+[2025-04-24 01:08:43] Batch purchase successful. Transaction committed.
+[2025-04-24 01:08:43] Final dynamic balance after batch purchase: 3.713954
+[2025-04-24 01:22:20] Attempting purchase for item ID: 18
+[2025-04-24 01:22:20] Item 'Indomie (Small)' found. Price: 0.12
+[2025-04-24 01:22:20] Current dynamic balance calculated: 3.713954
+[2025-04-24 01:22:20] Purchase logged successfully. Log Params: {":item_id":18,":name":"Indomie (Small)",":price":0.12,":time":"2025-04-24 01:22:20"}
+[2025-04-24 01:22:20] Purchase successful. Transaction committed.
+[2025-04-24 01:22:20] Final dynamic balance after purchase: 3.593954
+[2025-04-24 01:25:23] Attempting purchase for item ID: 19
+[2025-04-24 01:25:23] Item 'Cheetos' found. Price: 0.2
+[2025-04-24 01:25:23] Current dynamic balance calculated: 3.593954
+[2025-04-24 01:25:23] Purchase logged successfully. Log Params: {":item_id":19,":name":"Cheetos",":price":0.2,":time":"2025-04-24 01:25:23"}
+[2025-04-24 01:25:23] Purchase successful. Transaction committed.
+[2025-04-24 01:25:23] Final dynamic balance after purchase: 3.393954
+[2025-04-24 01:44:19] Attempting purchase for item ID: 6
+[2025-04-24 01:44:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 01:44:19] Current dynamic balance calculated: 3.394554
+[2025-04-24 01:44:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 01:44:19"}
+[2025-04-24 01:44:19] Purchase successful. Transaction committed.
+[2025-04-24 01:44:19] Final dynamic balance after purchase: 3.204554
+[2025-04-24 11:17:44] Attempting batch purchase for items: 6, 5
+[2025-04-24 11:17:44] Total price for batch purchase: 0.29
+[2025-04-24 11:17:44] Current dynamic balance calculated: 3.258088
+[2025-04-24 11:17:44] Batch purchase successful. Transaction committed.
+[2025-04-24 11:17:44] Final dynamic balance after batch purchase: 2.968088
+[2025-04-24 11:28:09] Attempting purchase for item ID: 6
+[2025-04-24 11:28:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 11:28:09] Current dynamic balance calculated: 3.462366
+[2025-04-24 11:28:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 11:28:09"}
+[2025-04-24 11:28:09] Purchase successful. Transaction committed.
+[2025-04-24 11:28:09] Final dynamic balance after purchase: 3.272366
+[2025-04-24 12:00:57] Attempting purchase for item ID: 6
+[2025-04-24 12:00:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 12:00:57] Current dynamic balance calculated: 3.272366
+[2025-04-24 12:00:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 12:00:57"}
+[2025-04-24 12:00:57] Purchase successful. Transaction committed.
+[2025-04-24 12:00:57] Final dynamic balance after purchase: 3.082366
+[2025-04-24 13:04:54] Attempting purchase for item ID: 6
+[2025-04-24 13:04:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 13:04:54] Current dynamic balance calculated: 3.082366
+[2025-04-24 13:04:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 13:04:54"}
+[2025-04-24 13:04:54] Purchase successful. Transaction committed.
+[2025-04-24 13:04:54] Final dynamic balance after purchase: 2.892366
+[2025-04-24 15:42:44] Attempting batch purchase for items: 5, 6, 20
+[2025-04-24 15:42:44] Total price for batch purchase: 0.98
+[2025-04-24 15:42:44] Current dynamic balance calculated: 3.117838
+[2025-04-24 15:42:44] Batch purchase successful. Transaction committed.
+[2025-04-24 15:42:44] Final dynamic balance after batch purchase: 2.137838
+[2025-04-24 16:20:01] Attempting purchase for item ID: 6
+[2025-04-24 16:20:01] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 16:20:01] Current dynamic balance calculated: 2.137838
+[2025-04-24 16:20:01] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 16:20:01"}
+[2025-04-24 16:20:01] Purchase successful. Transaction committed.
+[2025-04-24 16:20:01] Final dynamic balance after purchase: 1.947838
+[2025-04-24 17:26:30] Attempting purchase for item ID: 6
+[2025-04-24 17:26:30] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 17:26:30] Current dynamic balance calculated: 2.101671
+[2025-04-24 17:26:30] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 17:26:30"}
+[2025-04-24 17:26:30] Purchase successful. Transaction committed.
+[2025-04-24 17:26:30] Final dynamic balance after purchase: 1.911671
+[2025-04-24 17:29:58] Attempting purchase for item ID: 6
+[2025-04-24 17:29:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 17:29:58] Current dynamic balance calculated: 1.911671
+[2025-04-24 17:29:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 17:29:58"}
+[2025-04-24 17:29:58] Purchase successful. Transaction committed.
+[2025-04-24 17:29:58] Final dynamic balance after purchase: 1.721671
+[2025-04-24 18:01:35] Attempting purchase for item ID: 5
+[2025-04-24 18:01:35] Item 'Black Tea' found. Price: 0.1
+[2025-04-24 18:01:35] Current dynamic balance calculated: 1.721671
+[2025-04-24 18:01:35] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-24 18:01:35"}
+[2025-04-24 18:01:35] Purchase successful. Transaction committed.
+[2025-04-24 18:01:35] Final dynamic balance after purchase: 1.621671
+[2025-04-24 18:23:34] Attempting purchase for item ID: 17
+[2025-04-24 18:23:34] Item 'Egg with cheese Sandwich' found. Price: 0.21
+[2025-04-24 18:23:34] Current dynamic balance calculated: 1.621671
+[2025-04-24 18:23:34] Purchase logged successfully. Log Params: {":item_id":17,":name":"Egg with cheese Sandwich",":price":0.21,":time":"2025-04-24 18:23:34"}
+[2025-04-24 18:23:34] Purchase successful. Transaction committed.
+[2025-04-24 18:23:34] Final dynamic balance after purchase: 1.411671
+[2025-04-24 18:46:11] Attempting purchase for item ID: 6
+[2025-04-24 18:46:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 18:46:11] Current dynamic balance calculated: 1.411671
+[2025-04-24 18:46:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 18:46:11"}
+[2025-04-24 18:46:11] Purchase successful. Transaction committed.
+[2025-04-24 18:46:11] Final dynamic balance after purchase: 1.221671
+[2025-04-24 19:00:31] Attempting purchase for item ID: 6
+[2025-04-24 19:00:31] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 19:00:31] Current dynamic balance calculated: 2.837644
+[2025-04-24 19:00:31] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 19:00:31"}
+[2025-04-24 19:00:31] Purchase successful. Transaction committed.
+[2025-04-24 19:00:31] Final dynamic balance after purchase: 2.647644
+[2025-04-24 19:49:51] Attempting purchase for item ID: 13
+[2025-04-24 19:49:51] Item 'Pumpkin Seeds' found. Price: 0.6
+[2025-04-24 19:49:51] Current dynamic balance calculated: 2.668344
+[2025-04-24 19:49:51] Purchase logged successfully. Log Params: {":item_id":13,":name":"Pumpkin Seeds",":price":0.6,":time":"2025-04-24 19:49:51"}
+[2025-04-24 19:49:51] Purchase successful. Transaction committed.
+[2025-04-24 19:49:51] Final dynamic balance after purchase: 2.068344
+[2025-04-24 19:51:22] Attempting purchase for item ID: 6
+[2025-04-24 19:51:22] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 19:51:22] Current dynamic balance calculated: 2.068344
+[2025-04-24 19:51:22] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 19:51:22"}
+[2025-04-24 19:51:22] Purchase successful. Transaction committed.
+[2025-04-24 19:51:22] Final dynamic balance after purchase: 1.878344
+[2025-04-24 20:29:36] Attempting purchase for item ID: 6
+[2025-04-24 20:29:36] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 20:29:36] Current dynamic balance calculated: 1.927433
+[2025-04-24 20:29:36] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 20:29:36"}
+[2025-04-24 20:29:36] Purchase successful. Transaction committed.
+[2025-04-24 20:29:36] Final dynamic balance after purchase: 1.737433
+[2025-04-24 20:45:11] Attempting purchase for item ID: 6
+[2025-04-24 20:45:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 20:45:11] Current dynamic balance calculated: 1.737433
+[2025-04-24 20:45:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 20:45:11"}
+[2025-04-24 20:45:11] Purchase successful. Transaction committed.
+[2025-04-24 20:45:11] Final dynamic balance after purchase: 1.547433
+[2025-04-24 21:25:20] Attempting purchase for item ID: 5
+[2025-04-24 21:25:20] Item 'Black Tea' found. Price: 0.1
+[2025-04-24 21:25:20] Current dynamic balance calculated: 2.189539
+[2025-04-24 21:25:20] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-24 21:25:20"}
+[2025-04-24 21:25:20] Purchase successful. Transaction committed.
+[2025-04-24 21:25:20] Final dynamic balance after purchase: 2.089539
+[2025-04-24 22:36:09] Attempting purchase for item ID: 6
+[2025-04-24 22:36:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-24 22:36:09] Current dynamic balance calculated: 2.623366
+[2025-04-24 22:36:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-24 22:36:09"}
+[2025-04-24 22:36:09] Purchase successful. Transaction committed.
+[2025-04-24 22:36:09] Final dynamic balance after purchase: 2.433366
+[2025-04-25 02:43:10] Attempting batch purchase for items: 5, 6, 21
+[2025-04-25 02:43:10] Total price for batch purchase: 0.88
+[2025-04-25 02:43:10] Current dynamic balance calculated: 3.757227
+[2025-04-25 02:43:10] Batch purchase successful. Transaction committed.
+[2025-04-25 02:43:10] Final dynamic balance after batch purchase: 2.877227
+[2025-04-25 10:20:58] Attempting batch purchase for items: 5, 6, 17
+[2025-04-25 10:20:58] Total price for batch purchase: 0.5
+[2025-04-25 10:20:58] Current dynamic balance calculated: 2.877227
+[2025-04-25 10:20:58] Batch purchase successful. Transaction committed.
+[2025-04-25 10:20:58] Final dynamic balance after batch purchase: 2.377227
+[2025-04-25 11:10:46] Attempting purchase for item ID: 6
+[2025-04-25 11:10:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 11:10:46] Current dynamic balance calculated: 2.377227
+[2025-04-25 11:10:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 11:10:46"}
+[2025-04-25 11:10:46] Purchase successful. Transaction committed.
+[2025-04-25 11:10:46] Final dynamic balance after purchase: 2.187227
+[2025-04-25 11:36:11] Attempting purchase for item ID: 6
+[2025-04-25 11:36:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 11:36:11] Current dynamic balance calculated: 2.187227
+[2025-04-25 11:36:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 11:36:11"}
+[2025-04-25 11:36:11] Purchase successful. Transaction committed.
+[2025-04-25 11:36:11] Final dynamic balance after purchase: 1.997227
+[2025-04-25 11:39:32] Attempting purchase for item ID: 5
+[2025-04-25 11:39:32] Item 'Black Tea' found. Price: 0.1
+[2025-04-25 11:39:32] Current dynamic balance calculated: 1.997227
+[2025-04-25 11:39:32] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-25 11:39:32"}
+[2025-04-25 11:39:32] Purchase successful. Transaction committed.
+[2025-04-25 11:39:32] Final dynamic balance after purchase: 1.897227
+[2025-04-25 11:40:04] Attempting purchase for item ID: 5
+[2025-04-25 11:40:04] Item 'Black Tea' found. Price: 0.1
+[2025-04-25 11:40:04] Current dynamic balance calculated: 1.897227
+[2025-04-25 11:40:04] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-25 11:40:04"}
+[2025-04-25 11:40:04] Purchase successful. Transaction committed.
+[2025-04-25 11:40:04] Final dynamic balance after purchase: 1.797227
+[2025-04-25 11:42:00] Attempting purchase for item ID: 16
+[2025-04-25 11:42:00] Item 'Pepsi' found. Price: 0.1
+[2025-04-25 11:42:00] Current dynamic balance calculated: 1.797227
+[2025-04-25 11:42:00] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-25 11:42:00"}
+[2025-04-25 11:42:00] Purchase successful. Transaction committed.
+[2025-04-25 11:42:00] Final dynamic balance after purchase: 1.697227
+[2025-04-25 11:43:01] Attempting purchase for item ID: 11
+[2025-04-25 11:43:01] Item 'Falafel' found. Price: 0.18
+[2025-04-25 11:43:01] Current dynamic balance calculated: 1.997227
+[2025-04-25 11:43:01] Purchase logged successfully. Log Params: {":item_id":11,":name":"Falafel",":price":0.18,":time":"2025-04-25 11:43:01"}
+[2025-04-25 11:43:01] Purchase successful. Transaction committed.
+[2025-04-25 11:43:01] Final dynamic balance after purchase: 1.817227
+[2025-04-25 11:43:41] Attempting purchase for item ID: 5
+[2025-04-25 11:43:41] Item 'Black Tea' found. Price: 0.1
+[2025-04-25 11:43:41] Current dynamic balance calculated: 1.997227
+[2025-04-25 11:43:41] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-25 11:43:41"}
+[2025-04-25 11:43:41] Purchase successful. Transaction committed.
+[2025-04-25 11:43:41] Final dynamic balance after purchase: 1.897227
+[2025-04-25 12:18:40] Attempting purchase for item ID: 6
+[2025-04-25 12:18:40] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 12:18:40] Current dynamic balance calculated: 1.997227
+[2025-04-25 12:18:40] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 12:18:40"}
+[2025-04-25 12:18:40] Purchase successful. Transaction committed.
+[2025-04-25 12:18:40] Final dynamic balance after purchase: 1.807227
+[2025-04-25 12:54:49] Attempting purchase for item ID: 6
+[2025-04-25 12:54:49] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 12:54:49] Current dynamic balance calculated: 3.214574
+[2025-04-25 12:54:49] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 12:54:49"}
+[2025-04-25 12:54:49] Purchase successful. Transaction committed.
+[2025-04-25 12:54:49] Final dynamic balance after purchase: 3.024574
+[2025-04-25 13:23:59] Attempting purchase for item ID: 6
+[2025-04-25 13:23:59] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 13:23:59] Current dynamic balance calculated: 3.210825
+[2025-04-25 13:23:59] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 13:23:59"}
+[2025-04-25 13:23:59] Purchase successful. Transaction committed.
+[2025-04-25 13:23:59] Final dynamic balance after purchase: 3.020825
+[2025-04-25 13:24:10] Attempting purchase for item ID: 6
+[2025-04-25 13:24:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 13:24:10] Current dynamic balance calculated: 3.020825
+[2025-04-25 13:24:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 13:24:10"}
+[2025-04-25 13:24:10] Purchase successful. Transaction committed.
+[2025-04-25 13:24:10] Final dynamic balance after purchase: 2.830825
+[2025-04-25 14:20:25] Attempting purchase for item ID: 22
+[2025-04-25 14:20:25] Item 'Chicken breasts' found. Price: 0.7
+[2025-04-25 14:20:25] Current dynamic balance calculated: 3.015824
+[2025-04-25 14:20:25] Purchase logged successfully. Log Params: {":item_id":22,":name":"Chicken breasts",":price":0.7,":time":"2025-04-25 14:20:25"}
+[2025-04-25 14:20:25] Purchase successful. Transaction committed.
+[2025-04-25 14:20:25] Final dynamic balance after purchase: 2.315824
+[2025-04-25 14:26:16] Attempting purchase for item ID: 6
+[2025-04-25 14:26:16] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 14:26:16] Current dynamic balance calculated: 2.315824
+[2025-04-25 14:26:16] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 14:26:16"}
+[2025-04-25 14:26:16] Purchase successful. Transaction committed.
+[2025-04-25 14:26:16] Final dynamic balance after purchase: 2.125824
+[2025-04-25 14:56:45] Attempting purchase for item ID: 16
+[2025-04-25 14:56:45] Item 'Pepsi' found. Price: 0.1
+[2025-04-25 14:56:45] Current dynamic balance calculated: 2.125824
+[2025-04-25 14:56:45] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-25 14:56:45"}
+[2025-04-25 14:56:45] Purchase successful. Transaction committed.
+[2025-04-25 14:56:45] Final dynamic balance after purchase: 2.025824
+[2025-04-25 14:56:47] Attempting purchase for item ID: 6
+[2025-04-25 14:56:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 14:56:47] Current dynamic balance calculated: 2.025824
+[2025-04-25 14:56:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 14:56:47"}
+[2025-04-25 14:56:47] Purchase successful. Transaction committed.
+[2025-04-25 14:56:47] Final dynamic balance after purchase: 1.835824
+[2025-04-25 15:42:58] Attempting purchase for item ID: 6
+[2025-04-25 15:42:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 15:42:58] Current dynamic balance calculated: 1.836296
+[2025-04-25 15:42:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 15:42:58"}
+[2025-04-25 15:42:58] Purchase successful. Transaction committed.
+[2025-04-25 15:42:58] Final dynamic balance after purchase: 1.646296
+[2025-04-25 16:02:58] Attempting purchase for item ID: 6
+[2025-04-25 16:02:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 16:02:58] Current dynamic balance calculated: 1.646296
+[2025-04-25 16:02:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 16:02:58"}
+[2025-04-25 16:02:58] Purchase successful. Transaction committed.
+[2025-04-25 16:02:58] Final dynamic balance after purchase: 1.456296
+[2025-04-25 16:49:21] Attempting batch purchase for items: 5, 6, 20
+[2025-04-25 16:49:21] Total price for batch purchase: 0.98
+[2025-04-25 16:49:21] Current dynamic balance calculated: 3.662366
+[2025-04-25 16:49:21] Batch purchase successful. Transaction committed.
+[2025-04-25 16:49:21] Final dynamic balance after batch purchase: 2.682366
+[2025-04-25 17:59:45] Attempting purchase for item ID: 6
+[2025-04-25 17:59:45] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 17:59:45] Current dynamic balance calculated: 2.682366
+[2025-04-25 17:59:45] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 17:59:45"}
+[2025-04-25 17:59:45] Purchase successful. Transaction committed.
+[2025-04-25 17:59:45] Final dynamic balance after purchase: 2.492366
+[2025-04-25 18:38:27] Attempting purchase for item ID: 6
+[2025-04-25 18:38:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 18:38:27] Current dynamic balance calculated: 3.877199
+[2025-04-25 18:38:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 18:38:27"}
+[2025-04-25 18:38:27] Purchase successful. Transaction committed.
+[2025-04-25 18:38:27] Final dynamic balance after purchase: 3.687199
+[2025-04-25 19:26:27] Attempting purchase for item ID: 6
+[2025-04-25 19:26:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 19:26:27] Current dynamic balance calculated: 3.687646
+[2025-04-25 19:26:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 19:26:27"}
+[2025-04-25 19:26:27] Purchase successful. Transaction committed.
+[2025-04-25 19:26:27] Final dynamic balance after purchase: 3.497646
+[2025-04-25 20:54:50] Attempting purchase for item ID: 6
+[2025-04-25 20:54:50] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 20:54:50] Current dynamic balance calculated: 4.429007
+[2025-04-25 20:54:50] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 20:54:50"}
+[2025-04-25 20:54:50] Purchase successful. Transaction committed.
+[2025-04-25 20:54:50] Final dynamic balance after purchase: 4.239007
+[2025-04-25 21:04:46] Attempting purchase for item ID: 5
+[2025-04-25 21:04:46] Item 'Black Tea' found. Price: 0.1
+[2025-04-25 21:04:46] Current dynamic balance calculated: 4.239007
+[2025-04-25 21:04:46] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-25 21:04:46"}
+[2025-04-25 21:04:46] Purchase successful. Transaction committed.
+[2025-04-25 21:04:46] Final dynamic balance after purchase: 4.139007
+[2025-04-25 23:05:34] Attempting purchase for item ID: 20
+[2025-04-25 23:05:34] Item 'Rice with Meat' found. Price: 0.69
+[2025-04-25 23:05:34] Current dynamic balance calculated: 4.316657
+[2025-04-25 23:05:34] Purchase logged successfully. Log Params: {":item_id":20,":name":"Rice with Meat",":price":0.69,":time":"2025-04-25 23:05:34"}
+[2025-04-25 23:05:34] Purchase successful. Transaction committed.
+[2025-04-25 23:05:34] Final dynamic balance after purchase: 3.626657
+[2025-04-25 23:05:40] Attempting purchase for item ID: 6
+[2025-04-25 23:05:40] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-25 23:05:40] Current dynamic balance calculated: 3.626657
+[2025-04-25 23:05:40] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-25 23:05:40"}
+[2025-04-25 23:05:40] Purchase successful. Transaction committed.
+[2025-04-25 23:05:40] Final dynamic balance after purchase: 3.436657
+[2025-04-25 23:05:43] Attempting purchase for item ID: 5
+[2025-04-25 23:05:43] Item 'Black Tea' found. Price: 0.1
+[2025-04-25 23:05:43] Current dynamic balance calculated: 3.436657
+[2025-04-25 23:05:43] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-25 23:05:43"}
+[2025-04-25 23:05:43] Purchase successful. Transaction committed.
+[2025-04-25 23:05:43] Final dynamic balance after purchase: 3.336657
+[2025-04-26 06:03:56] Attempting batch purchase for items: 16, 6, 17
+[2025-04-26 06:03:56] Total price for batch purchase: 0.5
+[2025-04-26 06:03:56] Current dynamic balance calculated: 5.29454
+[2025-04-26 06:03:56] Batch purchase successful. Transaction committed.
+[2025-04-26 06:03:56] Final dynamic balance after batch purchase: 4.79454
+[2025-04-26 11:34:25] Attempting purchase for item ID: 5
+[2025-04-26 11:34:25] Item 'Black Tea' found. Price: 0.1
+[2025-04-26 11:34:25] Current dynamic balance calculated: 4.79454
+[2025-04-26 11:34:25] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-26 11:34:25"}
+[2025-04-26 11:34:25] Purchase successful. Transaction committed.
+[2025-04-26 11:34:25] Final dynamic balance after purchase: 4.69454
+[2025-04-26 11:34:27] Attempting purchase for item ID: 6
+[2025-04-26 11:34:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 11:34:27] Current dynamic balance calculated: 4.69454
+[2025-04-26 11:34:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 11:34:27"}
+[2025-04-26 11:34:27] Purchase successful. Transaction committed.
+[2025-04-26 11:34:27] Final dynamic balance after purchase: 4.50454
+[2025-04-26 11:43:05] Attempting purchase for item ID: 6
+[2025-04-26 11:43:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 11:43:05] Current dynamic balance calculated: 4.50454
+[2025-04-26 11:43:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 11:43:05"}
+[2025-04-26 11:43:05] Purchase successful. Transaction committed.
+[2025-04-26 11:43:05] Final dynamic balance after purchase: 4.31454
+[2025-04-26 13:08:57] Attempting purchase for item ID: 6
+[2025-04-26 13:08:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 13:08:57] Current dynamic balance calculated: 4.31454
+[2025-04-26 13:08:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 13:08:57"}
+[2025-04-26 13:08:57] Purchase successful. Transaction committed.
+[2025-04-26 13:08:57] Final dynamic balance after purchase: 4.12454
+[2025-04-26 13:32:47] Attempting purchase for item ID: 6
+[2025-04-26 13:32:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 13:32:47] Current dynamic balance calculated: 4.12454
+[2025-04-26 13:32:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 13:32:47"}
+[2025-04-26 13:32:47] Purchase successful. Transaction committed.
+[2025-04-26 13:32:47] Final dynamic balance after purchase: 3.93454
+[2025-04-26 13:52:46] Attempting purchase for item ID: 6
+[2025-04-26 13:52:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 13:52:46] Current dynamic balance calculated: 3.93454
+[2025-04-26 13:52:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 13:52:46"}
+[2025-04-26 13:52:46] Purchase successful. Transaction committed.
+[2025-04-26 13:52:46] Final dynamic balance after purchase: 3.74454
+[2025-04-26 14:46:24] Attempting purchase for item ID: 6
+[2025-04-26 14:46:24] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 14:46:24] Current dynamic balance calculated: 3.74454
+[2025-04-26 14:46:24] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 14:46:24"}
+[2025-04-26 14:46:24] Purchase successful. Transaction committed.
+[2025-04-26 14:46:24] Final dynamic balance after purchase: 3.55454
+[2025-04-26 14:59:48] Attempting purchase for item ID: 6
+[2025-04-26 14:59:48] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 14:59:48] Current dynamic balance calculated: 3.55454
+[2025-04-26 14:59:48] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 14:59:48"}
+[2025-04-26 14:59:48] Purchase successful. Transaction committed.
+[2025-04-26 14:59:48] Final dynamic balance after purchase: 3.36454
+[2025-04-26 15:26:47] Attempting purchase for item ID: 6
+[2025-04-26 15:26:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 15:26:47] Current dynamic balance calculated: 3.36454
+[2025-04-26 15:26:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 15:26:47"}
+[2025-04-26 15:26:47] Purchase successful. Transaction committed.
+[2025-04-26 15:26:47] Final dynamic balance after purchase: 3.17454
+[2025-04-26 15:53:32] Attempting purchase for item ID: 6
+[2025-04-26 15:53:32] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 15:53:32] Current dynamic balance calculated: 3.17454
+[2025-04-26 15:53:32] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 15:53:32"}
+[2025-04-26 15:53:32] Purchase successful. Transaction committed.
+[2025-04-26 15:53:32] Final dynamic balance after purchase: 2.98454
+[2025-04-26 17:22:10] Attempting purchase for item ID: 5
+[2025-04-26 17:22:10] Item 'Black Tea' found. Price: 0.1
+[2025-04-26 17:22:10] Current dynamic balance calculated: 4.434551
+[2025-04-26 17:22:10] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-26 17:22:10"}
+[2025-04-26 17:22:10] Purchase successful. Transaction committed.
+[2025-04-26 17:22:10] Final dynamic balance after purchase: 4.334551
+[2025-04-26 17:22:11] Attempting purchase for item ID: 6
+[2025-04-26 17:22:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 17:22:11] Current dynamic balance calculated: 4.334551
+[2025-04-26 17:22:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 17:22:11"}
+[2025-04-26 17:22:11] Purchase successful. Transaction committed.
+[2025-04-26 17:22:11] Final dynamic balance after purchase: 4.144551
+[2025-04-26 17:23:36] Attempting purchase for item ID: 23
+[2025-04-26 17:23:36] Item 'Meat with Potatoes' found. Price: 0.7
+[2025-04-26 17:23:36] Current dynamic balance calculated: 4.144551
+[2025-04-26 17:23:36] Purchase logged successfully. Log Params: {":item_id":23,":name":"Meat with Potatoes",":price":0.7,":time":"2025-04-26 17:23:36"}
+[2025-04-26 17:23:36] Purchase successful. Transaction committed.
+[2025-04-26 17:23:36] Final dynamic balance after purchase: 3.444551
+[2025-04-26 18:47:35] Attempting purchase for item ID: 6
+[2025-04-26 18:47:35] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 18:47:35] Current dynamic balance calculated: 3.444551
+[2025-04-26 18:47:35] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 18:47:35"}
+[2025-04-26 18:47:35] Purchase successful. Transaction committed.
+[2025-04-26 18:47:35] Final dynamic balance after purchase: 3.254551
+[2025-04-26 19:03:56] Attempting purchase for item ID: 6
+[2025-04-26 19:03:56] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 19:03:56] Current dynamic balance calculated: 3.254551
+[2025-04-26 19:03:56] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 19:03:56"}
+[2025-04-26 19:03:56] Purchase successful. Transaction committed.
+[2025-04-26 19:03:56] Final dynamic balance after purchase: 3.064551
+[2025-04-26 20:12:01] Attempting purchase for item ID: 6
+[2025-04-26 20:12:01] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 20:12:01] Current dynamic balance calculated: 3.064551
+[2025-04-26 20:12:01] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 20:12:01"}
+[2025-04-26 20:12:01] Purchase successful. Transaction committed.
+[2025-04-26 20:12:01] Final dynamic balance after purchase: 2.874551
+[2025-04-26 21:46:41] Attempting purchase for item ID: 6
+[2025-04-26 21:46:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 21:46:41] Current dynamic balance calculated: 2.874551
+[2025-04-26 21:46:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 21:46:41"}
+[2025-04-26 21:46:41] Purchase successful. Transaction committed.
+[2025-04-26 21:46:41] Final dynamic balance after purchase: 2.684551
+[2025-04-26 22:33:07] Attempting purchase for item ID: 6
+[2025-04-26 22:33:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 22:33:07] Current dynamic balance calculated: 4.125442
+[2025-04-26 22:33:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 22:33:07"}
+[2025-04-26 22:33:07] Purchase successful. Transaction committed.
+[2025-04-26 22:33:07] Final dynamic balance after purchase: 3.935442
+[2025-04-26 23:04:42] Attempting purchase for item ID: 6
+[2025-04-26 23:04:42] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-26 23:04:42] Current dynamic balance calculated: 3.959025
+[2025-04-26 23:04:42] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-26 23:04:42"}
+[2025-04-26 23:04:42] Purchase successful. Transaction committed.
+[2025-04-26 23:04:42] Final dynamic balance after purchase: 3.769025
+[2025-04-27 00:07:43] Attempting purchase for item ID: 6
+[2025-04-27 00:07:43] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 00:07:43] Current dynamic balance calculated: 3.769025
+[2025-04-27 00:07:43] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 00:07:43"}
+[2025-04-27 00:07:43] Purchase successful. Transaction committed.
+[2025-04-27 00:07:43] Final dynamic balance after purchase: 3.579025
+[2025-04-27 03:27:59] Attempting purchase for item ID: 6
+[2025-04-27 03:27:59] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 03:27:59] Current dynamic balance calculated: 4.561303
+[2025-04-27 03:27:59] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 03:27:59"}
+[2025-04-27 03:27:59] Purchase successful. Transaction committed.
+[2025-04-27 03:27:59] Final dynamic balance after purchase: 4.371303
+[2025-04-27 03:28:03] Attempting purchase for item ID: 16
+[2025-04-27 03:28:03] Item 'Pepsi' found. Price: 0.1
+[2025-04-27 03:28:03] Current dynamic balance calculated: 4.371303
+[2025-04-27 03:28:03] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-27 03:28:03"}
+[2025-04-27 03:28:03] Purchase successful. Transaction committed.
+[2025-04-27 03:28:03] Final dynamic balance after purchase: 4.271303
+[2025-04-27 03:28:10] Attempting purchase for item ID: 23
+[2025-04-27 03:28:10] Item 'Meat with Potatoes' found. Price: 0.7
+[2025-04-27 03:28:10] Current dynamic balance calculated: 4.271303
+[2025-04-27 03:28:10] Purchase logged successfully. Log Params: {":item_id":23,":name":"Meat with Potatoes",":price":0.7,":time":"2025-04-27 03:28:10"}
+[2025-04-27 03:28:10] Purchase successful. Transaction committed.
+[2025-04-27 03:28:10] Final dynamic balance after purchase: 3.571303
+[2025-04-27 05:01:41] Attempting purchase for item ID: 6
+[2025-04-27 05:01:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 05:01:41] Current dynamic balance calculated: 3.8808
+[2025-04-27 05:01:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 05:01:41"}
+[2025-04-27 05:01:41] Purchase successful. Transaction committed.
+[2025-04-27 05:01:41] Final dynamic balance after purchase: 3.6908
+[2025-04-27 07:02:06] Attempting purchase for item ID: 6
+[2025-04-27 07:02:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 07:02:06] Current dynamic balance calculated: 4.132008
+[2025-04-27 07:02:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 07:02:06"}
+[2025-04-27 07:02:06] Purchase successful. Transaction committed.
+[2025-04-27 07:02:06] Final dynamic balance after purchase: 3.942008
+[2025-04-27 07:09:08] Attempting purchase for item ID: 6
+[2025-04-27 07:09:08] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 07:09:08] Current dynamic balance calculated: 3.942008
+[2025-04-27 07:09:08] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 07:09:08"}
+[2025-04-27 07:09:08] Purchase successful. Transaction committed.
+[2025-04-27 07:09:08] Final dynamic balance after purchase: 3.752008
+[2025-04-27 07:35:54] Attempting purchase for item ID: 6
+[2025-04-27 07:35:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 07:35:54] Current dynamic balance calculated: 3.752008
+[2025-04-27 07:35:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 07:35:54"}
+[2025-04-27 07:35:54] Purchase successful. Transaction committed.
+[2025-04-27 07:35:54] Final dynamic balance after purchase: 3.562008
+[2025-04-27 14:14:07] Attempting purchase for item ID: 6
+[2025-04-27 14:14:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 14:14:07] Current dynamic balance calculated: 4.438331
+[2025-04-27 14:14:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 14:14:07"}
+[2025-04-27 14:14:07] Purchase successful. Transaction committed.
+[2025-04-27 14:14:07] Final dynamic balance after purchase: 4.248331
+[2025-04-27 14:16:15] Attempting purchase for item ID: 24
+[2025-04-27 14:16:15] Item 'Fish Food' found. Price: 0.5
+[2025-04-27 14:16:15] Current dynamic balance calculated: 4.248331
+[2025-04-27 14:16:15] Purchase logged successfully. Log Params: {":item_id":24,":name":"Fish Food",":price":0.5,":time":"2025-04-27 14:16:15"}
+[2025-04-27 14:16:15] Purchase successful. Transaction committed.
+[2025-04-27 14:16:15] Final dynamic balance after purchase: 3.748331
+[2025-04-27 14:39:03] Attempting purchase for item ID: 6
+[2025-04-27 14:39:03] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 14:39:03] Current dynamic balance calculated: 3.748331
+[2025-04-27 14:39:03] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 14:39:03"}
+[2025-04-27 14:39:03] Purchase successful. Transaction committed.
+[2025-04-27 14:39:03] Final dynamic balance after purchase: 3.558331
+[2025-04-27 14:39:05] Attempting purchase for item ID: 6
+[2025-04-27 14:39:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 14:39:05] Current dynamic balance calculated: 3.558331
+[2025-04-27 14:39:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 14:39:05"}
+[2025-04-27 14:39:05] Purchase successful. Transaction committed.
+[2025-04-27 14:39:05] Final dynamic balance after purchase: 3.368331
+[2025-04-27 15:09:27] Attempting purchase for item ID: 6
+[2025-04-27 15:09:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 15:09:27] Current dynamic balance calculated: 3.368331
+[2025-04-27 15:09:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 15:09:27"}
+[2025-04-27 15:09:27] Purchase successful. Transaction committed.
+[2025-04-27 15:09:27] Final dynamic balance after purchase: 3.178331
+[2025-04-27 15:42:10] Attempting purchase for item ID: 6
+[2025-04-27 15:42:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 15:42:10] Current dynamic balance calculated: 3.178331
+[2025-04-27 15:42:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 15:42:10"}
+[2025-04-27 15:42:10] Purchase successful. Transaction committed.
+[2025-04-27 15:42:10] Final dynamic balance after purchase: 2.988331
+[2025-04-27 15:53:14] Attempting purchase for item ID: 6
+[2025-04-27 15:53:14] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 15:53:14] Current dynamic balance calculated: 2.988331
+[2025-04-27 15:53:14] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 15:53:14"}
+[2025-04-27 15:53:14] Purchase successful. Transaction committed.
+[2025-04-27 15:53:14] Final dynamic balance after purchase: 2.798331
+[2025-04-27 16:52:22] Attempting purchase for item ID: 6
+[2025-04-27 16:52:22] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 16:52:22] Current dynamic balance calculated: 2.798331
+[2025-04-27 16:52:22] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 16:52:22"}
+[2025-04-27 16:52:22] Purchase successful. Transaction committed.
+[2025-04-27 16:52:22] Final dynamic balance after purchase: 2.608331
+[2025-04-27 17:51:25] Attempting purchase for item ID: 6
+[2025-04-27 17:51:25] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 17:51:25] Current dynamic balance calculated: 3.620803
+[2025-04-27 17:51:25] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 17:51:25"}
+[2025-04-27 17:51:25] Purchase successful. Transaction committed.
+[2025-04-27 17:51:25] Final dynamic balance after purchase: 3.430803
+[2025-04-27 19:01:59] Attempting purchase for item ID: 6
+[2025-04-27 19:01:59] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 19:01:59] Current dynamic balance calculated: 3.430803
+[2025-04-27 19:01:59] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 19:01:59"}
+[2025-04-27 19:01:59] Purchase successful. Transaction committed.
+[2025-04-27 19:01:59] Final dynamic balance after purchase: 3.240803
+[2025-04-27 20:38:28] Attempting purchase for item ID: 6
+[2025-04-27 20:38:28] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 20:38:28] Current dynamic balance calculated: 3.240803
+[2025-04-27 20:38:28] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 20:38:28"}
+[2025-04-27 20:38:28] Purchase successful. Transaction committed.
+[2025-04-27 20:38:28] Final dynamic balance after purchase: 3.050803
+[2025-04-27 21:33:36] Attempting purchase for item ID: 6
+[2025-04-27 21:33:36] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 21:33:36] Current dynamic balance calculated: 3.050803
+[2025-04-27 21:33:36] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 21:33:36"}
+[2025-04-27 21:33:36] Purchase successful. Transaction committed.
+[2025-04-27 21:33:36] Final dynamic balance after purchase: 2.860803
+[2025-04-27 21:33:40] Attempting purchase for item ID: 23
+[2025-04-27 21:33:40] Item 'Meat with Potatoes' found. Price: 0.7
+[2025-04-27 21:33:40] Current dynamic balance calculated: 2.860803
+[2025-04-27 21:33:40] Purchase logged successfully. Log Params: {":item_id":23,":name":"Meat with Potatoes",":price":0.7,":time":"2025-04-27 21:33:40"}
+[2025-04-27 21:33:40] Purchase successful. Transaction committed.
+[2025-04-27 21:33:40] Final dynamic balance after purchase: 2.160803
+[2025-04-27 22:24:51] Attempting purchase for item ID: 6
+[2025-04-27 22:24:51] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 22:24:51] Current dynamic balance calculated: 2.160803
+[2025-04-27 22:24:51] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 22:24:51"}
+[2025-04-27 22:24:51] Purchase successful. Transaction committed.
+[2025-04-27 22:24:51] Final dynamic balance after purchase: 1.970803
+[2025-04-27 23:59:54] Attempting purchase for item ID: 6
+[2025-04-27 23:59:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-27 23:59:54] Current dynamic balance calculated: 3.865536
+[2025-04-27 23:59:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-27 23:59:54"}
+[2025-04-27 23:59:54] Purchase successful. Transaction committed.
+[2025-04-27 23:59:54] Final dynamic balance after purchase: 3.675536
+[2025-04-28 01:40:37] Attempting purchase for item ID: 5
+[2025-04-28 01:40:37] Item 'Black Tea' found. Price: 0.1
+[2025-04-28 01:40:37] Current dynamic balance calculated: 3.675536
+[2025-04-28 01:40:37] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-28 01:40:37"}
+[2025-04-28 01:40:37] Purchase successful. Transaction committed.
+[2025-04-28 01:40:37] Final dynamic balance after purchase: 3.575536
+[2025-04-28 01:40:39] Attempting purchase for item ID: 18
+[2025-04-28 01:40:39] Item 'Indomie (Small)' found. Price: 0.12
+[2025-04-28 01:40:39] Current dynamic balance calculated: 3.575536
+[2025-04-28 01:40:39] Purchase logged successfully. Log Params: {":item_id":18,":name":"Indomie (Small)",":price":0.12,":time":"2025-04-28 01:40:39"}
+[2025-04-28 01:40:39] Purchase successful. Transaction committed.
+[2025-04-28 01:40:39] Final dynamic balance after purchase: 3.455536
+[2025-04-28 01:40:44] Attempting purchase for item ID: 17
+[2025-04-28 01:40:44] Item 'Egg with cheese Sandwich' found. Price: 0.21
+[2025-04-28 01:40:44] Current dynamic balance calculated: 3.455536
+[2025-04-28 01:40:44] Purchase logged successfully. Log Params: {":item_id":17,":name":"Egg with cheese Sandwich",":price":0.21,":time":"2025-04-28 01:40:44"}
+[2025-04-28 01:40:44] Purchase successful. Transaction committed.
+[2025-04-28 01:40:44] Final dynamic balance after purchase: 3.245536
+[2025-04-28 01:40:51] Attempting purchase for item ID: 6
+[2025-04-28 01:40:51] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 01:40:51] Current dynamic balance calculated: 3.245536
+[2025-04-28 01:40:51] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 01:40:51"}
+[2025-04-28 01:40:51] Purchase successful. Transaction committed.
+[2025-04-28 01:40:51] Final dynamic balance after purchase: 3.055536
+[2025-04-28 10:19:28] Attempting purchase for item ID: 25
+[2025-04-28 10:19:28] Item 'Egg Sandwitch' found. Price: 0.15
+[2025-04-28 10:19:28] Current dynamic balance calculated: 3.396375
+[2025-04-28 10:19:28] Purchase logged successfully. Log Params: {":item_id":25,":name":"Egg Sandwitch",":price":0.15,":time":"2025-04-28 10:19:28"}
+[2025-04-28 10:19:28] Purchase successful. Transaction committed.
+[2025-04-28 10:19:28] Final dynamic balance after purchase: 3.246375
+[2025-04-28 10:19:31] Attempting purchase for item ID: 6
+[2025-04-28 10:19:31] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 10:19:31] Current dynamic balance calculated: 3.246375
+[2025-04-28 10:19:31] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 10:19:31"}
+[2025-04-28 10:19:31] Purchase successful. Transaction committed.
+[2025-04-28 10:19:31] Final dynamic balance after purchase: 3.056375
+[2025-04-28 10:19:34] Attempting purchase for item ID: 5
+[2025-04-28 10:19:34] Item 'Black Tea' found. Price: 0.1
+[2025-04-28 10:19:34] Current dynamic balance calculated: 3.056375
+[2025-04-28 10:19:34] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-28 10:19:34"}
+[2025-04-28 10:19:34] Purchase successful. Transaction committed.
+[2025-04-28 10:19:34] Final dynamic balance after purchase: 2.956375
+[2025-04-28 11:04:27] Attempting purchase for item ID: 6
+[2025-04-28 11:04:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 11:04:27] Current dynamic balance calculated: 2.956375
+[2025-04-28 11:04:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 11:04:27"}
+[2025-04-28 11:04:27] Purchase successful. Transaction committed.
+[2025-04-28 11:04:27] Final dynamic balance after purchase: 2.766375
+[2025-04-28 11:57:53] Attempting purchase for item ID: 6
+[2025-04-28 11:57:53] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 11:57:53] Current dynamic balance calculated: 2.766375
+[2025-04-28 11:57:53] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 11:57:53"}
+[2025-04-28 11:57:53] Purchase successful. Transaction committed.
+[2025-04-28 11:57:53] Final dynamic balance after purchase: 2.576375
+[2025-04-28 12:43:25] Attempting purchase for item ID: 6
+[2025-04-28 12:43:25] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 12:43:25] Current dynamic balance calculated: 2.765486
+[2025-04-28 12:43:25] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 12:43:25"}
+[2025-04-28 12:43:25] Purchase successful. Transaction committed.
+[2025-04-28 12:43:25] Final dynamic balance after purchase: 2.575486
+[2025-04-28 13:22:37] Attempting purchase for item ID: 6
+[2025-04-28 13:22:37] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 13:22:37] Current dynamic balance calculated: 2.575486
+[2025-04-28 13:22:37] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 13:22:37"}
+[2025-04-28 13:22:37] Purchase successful. Transaction committed.
+[2025-04-28 13:22:37] Final dynamic balance after purchase: 2.385486
+[2025-04-28 13:49:58] Attempting purchase for item ID: 6
+[2025-04-28 13:49:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 13:49:58] Current dynamic balance calculated: 2.497319
+[2025-04-28 13:49:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 13:49:58"}
+[2025-04-28 13:49:58] Purchase successful. Transaction committed.
+[2025-04-28 13:49:58] Final dynamic balance after purchase: 2.307319
+[2025-04-28 14:36:21] Attempting purchase for item ID: 6
+[2025-04-28 14:36:21] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 14:36:21] Current dynamic balance calculated: 2.307319
+[2025-04-28 14:36:21] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 14:36:21"}
+[2025-04-28 14:36:21] Purchase successful. Transaction committed.
+[2025-04-28 14:36:21] Final dynamic balance after purchase: 2.117319
+[2025-04-28 15:22:56] Attempting purchase for item ID: 6
+[2025-04-28 15:22:56] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 15:22:56] Current dynamic balance calculated: 2.117319
+[2025-04-28 15:22:56] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 15:22:56"}
+[2025-04-28 15:22:56] Purchase successful. Transaction committed.
+[2025-04-28 15:22:56] Final dynamic balance after purchase: 1.927319
+[2025-04-28 15:44:23] Attempting purchase for item ID: 6
+[2025-04-28 15:44:23] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 15:44:23] Current dynamic balance calculated: 1.927319
+[2025-04-28 15:44:23] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 15:44:23"}
+[2025-04-28 15:44:23] Purchase successful. Transaction committed.
+[2025-04-28 15:44:23] Final dynamic balance after purchase: 1.737319
+[2025-04-28 17:15:03] Attempting purchase for item ID: 6
+[2025-04-28 17:15:03] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 17:15:03] Current dynamic balance calculated: 1.737319
+[2025-04-28 17:15:03] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 17:15:03"}
+[2025-04-28 17:15:03] Purchase successful. Transaction committed.
+[2025-04-28 17:15:03] Final dynamic balance after purchase: 1.547319
+[2025-04-28 17:15:04] Attempting purchase for item ID: 5
+[2025-04-28 17:15:04] Item 'Black Tea' found. Price: 0.1
+[2025-04-28 17:15:04] Current dynamic balance calculated: 1.547319
+[2025-04-28 17:15:04] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-28 17:15:04"}
+[2025-04-28 17:15:04] Purchase successful. Transaction committed.
+[2025-04-28 17:15:04] Final dynamic balance after purchase: 1.447319
+[2025-04-28 17:20:12] Attempting purchase for item ID: 26
+[2025-04-28 17:20:12] Item 'Kofta' found. Price: 0.99
+[2025-04-28 17:20:12] Current dynamic balance calculated: 1.447319
+[2025-04-28 17:20:12] Purchase logged successfully. Log Params: {":item_id":26,":name":"Kofta",":price":0.99,":time":"2025-04-28 17:20:12"}
+[2025-04-28 17:20:12] Purchase successful. Transaction committed.
+[2025-04-28 17:20:12] Final dynamic balance after purchase: 0.457319
+[2025-04-28 18:42:15] Attempting purchase for item ID: 13
+[2025-04-28 18:42:15] Item 'Pumpkin Seeds' found. Price: 0.6
+[2025-04-28 18:42:15] Current dynamic balance calculated: 1.665472
+[2025-04-28 18:42:15] Purchase logged successfully. Log Params: {":item_id":13,":name":"Pumpkin Seeds",":price":0.6,":time":"2025-04-28 18:42:15"}
+[2025-04-28 18:42:15] Purchase successful. Transaction committed.
+[2025-04-28 18:42:15] Final dynamic balance after purchase: 1.065472
+[2025-04-28 18:48:41] Attempting purchase for item ID: 6
+[2025-04-28 18:48:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 18:48:41] Current dynamic balance calculated: 1.065472
+[2025-04-28 18:48:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 18:48:41"}
+[2025-04-28 18:48:41] Purchase successful. Transaction committed.
+[2025-04-28 18:48:41] Final dynamic balance after purchase: 0.87547199999999
+[2025-04-28 19:42:21] Attempting purchase for item ID: 6
+[2025-04-28 19:42:21] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 19:42:21] Current dynamic balance calculated: 0.87547199999999
+[2025-04-28 19:42:21] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 19:42:21"}
+[2025-04-28 19:42:21] Purchase successful. Transaction committed.
+[2025-04-28 19:42:21] Final dynamic balance after purchase: 0.685472
+[2025-04-28 20:45:12] Attempting purchase for item ID: 6
+[2025-04-28 20:45:12] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 20:45:12] Current dynamic balance calculated: 0.685472
+[2025-04-28 20:45:12] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 20:45:12"}
+[2025-04-28 20:45:12] Purchase successful. Transaction committed.
+[2025-04-28 20:45:12] Final dynamic balance after purchase: 0.495472
+[2025-04-28 22:10:47] Attempting purchase for item ID: 6
+[2025-04-28 22:10:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-28 22:10:47] Current dynamic balance calculated: 1.812181
+[2025-04-28 22:10:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-28 22:10:47"}
+[2025-04-28 22:10:47] Purchase successful. Transaction committed.
+[2025-04-28 22:10:47] Final dynamic balance after purchase: 1.622181
+[2025-04-29 00:13:52] Attempting purchase for item ID: 6
+[2025-04-29 00:13:52] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 00:13:52] Current dynamic balance calculated: 1.622181
+[2025-04-29 00:13:52] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 00:13:52"}
+[2025-04-29 00:13:52] Purchase successful. Transaction committed.
+[2025-04-29 00:13:52] Final dynamic balance after purchase: 1.432181
+[2025-04-29 01:14:11] Attempting purchase for item ID: 6
+[2025-04-29 01:14:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 01:14:11] Current dynamic balance calculated: 1.723009
+[2025-04-29 01:14:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 01:14:11"}
+[2025-04-29 01:14:11] Purchase successful. Transaction committed.
+[2025-04-29 01:14:11] Final dynamic balance after purchase: 1.533009
+[2025-04-29 03:03:15] Attempting purchase for item ID: 16
+[2025-04-29 03:03:15] Item 'Pepsi' found. Price: 0.1
+[2025-04-29 03:03:15] Current dynamic balance calculated: 2.824815
+[2025-04-29 03:03:15] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-29 03:03:15"}
+[2025-04-29 03:03:15] Purchase successful. Transaction committed.
+[2025-04-29 03:03:15] Final dynamic balance after purchase: 2.724815
+[2025-04-29 03:03:18] Attempting purchase for item ID: 6
+[2025-04-29 03:03:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 03:03:18] Current dynamic balance calculated: 2.724815
+[2025-04-29 03:03:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 03:03:18"}
+[2025-04-29 03:03:18] Purchase successful. Transaction committed.
+[2025-04-29 03:03:18] Final dynamic balance after purchase: 2.534815
+[2025-04-29 04:29:04] Attempting purchase for item ID: 18
+[2025-04-29 04:29:04] Item 'Indomie (Small)' found. Price: 0.12
+[2025-04-29 04:29:04] Current dynamic balance calculated: 2.891759
+[2025-04-29 04:29:04] Purchase logged successfully. Log Params: {":item_id":18,":name":"Indomie (Small)",":price":0.12,":time":"2025-04-29 04:29:04"}
+[2025-04-29 04:29:04] Purchase successful. Transaction committed.
+[2025-04-29 04:29:04] Final dynamic balance after purchase: 2.771759
+[2025-04-29 04:31:09] Attempting purchase for item ID: 6
+[2025-04-29 04:31:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 04:31:09] Current dynamic balance calculated: 2.771759
+[2025-04-29 04:31:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 04:31:09"}
+[2025-04-29 04:31:09] Purchase successful. Transaction committed.
+[2025-04-29 04:31:09] Final dynamic balance after purchase: 2.581759
+[2025-04-29 11:47:48] Attempting purchase for item ID: 6
+[2025-04-29 11:47:48] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 11:47:48] Current dynamic balance calculated: 2.600092
+[2025-04-29 11:47:48] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 11:47:48"}
+[2025-04-29 11:47:48] Purchase successful. Transaction committed.
+[2025-04-29 11:47:48] Final dynamic balance after purchase: 2.410092
+[2025-04-29 12:15:28] Attempting purchase for item ID: 6
+[2025-04-29 12:15:28] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 12:15:28] Current dynamic balance calculated: 2.410092
+[2025-04-29 12:15:28] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 12:15:28"}
+[2025-04-29 12:15:28] Purchase successful. Transaction committed.
+[2025-04-29 12:15:28] Final dynamic balance after purchase: 2.220092
+[2025-04-29 13:05:34] Attempting purchase for item ID: 6
+[2025-04-29 13:05:34] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 13:05:34] Current dynamic balance calculated: 2.220092
+[2025-04-29 13:05:34] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 13:05:34"}
+[2025-04-29 13:05:34] Purchase successful. Transaction committed.
+[2025-04-29 13:05:34] Final dynamic balance after purchase: 2.030092
+[2025-04-29 13:31:47] Attempting purchase for item ID: 6
+[2025-04-29 13:31:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 13:31:47] Current dynamic balance calculated: 2.058025
+[2025-04-29 13:31:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 13:31:47"}
+[2025-04-29 13:31:47] Purchase successful. Transaction committed.
+[2025-04-29 13:31:47] Final dynamic balance after purchase: 1.868025
+[2025-04-29 14:32:22] Attempting purchase for item ID: 6
+[2025-04-29 14:32:22] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 14:32:22] Current dynamic balance calculated: 1.868025
+[2025-04-29 14:32:22] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 14:32:22"}
+[2025-04-29 14:32:22] Purchase successful. Transaction committed.
+[2025-04-29 14:32:22] Final dynamic balance after purchase: 1.678025
+[2025-04-29 15:44:59] Attempting purchase for item ID: 27
+[2025-04-29 15:44:59] Item 'Mumbar' found. Price: 0.69
+[2025-04-29 15:44:59] Current dynamic balance calculated: 1.678025
+[2025-04-29 15:44:59] Purchase logged successfully. Log Params: {":item_id":27,":name":"Mumbar",":price":0.69,":time":"2025-04-29 15:44:59"}
+[2025-04-29 15:44:59] Purchase successful. Transaction committed.
+[2025-04-29 15:44:59] Final dynamic balance after purchase: 0.988025
+[2025-04-29 16:26:07] Attempting purchase for item ID: 6
+[2025-04-29 16:26:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 16:26:07] Current dynamic balance calculated: 0.988025
+[2025-04-29 16:26:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 16:26:07"}
+[2025-04-29 16:26:07] Purchase successful. Transaction committed.
+[2025-04-29 16:26:07] Final dynamic balance after purchase: 0.798025
+[2025-04-29 16:26:17] Attempting purchase for item ID: 5
+[2025-04-29 16:26:17] Item 'Black Tea' found. Price: 0.1
+[2025-04-29 16:26:17] Current dynamic balance calculated: 0.798025
+[2025-04-29 16:26:17] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-29 16:26:17"}
+[2025-04-29 16:26:17] Purchase successful. Transaction committed.
+[2025-04-29 16:26:17] Final dynamic balance after purchase: 0.698025
+[2025-04-29 17:02:55] Attempting purchase for item ID: 6
+[2025-04-29 17:02:55] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 17:02:55] Current dynamic balance calculated: 1.806219
+[2025-04-29 17:02:55] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 17:02:55"}
+[2025-04-29 17:02:55] Purchase successful. Transaction committed.
+[2025-04-29 17:02:55] Final dynamic balance after purchase: 1.616219
+[2025-04-29 18:41:41] Attempting purchase for item ID: 25
+[2025-04-29 18:41:41] Item 'Egg Sandwitch' found. Price: 0.15
+[2025-04-29 18:41:41] Current dynamic balance calculated: 1.978335
+[2025-04-29 18:41:41] Purchase logged successfully. Log Params: {":item_id":25,":name":"Egg Sandwitch",":price":0.15,":time":"2025-04-29 18:41:41"}
+[2025-04-29 18:41:41] Purchase successful. Transaction committed.
+[2025-04-29 18:41:41] Final dynamic balance after purchase: 1.828335
+[2025-04-29 18:41:43] Attempting purchase for item ID: 6
+[2025-04-29 18:41:43] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 18:41:43] Current dynamic balance calculated: 1.828335
+[2025-04-29 18:41:43] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 18:41:43"}
+[2025-04-29 18:41:43] Purchase successful. Transaction committed.
+[2025-04-29 18:41:43] Final dynamic balance after purchase: 1.638335
+[2025-04-29 18:41:45] Attempting purchase for item ID: 5
+[2025-04-29 18:41:45] Item 'Black Tea' found. Price: 0.1
+[2025-04-29 18:41:45] Current dynamic balance calculated: 1.638335
+[2025-04-29 18:41:45] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-29 18:41:45"}
+[2025-04-29 18:41:45] Purchase successful. Transaction committed.
+[2025-04-29 18:41:45] Final dynamic balance after purchase: 1.538335
+[2025-04-29 19:33:56] Attempting purchase for item ID: 6
+[2025-04-29 19:33:56] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 19:33:56] Current dynamic balance calculated: 2.057057
+[2025-04-29 19:33:56] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 19:33:56"}
+[2025-04-29 19:33:56] Purchase successful. Transaction committed.
+[2025-04-29 19:33:56] Final dynamic balance after purchase: 1.867057
+[2025-04-29 20:33:51] Attempting purchase for item ID: 6
+[2025-04-29 20:33:51] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 20:33:51] Current dynamic balance calculated: 2.172924
+[2025-04-29 20:33:51] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 20:33:51"}
+[2025-04-29 20:33:51] Purchase successful. Transaction committed.
+[2025-04-29 20:33:51] Final dynamic balance after purchase: 1.982924
+[2025-04-29 23:09:18] Attempting purchase for item ID: 6
+[2025-04-29 23:09:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-29 23:09:18] Current dynamic balance calculated: 1.982924
+[2025-04-29 23:09:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-29 23:09:18"}
+[2025-04-29 23:09:18] Purchase successful. Transaction committed.
+[2025-04-29 23:09:18] Final dynamic balance after purchase: 1.792924
+[2025-04-30 01:56:03] Attempting purchase for item ID: 28
+[2025-04-30 01:56:03] Item 'Fruits' found. Price: 0.25
+[2025-04-30 01:56:03] Current dynamic balance calculated: 1.792924
+[2025-04-30 01:56:03] Purchase logged successfully. Log Params: {":item_id":28,":name":"Fruits",":price":0.25,":time":"2025-04-30 01:56:03"}
+[2025-04-30 01:56:03] Purchase successful. Transaction committed.
+[2025-04-30 01:56:03] Final dynamic balance after purchase: 1.542924
+[2025-04-30 01:56:21] Attempting purchase for item ID: 6
+[2025-04-30 01:56:21] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 01:56:21] Current dynamic balance calculated: 3.723221
+[2025-04-30 01:56:21] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 01:56:21"}
+[2025-04-30 01:56:21] Purchase successful. Transaction committed.
+[2025-04-30 01:56:21] Final dynamic balance after purchase: 3.533221
+[2025-04-30 03:23:17] Attempting purchase for item ID: 6
+[2025-04-30 03:23:17] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 03:23:17] Current dynamic balance calculated: 3.533221
+[2025-04-30 03:23:17] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 03:23:17"}
+[2025-04-30 03:23:17] Purchase successful. Transaction committed.
+[2025-04-30 03:23:17] Final dynamic balance after purchase: 3.343221
+[2025-04-30 05:16:59] Attempting purchase for item ID: 10
+[2025-04-30 05:16:59] Item 'Cheese with Tomatoes' found. Price: 0.44
+[2025-04-30 05:16:59] Current dynamic balance calculated: 4.497932
+[2025-04-30 05:16:59] Purchase logged successfully. Log Params: {":item_id":10,":name":"Cheese with Tomatoes",":price":0.44,":time":"2025-04-30 05:16:59"}
+[2025-04-30 05:16:59] Purchase successful. Transaction committed.
+[2025-04-30 05:16:59] Final dynamic balance after purchase: 4.057932
+[2025-04-30 05:17:04] Attempting purchase for item ID: 6
+[2025-04-30 05:17:04] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 05:17:04] Current dynamic balance calculated: 4.057932
+[2025-04-30 05:17:04] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 05:17:04"}
+[2025-04-30 05:17:04] Purchase successful. Transaction committed.
+[2025-04-30 05:17:04] Final dynamic balance after purchase: 3.867932
+[2025-04-30 06:54:38] Attempting purchase for item ID: 6
+[2025-04-30 06:54:38] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 06:54:38] Current dynamic balance calculated: 4.724949
+[2025-04-30 06:54:38] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 06:54:38"}
+[2025-04-30 06:54:38] Purchase successful. Transaction committed.
+[2025-04-30 06:54:38] Final dynamic balance after purchase: 4.534949
+[2025-04-30 07:20:42] Attempting purchase for item ID: 6
+[2025-04-30 07:20:42] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 07:20:42] Current dynamic balance calculated: 4.534949
+[2025-04-30 07:20:42] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 07:20:42"}
+[2025-04-30 07:20:42] Purchase successful. Transaction committed.
+[2025-04-30 07:20:42] Final dynamic balance after purchase: 4.344949
+[2025-04-30 08:36:19] Attempting purchase for item ID: 6
+[2025-04-30 08:36:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 08:36:19] Current dynamic balance calculated: 4.344949
+[2025-04-30 08:36:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 08:36:19"}
+[2025-04-30 08:36:19] Purchase successful. Transaction committed.
+[2025-04-30 08:36:19] Final dynamic balance after purchase: 4.154949
+[2025-04-30 09:16:17] Attempting purchase for item ID: 6
+[2025-04-30 09:16:17] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 09:16:17] Current dynamic balance calculated: 4.154949
+[2025-04-30 09:16:17] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 09:16:17"}
+[2025-04-30 09:16:17] Purchase successful. Transaction committed.
+[2025-04-30 09:16:17] Final dynamic balance after purchase: 3.964949
+[2025-04-30 09:52:12] Attempting purchase for item ID: 6
+[2025-04-30 09:52:12] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 09:52:12] Current dynamic balance calculated: 3.964949
+[2025-04-30 09:52:12] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 09:52:12"}
+[2025-04-30 09:52:12] Purchase successful. Transaction committed.
+[2025-04-30 09:52:12] Final dynamic balance after purchase: 3.774949
+[2025-04-30 16:42:17] Attempting purchase for item ID: 27
+[2025-04-30 16:42:17] Item 'Mumbar' found. Price: 0.69
+[2025-04-30 16:42:17] Current dynamic balance calculated: 4.547074
+[2025-04-30 16:42:17] Purchase logged successfully. Log Params: {":item_id":27,":name":"Mumbar",":price":0.69,":time":"2025-04-30 16:42:17"}
+[2025-04-30 16:42:17] Purchase successful. Transaction committed.
+[2025-04-30 16:42:17] Final dynamic balance after purchase: 3.857074
+[2025-04-30 16:42:21] Attempting purchase for item ID: 5
+[2025-04-30 16:42:21] Item 'Black Tea' found. Price: 0.1
+[2025-04-30 16:42:21] Current dynamic balance calculated: 3.857074
+[2025-04-30 16:42:21] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-04-30 16:42:21"}
+[2025-04-30 16:42:21] Purchase successful. Transaction committed.
+[2025-04-30 16:42:21] Final dynamic balance after purchase: 3.757074
+[2025-04-30 18:06:09] Attempting purchase for item ID: 6
+[2025-04-30 18:06:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 18:06:09] Current dynamic balance calculated: 3.961927
+[2025-04-30 18:06:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 18:06:09"}
+[2025-04-30 18:06:09] Purchase successful. Transaction committed.
+[2025-04-30 18:06:09] Final dynamic balance after purchase: 3.771927
+[2025-04-30 18:54:46] Attempting purchase for item ID: 6
+[2025-04-30 18:54:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 18:54:46] Current dynamic balance calculated: 3.803949
+[2025-04-30 18:54:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 18:54:46"}
+[2025-04-30 18:54:46] Purchase successful. Transaction committed.
+[2025-04-30 18:54:46] Final dynamic balance after purchase: 3.613949
+[2025-04-30 18:54:48] Attempting purchase for item ID: 16
+[2025-04-30 18:54:48] Item 'Pepsi' found. Price: 0.1
+[2025-04-30 18:54:48] Current dynamic balance calculated: 3.613949
+[2025-04-30 18:54:48] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-04-30 18:54:48"}
+[2025-04-30 18:54:48] Purchase successful. Transaction committed.
+[2025-04-30 18:54:48] Final dynamic balance after purchase: 3.513949
+[2025-04-30 19:35:36] Attempting purchase for item ID: 6
+[2025-04-30 19:35:36] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 19:35:36] Current dynamic balance calculated: 3.513949
+[2025-04-30 19:35:36] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 19:35:36"}
+[2025-04-30 19:35:36] Purchase successful. Transaction committed.
+[2025-04-30 19:35:36] Final dynamic balance after purchase: 3.323949
+[2025-04-30 20:29:26] Attempting purchase for item ID: 6
+[2025-04-30 20:29:26] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 20:29:26] Current dynamic balance calculated: 4.231285
+[2025-04-30 20:29:26] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 20:29:26"}
+[2025-04-30 20:29:26] Purchase successful. Transaction committed.
+[2025-04-30 20:29:26] Final dynamic balance after purchase: 4.041285
+[2025-04-30 21:26:18] Attempting purchase for item ID: 6
+[2025-04-30 21:26:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 21:26:18] Current dynamic balance calculated: 4.041285
+[2025-04-30 21:26:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 21:26:18"}
+[2025-04-30 21:26:18] Purchase successful. Transaction committed.
+[2025-04-30 21:26:18] Final dynamic balance after purchase: 3.851285
+[2025-04-30 23:37:37] Attempting purchase for item ID: 6
+[2025-04-30 23:37:37] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 23:37:37] Current dynamic balance calculated: 3.851285
+[2025-04-30 23:37:37] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 23:37:37"}
+[2025-04-30 23:37:37] Purchase successful. Transaction committed.
+[2025-04-30 23:37:37] Final dynamic balance after purchase: 3.661285
+[2025-04-30 23:51:34] Attempting purchase for item ID: 6
+[2025-04-30 23:51:34] Item '1 Ciggarette' found. Price: 0.19
+[2025-04-30 23:51:34] Current dynamic balance calculated: 3.661285
+[2025-04-30 23:51:34] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-04-30 23:51:34"}
+[2025-04-30 23:51:34] Purchase successful. Transaction committed.
+[2025-04-30 23:51:34] Final dynamic balance after purchase: 3.471285
+[2025-05-01 00:19:42] Attempting purchase for item ID: 29
+[2025-05-01 00:19:42] Item 'FOOD' found. Price: 0.35
+[2025-05-01 00:19:42] Current dynamic balance calculated: 4.555341
+[2025-05-01 00:19:42] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-01 00:19:42"}
+[2025-05-01 00:19:42] Purchase successful. Transaction committed.
+[2025-05-01 00:19:42] Final dynamic balance after purchase: 4.205341
+[2025-05-01 03:47:49] Attempting purchase for item ID: 6
+[2025-05-01 03:47:49] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 03:47:49] Current dynamic balance calculated: 4.205341
+[2025-05-01 03:47:49] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 03:47:49"}
+[2025-05-01 03:47:49] Purchase successful. Transaction committed.
+[2025-05-01 03:47:49] Final dynamic balance after purchase: 4.015341
+[2025-05-01 05:20:19] Attempting purchase for item ID: 6
+[2025-05-01 05:20:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 05:20:19] Current dynamic balance calculated: 4.015341
+[2025-05-01 05:20:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 05:20:19"}
+[2025-05-01 05:20:19] Purchase successful. Transaction committed.
+[2025-05-01 05:20:19] Final dynamic balance after purchase: 3.825341
+[2025-05-01 11:53:45] Attempting purchase for item ID: 25
+[2025-05-01 11:53:45] Item 'Egg Sandwitch' found. Price: 0.15
+[2025-05-01 11:53:45] Current dynamic balance calculated: 4.018358
+[2025-05-01 11:53:45] Purchase logged successfully. Log Params: {":item_id":25,":name":"Egg Sandwitch",":price":0.15,":time":"2025-05-01 11:53:45"}
+[2025-05-01 11:53:45] Purchase successful. Transaction committed.
+[2025-05-01 11:53:45] Final dynamic balance after purchase: 3.868358
+[2025-05-01 11:53:48] Attempting purchase for item ID: 28
+[2025-05-01 11:53:48] Item 'Fruits' found. Price: 0.25
+[2025-05-01 11:53:48] Current dynamic balance calculated: 3.868358
+[2025-05-01 11:53:48] Purchase logged successfully. Log Params: {":item_id":28,":name":"Fruits",":price":0.25,":time":"2025-05-01 11:53:48"}
+[2025-05-01 11:53:48] Purchase successful. Transaction committed.
+[2025-05-01 11:53:48] Final dynamic balance after purchase: 3.618358
+[2025-05-01 11:57:10] Attempting purchase for item ID: 6
+[2025-05-01 11:57:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 11:57:10] Current dynamic balance calculated: 3.618358
+[2025-05-01 11:57:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 11:57:10"}
+[2025-05-01 11:57:10] Purchase successful. Transaction committed.
+[2025-05-01 11:57:10] Final dynamic balance after purchase: 3.428358
+[2025-05-01 14:04:09] Attempting purchase for item ID: 6
+[2025-05-01 14:04:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 14:04:09] Current dynamic balance calculated: 3.428358
+[2025-05-01 14:04:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 14:04:09"}
+[2025-05-01 14:04:09] Purchase successful. Transaction committed.
+[2025-05-01 14:04:09] Final dynamic balance after purchase: 3.238358
+[2025-05-01 15:53:07] Attempting purchase for item ID: 6
+[2025-05-01 15:53:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 15:53:07] Current dynamic balance calculated: 3.611319
+[2025-05-01 15:53:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 15:53:07"}
+[2025-05-01 15:53:07] Purchase successful. Transaction committed.
+[2025-05-01 15:53:07] Final dynamic balance after purchase: 3.421319
+[2025-05-01 15:53:58] Attempting purchase for item ID: 6
+[2025-05-01 15:53:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 15:53:58] Current dynamic balance calculated: 3.421319
+[2025-05-01 15:53:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 15:53:58"}
+[2025-05-01 15:53:58] Purchase successful. Transaction committed.
+[2025-05-01 15:53:58] Final dynamic balance after purchase: 3.231319
+[2025-05-01 16:48:04] Attempting purchase for item ID: 6
+[2025-05-01 16:48:04] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 16:48:04] Current dynamic balance calculated: 3.231319
+[2025-05-01 16:48:04] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 16:48:04"}
+[2025-05-01 16:48:04] Purchase successful. Transaction committed.
+[2025-05-01 16:48:04] Final dynamic balance after purchase: 3.041319
+[2025-05-01 16:48:05] Attempting purchase for item ID: 6
+[2025-05-01 16:48:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 16:48:05] Current dynamic balance calculated: 3.041319
+[2025-05-01 16:48:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 16:48:05"}
+[2025-05-01 16:48:05] Purchase successful. Transaction committed.
+[2025-05-01 16:48:05] Final dynamic balance after purchase: 2.851319
+[2025-05-01 18:58:24] Attempting purchase for item ID: 6
+[2025-05-01 18:58:24] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 18:58:24] Current dynamic balance calculated: 2.851319
+[2025-05-01 18:58:24] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 18:58:24"}
+[2025-05-01 18:58:24] Purchase successful. Transaction committed.
+[2025-05-01 18:58:24] Final dynamic balance after purchase: 2.661319
+[2025-05-01 19:36:54] Attempting purchase for item ID: 6
+[2025-05-01 19:36:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 19:36:54] Current dynamic balance calculated: 2.661319
+[2025-05-01 19:36:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 19:36:54"}
+[2025-05-01 19:36:54] Purchase successful. Transaction committed.
+[2025-05-01 19:36:54] Final dynamic balance after purchase: 2.471319
+[2025-05-01 20:30:08] Attempting purchase for item ID: 6
+[2025-05-01 20:30:08] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 20:30:08] Current dynamic balance calculated: 2.471319
+[2025-05-01 20:30:08] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 20:30:08"}
+[2025-05-01 20:30:08] Purchase successful. Transaction committed.
+[2025-05-01 20:30:08] Final dynamic balance after purchase: 2.281319
+[2025-05-01 22:16:24] Attempting purchase for item ID: 6
+[2025-05-01 22:16:24] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-01 22:16:24] Current dynamic balance calculated: 2.281319
+[2025-05-01 22:16:24] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-01 22:16:24"}
+[2025-05-01 22:16:24] Purchase successful. Transaction committed.
+[2025-05-01 22:16:24] Final dynamic balance after purchase: 2.091319
+[2025-05-02 00:09:19] Attempting purchase for item ID: 6
+[2025-05-02 00:09:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 00:09:19] Current dynamic balance calculated: 2.091319
+[2025-05-02 00:09:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 00:09:19"}
+[2025-05-02 00:09:19] Purchase successful. Transaction committed.
+[2025-05-02 00:09:19] Final dynamic balance after purchase: 1.901319
+[2025-05-02 15:48:24] Attempting purchase for item ID: 6
+[2025-05-02 15:48:24] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 15:48:24] Current dynamic balance calculated: 4.821319
+[2025-05-02 15:48:24] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 15:48:24"}
+[2025-05-02 15:48:24] Purchase successful. Transaction committed.
+[2025-05-02 15:48:24] Final dynamic balance after purchase: 4.631319
+[2025-05-02 16:33:40] Attempting purchase for item ID: 6
+[2025-05-02 16:33:40] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 16:33:40] Current dynamic balance calculated: 4.631319
+[2025-05-02 16:33:40] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 16:33:40"}
+[2025-05-02 16:33:40] Purchase successful. Transaction committed.
+[2025-05-02 16:33:40] Final dynamic balance after purchase: 4.441319
+[2025-05-02 18:22:38] Attempting purchase for item ID: 30
+[2025-05-02 18:22:38] Item 'Rice with Chicken' found. Price: 0.69
+[2025-05-02 18:22:38] Current dynamic balance calculated: 5.233869
+[2025-05-02 18:22:38] Purchase logged successfully. Log Params: {":item_id":30,":name":"Rice with Chicken",":price":0.69,":time":"2025-05-02 18:22:38"}
+[2025-05-02 18:22:38] Purchase successful. Transaction committed.
+[2025-05-02 18:22:38] Final dynamic balance after purchase: 4.543869
+[2025-05-02 18:34:50] Attempting purchase for item ID: 6
+[2025-05-02 18:34:50] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 18:34:50] Current dynamic balance calculated: 4.543869
+[2025-05-02 18:34:50] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 18:34:50"}
+[2025-05-02 18:34:50] Purchase successful. Transaction committed.
+[2025-05-02 18:34:50] Final dynamic balance after purchase: 4.353869
+[2025-05-02 19:05:54] Attempting purchase for item ID: 6
+[2025-05-02 19:05:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 19:05:54] Current dynamic balance calculated: 4.353869
+[2025-05-02 19:05:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 19:05:54"}
+[2025-05-02 19:05:54] Purchase successful. Transaction committed.
+[2025-05-02 19:05:54] Final dynamic balance after purchase: 4.163869
+[2025-05-02 19:29:22] Attempting purchase for item ID: 6
+[2025-05-02 19:29:22] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 19:29:22] Current dynamic balance calculated: 4.163869
+[2025-05-02 19:29:22] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 19:29:22"}
+[2025-05-02 19:29:22] Purchase successful. Transaction committed.
+[2025-05-02 19:29:22] Final dynamic balance after purchase: 3.973869
+[2025-05-02 20:47:15] Attempting purchase for item ID: 6
+[2025-05-02 20:47:15] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 20:47:15] Current dynamic balance calculated: 3.973869
+[2025-05-02 20:47:15] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 20:47:15"}
+[2025-05-02 20:47:15] Purchase successful. Transaction committed.
+[2025-05-02 20:47:15] Final dynamic balance after purchase: 3.783869
+[2025-05-02 21:22:55] Attempting purchase for item ID: 6
+[2025-05-02 21:22:55] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 21:22:55] Current dynamic balance calculated: 3.783869
+[2025-05-02 21:22:55] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 21:22:55"}
+[2025-05-02 21:22:55] Purchase successful. Transaction committed.
+[2025-05-02 21:22:55] Final dynamic balance after purchase: 3.593869
+[2025-05-02 21:48:28] Attempting purchase for item ID: 5
+[2025-05-02 21:48:28] Item 'Black Tea' found. Price: 0.1
+[2025-05-02 21:48:28] Current dynamic balance calculated: 4.617877
+[2025-05-02 21:48:28] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-02 21:48:28"}
+[2025-05-02 21:48:28] Purchase successful. Transaction committed.
+[2025-05-02 21:48:28] Final dynamic balance after purchase: 4.517877
+[2025-05-02 21:48:33] Attempting purchase for item ID: 30
+[2025-05-02 21:48:33] Item 'Rice with Chicken' found. Price: 0.69
+[2025-05-02 21:48:33] Current dynamic balance calculated: 4.517877
+[2025-05-02 21:48:33] Purchase logged successfully. Log Params: {":item_id":30,":name":"Rice with Chicken",":price":0.69,":time":"2025-05-02 21:48:33"}
+[2025-05-02 21:48:33] Purchase successful. Transaction committed.
+[2025-05-02 21:48:33] Final dynamic balance after purchase: 3.827877
+[2025-05-02 21:48:44] Attempting purchase for item ID: 6
+[2025-05-02 21:48:44] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-02 21:48:44] Current dynamic balance calculated: 3.827877
+[2025-05-02 21:48:44] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-02 21:48:44"}
+[2025-05-02 21:48:44] Purchase successful. Transaction committed.
+[2025-05-02 21:48:44] Final dynamic balance after purchase: 3.637877
+[2025-05-03 00:00:41] Attempting purchase for item ID: 6
+[2025-05-03 00:00:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 00:00:41] Current dynamic balance calculated: 3.637877
+[2025-05-03 00:00:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 00:00:41"}
+[2025-05-03 00:00:41] Purchase successful. Transaction committed.
+[2025-05-03 00:00:41] Final dynamic balance after purchase: 3.447877
+[2025-05-03 00:21:14] Attempting purchase for item ID: 6
+[2025-05-03 00:21:14] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 00:21:14] Current dynamic balance calculated: 4.414444
+[2025-05-03 00:21:14] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 00:21:14"}
+[2025-05-03 00:21:14] Purchase successful. Transaction committed.
+[2025-05-03 00:21:14] Final dynamic balance after purchase: 4.224444
+[2025-05-03 11:28:10] Attempting purchase for item ID: 6
+[2025-05-03 11:28:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 11:28:10] Current dynamic balance calculated: 4.645505
+[2025-05-03 11:28:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 11:28:10"}
+[2025-05-03 11:28:10] Purchase successful. Transaction committed.
+[2025-05-03 11:28:10] Final dynamic balance after purchase: 4.455505
+[2025-05-03 11:37:12] Attempting purchase for item ID: 12
+[2025-05-03 11:37:12] Item 'chips' found. Price: 0.27
+[2025-05-03 11:37:12] Current dynamic balance calculated: 4.457533
+[2025-05-03 11:37:12] Purchase logged successfully. Log Params: {":item_id":12,":name":"chips",":price":0.27,":time":"2025-05-03 11:37:12"}
+[2025-05-03 11:37:12] Purchase successful. Transaction committed.
+[2025-05-03 11:37:12] Final dynamic balance after purchase: 4.187533
+[2025-05-03 11:42:46] Attempting purchase for item ID: 31
+[2025-05-03 11:42:46] Item 'Ice Cream' found. Price: 0.19
+[2025-05-03 11:42:46] Current dynamic balance calculated: 4.187533
+[2025-05-03 11:42:46] Purchase logged successfully. Log Params: {":item_id":31,":name":"Ice Cream",":price":0.19,":time":"2025-05-03 11:42:46"}
+[2025-05-03 11:42:46] Purchase successful. Transaction committed.
+[2025-05-03 11:42:46] Final dynamic balance after purchase: 3.997533
+[2025-05-03 11:52:12] Attempting purchase for item ID: 6
+[2025-05-03 11:52:12] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 11:52:12] Current dynamic balance calculated: 3.997533
+[2025-05-03 11:52:12] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 11:52:12"}
+[2025-05-03 11:52:12] Purchase successful. Transaction committed.
+[2025-05-03 11:52:12] Final dynamic balance after purchase: 3.807533
+[2025-05-03 12:16:37] Attempting purchase for item ID: 6
+[2025-05-03 12:16:37] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 12:16:37] Current dynamic balance calculated: 3.807533
+[2025-05-03 12:16:37] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 12:16:37"}
+[2025-05-03 12:16:37] Purchase successful. Transaction committed.
+[2025-05-03 12:16:37] Final dynamic balance after purchase: 3.617533
+[2025-05-03 12:59:41] Attempting purchase for item ID: 6
+[2025-05-03 12:59:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 12:59:41] Current dynamic balance calculated: 3.617533
+[2025-05-03 12:59:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 12:59:41"}
+[2025-05-03 12:59:41] Purchase successful. Transaction committed.
+[2025-05-03 12:59:41] Final dynamic balance after purchase: 3.427533
+[2025-05-03 13:23:17] Attempting purchase for item ID: 6
+[2025-05-03 13:23:17] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 13:23:17] Current dynamic balance calculated: 3.427533
+[2025-05-03 13:23:17] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 13:23:17"}
+[2025-05-03 13:23:17] Purchase successful. Transaction committed.
+[2025-05-03 13:23:17] Final dynamic balance after purchase: 3.237533
+[2025-05-03 13:44:16] Attempting purchase for item ID: 6
+[2025-05-03 13:44:16] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 13:44:16] Current dynamic balance calculated: 3.237533
+[2025-05-03 13:44:16] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 13:44:16"}
+[2025-05-03 13:44:16] Purchase successful. Transaction committed.
+[2025-05-03 13:44:16] Final dynamic balance after purchase: 3.047533
+[2025-05-03 14:17:46] Attempting purchase for item ID: 6
+[2025-05-03 14:17:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 14:17:46] Current dynamic balance calculated: 3.047533
+[2025-05-03 14:17:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 14:17:46"}
+[2025-05-03 14:17:46] Purchase successful. Transaction committed.
+[2025-05-03 14:17:46] Final dynamic balance after purchase: 2.857533
+[2025-05-03 14:40:06] Attempting purchase for item ID: 6
+[2025-05-03 14:40:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 14:40:06] Current dynamic balance calculated: 2.857533
+[2025-05-03 14:40:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 14:40:06"}
+[2025-05-03 14:40:06] Purchase successful. Transaction committed.
+[2025-05-03 14:40:06] Final dynamic balance after purchase: 2.667533
+[2025-05-03 15:01:20] Attempting purchase for item ID: 6
+[2025-05-03 15:01:20] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 15:01:20] Current dynamic balance calculated: 2.667533
+[2025-05-03 15:01:20] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 15:01:20"}
+[2025-05-03 15:01:20] Purchase successful. Transaction committed.
+[2025-05-03 15:01:20] Final dynamic balance after purchase: 2.477533
+[2025-05-03 15:46:43] Attempting purchase for item ID: 29
+[2025-05-03 15:46:43] Item 'FOOD' found. Price: 0.35
+[2025-05-03 15:46:43] Current dynamic balance calculated: 4.190758
+[2025-05-03 15:46:43] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-03 15:46:43"}
+[2025-05-03 15:46:43] Purchase successful. Transaction committed.
+[2025-05-03 15:46:43] Final dynamic balance after purchase: 3.840758
+[2025-05-03 16:08:46] Attempting purchase for item ID: 6
+[2025-05-03 16:08:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 16:08:46] Current dynamic balance calculated: 3.840758
+[2025-05-03 16:08:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 16:08:46"}
+[2025-05-03 16:08:46] Purchase successful. Transaction committed.
+[2025-05-03 16:08:46] Final dynamic balance after purchase: 3.650758
+[2025-05-03 16:22:50] Attempting purchase for item ID: 6
+[2025-05-03 16:22:50] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 16:22:50] Current dynamic balance calculated: 3.650758
+[2025-05-03 16:22:50] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 16:22:50"}
+[2025-05-03 16:22:50] Purchase successful. Transaction committed.
+[2025-05-03 16:22:50] Final dynamic balance after purchase: 3.460758
+[2025-05-03 17:13:20] Attempting purchase for item ID: 6
+[2025-05-03 17:13:20] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 17:13:20] Current dynamic balance calculated: 3.460758
+[2025-05-03 17:13:20] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 17:13:20"}
+[2025-05-03 17:13:20] Purchase successful. Transaction committed.
+[2025-05-03 17:13:20] Final dynamic balance after purchase: 3.270758
+[2025-05-03 18:34:35] Attempting purchase for item ID: 6
+[2025-05-03 18:34:35] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 18:34:35] Current dynamic balance calculated: 4.506758
+[2025-05-03 18:34:35] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 18:34:35"}
+[2025-05-03 18:34:35] Purchase successful. Transaction committed.
+[2025-05-03 18:34:35] Final dynamic balance after purchase: 4.316758
+[2025-05-03 19:16:41] Attempting purchase for item ID: 6
+[2025-05-03 19:16:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 19:16:41] Current dynamic balance calculated: 4.316758
+[2025-05-03 19:16:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 19:16:41"}
+[2025-05-03 19:16:41] Purchase successful. Transaction committed.
+[2025-05-03 19:16:41] Final dynamic balance after purchase: 4.126758
+[2025-05-03 19:16:43] Attempting purchase for item ID: 29
+[2025-05-03 19:16:43] Item 'FOOD' found. Price: 0.35
+[2025-05-03 19:16:43] Current dynamic balance calculated: 4.126758
+[2025-05-03 19:16:43] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-03 19:16:43"}
+[2025-05-03 19:16:43] Purchase successful. Transaction committed.
+[2025-05-03 19:16:43] Final dynamic balance after purchase: 3.776758
+[2025-05-03 19:16:58] Attempting purchase for item ID: 8
+[2025-05-03 19:16:58] Item 'Medications' found. Price: 0.69
+[2025-05-03 19:16:58] Current dynamic balance calculated: 3.776758
+[2025-05-03 19:16:58] Purchase logged successfully. Log Params: {":item_id":8,":name":"Medications",":price":0.69,":time":"2025-05-03 19:16:58"}
+[2025-05-03 19:16:58] Purchase successful. Transaction committed.
+[2025-05-03 19:16:58] Final dynamic balance after purchase: 3.086758
+[2025-05-03 19:56:39] Attempting purchase for item ID: 6
+[2025-05-03 19:56:39] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 19:56:39] Current dynamic balance calculated: 3.086758
+[2025-05-03 19:56:39] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 19:56:39"}
+[2025-05-03 19:56:39] Purchase successful. Transaction committed.
+[2025-05-03 19:56:39] Final dynamic balance after purchase: 2.896758
+[2025-05-03 20:32:19] Attempting purchase for item ID: 6
+[2025-05-03 20:32:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 20:32:19] Current dynamic balance calculated: 3.739194
+[2025-05-03 20:32:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 20:32:19"}
+[2025-05-03 20:32:19] Purchase successful. Transaction committed.
+[2025-05-03 20:32:19] Final dynamic balance after purchase: 3.549194
+[2025-05-03 23:16:51] Attempting purchase for item ID: 6
+[2025-05-03 23:16:51] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-03 23:16:51] Current dynamic balance calculated: 3.549194
+[2025-05-03 23:16:51] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-03 23:16:51"}
+[2025-05-03 23:16:51] Purchase successful. Transaction committed.
+[2025-05-03 23:16:51] Final dynamic balance after purchase: 3.359194
+[2025-05-04 03:11:08] Attempting purchase for item ID: 29
+[2025-05-04 03:11:08] Item 'FOOD' found. Price: 0.35
+[2025-05-04 03:11:08] Current dynamic balance calculated: 4.499997
+[2025-05-04 03:11:08] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-04 03:11:08"}
+[2025-05-04 03:11:08] Purchase successful. Transaction committed.
+[2025-05-04 03:11:08] Final dynamic balance after purchase: 4.149997
+[2025-05-04 04:44:38] Attempting purchase for item ID: 29
+[2025-05-04 04:44:38] Item 'FOOD' found. Price: 0.35
+[2025-05-04 04:44:38] Current dynamic balance calculated: 4.149997
+[2025-05-04 04:44:38] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-04 04:44:38"}
+[2025-05-04 04:44:38] Purchase successful. Transaction committed.
+[2025-05-04 04:44:38] Final dynamic balance after purchase: 3.799997
+[2025-05-04 14:42:04] Attempting purchase for item ID: 6
+[2025-05-04 14:42:04] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 14:42:04] Current dynamic balance calculated: 3.799997
+[2025-05-04 14:42:04] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 14:42:04"}
+[2025-05-04 14:42:04] Purchase successful. Transaction committed.
+[2025-05-04 14:42:04] Final dynamic balance after purchase: 3.609997
+[2025-05-04 14:55:06] Attempting purchase for item ID: 6
+[2025-05-04 14:55:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 14:55:06] Current dynamic balance calculated: 3.609997
+[2025-05-04 14:55:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 14:55:06"}
+[2025-05-04 14:55:06] Purchase successful. Transaction committed.
+[2025-05-04 14:55:06] Final dynamic balance after purchase: 3.419997
+[2025-05-04 15:05:52] Attempting purchase for item ID: 6
+[2025-05-04 15:05:52] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 15:05:52] Current dynamic balance calculated: 3.419997
+[2025-05-04 15:05:52] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 15:05:52"}
+[2025-05-04 15:05:52] Purchase successful. Transaction committed.
+[2025-05-04 15:05:52] Final dynamic balance after purchase: 3.229997
+[2025-05-04 15:23:06] Attempting purchase for item ID: 6
+[2025-05-04 15:23:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 15:23:06] Current dynamic balance calculated: 3.229997
+[2025-05-04 15:23:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 15:23:06"}
+[2025-05-04 15:23:06] Purchase successful. Transaction committed.
+[2025-05-04 15:23:06] Final dynamic balance after purchase: 3.039997
+[2025-05-04 16:00:19] Attempting purchase for item ID: 5
+[2025-05-04 16:00:19] Item 'Black Tea' found. Price: 0.1
+[2025-05-04 16:00:19] Current dynamic balance calculated: 3.262441
+[2025-05-04 16:00:19] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-04 16:00:19"}
+[2025-05-04 16:00:19] Purchase successful. Transaction committed.
+[2025-05-04 16:00:19] Final dynamic balance after purchase: 3.162441
+[2025-05-04 16:19:58] Attempting purchase for item ID: 6
+[2025-05-04 16:19:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 16:19:58] Current dynamic balance calculated: 3.227774
+[2025-05-04 16:19:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 16:19:58"}
+[2025-05-04 16:19:58] Purchase successful. Transaction committed.
+[2025-05-04 16:19:58] Final dynamic balance after purchase: 3.037774
+[2025-05-04 17:16:00] Attempting purchase for item ID: 6
+[2025-05-04 17:16:00] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 17:16:00] Current dynamic balance calculated: 3.037774
+[2025-05-04 17:16:00] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 17:16:00"}
+[2025-05-04 17:16:00] Purchase successful. Transaction committed.
+[2025-05-04 17:16:00] Final dynamic balance after purchase: 2.847774
+[2025-05-04 17:28:49] Attempting purchase for item ID: 29
+[2025-05-04 17:28:49] Item 'FOOD' found. Price: 0.35
+[2025-05-04 17:28:49] Current dynamic balance calculated: 3.185985
+[2025-05-04 17:28:49] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-04 17:28:49"}
+[2025-05-04 17:28:49] Purchase successful. Transaction committed.
+[2025-05-04 17:28:49] Final dynamic balance after purchase: 2.835985
+[2025-05-04 17:36:11] Attempting purchase for item ID: 6
+[2025-05-04 17:36:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 17:36:11] Current dynamic balance calculated: 2.835985
+[2025-05-04 17:36:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 17:36:11"}
+[2025-05-04 17:36:11] Purchase successful. Transaction committed.
+[2025-05-04 17:36:11] Final dynamic balance after purchase: 2.645985
+[2025-05-04 18:20:58] Attempting purchase for item ID: 6
+[2025-05-04 18:20:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 18:20:58] Current dynamic balance calculated: 2.645985
+[2025-05-04 18:20:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 18:20:58"}
+[2025-05-04 18:20:58] Purchase successful. Transaction committed.
+[2025-05-04 18:20:58] Final dynamic balance after purchase: 2.455985
+[2025-05-04 18:58:10] Attempting purchase for item ID: 6
+[2025-05-04 18:58:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 18:58:10] Current dynamic balance calculated: 2.455985
+[2025-05-04 18:58:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 18:58:10"}
+[2025-05-04 18:58:10] Purchase successful. Transaction committed.
+[2025-05-04 18:58:10] Final dynamic balance after purchase: 2.265985
+[2025-05-04 19:30:06] Attempting purchase for item ID: 6
+[2025-05-04 19:30:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 19:30:06] Current dynamic balance calculated: 2.265985
+[2025-05-04 19:30:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 19:30:06"}
+[2025-05-04 19:30:06] Purchase successful. Transaction committed.
+[2025-05-04 19:30:06] Final dynamic balance after purchase: 2.075985
+[2025-05-04 20:41:45] Attempting purchase for item ID: 6
+[2025-05-04 20:41:45] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 20:41:45] Current dynamic balance calculated: 2.075985
+[2025-05-04 20:41:45] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 20:41:45"}
+[2025-05-04 20:41:45] Purchase successful. Transaction committed.
+[2025-05-04 20:41:45] Final dynamic balance after purchase: 1.885985
+[2025-05-04 23:55:41] Attempting purchase for item ID: 6
+[2025-05-04 23:55:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-04 23:55:41] Current dynamic balance calculated: 1.885985
+[2025-05-04 23:55:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-04 23:55:41"}
+[2025-05-04 23:55:41] Purchase successful. Transaction committed.
+[2025-05-04 23:55:41] Final dynamic balance after purchase: 1.695985
+[2025-05-05 00:57:13] Attempting purchase for item ID: 6
+[2025-05-05 00:57:13] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 00:57:13] Current dynamic balance calculated: 4.107985
+[2025-05-05 00:57:13] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 00:57:13"}
+[2025-05-05 00:57:13] Purchase successful. Transaction committed.
+[2025-05-05 00:57:13] Final dynamic balance after purchase: 3.917985
+[2025-05-05 01:23:16] Attempting purchase for item ID: 6
+[2025-05-05 01:23:16] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 01:23:16] Current dynamic balance calculated: 3.917985
+[2025-05-05 01:23:16] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 01:23:16"}
+[2025-05-05 01:23:16] Purchase successful. Transaction committed.
+[2025-05-05 01:23:16] Final dynamic balance after purchase: 3.727985
+[2025-05-05 02:21:47] Attempting purchase for item ID: 10
+[2025-05-05 02:21:47] Item 'Cheese with Tomatoes' found. Price: 0.44
+[2025-05-05 02:21:47] Current dynamic balance calculated: 3.727985
+[2025-05-05 02:21:47] Purchase logged successfully. Log Params: {":item_id":10,":name":"Cheese with Tomatoes",":price":0.44,":time":"2025-05-05 02:21:47"}
+[2025-05-05 02:21:47] Purchase successful. Transaction committed.
+[2025-05-05 02:21:47] Final dynamic balance after purchase: 3.287985
+[2025-05-05 04:33:40] Attempting purchase for item ID: 6
+[2025-05-05 04:33:40] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 04:33:40] Current dynamic balance calculated: 3.287985
+[2025-05-05 04:33:40] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 04:33:40"}
+[2025-05-05 04:33:40] Purchase successful. Transaction committed.
+[2025-05-05 04:33:40] Final dynamic balance after purchase: 3.097985
+[2025-05-05 04:33:43] Attempting purchase for item ID: 5
+[2025-05-05 04:33:43] Item 'Black Tea' found. Price: 0.1
+[2025-05-05 04:33:43] Current dynamic balance calculated: 3.097985
+[2025-05-05 04:33:43] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-05 04:33:43"}
+[2025-05-05 04:33:43] Purchase successful. Transaction committed.
+[2025-05-05 04:33:43] Final dynamic balance after purchase: 2.997985
+[2025-05-05 14:30:49] Attempting purchase for item ID: 5
+[2025-05-05 14:30:49] Item 'Black Tea' found. Price: 0.1
+[2025-05-05 14:30:49] Current dynamic balance calculated: 2.997985
+[2025-05-05 14:30:49] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-05 14:30:49"}
+[2025-05-05 14:30:49] Purchase successful. Transaction committed.
+[2025-05-05 14:30:49] Final dynamic balance after purchase: 2.897985
+[2025-05-05 14:30:51] Attempting purchase for item ID: 6
+[2025-05-05 14:30:51] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 14:30:51] Current dynamic balance calculated: 2.897985
+[2025-05-05 14:30:51] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 14:30:51"}
+[2025-05-05 14:30:51] Purchase successful. Transaction committed.
+[2025-05-05 14:30:51] Final dynamic balance after purchase: 2.707985
+[2025-05-05 14:50:35] Attempting purchase for item ID: 6
+[2025-05-05 14:50:35] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 14:50:35] Current dynamic balance calculated: 2.707985
+[2025-05-05 14:50:35] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 14:50:35"}
+[2025-05-05 14:50:35] Purchase successful. Transaction committed.
+[2025-05-05 14:50:35] Final dynamic balance after purchase: 2.517985
+[2025-05-05 15:04:27] Attempting purchase for item ID: 6
+[2025-05-05 15:04:27] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 15:04:27] Current dynamic balance calculated: 2.571141
+[2025-05-05 15:04:27] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 15:04:27"}
+[2025-05-05 15:04:27] Purchase successful. Transaction committed.
+[2025-05-05 15:04:27] Final dynamic balance after purchase: 2.381141
+[2025-05-05 15:19:37] Attempting purchase for item ID: 6
+[2025-05-05 15:19:37] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 15:19:37] Current dynamic balance calculated: 2.381141
+[2025-05-05 15:19:37] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 15:19:37"}
+[2025-05-05 15:19:37] Purchase successful. Transaction committed.
+[2025-05-05 15:19:37] Final dynamic balance after purchase: 2.191141
+[2025-05-05 15:47:19] Attempting purchase for item ID: 6
+[2025-05-05 15:47:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 15:47:19] Current dynamic balance calculated: 2.191141
+[2025-05-05 15:47:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 15:47:19"}
+[2025-05-05 15:47:19] Purchase successful. Transaction committed.
+[2025-05-05 15:47:19] Final dynamic balance after purchase: 2.001141
+[2025-05-05 16:14:34] Attempting purchase for item ID: 6
+[2025-05-05 16:14:34] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 16:14:34] Current dynamic balance calculated: 2.001141
+[2025-05-05 16:14:34] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 16:14:34"}
+[2025-05-05 16:14:34] Purchase successful. Transaction committed.
+[2025-05-05 16:14:34] Final dynamic balance after purchase: 1.811141
+[2025-05-05 16:44:41] Attempting purchase for item ID: 6
+[2025-05-05 16:44:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 16:44:41] Current dynamic balance calculated: 1.811141
+[2025-05-05 16:44:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 16:44:41"}
+[2025-05-05 16:44:41] Purchase successful. Transaction committed.
+[2025-05-05 16:44:41] Final dynamic balance after purchase: 1.621141
+[2025-05-05 18:06:14] Attempting purchase for item ID: 20
+[2025-05-05 18:06:14] Item 'Rice with Meat' found. Price: 0.69
+[2025-05-05 18:06:14] Current dynamic balance calculated: 2.611247
+[2025-05-05 18:06:14] Purchase logged successfully. Log Params: {":item_id":20,":name":"Rice with Meat",":price":0.69,":time":"2025-05-05 18:06:14"}
+[2025-05-05 18:06:14] Purchase successful. Transaction committed.
+[2025-05-05 18:06:14] Final dynamic balance after purchase: 1.921247
+[2025-05-05 18:06:19] Attempting purchase for item ID: 6
+[2025-05-05 18:06:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 18:06:19] Current dynamic balance calculated: 1.921247
+[2025-05-05 18:06:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 18:06:19"}
+[2025-05-05 18:06:19] Purchase successful. Transaction committed.
+[2025-05-05 18:06:19] Final dynamic balance after purchase: 1.731247
+[2025-05-05 18:42:53] Attempting purchase for item ID: 6
+[2025-05-05 18:42:53] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 18:42:53] Current dynamic balance calculated: 1.731247
+[2025-05-05 18:42:53] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 18:42:53"}
+[2025-05-05 18:42:53] Purchase successful. Transaction committed.
+[2025-05-05 18:42:53] Final dynamic balance after purchase: 1.541247
+[2025-05-05 19:15:49] Attempting purchase for item ID: 6
+[2025-05-05 19:15:49] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 19:15:49] Current dynamic balance calculated: 1.541247
+[2025-05-05 19:15:49] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 19:15:49"}
+[2025-05-05 19:15:49] Purchase successful. Transaction committed.
+[2025-05-05 19:15:49] Final dynamic balance after purchase: 1.351247
+[2025-05-05 20:18:58] Attempting purchase for item ID: 6
+[2025-05-05 20:18:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 20:18:58] Current dynamic balance calculated: 1.351247
+[2025-05-05 20:18:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 20:18:58"}
+[2025-05-05 20:18:58] Purchase successful. Transaction committed.
+[2025-05-05 20:18:58] Final dynamic balance after purchase: 1.161247
+[2025-05-05 21:07:39] Attempting purchase for item ID: 6
+[2025-05-05 21:07:39] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 21:07:39] Current dynamic balance calculated: 1.669164
+[2025-05-05 21:07:39] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 21:07:39"}
+[2025-05-05 21:07:39] Purchase successful. Transaction committed.
+[2025-05-05 21:07:39] Final dynamic balance after purchase: 1.479164
+[2025-05-05 22:05:13] Attempting purchase for item ID: 20
+[2025-05-05 22:05:13] Item 'Rice with Meat' found. Price: 0.69
+[2025-05-05 22:05:13] Current dynamic balance calculated: 2.598247
+[2025-05-05 22:05:13] Purchase logged successfully. Log Params: {":item_id":20,":name":"Rice with Meat",":price":0.69,":time":"2025-05-05 22:05:13"}
+[2025-05-05 22:05:13] Purchase successful. Transaction committed.
+[2025-05-05 22:05:13] Final dynamic balance after purchase: 1.908247
+[2025-05-05 22:27:41] Attempting purchase for item ID: 6
+[2025-05-05 22:27:41] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 22:27:41] Current dynamic balance calculated: 1.923036
+[2025-05-05 22:27:41] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 22:27:41"}
+[2025-05-05 22:27:41] Purchase successful. Transaction committed.
+[2025-05-05 22:27:41] Final dynamic balance after purchase: 1.733036
+[2025-05-05 23:28:57] Attempting purchase for item ID: 6
+[2025-05-05 23:28:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-05 23:28:57] Current dynamic balance calculated: 1.733036
+[2025-05-05 23:28:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-05 23:28:57"}
+[2025-05-05 23:28:57] Purchase successful. Transaction committed.
+[2025-05-05 23:28:57] Final dynamic balance after purchase: 1.543036
+[2025-05-06 00:04:57] Attempting purchase for item ID: 6
+[2025-05-06 00:04:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 00:04:57] Current dynamic balance calculated: 1.543036
+[2025-05-06 00:04:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 00:04:57"}
+[2025-05-06 00:04:57] Purchase successful. Transaction committed.
+[2025-05-06 00:04:57] Final dynamic balance after purchase: 1.353036
+[2025-05-06 02:48:02] Attempting purchase for item ID: 6
+[2025-05-06 02:48:02] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 02:48:02] Current dynamic balance calculated: 1.353036
+[2025-05-06 02:48:02] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 02:48:02"}
+[2025-05-06 02:48:02] Purchase successful. Transaction committed.
+[2025-05-06 02:48:02] Final dynamic balance after purchase: 1.163036
+[2025-05-06 03:22:32] Attempting purchase for item ID: 6
+[2025-05-06 03:22:32] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 03:22:32] Current dynamic balance calculated: 1.163036
+[2025-05-06 03:22:32] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 03:22:32"}
+[2025-05-06 03:22:32] Purchase successful. Transaction committed.
+[2025-05-06 03:22:32] Final dynamic balance after purchase: 0.97303600000001
+[2025-05-06 03:32:53] Attempting purchase for item ID: 29
+[2025-05-06 03:32:53] Item 'FOOD' found. Price: 0.35
+[2025-05-06 03:32:53] Current dynamic balance calculated: 0.97303600000001
+[2025-05-06 03:32:53] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-06 03:32:53"}
+[2025-05-06 03:32:53] Purchase successful. Transaction committed.
+[2025-05-06 03:32:53] Final dynamic balance after purchase: 0.623036
+[2025-05-06 13:15:34] Attempting purchase for item ID: 6
+[2025-05-06 13:15:34] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 13:15:34] Current dynamic balance calculated: 2.99623
+[2025-05-06 13:15:34] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 13:15:34"}
+[2025-05-06 13:15:34] Purchase successful. Transaction committed.
+[2025-05-06 13:15:34] Final dynamic balance after purchase: 2.80623
+[2025-05-06 13:31:55] Attempting purchase for item ID: 6
+[2025-05-06 13:31:55] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 13:31:55] Current dynamic balance calculated: 2.813319
+[2025-05-06 13:31:55] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 13:31:55"}
+[2025-05-06 13:31:55] Purchase successful. Transaction committed.
+[2025-05-06 13:31:55] Final dynamic balance after purchase: 2.623319
+[2025-05-06 13:48:52] Attempting purchase for item ID: 6
+[2025-05-06 13:48:52] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 13:48:52] Current dynamic balance calculated: 2.623319
+[2025-05-06 13:48:52] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 13:48:52"}
+[2025-05-06 13:48:52] Purchase successful. Transaction committed.
+[2025-05-06 13:48:52] Final dynamic balance after purchase: 2.433319
+[2025-05-06 14:22:37] Attempting purchase for item ID: 6
+[2025-05-06 14:22:37] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 14:22:37] Current dynamic balance calculated: 2.519638
+[2025-05-06 14:22:37] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 14:22:37"}
+[2025-05-06 14:22:37] Purchase successful. Transaction committed.
+[2025-05-06 14:22:37] Final dynamic balance after purchase: 2.329638
+[2025-05-06 14:51:29] Attempting purchase for item ID: 6
+[2025-05-06 14:51:29] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 14:51:29] Current dynamic balance calculated: 2.329638
+[2025-05-06 14:51:29] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 14:51:29"}
+[2025-05-06 14:51:29] Purchase successful. Transaction committed.
+[2025-05-06 14:51:29] Final dynamic balance after purchase: 2.139638
+[2025-05-06 15:43:38] Attempting purchase for item ID: 6
+[2025-05-06 15:43:38] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 15:43:38] Current dynamic balance calculated: 2.273574
+[2025-05-06 15:43:38] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 15:43:38"}
+[2025-05-06 15:43:38] Purchase successful. Transaction committed.
+[2025-05-06 15:43:38] Final dynamic balance after purchase: 2.083574
+[2025-05-06 16:26:42] Attempting purchase for item ID: 6
+[2025-05-06 16:26:42] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 16:26:42] Current dynamic balance calculated: 2.083574
+[2025-05-06 16:26:42] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 16:26:42"}
+[2025-05-06 16:26:42] Purchase successful. Transaction committed.
+[2025-05-06 16:26:42] Final dynamic balance after purchase: 1.893574
+[2025-05-06 16:52:59] Attempting purchase for item ID: 20
+[2025-05-06 16:52:59] Item 'Rice with Meat' found. Price: 0.69
+[2025-05-06 16:52:59] Current dynamic balance calculated: 2.941649
+[2025-05-06 16:52:59] Purchase logged successfully. Log Params: {":item_id":20,":name":"Rice with Meat",":price":0.69,":time":"2025-05-06 16:52:59"}
+[2025-05-06 16:52:59] Purchase successful. Transaction committed.
+[2025-05-06 16:52:59] Final dynamic balance after purchase: 2.251649
+[2025-05-06 17:08:03] Attempting purchase for item ID: 6
+[2025-05-06 17:08:03] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 17:08:03] Current dynamic balance calculated: 2.251649
+[2025-05-06 17:08:03] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 17:08:03"}
+[2025-05-06 17:08:03] Purchase successful. Transaction committed.
+[2025-05-06 17:08:03] Final dynamic balance after purchase: 2.061649
+[2025-05-06 17:53:18] Attempting purchase for item ID: 6
+[2025-05-06 17:53:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 17:53:18] Current dynamic balance calculated: 2.061649
+[2025-05-06 17:53:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 17:53:18"}
+[2025-05-06 17:53:18] Purchase successful. Transaction committed.
+[2025-05-06 17:53:18] Final dynamic balance after purchase: 1.871649
+[2025-05-06 18:36:57] Attempting purchase for item ID: 6
+[2025-05-06 18:36:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 18:36:57] Current dynamic balance calculated: 1.871649
+[2025-05-06 18:36:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 18:36:57"}
+[2025-05-06 18:36:57] Purchase successful. Transaction committed.
+[2025-05-06 18:36:57] Final dynamic balance after purchase: 1.681649
+[2025-05-06 20:10:19] Attempting purchase for item ID: 6
+[2025-05-06 20:10:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 20:10:19] Current dynamic balance calculated: 1.681649
+[2025-05-06 20:10:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 20:10:19"}
+[2025-05-06 20:10:19] Purchase successful. Transaction committed.
+[2025-05-06 20:10:19] Final dynamic balance after purchase: 1.491649
+[2025-05-06 22:16:56] Attempting purchase for item ID: 30
+[2025-05-06 22:16:56] Item 'Rice with Chicken' found. Price: 0.69
+[2025-05-06 22:16:56] Current dynamic balance calculated: 3.225786
+[2025-05-06 22:16:56] Purchase logged successfully. Log Params: {":item_id":30,":name":"Rice with Chicken",":price":0.69,":time":"2025-05-06 22:16:56"}
+[2025-05-06 22:16:56] Purchase successful. Transaction committed.
+[2025-05-06 22:16:56] Final dynamic balance after purchase: 2.535786
+[2025-05-06 22:17:00] Attempting purchase for item ID: 6
+[2025-05-06 22:17:00] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 22:17:00] Current dynamic balance calculated: 2.535786
+[2025-05-06 22:17:00] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 22:17:00"}
+[2025-05-06 22:17:00] Purchase successful. Transaction committed.
+[2025-05-06 22:17:00] Final dynamic balance after purchase: 2.345786
+[2025-05-06 23:49:45] Attempting purchase for item ID: 6
+[2025-05-06 23:49:45] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-06 23:49:45] Current dynamic balance calculated: 2.969158
+[2025-05-06 23:49:45] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-06 23:49:45"}
+[2025-05-06 23:49:45] Purchase successful. Transaction committed.
+[2025-05-06 23:49:45] Final dynamic balance after purchase: 2.779158
+[2025-05-07 03:06:19] Attempting purchase for item ID: 6
+[2025-05-07 03:06:19] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 03:06:19] Current dynamic balance calculated: 2.779158
+[2025-05-07 03:06:19] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 03:06:19"}
+[2025-05-07 03:06:19] Purchase successful. Transaction committed.
+[2025-05-07 03:06:19] Final dynamic balance after purchase: 2.589158
+[2025-05-07 11:15:38] Attempting purchase for item ID: 6
+[2025-05-07 11:15:38] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 11:15:38] Current dynamic balance calculated: 6.699183
+[2025-05-07 11:15:38] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 11:15:38"}
+[2025-05-07 11:15:38] Purchase successful. Transaction committed.
+[2025-05-07 11:15:38] Final dynamic balance after purchase: 6.509183
+[2025-05-07 17:11:20] Attempting purchase for item ID: 6
+[2025-05-07 17:11:20] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 17:11:20] Current dynamic balance calculated: 8.034817
+[2025-05-07 17:11:20] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 17:11:20"}
+[2025-05-07 17:11:20] Purchase successful. Transaction committed.
+[2025-05-07 17:11:20] Final dynamic balance after purchase: 7.844817
+[2025-05-07 17:24:23] Attempting purchase for item ID: 6
+[2025-05-07 17:24:23] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 17:24:23] Current dynamic balance calculated: 7.844817
+[2025-05-07 17:24:23] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 17:24:23"}
+[2025-05-07 17:24:23] Purchase successful. Transaction committed.
+[2025-05-07 17:24:23] Final dynamic balance after purchase: 7.654817
+[2025-05-07 17:24:39] Attempting purchase for item ID: 29
+[2025-05-07 17:24:39] Item 'FOOD' found. Price: 0.35
+[2025-05-07 17:24:39] Current dynamic balance calculated: 7.654817
+[2025-05-07 17:24:39] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-07 17:24:39"}
+[2025-05-07 17:24:39] Purchase successful. Transaction committed.
+[2025-05-07 17:24:39] Final dynamic balance after purchase: 7.304817
+[2025-05-07 17:53:48] Attempting purchase for item ID: 6
+[2025-05-07 17:53:48] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 17:53:48] Current dynamic balance calculated: 7.304817
+[2025-05-07 17:53:48] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 17:53:48"}
+[2025-05-07 17:53:48] Purchase successful. Transaction committed.
+[2025-05-07 17:53:48] Final dynamic balance after purchase: 7.114817
+[2025-05-07 17:53:50] Attempting purchase for item ID: 5
+[2025-05-07 17:53:50] Item 'Black Tea' found. Price: 0.1
+[2025-05-07 17:53:50] Current dynamic balance calculated: 7.114817
+[2025-05-07 17:53:50] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-07 17:53:50"}
+[2025-05-07 17:53:50] Purchase successful. Transaction committed.
+[2025-05-07 17:53:50] Final dynamic balance after purchase: 7.014817
+[2025-05-07 19:09:44] Attempting purchase for item ID: 6
+[2025-05-07 19:09:44] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 19:09:44] Current dynamic balance calculated: 7.014817
+[2025-05-07 19:09:44] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 19:09:44"}
+[2025-05-07 19:09:44] Purchase successful. Transaction committed.
+[2025-05-07 19:09:44] Final dynamic balance after purchase: 6.824817
+[2025-05-07 19:58:15] Attempting purchase for item ID: 6
+[2025-05-07 19:58:15] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 19:58:15] Current dynamic balance calculated: 6.824817
+[2025-05-07 19:58:15] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 19:58:15"}
+[2025-05-07 19:58:15] Purchase successful. Transaction committed.
+[2025-05-07 19:58:15] Final dynamic balance after purchase: 6.634817
+[2025-05-07 19:58:18] Attempting purchase for item ID: 6
+[2025-05-07 19:58:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 19:58:18] Current dynamic balance calculated: 6.634817
+[2025-05-07 19:58:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 19:58:18"}
+[2025-05-07 19:58:18] Purchase successful. Transaction committed.
+[2025-05-07 19:58:18] Final dynamic balance after purchase: 6.444817
+[2025-05-07 19:58:18] Attempting purchase for item ID: 6
+[2025-05-07 19:58:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 19:58:18] Current dynamic balance calculated: 6.444817
+[2025-05-07 19:58:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 19:58:18"}
+[2025-05-07 19:58:18] Purchase successful. Transaction committed.
+[2025-05-07 19:58:18] Final dynamic balance after purchase: 6.254817
+[2025-05-07 20:48:53] Attempting purchase for item ID: 6
+[2025-05-07 20:48:53] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 20:48:53] Current dynamic balance calculated: 6.254817
+[2025-05-07 20:48:53] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 20:48:53"}
+[2025-05-07 20:48:53] Purchase successful. Transaction committed.
+[2025-05-07 20:48:53] Final dynamic balance after purchase: 6.064817
+[2025-05-07 21:22:30] Attempting purchase for item ID: 6
+[2025-05-07 21:22:30] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 21:22:30] Current dynamic balance calculated: 6.064817
+[2025-05-07 21:22:30] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 21:22:30"}
+[2025-05-07 21:22:30] Purchase successful. Transaction committed.
+[2025-05-07 21:22:30] Final dynamic balance after purchase: 5.874817
+[2025-05-07 22:11:20] Attempting purchase for item ID: 6
+[2025-05-07 22:11:20] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 22:11:20] Current dynamic balance calculated: 5.874817
+[2025-05-07 22:11:20] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 22:11:20"}
+[2025-05-07 22:11:20] Purchase successful. Transaction committed.
+[2025-05-07 22:11:20] Final dynamic balance after purchase: 5.684817
+[2025-05-07 23:13:31] Attempting purchase for item ID: 6
+[2025-05-07 23:13:31] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-07 23:13:31] Current dynamic balance calculated: 5.684817
+[2025-05-07 23:13:31] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-07 23:13:31"}
+[2025-05-07 23:13:31] Purchase successful. Transaction committed.
+[2025-05-07 23:13:31] Final dynamic balance after purchase: 5.494817
+[2025-05-08 00:24:54] Attempting purchase for item ID: 6
+[2025-05-08 00:24:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 00:24:54] Current dynamic balance calculated: 7.953592
+[2025-05-08 00:24:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 00:24:54"}
+[2025-05-08 00:24:54] Purchase successful. Transaction committed.
+[2025-05-08 00:24:54] Final dynamic balance after purchase: 7.763592
+[2025-05-08 01:22:57] Attempting purchase for item ID: 6
+[2025-05-08 01:22:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 01:22:57] Current dynamic balance calculated: 8.521742
+[2025-05-08 01:22:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 01:22:57"}
+[2025-05-08 01:22:57] Purchase successful. Transaction committed.
+[2025-05-08 01:22:57] Final dynamic balance after purchase: 8.331742
+[2025-05-08 05:35:54] Attempting purchase for item ID: 6
+[2025-05-08 05:35:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 05:35:54] Current dynamic balance calculated: 8.331742
+[2025-05-08 05:35:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 05:35:54"}
+[2025-05-08 05:35:54] Purchase successful. Transaction committed.
+[2025-05-08 05:35:54] Final dynamic balance after purchase: 8.141742
+[2025-05-08 15:44:54] Attempting purchase for item ID: 6
+[2025-05-08 15:44:54] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 15:44:54] Current dynamic balance calculated: 8.141742
+[2025-05-08 15:44:54] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 15:44:54"}
+[2025-05-08 15:44:54] Purchase successful. Transaction committed.
+[2025-05-08 15:44:54] Final dynamic balance after purchase: 7.951742
+[2025-05-08 15:44:56] Attempting purchase for item ID: 5
+[2025-05-08 15:44:56] Item 'Black Tea' found. Price: 0.1
+[2025-05-08 15:44:56] Current dynamic balance calculated: 7.951742
+[2025-05-08 15:44:56] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-08 15:44:56"}
+[2025-05-08 15:44:56] Purchase successful. Transaction committed.
+[2025-05-08 15:44:56] Final dynamic balance after purchase: 7.851742
+[2025-05-08 15:45:09] Attempting purchase for item ID: 22
+[2025-05-08 15:45:09] Item 'Chicken breasts' found. Price: 0.7
+[2025-05-08 15:45:09] Current dynamic balance calculated: 7.851742
+[2025-05-08 15:45:09] Purchase logged successfully. Log Params: {":item_id":22,":name":"Chicken breasts",":price":0.7,":time":"2025-05-08 15:45:09"}
+[2025-05-08 15:45:09] Purchase successful. Transaction committed.
+[2025-05-08 15:45:09] Final dynamic balance after purchase: 7.151742
+[2025-05-08 16:03:17] Attempting purchase for item ID: 6
+[2025-05-08 16:03:17] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 16:03:17] Current dynamic balance calculated: 7.151742
+[2025-05-08 16:03:17] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 16:03:17"}
+[2025-05-08 16:03:17] Purchase successful. Transaction committed.
+[2025-05-08 16:03:17] Final dynamic balance after purchase: 6.961742
+[2025-05-08 16:13:03] Attempting purchase for item ID: 6
+[2025-05-08 16:13:03] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 16:13:03] Current dynamic balance calculated: 7.013289
+[2025-05-08 16:13:03] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 16:13:03"}
+[2025-05-08 16:13:03] Purchase successful. Transaction committed.
+[2025-05-08 16:13:03] Final dynamic balance after purchase: 6.823289
+[2025-05-08 16:58:23] Attempting purchase for item ID: 6
+[2025-05-08 16:58:23] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 16:58:23] Current dynamic balance calculated: 6.823289
+[2025-05-08 16:58:23] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 16:58:23"}
+[2025-05-08 16:58:23] Purchase successful. Transaction committed.
+[2025-05-08 16:58:23] Final dynamic balance after purchase: 6.633289
+[2025-05-08 17:57:28] Attempting purchase for item ID: 6
+[2025-05-08 17:57:28] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 17:57:28] Current dynamic balance calculated: 6.851456
+[2025-05-08 17:57:28] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 17:57:28"}
+[2025-05-08 17:57:28] Purchase successful. Transaction committed.
+[2025-05-08 17:57:28] Final dynamic balance after purchase: 6.661456
+[2025-05-08 18:59:47] Attempting purchase for item ID: 6
+[2025-05-08 18:59:47] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 18:59:47] Current dynamic balance calculated: 7.699979
+[2025-05-08 18:59:47] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 18:59:47"}
+[2025-05-08 18:59:47] Purchase successful. Transaction committed.
+[2025-05-08 18:59:47] Final dynamic balance after purchase: 7.509979
+[2025-05-08 19:53:36] Attempting purchase for item ID: 6
+[2025-05-08 19:53:36] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 19:53:36] Current dynamic balance calculated: 7.509979
+[2025-05-08 19:53:36] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 19:53:36"}
+[2025-05-08 19:53:36] Purchase successful. Transaction committed.
+[2025-05-08 19:53:36] Final dynamic balance after purchase: 7.319979
+[2025-05-08 20:33:03] Attempting purchase for item ID: 6
+[2025-05-08 20:33:03] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 20:33:03] Current dynamic balance calculated: 7.319979
+[2025-05-08 20:33:03] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 20:33:03"}
+[2025-05-08 20:33:03] Purchase successful. Transaction committed.
+[2025-05-08 20:33:03] Final dynamic balance after purchase: 7.129979
+[2025-05-08 21:13:29] Attempting purchase for item ID: 6
+[2025-05-08 21:13:29] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 21:13:29] Current dynamic balance calculated: 7.129979
+[2025-05-08 21:13:29] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 21:13:29"}
+[2025-05-08 21:13:29] Purchase successful. Transaction committed.
+[2025-05-08 21:13:29] Final dynamic balance after purchase: 6.939979
+[2025-05-08 22:21:40] Attempting purchase for item ID: 6
+[2025-05-08 22:21:40] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-08 22:21:40] Current dynamic balance calculated: 6.939979
+[2025-05-08 22:21:40] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-08 22:21:40"}
+[2025-05-08 22:21:40] Purchase successful. Transaction committed.
+[2025-05-08 22:21:40] Final dynamic balance after purchase: 6.749979
+[2025-05-09 01:28:33] Attempting purchase for item ID: 6
+[2025-05-09 01:28:33] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 01:28:33] Current dynamic balance calculated: 8.184204
+[2025-05-09 01:28:33] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 01:28:33"}
+[2025-05-09 01:28:33] Purchase successful. Transaction committed.
+[2025-05-09 01:28:33] Final dynamic balance after purchase: 7.994204
+[2025-05-09 03:01:12] Attempting purchase for item ID: 6
+[2025-05-09 03:01:12] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 03:01:12] Current dynamic balance calculated: 6.559979
+[2025-05-09 03:01:12] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 03:01:12"}
+[2025-05-09 03:01:12] Purchase successful. Transaction committed.
+[2025-05-09 03:01:12] Final dynamic balance after purchase: 6.369979
+[2025-05-09 03:52:46] Attempting purchase for item ID: 6
+[2025-05-09 03:52:46] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 03:52:46] Current dynamic balance calculated: 7.097932
+[2025-05-09 03:52:46] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 03:52:46"}
+[2025-05-09 03:52:46] Purchase successful. Transaction committed.
+[2025-05-09 03:52:46] Final dynamic balance after purchase: 6.907932
+[2025-05-09 14:03:25] Attempting purchase for item ID: 6
+[2025-05-09 14:03:25] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 14:03:25] Current dynamic balance calculated: 6.907932
+[2025-05-09 14:03:25] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 14:03:25"}
+[2025-05-09 14:03:25] Purchase successful. Transaction committed.
+[2025-05-09 14:03:25] Final dynamic balance after purchase: 6.717932
+[2025-05-09 14:14:25] Attempting purchase for item ID: 5
+[2025-05-09 14:14:25] Item 'Black Tea' found. Price: 0.1
+[2025-05-09 14:14:25] Current dynamic balance calculated: 6.717932
+[2025-05-09 14:14:25] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-09 14:14:25"}
+[2025-05-09 14:14:25] Purchase successful. Transaction committed.
+[2025-05-09 14:14:25] Final dynamic balance after purchase: 6.617932
+[2025-05-09 14:14:26] Attempting purchase for item ID: 6
+[2025-05-09 14:14:26] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 14:14:26] Current dynamic balance calculated: 6.617932
+[2025-05-09 14:14:26] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 14:14:26"}
+[2025-05-09 14:14:26] Purchase successful. Transaction committed.
+[2025-05-09 14:14:26] Final dynamic balance after purchase: 6.427932
+[2025-05-09 14:25:11] Attempting purchase for item ID: 6
+[2025-05-09 14:25:11] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 14:25:11] Current dynamic balance calculated: 6.446296
+[2025-05-09 14:25:11] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 14:25:11"}
+[2025-05-09 14:25:11] Purchase successful. Transaction committed.
+[2025-05-09 14:25:11] Final dynamic balance after purchase: 6.256296
+[2025-05-09 14:56:18] Attempting purchase for item ID: 6
+[2025-05-09 14:56:18] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 14:56:18] Current dynamic balance calculated: 6.256296
+[2025-05-09 14:56:18] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 14:56:18"}
+[2025-05-09 14:56:18] Purchase successful. Transaction committed.
+[2025-05-09 14:56:18] Final dynamic balance after purchase: 6.066296
+[2025-05-09 15:24:10] Attempting purchase for item ID: 6
+[2025-05-09 15:24:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 15:24:10] Current dynamic balance calculated: 6.066296
+[2025-05-09 15:24:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 15:24:10"}
+[2025-05-09 15:24:10] Purchase successful. Transaction committed.
+[2025-05-09 15:24:10] Final dynamic balance after purchase: 5.876296
+[2025-05-09 15:44:23] Attempting purchase for item ID: 6
+[2025-05-09 15:44:23] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 15:44:23] Current dynamic balance calculated: 5.876296
+[2025-05-09 15:44:23] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 15:44:23"}
+[2025-05-09 15:44:23] Purchase successful. Transaction committed.
+[2025-05-09 15:44:23] Final dynamic balance after purchase: 5.686296
+[2025-05-09 16:20:50] Attempting purchase for item ID: 6
+[2025-05-09 16:20:50] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 16:20:50] Current dynamic balance calculated: 5.686296
+[2025-05-09 16:20:50] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 16:20:50"}
+[2025-05-09 16:20:50] Purchase successful. Transaction committed.
+[2025-05-09 16:20:50] Final dynamic balance after purchase: 5.496296
+[2025-05-09 16:34:33] Attempting purchase for item ID: 6
+[2025-05-09 16:34:33] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 16:34:33] Current dynamic balance calculated: 5.496296
+[2025-05-09 16:34:33] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 16:34:33"}
+[2025-05-09 16:34:33] Purchase successful. Transaction committed.
+[2025-05-09 16:34:33] Final dynamic balance after purchase: 5.306296
+[2025-05-09 17:30:45] Attempting purchase for item ID: 6
+[2025-05-09 17:30:45] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 17:30:45] Current dynamic balance calculated: 6.434302
+[2025-05-09 17:30:45] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 17:30:45"}
+[2025-05-09 17:30:45] Purchase successful. Transaction committed.
+[2025-05-09 17:30:45] Final dynamic balance after purchase: 6.244302
+[2025-05-09 17:48:32] Attempting purchase for item ID: 6
+[2025-05-09 17:48:32] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 17:48:32] Current dynamic balance calculated: 6.244302
+[2025-05-09 17:48:32] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 17:48:32"}
+[2025-05-09 17:48:32] Purchase successful. Transaction committed.
+[2025-05-09 17:48:32] Final dynamic balance after purchase: 6.054302
+[2025-05-09 18:22:33] Attempting purchase for item ID: 6
+[2025-05-09 18:22:33] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 18:22:33] Current dynamic balance calculated: 6.054302
+[2025-05-09 18:22:33] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 18:22:33"}
+[2025-05-09 18:22:33] Purchase successful. Transaction committed.
+[2025-05-09 18:22:33] Final dynamic balance after purchase: 5.864302
+[2025-05-09 19:37:30] Attempting purchase for item ID: 29
+[2025-05-09 19:37:30] Item 'FOOD' found. Price: 0.35
+[2025-05-09 19:37:30] Current dynamic balance calculated: 5.864302
+[2025-05-09 19:37:30] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-09 19:37:30"}
+[2025-05-09 19:37:30] Purchase successful. Transaction committed.
+[2025-05-09 19:37:30] Final dynamic balance after purchase: 5.514302
+[2025-05-09 19:37:33] Attempting purchase for item ID: 5
+[2025-05-09 19:37:33] Item 'Black Tea' found. Price: 0.1
+[2025-05-09 19:37:33] Current dynamic balance calculated: 5.514302
+[2025-05-09 19:37:33] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-09 19:37:33"}
+[2025-05-09 19:37:33] Purchase successful. Transaction committed.
+[2025-05-09 19:37:33] Final dynamic balance after purchase: 5.414302
+[2025-05-09 19:37:34] Attempting purchase for item ID: 6
+[2025-05-09 19:37:34] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 19:37:34] Current dynamic balance calculated: 5.414302
+[2025-05-09 19:37:34] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 19:37:34"}
+[2025-05-09 19:37:34] Purchase successful. Transaction committed.
+[2025-05-09 19:37:34] Final dynamic balance after purchase: 5.224302
+[2025-05-09 19:55:30] Attempting purchase for item ID: 6
+[2025-05-09 19:55:30] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 19:55:30] Current dynamic balance calculated: 5.224302
+[2025-05-09 19:55:30] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 19:55:30"}
+[2025-05-09 19:55:30] Purchase successful. Transaction committed.
+[2025-05-09 19:55:30] Final dynamic balance after purchase: 5.034302
+[2025-05-09 20:43:10] Attempting purchase for item ID: 6
+[2025-05-09 20:43:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 20:43:10] Current dynamic balance calculated: 5.034302
+[2025-05-09 20:43:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 20:43:10"}
+[2025-05-09 20:43:10] Purchase successful. Transaction committed.
+[2025-05-09 20:43:10] Final dynamic balance after purchase: 4.844302
+[2025-05-09 21:23:53] Attempting purchase for item ID: 6
+[2025-05-09 21:23:53] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 21:23:53] Current dynamic balance calculated: 4.844302
+[2025-05-09 21:23:53] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 21:23:53"}
+[2025-05-09 21:23:53] Purchase successful. Transaction committed.
+[2025-05-09 21:23:53] Final dynamic balance after purchase: 4.654302
+[2025-05-09 23:34:05] Attempting purchase for item ID: 6
+[2025-05-09 23:34:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-09 23:34:05] Current dynamic balance calculated: 9.828664
+[2025-05-09 23:34:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-09 23:34:05"}
+[2025-05-09 23:34:05] Purchase successful. Transaction committed.
+[2025-05-09 23:34:05] Final dynamic balance after purchase: 9.638664
+[2025-05-10 00:17:10] Attempting purchase for item ID: 6
+[2025-05-10 00:17:10] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 00:17:10] Current dynamic balance calculated: 9.638664
+[2025-05-10 00:17:10] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 00:17:10"}
+[2025-05-10 00:17:10] Purchase successful. Transaction committed.
+[2025-05-10 00:17:10] Final dynamic balance after purchase: 9.448664
+[2025-05-10 12:05:14] Attempting purchase for item ID: 6
+[2025-05-10 12:05:14] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 12:05:14] Current dynamic balance calculated: 12.814045
+[2025-05-10 12:05:14] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 12:05:14"}
+[2025-05-10 12:05:14] Purchase successful. Transaction committed.
+[2025-05-10 12:05:14] Final dynamic balance after purchase: 12.624045
+[2025-05-10 17:41:57] Attempting purchase for item ID: 6
+[2025-05-10 17:41:57] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 17:41:57] Current dynamic balance calculated: 16.319306
+[2025-05-10 17:41:57] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 17:41:57"}
+[2025-05-10 17:41:57] Purchase successful. Transaction committed.
+[2025-05-10 17:41:57] Final dynamic balance after purchase: 16.129306
+[2025-05-10 17:41:58] Attempting purchase for item ID: 6
+[2025-05-10 17:41:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 17:41:58] Current dynamic balance calculated: 16.129306
+[2025-05-10 17:41:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 17:41:58"}
+[2025-05-10 17:41:58] Purchase successful. Transaction committed.
+[2025-05-10 17:41:58] Final dynamic balance after purchase: 15.939306
+[2025-05-10 17:42:00] Attempting purchase for item ID: 6
+[2025-05-10 17:42:00] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 17:42:00] Current dynamic balance calculated: 15.939306
+[2025-05-10 17:42:00] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 17:42:00"}
+[2025-05-10 17:42:00] Purchase successful. Transaction committed.
+[2025-05-10 17:42:00] Final dynamic balance after purchase: 15.749306
+[2025-05-10 17:42:08] Attempting purchase for item ID: 15
+[2025-05-10 17:42:08] Item 'Noodles with Chicken' found. Price: 0.69
+[2025-05-10 17:42:08] Current dynamic balance calculated: 15.749306
+[2025-05-10 17:42:08] Purchase logged successfully. Log Params: {":item_id":15,":name":"Noodles with Chicken",":price":0.69,":time":"2025-05-10 17:42:08"}
+[2025-05-10 17:42:08] Purchase successful. Transaction committed.
+[2025-05-10 17:42:08] Final dynamic balance after purchase: 15.059306
+[2025-05-10 17:42:12] Attempting purchase for item ID: 6
+[2025-05-10 17:42:12] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 17:42:12] Current dynamic balance calculated: 15.059306
+[2025-05-10 17:42:12] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 17:42:12"}
+[2025-05-10 17:42:13] Purchase successful. Transaction committed.
+[2025-05-10 17:42:13] Final dynamic balance after purchase: 14.869306
+[2025-05-10 17:42:14] Attempting purchase for item ID: 5
+[2025-05-10 17:42:14] Item 'Black Tea' found. Price: 0.1
+[2025-05-10 17:42:14] Current dynamic balance calculated: 14.869306
+[2025-05-10 17:42:14] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-10 17:42:14"}
+[2025-05-10 17:42:14] Purchase successful. Transaction committed.
+[2025-05-10 17:42:14] Final dynamic balance after purchase: 14.769306
+[2025-05-10 22:18:07] Attempting purchase for item ID: 6
+[2025-05-10 22:18:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 22:18:07] Current dynamic balance calculated: 14.769306
+[2025-05-10 22:18:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 22:18:07"}
+[2025-05-10 22:18:07] Purchase successful. Transaction committed.
+[2025-05-10 22:18:07] Final dynamic balance after purchase: 14.579306
+[2025-05-10 22:18:08] Attempting purchase for item ID: 6
+[2025-05-10 22:18:08] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 22:18:08] Current dynamic balance calculated: 14.579306
+[2025-05-10 22:18:08] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 22:18:08"}
+[2025-05-10 22:18:08] Purchase successful. Transaction committed.
+[2025-05-10 22:18:08] Final dynamic balance after purchase: 14.389306
+[2025-05-10 22:18:09] Attempting purchase for item ID: 6
+[2025-05-10 22:18:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 22:18:09] Current dynamic balance calculated: 14.389306
+[2025-05-10 22:18:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 22:18:09"}
+[2025-05-10 22:18:09] Purchase successful. Transaction committed.
+[2025-05-10 22:18:09] Final dynamic balance after purchase: 14.199306
+[2025-05-10 22:43:54] Attempting purchase for item ID: 29
+[2025-05-10 22:43:54] Item 'FOOD' found. Price: 0.35
+[2025-05-10 22:43:54] Current dynamic balance calculated: 14.199306
+[2025-05-10 22:43:54] Purchase logged successfully. Log Params: {":item_id":29,":name":"FOOD",":price":0.35,":time":"2025-05-10 22:43:54"}
+[2025-05-10 22:43:54] Purchase successful. Transaction committed.
+[2025-05-10 22:43:54] Final dynamic balance after purchase: 13.849306
+[2025-05-10 22:43:57] Attempting purchase for item ID: 5
+[2025-05-10 22:43:57] Item 'Black Tea' found. Price: 0.1
+[2025-05-10 22:43:57] Current dynamic balance calculated: 13.849306
+[2025-05-10 22:43:57] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-10 22:43:57"}
+[2025-05-10 22:43:57] Purchase successful. Transaction committed.
+[2025-05-10 22:43:57] Final dynamic balance after purchase: 13.749306
+[2025-05-10 22:43:58] Attempting purchase for item ID: 6
+[2025-05-10 22:43:58] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 22:43:58] Current dynamic balance calculated: 13.749306
+[2025-05-10 22:43:58] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 22:43:58"}
+[2025-05-10 22:43:58] Purchase successful. Transaction committed.
+[2025-05-10 22:43:58] Final dynamic balance after purchase: 13.559306
+[2025-05-10 22:43:59] Attempting purchase for item ID: 6
+[2025-05-10 22:43:59] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-10 22:43:59] Current dynamic balance calculated: 13.559306
+[2025-05-10 22:43:59] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-10 22:43:59"}
+[2025-05-10 22:43:59] Purchase successful. Transaction committed.
+[2025-05-10 22:43:59] Final dynamic balance after purchase: 13.369306
+[2025-05-11 02:27:05] Attempting purchase for item ID: 6
+[2025-05-11 02:27:05] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 02:27:05] Current dynamic balance calculated: 18.258832
+[2025-05-11 02:27:05] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 02:27:05"}
+[2025-05-11 02:27:05] Purchase successful. Transaction committed.
+[2025-05-11 02:27:05] Final dynamic balance after purchase: 18.068832
+[2025-05-11 02:27:06] Attempting purchase for item ID: 6
+[2025-05-11 02:27:06] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 02:27:06] Current dynamic balance calculated: 18.068832
+[2025-05-11 02:27:06] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 02:27:06"}
+[2025-05-11 02:27:06] Purchase successful. Transaction committed.
+[2025-05-11 02:27:06] Final dynamic balance after purchase: 17.878832
+[2025-05-11 02:27:07] Attempting purchase for item ID: 6
+[2025-05-11 02:27:07] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 02:27:07] Current dynamic balance calculated: 17.878832
+[2025-05-11 02:27:07] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 02:27:07"}
+[2025-05-11 02:27:07] Purchase successful. Transaction committed.
+[2025-05-11 02:27:07] Final dynamic balance after purchase: 17.688832
+[2025-05-11 02:27:08] Attempting purchase for item ID: 6
+[2025-05-11 02:27:08] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 02:27:08] Current dynamic balance calculated: 17.688832
+[2025-05-11 02:27:08] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 02:27:08"}
+[2025-05-11 02:27:08] Purchase successful. Transaction committed.
+[2025-05-11 02:27:08] Final dynamic balance after purchase: 17.498832
+[2025-05-11 07:13:42] Attempting purchase for item ID: 6
+[2025-05-11 07:13:42] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 07:13:42] Current dynamic balance calculated: 17.498832
+[2025-05-11 07:13:42] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 07:13:42"}
+[2025-05-11 07:13:42] Purchase successful. Transaction committed.
+[2025-05-11 07:13:42] Final dynamic balance after purchase: 17.308832
+[2025-05-11 07:13:43] Attempting purchase for item ID: 6
+[2025-05-11 07:13:43] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 07:13:43] Current dynamic balance calculated: 17.308832
+[2025-05-11 07:13:43] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 07:13:43"}
+[2025-05-11 07:13:43] Purchase successful. Transaction committed.
+[2025-05-11 07:13:43] Final dynamic balance after purchase: 17.118832
+[2025-05-11 12:21:49] Attempting purchase for item ID: 25
+[2025-05-11 12:21:49] Item 'Egg Sandwitch' found. Price: 0.15
+[2025-05-11 12:21:49] Current dynamic balance calculated: 23.444746
+[2025-05-11 12:21:49] Purchase logged successfully. Log Params: {":item_id":25,":name":"Egg Sandwitch",":price":0.15,":time":"2025-05-11 12:21:49"}
+[2025-05-11 12:21:49] Purchase successful. Transaction committed.
+[2025-05-11 12:21:49] Final dynamic balance after purchase: 23.294746
+[2025-05-11 13:49:59] Attempting purchase for item ID: 6
+[2025-05-11 13:49:59] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 13:49:59] Current dynamic balance calculated: 23.294746
+[2025-05-11 13:49:59] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 13:49:59"}
+[2025-05-11 13:49:59] Purchase successful. Transaction committed.
+[2025-05-11 13:49:59] Final dynamic balance after purchase: 23.104746
+[2025-05-11 13:50:09] Attempting purchase for item ID: 6
+[2025-05-11 13:50:09] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 13:50:09] Current dynamic balance calculated: 23.104746
+[2025-05-11 13:50:09] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 13:50:09"}
+[2025-05-11 13:50:09] Purchase successful. Transaction committed.
+[2025-05-11 13:50:09] Final dynamic balance after purchase: 22.914746
+[2025-05-11 13:50:10] Attempting purchase for item ID: 5
+[2025-05-11 13:50:10] Item 'Black Tea' found. Price: 0.1
+[2025-05-11 13:50:10] Current dynamic balance calculated: 22.914746
+[2025-05-11 13:50:10] Purchase logged successfully. Log Params: {":item_id":5,":name":"Black Tea",":price":0.1,":time":"2025-05-11 13:50:10"}
+[2025-05-11 13:50:10] Purchase successful. Transaction committed.
+[2025-05-11 13:50:10] Final dynamic balance after purchase: 22.814746
+[2025-05-11 14:13:13] Attempting purchase for item ID: 6
+[2025-05-11 14:13:13] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 14:13:13] Current dynamic balance calculated: 22.814746
+[2025-05-11 14:13:13] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 14:13:13"}
+[2025-05-11 14:13:13] Purchase successful. Transaction committed.
+[2025-05-11 14:13:13] Final dynamic balance after purchase: 22.624746
+[2025-05-11 17:12:19] Attempting purchase for item ID: 16
+[2025-05-11 17:12:19] Item 'Pepsi' found. Price: 0.1
+[2025-05-11 17:12:19] Current dynamic balance calculated: 22.624746
+[2025-05-11 17:12:19] Purchase logged successfully. Log Params: {":item_id":16,":name":"Pepsi",":price":0.1,":time":"2025-05-11 17:12:19"}
+[2025-05-11 17:12:19] Purchase successful. Transaction committed.
+[2025-05-11 17:12:19] Final dynamic balance after purchase: 22.524746
+[2025-05-11 17:12:25] Attempting purchase for item ID: 23
+[2025-05-11 17:12:25] Item 'Meat with Potatoes' found. Price: 0.7
+[2025-05-11 17:12:25] Current dynamic balance calculated: 22.524746
+[2025-05-11 17:12:25] Purchase logged successfully. Log Params: {":item_id":23,":name":"Meat with Potatoes",":price":0.7,":time":"2025-05-11 17:12:25"}
+[2025-05-11 17:12:26] Purchase successful. Transaction committed.
+[2025-05-11 17:12:26] Final dynamic balance after purchase: 21.824746
+[2025-05-11 17:12:29] Attempting purchase for item ID: 6
+[2025-05-11 17:12:29] Item '1 Ciggarette' found. Price: 0.19
+[2025-05-11 17:12:29] Current dynamic balance calculated: 21.824746
+[2025-05-11 17:12:29] Purchase logged successfully. Log Params: {":item_id":6,":name":"1 Ciggarette",":price":0.19,":time":"2025-05-11 17:12:29"}
+[2025-05-11 17:12:29] Purchase successful. Transaction committed.
+[2025-05-11 17:12:29] Final dynamic balance after purchase: 21.634746

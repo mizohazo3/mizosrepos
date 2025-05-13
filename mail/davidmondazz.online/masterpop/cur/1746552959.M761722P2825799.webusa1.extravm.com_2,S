@@ -1,0 +1,44 @@
+Return-path: <noreply@github.com>
+Envelope-to: masterpop@davidmondazz.online
+Delivery-date: Tue, 06 May 2025 12:35:59 -0500
+Received: from [192.30.252.203] (port=60443 helo=out-20.smtp.github.com)
+	by webusa1.extravm.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <noreply@github.com>)
+	id 1uCMD1-0000000Br7I-2yLT
+	for masterpop@davidmondazz.online;
+	Tue, 06 May 2025 12:35:59 -0500
+Received: from github.com (hubbernetes-node-6c62af7.va3-iad.github.net [10.48.163.23])
+	by smtp.github.com (Postfix) with ESMTPA id 16E8D8C0923
+	for <masterpop@davidmondazz.online>; Tue,  6 May 2025 10:35:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2023; t=1746552959;
+	bh=AuaQ9wpxXiZDopgkyd6TflOGHR/WXGjim7ij/mUzayQ=;
+	h=Date:From:To:Subject:From;
+	b=kUO6MjykgwN1eCGyTOJi+e/yKKKfU4qaAfTiafAAS0Z9Y+LUW0rjNriKoftROYMK1
+	 vM2rKCLTf5cY49UBgCHPGCjbbbAYJrPysbYZKuPkBEjKZi6g6hXbii9CcF9wzfxyxb
+	 s0RAhNE0/Mx6ZQOsuYdOzB/yDkX2xNUlq86o/JeY=
+Date: Tue, 06 May 2025 10:35:59 -0700
+From: GitHub <noreply@github.com>
+To: masterpop2020 <masterpop@davidmondazz.online>
+Message-ID: <681a487f138f7_ed10184449f@lowworker-6db5fb4976-lxbpq.mail>
+Subject: [GitHub] A third-party OAuth application has been added to your
+ account
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+
+Hey masterpop2020!
+
+A third-party OAuth application (Cursor) with user:email scopes was recently authorized to access your account.
+Visit https://github.com/settings/connections/applications/77c002ee71b072272cbc for more information.
+
+To see this and other security events for your account, visit https://github.com/settings/security-log
+
+If you run into problems, please contact support by visiting https://github.com/contact
+
+Thanks,
+The GitHub Team
+

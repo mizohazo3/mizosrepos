@@ -1,0 +1,236 @@
+/* search.css - Dedicated styles for search.php */
+
+/* Navigation Button Styling */
+.button-link-nav {
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 8px;
+}
+
+/* Search Form Styling */
+.search-container {
+    margin: 15px 0;
+    text-align: center;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results h2 {
+    margin-bottom: 15px;
+}
+
+/* Controls Styling */
+.controls-top button, 
+.controls-top .button-link {
+    margin: 0 5px;
+}
+
+.timer-actions button {
+    margin: 0;
+}
+
+.timer-button.pin-button {
+    width: 22px;
+    height: 22px;
+}
+
+/* Bank balance styling */
+.global-bank {
+    text-align: center;
+    margin: 15px auto 20px auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--accent-secondary);
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Timer List - Fixed Spacing */
+#timer-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px; /* Increased spacing between timer items */
+    justify-items: center;
+    padding: 20px 10px; /* Add padding around the list */
+    list-style: none;
+    margin: 0;
+}
+
+/* Timer Item Base Styling */
+.timer-item {
+    background: linear-gradient(135deg, #1e222a, #282c34);
+    border-radius: 12px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border: 1px solid rgba(30, 30, 30, 0.2);
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px; /* Additional bottom margin to prevent overlap */
+}
+
+/* Timer Name Header */
+.timer-name-header {
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, var(--bg-light), var(--bg-medium));
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.timer-name-header .timer-name {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.3;
+    word-break: break-word;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Content sections padding */
+.timer-display-wrapper,
+.timer-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.timer-display-wrapper {
+    padding-top: 15px;
+}
+
+.timer-info {
+    padding-bottom: 20px;
+}
+
+/* Special States */
+.timer-item.pinned {
+    border-color: #161111;
+    border-width: 2px;
+    position: relative;
+}
+
+.timer-item:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.timer-item.running {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px rgba(97, 218, 251, 0.15);
+}
+
+.timer-item.running.pinned {
+    border-color: red;
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.15);
+}
+
+/* Additional Progress Bar Styles */
+.timer-progress-container {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.timer-progress-bar {
+    height: 100%;
+    background-color: var(--bg-light, #383838);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timer-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-primary, #61dafb), var(--accent-secondary, #5eecb3));
+    border-radius: 12px;
+    transition: width 0.2s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timer-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family: var(--font-mono, monospace);
+    line-height: 1;
+    z-index: 1;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    white-space: nowrap;
+}
+
+/* MAX LEVEL Styling */
+.timer-progress-bar.max-level .timer-progress-fill {
+    /* Gold/Orange color for max level */
+    background: linear-gradient(90deg, #ffcc66, #ffb347);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #timer-list {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 20px;
+    }
+    
+    .timer-item {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    #timer-list {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .timer-item {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+} 

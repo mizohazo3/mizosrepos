@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'DSEG7 Classic';
+    src: url('https://cdn.jsdelivr.net/npm/dseg@0.46.0/fonts/DSEG7-Classic/DSEG7Classic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.button-link-nav {
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 0px;
+}
+.search-container {
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+#search-form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.search-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px 20px;
+    padding-right: 40px; /* Make room for the clear button */
+    font-size: 16px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--bg-medium);
+    color: var(--text-primary);
+    transition: all 0.2s ease;
+}
+.search-results {
+    margin-top: 20px;
+}
+.search-results h2 {
+    margin-bottom: 15px;
+}
+.controls-top button,
+.controls-top .button-link {
+    margin: 0 5px;
+}
+.timer-actions button {
+    margin: 0;
+}
+.timer-button.pin-button {
+    width: 22px;
+    height: 22px;
+}
+/* Bank balance styling */
+.global-bank {
+    text-align: center;
+    margin: 15px auto 20px auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--accent-secondary);
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Additional Progress Bar Styles */
+.timer-progress-container {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.timer-progress-bar {
+    height: 100%;
+    background-color: var(--bg-light, #383838);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.timer-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-primary, #61dafb), var(--accent-secondary, #5eecb3));
+    border-radius: 12px;
+    transition: width 0.2s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timer-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family: var(--font-mono, monospace);
+    line-height: 1;
+    z-index: 1;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    white-space: nowrap;
+}
+
+/* MAX LEVEL Styling */
+.timer-progress-bar.max-level .timer-progress-fill {
+    /* Gold/Orange color for max level */
+    background: linear-gradient(90deg, #ffcc66, #ffb347);
+}
+
+/* Add space between timer items on mobile */
+.timer-item {
+    margin-bottom: 15px; /* Adjust spacing as needed */
+    border: 1px solid var(--border-color);
+    transition: border-color 0.2s ease;
+}
+
+.timer-item.pinned {
+    border: 2px solid var(--accent-primary); /* Use accent-primary (blue) for pinned timers */
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.1); /* Subtle glow effect */
+}
+
+.timer-item:not(.pinned):hover {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hide pinned-only elements on unpinned timers */
+.timer-item:not(.pinned) .pinned-only {
+    display: none;
+}
+/* Highlight pinned timers in search results */
+.timer-item.pinned {
+    background-color: var(--accent-highlight-bg, #fffacd); /* Light yellow background, fallback provided */
+    border-left: 4px solid var(--accent-primary, #007bff); /* Add a distinct left border */
+}
+/* Highlight running timers in search results */
+.timer-item.running {
+    border-right: 4px solid var(--accent-error, #dc3545); /* Red right border for running state */
+}
+
+.search-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(97, 218, 251, 0.2);
+}
+
+#search-results {
+    min-height: 200px;
+}
+
+.search-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: var(--bg-medium);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.search-placeholder .search-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.search-placeholder p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+#timer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.timer-item {
+    background-color: var(--bg-medium);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timer-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.timer-name-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timer-id {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-right: 10px;
+}
+
+.timer-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.timer-display-wrapper {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.timer-display {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: var(--accent-primary);
+    margin-bottom: 5px;
+}
+
+.milliseconds {
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.accumulated-time {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.timer-info {
+    margin-top: 10px;
+}
+
+.timer-progress-container {
+    margin-bottom: 10px;
+}
+
+.timer-progress-bar {
+    height: 6px;
+    background-color: var(--bg-dark);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.timer-progress-fill {
+    height: 100%;
+    background-color: var(--accent-primary);
+    transition: width 0.3s ease;
+}
+
+.timer-progress-text {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    display: block;
+    text-align: right;
+}
+
+.timer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.timer-level-rank {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer-reward-rate {
+    color: var(--accent-success);
+}
+
+@media (max-width: 768px) {
+    .search-section {
+        padding: 15px;
+    }
+
+    .search-input {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .timer-display {
+        font-size: 1.3rem;
+    }
+
+    .timer-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.search-clear-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-clear-btn:hover {
+    color: var(--accent-error);
+}
+
+/* Animation for new search results */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.timer-item {
+    animation: fadeIn 0.3s ease forwards;
+    animation-delay: calc(var(--animation-index, 0) * 0.05s);
+}
+
+/* Timer actions styling */
+.timer-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.action-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.action-button:hover {
+    transform: translateY(-1px);
+}
+
+.action-button:active {
+    transform: translateY(1px);
+}
+
+.start-button {
+    background-color: var(--accent-success, #4caf50);
+    color: white;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+
+.stop-button {
+    background-color: var(--accent-error, #f44336);
+    color: white;
+}
+
+.stop-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Loading state */
+.search-loading {
+    display: none; /* Hide completely instead of just styling it */
+}
+
+/* Notifications */
+#notification-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    max-width: 300px;
+}
+
+.timer-item.timer-running {
+    border: 2px solid var(--accent-error, #f44336);
+    box-shadow: 0 0 8px rgba(244, 67, 54, 0.2);
+}
+
+/* Ensure stop-all button visibility on search page */
+#stop-all-btn {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+}
+
+.fixed-controls {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Use consistent counter styling across all pages */
+#running-timers-count {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    top: -8px !important;
+    right: -8px !important;
+    min-width: 20px !important;
+    height: 20px !important;
+    background-color: var(--accent-warning) !important;
+    color: var(--bg-dark) !important;
+    border-radius: 50% !important;
+    font-size: 12px !important;
+    padding: 0 4px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    border: 2px solid white !important;
+    font-weight: bold !important;
+    z-index: 2 !important;
+}
+
+/* Hide counter when empty */
+#running-timers-count:empty {
+    display: none !important;
+}

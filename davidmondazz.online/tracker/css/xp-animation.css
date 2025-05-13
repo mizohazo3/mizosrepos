@@ -1,0 +1,161 @@
+/* XP Animation Styles */
+
+/* XP Gain notification */
+.xp-gain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: rgba(65, 184, 131, 0.9);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 100;
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.xp-gain.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) translateY(-10px);
+    animation: float 2s ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    10% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    20% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1) translateY(-30px);
+        opacity: 0;
+    }
+}
+
+/* XP Bar */
+.xp-bar {
+    width: 100%;
+    height: 6px;
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 5px 0;
+    position: relative;
+}
+
+.xp-bar-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #41b883;
+    transition: width 0.5s ease-out;
+    border-radius: 3px;
+    position: relative;
+}
+
+.xp-text {
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+    text-align: right;
+}
+
+/* Level up overlay */
+.level-up-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+    border-radius: 8px;
+}
+
+.level-up-overlay.show {
+    opacity: 1;
+}
+
+.level-up-content {
+    text-align: center;
+    color: white;
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+}
+
+.level-up-overlay.show .level-up-content {
+    transform: scale(1);
+    animation: pulse 0.5s ease-out;
+}
+
+.level-up-content h3 {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+.level-up-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.rank-text {
+    color: #41b883;
+    font-weight: bold;
+    margin-top: 8px !important;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Timer level display */
+.timer-level {
+    font-size: 14px;
+    font-weight: bold;
+    color: #41b883;
+    margin: 5px 0;
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: rgba(65, 184, 131, 0.1);
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .xp-gain {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    
+    .level-up-content h3 {
+        font-size: 20px;
+    }
+    
+    .level-up-content p {
+        font-size: 14px;
+    }
+} 

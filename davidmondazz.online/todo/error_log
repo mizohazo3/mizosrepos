@@ -1,0 +1,168 @@
+[27-Apr-2024 19:33:02 Africa/Cairo] PHP Notice:  Trying to access array offset on value of type bool in /home/mcgkxyz/mcgk.site/todo/functions.php on line 63
+[27-Apr-2024 19:33:02 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:02 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:65
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(87): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:05 Africa/Cairo] PHP Notice:  Trying to access array offset on value of type bool in /home/mcgkxyz/mcgk.site/todo/functions.php on line 63
+[27-Apr-2024 19:33:05 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:05 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:65
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(87): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:06 Africa/Cairo] PHP Notice:  Trying to access array offset on value of type bool in /home/mcgkxyz/mcgk.site/todo/functions.php on line 63
+[27-Apr-2024 19:33:06 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:06 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:65
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(87): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:11 Africa/Cairo] PHP Notice:  Trying to access array offset on value of type bool in /home/mcgkxyz/mcgk.site/todo/functions.php on line 63
+[27-Apr-2024 19:33:11 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:33:11 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:65
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(87): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 65
+[27-Apr-2024 19:36:57 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:36:57 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:69
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(91): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:39:04 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:39:04 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:69
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(101): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:39:07 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:39:07 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:69
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(101): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 69
+[27-Apr-2024 19:43:02 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 84
+[27-Apr-2024 19:43:02 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 62
+[27-Apr-2024 19:43:02 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:62
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(85): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 62
+[27-Apr-2024 19:43:31 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 81
+[27-Apr-2024 19:45:03 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 81
+[27-Apr-2024 19:46:45 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 81
+[27-Apr-2024 19:48:45 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 90
+[27-Apr-2024 19:49:36 Africa/Cairo] PHP Notice:  Undefined index: task in /home/mcgkxyz/mcgk.site/todo/functions.php on line 90
+[27-Apr-2024 19:51:23 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 71
+[27-Apr-2024 19:51:23 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:71
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(94): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 71
+[27-Apr-2024 19:54:24 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 19:54:24 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:73
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(98): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 19:54:28 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 19:54:28 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:73
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(98): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 19:55:47 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 72
+[27-Apr-2024 19:55:47 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:72
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(96): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 72
+[27-Apr-2024 20:00:54 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 67
+[27-Apr-2024 20:00:54 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:67
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(100): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 67
+[27-Apr-2024 20:00:56 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 67
+[27-Apr-2024 20:00:56 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:67
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(100): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 67
+[27-Apr-2024 20:03:46 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 20:03:46 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:73
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(97): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 20:04:22 Africa/Cairo] PHP Notice:  Undefined variable: connect in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 20:04:22 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mcgkxyz/mcgk.site/todo/functions.php:73
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(99): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 73
+[27-Apr-2024 20:06:42 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in /home/mcgkxyz/mcgk.site/todo/functions.php:74
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(101): markTaskDone()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 74
+[22-May-2024 19:39:06 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/mcgkxyz/mcgk.site/todo/index.php on line 208
+[22-May-2024 23:07:47 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:07:59 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:08:09 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:08:10 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:08:11 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:08:11 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:08:11 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 23:14:14 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/mcgkxyz/mcgk.site/todo/functions.php:41
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/index.php(217): getTasks()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 41
+[22-May-2024 20:54:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 11
+[22-May-2024 20:54:05 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 11
+[23-May-2024 00:06:09 Africa/Cairo] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/mcgkxyz/mcgk.site/todo/functions.php:94
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(172): taskUnpiority()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 94
+[23-May-2024 00:06:11 Africa/Cairo] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/mcgkxyz/mcgk.site/todo/functions.php:94
+Stack trace:
+#0 /home/mcgkxyz/mcgk.site/todo/functions.php(172): taskUnpiority()
+#1 {main}
+  thrown in /home/mcgkxyz/mcgk.site/todo/functions.php on line 94
+[22-May-2024 21:16:35 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 41
+[22-May-2024 21:16:37 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 41
+[22-May-2024 21:18:47 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 33
+[22-May-2024 21:18:49 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/mcgkxyz/mcgk.site/todo/tasks.php on line 33

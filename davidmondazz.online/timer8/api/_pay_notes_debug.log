@@ -1,0 +1,57 @@
+[2025-04-24 00:46:54] Starting transaction for pay_all_notes.
+[2025-04-24 00:46:54] Executing query: SELECT * FROM on_the_note WHERE is_paid = 0 ORDER BY created_at DESC LIMIT 1
+[2025-04-24 00:46:54] Query for unpaid note executed. Result: {"id":19,"items_list":"[{\"item_id\":16,\"name\":\"Pepsi\",\"price\":0.1,\"image_url\":\"uploads\\\/market_images\\\/item_6807c7c46b8757.64722188.png\"},{\"item_id\":5,\"name\":\"Black Tea\",\"price\":0.1,\"image_url\":\"uploads\\\/market_images\\\/item_6806341f75b526.25388940.png\"},{\"item_id\":6,\"name\":\"1 Ciggarette\",\"price\":0.19,\"image_url\":\"uploads\\\/market_images\\\/item_68063482d0b393.08443117.png\"}]","total_amount":"0.3900","is_paid":0,"created_at":"2025-04-24 00:46:41","paid_at":null}
+[2025-04-24 00:46:54] Found unpaid note with ID: 19
+[2025-04-24 00:46:54] Current bank balance fetched: 0.08
+[2025-04-24 00:46:54] Note total amount: 0.39
+[2025-04-24 00:46:54] Insufficient funds. Required: 0.39, Available: 0.08
+[2025-04-24 00:51:46] Starting transaction for pay_all_notes.
+[2025-04-24 00:51:46] Executing query: SELECT * FROM on_the_note WHERE is_paid = 0 ORDER BY created_at DESC LIMIT 1
+[2025-04-24 00:51:46] Query for unpaid note executed. Result: {"id":19,"items_list":"[{\"item_id\":16,\"name\":\"Pepsi\",\"price\":0.1,\"image_url\":\"uploads\\\/market_images\\\/item_6807c7c46b8757.64722188.png\"},{\"item_id\":5,\"name\":\"Black Tea\",\"price\":0.1,\"image_url\":\"uploads\\\/market_images\\\/item_6806341f75b526.25388940.png\"},{\"item_id\":6,\"name\":\"1 Ciggarette\",\"price\":0.19,\"image_url\":\"uploads\\\/market_images\\\/item_68063482d0b393.08443117.png\"}]","total_amount":"0.3900","is_paid":0,"created_at":"2025-04-24 00:46:41","paid_at":null}
+[2025-04-24 00:51:46] Found unpaid note with ID: 19
+[2025-04-24 00:51:46] Current bank balance fetched: 0.08
+[2025-04-24 00:51:46] Note total amount: 0.39
+[2025-04-24 00:51:46] Insufficient funds. Required: 0.39, Available: 0.08
+[2025-04-24 00:52:01] Starting transaction for pay_all_notes.
+[2025-04-24 00:52:01] Executing query: SELECT * FROM on_the_note WHERE is_paid = 0 ORDER BY created_at DESC LIMIT 1
+[2025-04-24 00:52:01] Query for unpaid note executed. Result: {"id":20,"items_list":"[{\"item_id\":11,\"name\":\"Falafel\",\"price\":0.18,\"image_url\":\"uploads\\\/market_images\\\/item_680731901e5575.40470532.png\"},{\"item_id\":9,\"name\":\"Mastur\",\"price\":0.25,\"image_url\":\"uploads\\\/market_images\\\/item_680709f1ed9608.23639242.png\"},{\"item_id\":17,\"name\":\"Egg with cheese Sandwich\",\"price\":0.21,\"image_url\":\"uploads\\\/market_images\\\/item_68089cc5775f27.23763321.png\"}]","total_amount":"0.6400","is_paid":0,"created_at":"2025-04-24 00:51:57","paid_at":null}
+[2025-04-24 00:52:01] Found unpaid note with ID: 20
+[2025-04-24 00:52:01] Current bank balance fetched: 0.08
+[2025-04-24 00:52:01] Note total amount: 0.64
+[2025-04-24 00:52:01] Insufficient funds. Required: 0.64, Available: 0.08
+[2025-04-24 00:53:09] --- pay_all_notes.php TEST SCRIPT STARTED ---
+[2025-04-24 00:53:09] POST request received. Returning simple success message.
+[2025-04-24 00:55:34] Starting transaction for pay_all_notes.
+[2025-04-24 00:55:34] Executing query: SELECT * FROM on_the_note WHERE is_paid = 0 ORDER BY created_at DESC LIMIT 1
+[2025-04-24 00:55:34] Query for unpaid note executed. Result: {"id":20,"items_list":"[{\"item_id\":11,\"name\":\"Falafel\",\"price\":0.18,\"image_url\":\"uploads\\\/market_images\\\/item_680731901e5575.40470532.png\"},{\"item_id\":9,\"name\":\"Mastur\",\"price\":0.25,\"image_url\":\"uploads\\\/market_images\\\/item_680709f1ed9608.23639242.png\"},{\"item_id\":17,\"name\":\"Egg with cheese Sandwich\",\"price\":0.21,\"image_url\":\"uploads\\\/market_images\\\/item_68089cc5775f27.23763321.png\"}]","total_amount":"0.6400","is_paid":0,"created_at":"2025-04-24 00:51:57","paid_at":null}
+[2025-04-24 00:55:34] Found unpaid note with ID: 20
+[2025-04-24 00:55:34] Current dynamic bank balance fetched: 2.373454
+[2025-04-24 00:55:34] Note total amount: 0.64
+[2025-04-24 00:55:34] Generated paid_at timestamp: 2025-04-24 00:55:34
+[2025-04-24 00:55:34] Executing update query: UPDATE on_the_note SET is_paid = 1, paid_at = :paid_at WHERE id = :id with id=20 and paid_at=2025-04-24 00:55:34
+[2025-04-24 00:55:34] Update execute result: true
+[2025-04-24 00:55:34] Rows affected by update: 1
+[2025-04-24 00:55:34] Committing transaction.
+[2025-04-24 00:55:34] Commit result: true
+[2025-04-24 00:55:34] Transaction committed successfully.
+[2025-04-24 00:55:34] Re-fetched updated note row: {"id":20,"items_list":"[{\"item_id\":11,\"name\":\"Falafel\",\"price\":0.18,\"image_url\":\"uploads\\\/market_images\\\/item_680731901e5575.40470532.png\"},{\"item_id\":9,\"name\":\"Mastur\",\"price\":0.25,\"image_url\":\"uploads\\\/market_images\\\/item_680709f1ed9608.23639242.png\"},{\"item_id\":17,\"name\":\"Egg with cheese Sandwich\",\"price\":0.21,\"image_url\":\"uploads\\\/market_images\\\/item_68089cc5775f27.23763321.png\"}]","total_amount":"0.6400","is_paid":1,"created_at":"2025-04-24 00:51:57","paid_at":"2025-04-24 00:55:34"}
+[2025-04-24 00:55:34] Final dynamic balance calculated after commit: 1.733454
+[2025-04-24 00:55:34] Response prepared: {"status":"success","message":"Successfully paid for 3 items.","paid_amount":0.64,"new_balance":1.7334540000000005,"items":[{"item_id":11,"name":"Falafel","price":0.18,"image_url":"uploads\/market_images\/item_680731901e5575.40470532.png"},{"item_id":9,"name":"Mastur","price":0.25,"image_url":"uploads\/market_images\/item_680709f1ed9608.23639242.png"},{"item_id":17,"name":"Egg with cheese Sandwich","price":0.21,"image_url":"uploads\/market_images\/item_68089cc5775f27.23763321.png"}],"paid_at_recorded":"2025-04-24 00:55:34"}
+[2025-04-24 00:55:34] Returning JSON response.
+[2025-04-24 00:59:44] Starting transaction for pay_all_notes.
+[2025-04-24 00:59:44] Executing query: SELECT * FROM on_the_note WHERE is_paid = 0 ORDER BY created_at DESC LIMIT 1
+[2025-04-24 00:59:44] Query for unpaid note executed. Result: {"id":21,"items_list":"[{\"item_id\":9,\"name\":\"Mastur\",\"price\":0.25,\"image_url\":\"uploads\\\/market_images\\\/item_680709f1ed9608.23639242.png\"},{\"item_id\":17,\"name\":\"Egg with cheese Sandwich\",\"price\":0.21,\"image_url\":\"uploads\\\/market_images\\\/item_68089cc5775f27.23763321.png\"},{\"item_id\":6,\"name\":\"1 Ciggarette\",\"price\":0.19,\"image_url\":\"uploads\\\/market_images\\\/item_68063482d0b393.08443117.png\"}]","total_amount":"0.6500","is_paid":0,"created_at":"2025-04-24 00:59:38","paid_at":null}
+[2025-04-24 00:59:44] Found unpaid note with ID: 21
+[2025-04-24 00:59:44] Current dynamic bank balance fetched: 2.013454
+[2025-04-24 00:59:44] Note total amount: 0.65
+[2025-04-24 00:59:44] Generated paid_at timestamp: 2025-04-24 00:59:44
+[2025-04-24 00:59:44] Executing update query: UPDATE on_the_note SET is_paid = 1, paid_at = :paid_at WHERE id = :id with id=21 and paid_at=2025-04-24 00:59:44
+[2025-04-24 00:59:44] Update execute result: true
+[2025-04-24 00:59:44] Rows affected by update: 1
+[2025-04-24 00:59:44] Committing transaction.
+[2025-04-24 00:59:44] Commit result: true
+[2025-04-24 00:59:44] Transaction committed successfully.
+[2025-04-24 00:59:44] Re-fetched updated note row: {"id":21,"items_list":"[{\"item_id\":9,\"name\":\"Mastur\",\"price\":0.25,\"image_url\":\"uploads\\\/market_images\\\/item_680709f1ed9608.23639242.png\"},{\"item_id\":17,\"name\":\"Egg with cheese Sandwich\",\"price\":0.21,\"image_url\":\"uploads\\\/market_images\\\/item_68089cc5775f27.23763321.png\"},{\"item_id\":6,\"name\":\"1 Ciggarette\",\"price\":0.19,\"image_url\":\"uploads\\\/market_images\\\/item_68063482d0b393.08443117.png\"}]","total_amount":"0.6500","is_paid":1,"created_at":"2025-04-24 00:59:38","paid_at":"2025-04-24 00:59:44"}
+[2025-04-24 00:59:44] Final dynamic balance calculated after commit: 1.363454
+[2025-04-24 00:59:44] Response prepared: {"status":"success","message":"Successfully paid for 3 items.","paid_amount":0.65,"new_balance":1.3634540000000013,"items":[{"item_id":9,"name":"Mastur","price":0.25,"image_url":"uploads\/market_images\/item_680709f1ed9608.23639242.png"},{"item_id":17,"name":"Egg with cheese Sandwich","price":0.21,"image_url":"uploads\/market_images\/item_68089cc5775f27.23763321.png"},{"item_id":6,"name":"1 Ciggarette","price":0.19,"image_url":"uploads\/market_images\/item_68063482d0b393.08443117.png"}],"paid_at_recorded":"2025-04-24 00:59:44"}
+[2025-04-24 00:59:44] Returning JSON response.

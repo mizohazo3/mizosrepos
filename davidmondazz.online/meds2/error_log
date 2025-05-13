@@ -1,0 +1,29 @@
+[11-May-2025 10:08:58 Africa/Cairo] Saving med price: ID=250, mg=900, dose=30, price=177
+[11-May-2025 10:11:59 Africa/Cairo] Saving med price: ID=353, mg=20, dose=1, price=10
+[11-May-2025 10:26:11 Africa/Cairo] Saving med price: ID=450, mg=70, dose=5, price=44, custom=
+[11-May-2025 10:26:11 Africa/Cairo] Error saving med price: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'custom_price' in 'INSERT INTO'
+[11-May-2025 10:26:34 Africa/Cairo] Saving med price: ID=450, mg=70, dose=5, price=44, custom=
+[11-May-2025 10:31:14 Africa/Cairo] Saving med price: ID=430, mg=0, dose=1, price=0, custom=8.33
+[11-May-2025 10:34:49 Africa/Cairo] Saving med price: ID=96, mg=1500, dose=12.5, price=111, custom=
+[11-May-2025 10:35:38 Africa/Cairo] Saving med price: ID=438, mg=150, dose=1.25, price=96, custom=
+[11-May-2025 10:36:17 Africa/Cairo] Saving med price: ID=50, mg=0, dose=0.7, price=0, custom=0.19
+[11-May-2025 10:37:03 Africa/Cairo] Saving med price: ID=35, mg=3000, dose=50, price=262, custom=
+[11-May-2025 10:37:24 Africa/Cairo] Saving med price: ID=463, mg=3000, dose=150, price=261, custom=
+[11-May-2025 10:38:42 Africa/Cairo] Saving med price: ID=422, mg=0, dose=5, price=0, custom=30
+[11-May-2025 10:39:10 Africa/Cairo] Saving med price: ID=462, mg=0, dose=500, price=0, custom=10
+[11-May-2025 10:39:41 Africa/Cairo] Saving med price: ID=156, mg=375, dose=12.5, price=61, custom=
+[11-May-2025 10:39:53 Africa/Cairo] Saving med price: ID=169, mg=375, dose=50, price=61, custom=
+[11-May-2025 10:40:41 Africa/Cairo] Saving med price: ID=458, mg=50, dose=2.5, price=75, custom=
+[11-May-2025 10:40:48 Africa/Cairo] Saving med price: ID=457, mg=50, dose=5, price=74.99, custom=
+[11-May-2025 10:41:12 Africa/Cairo] Saving med price: ID=276, mg=4500, dose=150, price=291, custom=
+[11-May-2025 10:42:02 Africa/Cairo] Saving med price: ID=461, mg=5, dose=0.25, price=75, custom=
+[11-May-2025 10:54:22 Africa/Cairo] Saving med price: ID=298, mg=3000, dose=100, price=177, custom=
+[11-May-2025 11:46:36 Africa/Cairo] Saving med price: ID=466, mg=5, dose=0.5, price=75, custom=
+[11-May-2025 11:51:07 Africa/Cairo] Saving med price: ID=464, mg=30, dose=1, price=159, custom=
+[11-May-2025 11:51:10 Africa/Cairo] Saving med price: ID=108, mg=30, dose=0.125, price=159, custom=
+[11-May-2025 11:51:20 Africa/Cairo] Saving med price: ID=115, mg=30, dose=0.25, price=159, custom=
+[11-May-2025 11:51:26 Africa/Cairo] Saving med price: ID=456, mg=29.99, dose=0.5, price=159, custom=
+[11-May-2025 11:51:31 Africa/Cairo] Saving med price: ID=447, mg=30, dose=0.625, price=159, custom=
+[11-May-2025 11:51:37 Africa/Cairo] Saving med price: ID=331, mg=29.99, dose=0.75, price=159, custom=
+[11-May-2025 11:59:19 Africa/Cairo] Saving med price: ID=6, mg=0, dose=1, price=0, custom=12.5
+[11-May-2025 17:17:19 Africa/Cairo] Saving med price: ID=241, mg=0, dose=100, price=0, custom=60

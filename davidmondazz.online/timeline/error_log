@@ -1,0 +1,7 @@
+
+[09-Dec-2022 21:52:58 Africa/Cairo] PHP Parse error:  syntax error, unexpected '{' in /home/mcgkxyz/public_html/checkSession.php on line 8
+[07-Jan-2023 18:24:22 Africa/Cairo] PHP Warning:  include(bankDBs.php): failed to open stream: No such file or directory in /home/mcgkxyz/public_html/timeline/index.php on line 7
+[07-Jan-2023 18:24:22 Africa/Cairo] PHP Warning:  include(bankDBs.php): failed to open stream: No such file or directory in /home/mcgkxyz/public_html/timeline/index.php on line 7
+[07-Jan-2023 18:24:22 Africa/Cairo] PHP Warning:  include(): Failed opening 'bankDBs.php' for inclusion (include_path='.:/opt/remi/php74/root/usr/share/pear:/opt/remi/php74/root/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mcgkxyz/public_html/timeline/index.php on line 7
+[26-May-2023 22:18:52 UTC] PHP Warning:  session_start(): open(/home/mcgkxyz/public_html/temp/sess_ng2k3iga0qusm917bbbt9qnsrv, O_RDWR) failed: No such file or directory (2) in /home/mcgkxyz/mcgk.online/timeline/index.php on line 3
+[26-May-2023 22:18:52 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /home/mcgkxyz/public_html/temp) in /home/mcgkxyz/mcgk.online/timeline/index.php on line 3
